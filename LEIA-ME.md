@@ -17,13 +17,30 @@ Kit para editores de vídeo da empresa produzirem criativos com o Claude Code + 
 | `workflows/` | Scripts de orquestração multiagente usados nas produções |
 | `conversas/` | Conversas completas exportadas (zip): como tudo foi feito, decisão por decisão |
 
+## Baixar tudo (repositório privado: peça acesso ao dono)
+Link: https://github.com/nanamicode/kit-editor-ia-tridi
+
+```bash
+gh repo clone nanamicode/kit-editor-ia-tridi "Kit Editor IA Tridi"
+```
+```bash
+cd "Kit Editor IA Tridi" && gh release download midias-kit && for f in kit-midias-*.tar; do tar xf "$f" && rm "$f"; done && mkdir -p conversas && mv sessao-*.zip conversas/
+```
+```bash
+mkdir -p ../ACERVO && cd ../ACERVO && gh release download acervo-curso && for f in *.tar; do tar xf "$f" && rm "$f"; done
+```
+- O repositório traz o método, as skills, o projeto, o curso transcrito e os catálogos (`acervo-catalogos/`).
+- A Release **midias-kit** traz os vídeos entregues, os brutos, o modelo de recorte, as mídias do projeto Remotion, os quadros de revisão e as **conversas completas** (`conversas/*.zip`), com todo o contexto de como cada coisa foi feita e decidida.
+- A Release **acervo-curso** (~13 GB) traz os b-rolls, sons e trilhas do curso FCA. Depois de extrair, aponte `<ACERVO>` no `CLAUDE.md` para essa pasta.
+- Precisa de ~16 GB livres para baixar e extrair tudo.
+
 ## Instalar (uma vez por computador)
 1. **Claude Code** (app desktop ou CLI) com conta própria do editor.
 2. **Node.js 20+**, **ffmpeg** no PATH, **Google Chrome** instalado.
 3. **Python 3.10+** com `pip install faster-whisper onnxruntime` (legenda e recorte por CPU).
 4. Na pasta `projeto/`: `npm install` (o `node_modules` não vai no repositório).
 5. Abra `CLAUDE.md` e ajuste `<ACERVO>` (pasta das mídias do curso) e `<CHROME>` para o seu computador.
-6. O acervo de mídias do curso (b-roll, sons, trilhas, catálogo de efeitos) **não está no kit** porque é grande. Copie a pasta "ACERVO DE MIDIAS CURSO CLAUDE" separadamente e aponte `<ACERVO>` para ela.
+6. O acervo de mídias vem da Release `acervo-curso` (veja acima). Aponte `<ACERVO>` para a pasta extraída.
 
 Atalho: `kit-edicao-ia/instalar.ps1` (Windows) ou `instalar.sh`.
 
