@@ -1,0 +1,742 @@
+// V4 Tridi · Estilo FCA 8 "Retro gamer 16-bit" + visual V24 Pixel Art.
+// A tela do jogo mostra o video original recortado acima da legenda queimada;
+// a caixa de dialogo (RPG) traz a fala; HUD de fase e barra de missao.
+import React from "react";
+import { AbsoluteFill, Img, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { Audio, Video } from "@remotion/media";
+import { pixelate } from "@remotion/effects/pixelate";
+import { loadFont as loadVT } from "@remotion/google-fonts/VT323";
+import { loadFont as loadSilk } from "@remotion/google-fonts/Silkscreen";
+import { CORTE_APRESENTADORA, FASES, FREEZE_CTA, MODOS, ORIGINAL_PRETO, PALAVRAS, TRANSICOES, type Modo } from "./dados";
+import { MolduraPixel, PAL, SPR, Sprite, degrau } from "./sprites";
+
+// Pixelify Sans saiu: no peso 600/700 o "C" fechava e lia "O" (OARIMBO, OLIQUE). Silkscreen = titulos/botao; VT323 = texto corrido.
+const vt = loadVT("normal", { weights: ["400"], subsets: ["latin", "latin-ext"] }).fontFamily;
+// Silkscreen so no peso 400: no 700 o M vira H e o U vira N.
+const silk = loadSilk("normal", { weights: ["400"], subsets: ["latin", "latin-ext"] }).fontFamily;
+
+const COR = {
+  fundo: "#0B0614",
+  roxo: "#8B00FF",
+  lilas: "#B48CFF",
+  branco: "#FFFFFF",
+  tinta: "#12051F",
+  vazio: "#2A1645",
+};
+
+// Geometria (1080x1920; essencial dentro de y 285-1635)
+const HUD_Y = 288;
+const TELA = { x: 40, y: 354, w: 1000, h: 848, borda: 12 }; // miolo 976x824 (+18% de area)
+const SRC_RECORTE = 608; // px do quadro 720 mantidos (legenda queimada fica em y>=632)
+const BARRA_Y = 1220;
+const CAIXA = { x: 60, y: 1306, w: 960, h: 316 };
+
+// 16-bit: o movimento anda "em degraus" (12 passos por segundo).
+const passo = (f: number, n = 2.5) => Math.floor(f / n) * n;
+const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
+
+const useT = () => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  return { frame, fps, t: frame / fps };
+};
+
+// ---------- Fundo ----------
+const Fundo: React.FC = () => (
+  <AbsoluteFill style={{ background: COR.fundo }}>
+    <AbsoluteFill
+      style={{
+        backgroundImage: `linear-gradient(rgba(139,0,255,0.13) 2px, transparent 2px), linear-gradient(90deg, rgba(139,0,255,0.13) 2px, transparent 2px)`,
+        backgroundSize: "48px 48px",
+        backgroundPosition: "12px 0px",
+      }}
+    />
+    <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 48%, transparent 45%, rgba(0,0,0,0.75) 100%)" }} />
+    {[234, 1652].map((y) => (
+      <div
+        key={y}
+        style={{
+          position: "absolute",
+          left: 0,
+          top: y,
+          width: 1080,
+          height: 34,
+          backgroundImage: `repeating-linear-gradient(-45deg, ${COR.roxo} 0 22px, ${COR.tinta} 22px 44px)`,
+          borderTop: `4px solid ${COR.tinta}`,
+          borderBottom: `4px solid ${COR.tinta}`,
+          opacity: 0.9,
+        }}
+      />
+    ))}
+  </AbsoluteFill>
+);
+
+// ---------- HUD ----------
+const HUD: React.FC = () => {
+  const { t, frame, fps } = useT();
+  const fase = [...FASES].reverse().find((f) => t >= f.de) ?? FASES[0];
+  const desde = frame - Math.round(fase.de * fps);
+  const piscaTroca = desde >= 0 && desde < 18 && Math.floor(desde / 3) % 2 === 0;
+  const continuePisca = fase.rotulo === "CONTINUE?" && Math.floor(frame / 12) % 2 === 0;
+  const corFase = piscaTroca || continuePisca ? COR.branco : COR.lilas;
+  return (
+    <div
+      style={{
+        position: "absolute",
+        left: CAIXA.x,
+        top: HUD_Y,
+        width: CAIXA.w,
+        height: 60,
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        fontFamily: silk,
+        fontSize: 44,
+        letterSpacing: 1,
+        color: COR.branco,
+        textShadow: `4px 4px 0 ${COR.tinta}`,
+      }}
+    >
+      <span>
+        TRIDI <span style={{ color: COR.lilas }}>·</span> CARIMBOS
+      </span>
+      <span style={{ color: corFase, fontWeight: 400 }}>{fase.rotulo}</span>
+    </div>
+  );
+};
+
+// ---------- Tela do jogo (video original) ----------
+const blocoPixel = (t: number) => {
+  let b = 1;
+  for (const T of TRANSICOES) {
+    const d = Math.abs(t - T);
+    if (d < 0.2) {
+      const k = 1 - d / 0.2; // 0..1
+      const n = Math.floor(k * 4); // degraus
+      b = Math.max(b, [1, 8, 18, 32, 32][n]);
+    }
+  }
+  return b;
+};
+
+const Tela: React.FC = () => {
+  const { t, frame } = useT();
+  const iw = TELA.w - 2 * TELA.borda;
+  const ih = TELA.h - 2 * TELA.borda;
+  const bloco = blocoPixel(t);
+  // liga o CRT nos 3 primeiros quadros
+  const liga = interpolate(frame, [0, 3], [0.06, 1], clamp);
+  const flash = interpolate(frame, [0, 4], [0.9, 0], clamp);
+  const naApresentadora = t >= CORTE_APRESENTADORA;
+  const enquadre: React.CSSProperties = {
+    position: "absolute",
+    left: 0,
+    top: 0,
+    width: iw,
+    height: iw,
+    transformOrigin: "50% 0%",
+    transform: naApresentadora ? "translateY(-48px) scale(1.07)" : "none",
+  };
+  return (
+    <MolduraPixel x={TELA.x} y={TELA.y} w={TELA.w} h={TELA.h} s={10} borda={TELA.borda} corBorda={COR.lilas} corMiolo="#000000" sombra={16}>
+      <div style={{ position: "absolute", inset: 0, transform: `scaleY(${liga})` }}>
+        <div style={{ position: "absolute", left: 0, top: 0, width: iw, height: ih, overflow: "hidden" }}>
+          {/* 720x720 -> 976x976; so os 608 px de cima aparecem (824 px) */}
+          {/* audio sai de um <Audio> proprio (cobre os 18.088 s do audio original) */}
+          <Video src={staticFile("v/v4/v4.mp4")} muted style={enquadre} effects={[pixelate({ blockSize: bloco, disabled: bloco <= 1 })]} />
+          {/* o original faz fade para o preto a partir de 16.23 s: segura o ultimo quadro claro ate a cartela */}
+          {t >= FREEZE_CTA ? <Img src={staticFile("v/v4/cta_freeze.png")} style={enquadre} /> : null}
+        </div>
+        {/* linhas de varredura + vinheta de tubo */}
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            backgroundImage: naApresentadora
+              ? "repeating-linear-gradient(0deg, rgba(0,0,0,0.12) 0px, rgba(0,0,0,0.12) 2px, transparent 2px, transparent 5px)"
+              : "repeating-linear-gradient(0deg, rgba(0,0,0,0.22) 0px, rgba(0,0,0,0.22) 2px, transparent 2px, transparent 5px)",
+          }}
+        />
+        {/* vinheta de tubo mais leve na apresentadora: rosto claro no CTA */}
+        <div style={{ position: "absolute", inset: 0, boxShadow: naApresentadora ? "inset 0 0 60px rgba(0,0,0,0.35)" : "inset 0 0 90px rgba(0,0,0,0.65)" }} />
+        {t >= ORIGINAL_PRETO ? <CartelaFinal /> : null}
+        <div style={{ position: "absolute", inset: 0, background: "white", opacity: flash }} />
+      </div>
+    </MolduraPixel>
+  );
+};
+const CartelaFinal: React.FC = () => {
+  const { frame, fps } = useT();
+  const local = frame - Math.round(ORIGINAL_PRETO * fps);
+  const passoN = Math.min(4, Math.floor(local / 2) + 1);
+  return (
+    <div style={{ position: "absolute", inset: 0, background: "#160830" }}>
+    <div
+      style={{
+        position: "absolute",
+        inset: 0,
+        backgroundImage: `linear-gradient(rgba(180,140,255,0.10) 2px, transparent 2px), linear-gradient(90deg, rgba(180,140,255,0.10) 2px, transparent 2px)`,
+        backgroundSize: "48px 48px",
+      }}
+    />
+    <div
+      style={{
+        position: "absolute",
+        inset: 0,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        gap: 34,
+        clipPath: `inset(0 0 ${100 - passoN * 25}% 0)`,
+      }}
+    >
+      <Sprite mapa={SPR.carimbo} px={20} pal={{ ...PAL, o: "#05010A" }} />
+      <div style={{ fontFamily: silk, fontWeight: 400, fontSize: 96, color: COR.branco, letterSpacing: 4, textShadow: `6px 6px 0 ${COR.roxo}` }}>
+        TRIDI
+      </div>
+    </div>
+    </div>
+  );
+};
+
+// garante que o recorte esconde a legenda queimada
+const _check = (SRC_RECORTE * (TELA.w - 2 * TELA.borda)) / 720; // = 824.2 >= miolo 824
+void _check;
+
+// ---------- Barra de missao ----------
+const BarraMissao: React.FC = () => {
+  const { t, frame } = useT();
+  const N = 12;
+  const prog = Math.min(1, t / 16.22) * N;
+  const cheios = Math.floor(prog);
+  const x0 = 340;
+  const segW = (CAIXA.x + CAIXA.w - x0 - (N - 1) * 6) / N;
+  return (
+    <div style={{ position: "absolute", left: CAIXA.x, top: BARRA_Y, width: CAIXA.w, height: 56 }}>
+      <div
+        style={{
+          position: "absolute",
+          left: 0,
+          top: 2,
+          fontFamily: silk,
+          fontSize: 44,
+          color: COR.branco,
+          textShadow: `4px 4px 0 ${COR.tinta}`,
+        }}
+      >
+        MISSÃO
+      </div>
+      {Array.from({ length: N }).map((_, i) => {
+        const cheio = i < cheios;
+        const atual = i === cheios && t < 16.22;
+        const cor = cheio ? COR.lilas : atual && Math.floor(frame / 6) % 2 === 0 ? COR.roxo : COR.vazio;
+        return (
+          <div
+            key={i}
+            style={{
+              position: "absolute",
+              left: x0 - CAIXA.x + i * (segW + 6),
+              top: 4,
+              width: segW,
+              height: 46,
+              background: cor,
+              border: `4px solid ${COR.tinta}`,
+              boxShadow: cheio ? "inset 0 6px 0 rgba(255,255,255,0.45)" : "none",
+            }}
+          />
+        );
+      })}
+    </div>
+  );
+};
+
+// ---------- Caixa de dialogo ----------
+const ROTULO: Record<Modo, string> = {
+  item: "NOVO ITEM!",
+  fala1: "TRIDI",
+  custo: "CUSTO",
+  inventario: "FUNCIONA EM:",
+  atributos: "ATRIBUTOS",
+  fala2: "TRIDI",
+  continue: "CONTINUE?",
+};
+
+const palavrasEntre = (de: number, ate: number) => PALAVRAS.filter((p) => p.s >= de - 0.01 && p.s < ate);
+const ditoEm = (palavra: string, depoisDe: number) =>
+  PALAVRAS.find((p) => p.w.toLowerCase().replace(/[^a-zà-ú0-9]/g, "") === palavra && p.s >= depoisDe - 0.01)?.s ?? 0;
+
+// Entrada em degraus: a caixa "se desenha" de cima para baixo em 4 passos.
+const useEntrada = (de: number) => {
+  const { frame, fps } = useT();
+  const local = frame - Math.round(de * fps);
+  const passoN = Math.min(4, Math.max(0, Math.floor(local / 2) + 1));
+  return { local, clip: `inset(0 0 ${100 - passoN * 25}% 0)` };
+};
+
+const pop = (local: number) => {
+  // escala em degraus 1.3 -> 1.15 -> 1
+  if (local < 0) return 0;
+  if (local < 2) return 1.3;
+  if (local < 4) return 1.12;
+  return 1;
+};
+
+const Legenda: React.FC<{ de: number; ate: number; destaque: string[]; tamanho?: number }> = ({ de, ate, destaque, tamanho = 84 }) => {
+  const { t, frame } = useT();
+  const ws = palavrasEntre(de, ate);
+  const fim = ws.length ? ws[ws.length - 1].e : de;
+  const acabou = t >= fim;
+  return (
+    <div style={{ position: "absolute", left: 40, right: 40, top: 76, bottom: 26 }}>
+      <div
+        style={{
+          fontFamily: vt,
+          fontSize: tamanho,
+          lineHeight: 1.0,
+          color: COR.branco,
+          display: "flex",
+          flexWrap: "wrap",
+          columnGap: "0.4em",
+          textShadow: `4px 4px 0 ${COR.tinta}`,
+        }}
+      >
+        {ws.map((p, i) => {
+          const visivel = t >= p.s;
+          const falando = t >= p.s && t < p.e + 0.05;
+          const chave = destaque.includes(p.w.toLowerCase().replace(/[^a-zà-ú0-9]/g, ""));
+          return (
+            <span
+              key={i}
+              style={{
+                opacity: visivel ? 1 : 0,
+                color: falando || chave ? COR.lilas : COR.branco,
+              }}
+            >
+              {p.w}
+            </span>
+          );
+        })}
+      </div>
+      {acabou && Math.floor(frame / 8) % 2 === 0 ? (
+        <div style={{ position: "absolute", right: 0, bottom: 0 }}>
+          <Sprite mapa={["ooooooo", ".ooooo.", "..ooo..", "...o..."]} px={7} pal={{ o: COR.lilas }} />
+        </div>
+      ) : null}
+    </div>
+  );
+};
+
+const ModoItem: React.FC = () => {
+  const { t, frame, fps } = useT();
+  const queda = passo(frame);
+  const y = interpolate(queda, [0, 8], [-90, 0], clamp);
+  const bob = queda > 10 && Math.floor(frame / 9) % 2 === 0 ? -6 : 0;
+  const tCar = ditoEm("carimbo", 0);
+  const tPer = ditoEm("personalizado", 0);
+  return (
+    <>
+      <div style={{ position: "absolute", left: 30, top: 80, transform: `translateY(${y + bob}px)` }}>
+        <Sprite mapa={SPR.carimbo} px={13} pal={{ ...PAL, o: "#05010A" }} />
+      </div>
+      {/* brilhos */}
+      {[
+        [30, 70],
+        [168, 84],
+        [150, 236],
+      ].map(([x, yy], i) =>
+        Math.floor((frame + i * 5) / 7) % 3 === 0 && frame > 6 ? (
+          <div key={i} style={{ position: "absolute", left: x, top: yy, width: 12, height: 12, background: COR.branco }} />
+        ) : null,
+      )}
+      {/* respiro: o "p" de personalizado nao encosta mais na borda de baixo */}
+      <div style={{ position: "absolute", left: 210, top: 30, right: 24 }}>
+        <div style={{ fontFamily: silk, fontSize: 44, lineHeight: 1.1, color: COR.lilas, textShadow: `4px 4px 0 ${COR.tinta}` }}>com um</div>
+        <div
+          style={{
+            fontFamily: silk,
+            fontWeight: 400,
+            fontSize: 96,
+            lineHeight: 0.92,
+            color: COR.branco,
+            textShadow: `6px 6px 0 ${COR.roxo}`,
+            transformOrigin: "left center",
+            transform: `scale(${pop(frame - Math.round(tCar * fps))})`,
+          }}
+        >
+          CARIMBO
+        </div>
+        <div
+          style={{
+            fontFamily: vt,
+            fontSize: 104,
+            lineHeight: 0.9,
+            marginTop: 4,
+            color: t >= tPer && t < 1.92 ? COR.lilas : COR.branco,
+            textShadow: `6px 6px 0 ${COR.roxo}`,
+            transformOrigin: "left center",
+            transform: `scale(${pop(frame - Math.round(tPer * fps))})`,
+          }}
+        >
+          personalizado
+        </div>
+      </div>
+    </>
+  );
+};
+
+const ModoCusto: React.FC = () => {
+  const { t, frame, fps } = useT();
+  const giro = [1, 0.7, 0.25, 0.7][Math.floor(frame / 3) % 4];
+  const ws = palavrasEntre(4.5, 5.28);
+  const t30 = ditoEm("30", 4.5);
+  const tCent = ditoEm("centavos", 4.5);
+  return (
+    <>
+      <div style={{ position: "absolute", left: 44, top: 92, transform: `scaleX(${giro})` }}>
+        <Sprite mapa={SPR.moeda} px={12} />
+      </div>
+      <div style={{ position: "absolute", left: 220, top: 40, right: 20 }}>
+        <div style={{ fontFamily: silk, fontSize: 48, color: COR.lilas, display: "flex", columnGap: 22, textShadow: `4px 4px 0 ${COR.tinta}` }}>
+          {ws.map((p, i) => (
+            <span key={i} style={{ opacity: t >= p.s ? 1 : 0 }}>
+              {p.w.toLowerCase()}
+            </span>
+          ))}
+        </div>
+        <div
+          style={{
+            fontFamily: silk,
+            fontWeight: 400,
+            fontSize: 140,
+            lineHeight: 1.0,
+            color: COR.branco,
+            textShadow: `8px 8px 0 ${COR.roxo}`,
+            transformOrigin: "left center",
+            transform: `scale(${pop(frame - Math.round(t30 * fps))})`,
+            marginTop: 6,
+          }}
+        >
+          30
+          <span
+            style={{
+              fontFamily: vt,
+              fontWeight: 400,
+              fontSize: 112,
+              display: "inline-block",
+              marginLeft: 28,
+              opacity: t >= tCent ? 1 : 0,
+              transformOrigin: "left center",
+              transform: `scale(${pop(frame - Math.round(tCent * fps)) || 1})`,
+            }}
+          >
+            centavos
+          </span>
+        </div>
+      </div>
+    </>
+  );
+};
+
+const ITENS = [
+  { nome: "Caixa", chave: "caixa", spr: SPR.caixa },
+  { nome: "Saquinho", chave: "saquinho", spr: SPR.saquinho },
+  { nome: "Papel kraft", chave: "papel", spr: SPR.papel },
+  { nome: "Qualquer coisa", chave: "qualquer", spr: SPR.estrela },
+];
+
+const ModoInventario: React.FC = () => {
+  const { t, frame, fps } = useT();
+  const colW = 214;
+  const gap = 10;
+  const x0 = (944 - (4 * colW + 3 * gap)) / 2;
+  return (
+    <>
+      {ITENS.map((it, i) => {
+        const ts = ditoEm(it.chave, 6.56);
+        const ativo = t >= ts;
+        const local = frame - Math.round(ts * fps);
+        const sc = ativo ? pop(local) : 1;
+        // respiro: slot menor e rotulo em 2 linhas folgadas, nada encosta na borda da caixa
+        const slot = 108;
+        return (
+          <div key={it.chave} style={{ position: "absolute", left: x0 + i * (colW + gap), top: 32, width: colW }}>
+            <div style={{ position: "relative", width: slot, height: slot, margin: "0 auto", transform: `scale(${sc})` }}>
+              <div style={{ position: "absolute", inset: 0, background: ativo ? COR.branco : COR.vazio, clipPath: degrau(slot, slot, 8) }} />
+              <div
+                style={{
+                  position: "absolute",
+                  left: 8,
+                  top: 8,
+                  width: slot - 16,
+                  height: slot - 16,
+                  background: ativo ? COR.roxo : "#1A0B2E",
+                  clipPath: degrau(slot - 16, slot - 16, 6),
+                }}
+              />
+              <div style={{ position: "absolute", left: (slot - 84) / 2, top: (slot - 84) / 2, opacity: ativo ? 1 : 0.28 }}>
+                <Sprite mapa={it.spr} px={7} />
+              </div>
+              {ativo && local >= 3 ? (
+                <div style={{ position: "absolute", right: -16, top: -12 }}>
+                  <Sprite mapa={SPR.check} px={4} pal={{ o: COR.tinta, w: "#7CFF6B" }} />
+                </div>
+              ) : null}
+            </div>
+            <div
+              style={{
+                marginTop: 12,
+                textAlign: "center",
+                fontFamily: vt,
+                fontSize: 54,
+                lineHeight: 0.95,
+                color: ativo ? COR.branco : "#6E5A8E",
+                textShadow: ativo ? `4px 4px 0 ${COR.tinta}` : "none",
+              }}
+            >
+              {it.nome}
+            </div>
+          </div>
+        );
+      })}
+    </>
+  );
+};
+
+const ATRIB = [
+  { nome: "Simples", chave: "simples" },
+  { nome: "Rápido", chave: "rápido" },
+  { nome: "Profissional", chave: "profissional" },
+];
+
+// Checklist RPG (sem barra de "nota maxima"): pontilhado anda ate a caixinha e ela recebe o check.
+const ModoAtributos: React.FC = () => {
+  const { t, frame, fps } = useT();
+  const N = 9; // pontos do pontilhado
+  const box = 76;
+  return (
+    <>
+      {ATRIB.map((a, i) => {
+        const ts = ditoEm(a.chave, 10.2);
+        const local = frame - Math.round(ts * fps);
+        const ativo = t >= ts;
+        const pontos = ativo ? Math.min(N, Math.floor(local / 1) + 1) : 0;
+        const marcado = ativo && local >= N;
+        const flash = marcado && local - N < 6 && Math.floor((local - N) / 2) % 2 === 0;
+        return (
+          <div key={a.chave} style={{ position: "absolute", left: 40, top: 22 + i * 92, width: 870, height: 84 }}>
+            <div
+              style={{
+                position: "absolute",
+                left: 0,
+                top: 0,
+                fontFamily: vt,
+                fontSize: 84,
+                lineHeight: 1,
+                color: ativo ? COR.branco : "#6E5A8E",
+                textShadow: ativo ? `4px 4px 0 ${COR.tinta}` : "none",
+              }}
+            >
+              {a.nome}
+            </div>
+            {Array.from({ length: N }).map((_, k) => (
+              <div
+                key={k}
+                style={{
+                  position: "absolute",
+                  left: 430 + k * 34,
+                  top: 44,
+                  width: 14,
+                  height: 14,
+                  background: k < pontos ? COR.lilas : COR.vazio,
+                }}
+              />
+            ))}
+            <div style={{ position: "absolute", left: 870 - box, top: 4, width: box, height: box, transform: `scale(${marcado ? pop(local - N) : 1})` }}>
+              <div style={{ position: "absolute", inset: 0, background: marcado ? COR.branco : COR.vazio, clipPath: degrau(box, box, 6) }} />
+              <div
+                style={{
+                  position: "absolute",
+                  left: 6,
+                  top: 6,
+                  width: box - 12,
+                  height: box - 12,
+                  background: flash ? COR.lilas : marcado ? COR.roxo : "#1A0B2E",
+                  clipPath: degrau(box - 12, box - 12, 4),
+                }}
+              />
+              {marcado ? (
+                <div style={{ position: "absolute", left: 8, top: 14 }}>
+                  <Sprite mapa={SPR.check} px={5} pal={{ o: COR.tinta, w: "#7CFF6B" }} />
+                </div>
+              ) : null}
+            </div>
+          </div>
+        );
+      })}
+    </>
+  );
+};
+
+const ModoContinue: React.FC = () => {
+  const { t, frame, fps } = useT();
+  const ws = palavrasEntre(15.05, 15.8);
+  const tCli = ditoEm("clique", 15.05);
+  const tAqui = ditoEm("aqui", 15.05);
+  const local = frame - Math.round(tCli * fps);
+  const aparece = t >= tCli;
+  // cursor chega e clica no "aqui"; depois clica de novo a cada 1 s
+  const fClick = Math.round(tAqui * fps);
+  const desdeClick = frame - fClick;
+  const clicando = desdeClick >= 0 && desdeClick % 30 < 5;
+  const mx = interpolate(passo(local), [0, 6], [50, 0], clamp);
+  const my = interpolate(passo(local), [0, 6], [0, 0], clamp);
+  // botao com respiro: nem o botao nem o cursor encostam na borda da caixa
+  const btnW = 860;
+  const btnH = 124;
+  const bx = (944 - btnW - 12) / 2;
+  const by = 136;
+  const afunda = clicando ? 8 : 0;
+  return (
+    <>
+      <div
+        style={{
+          position: "absolute",
+          left: 0,
+          right: 0,
+          top: 30,
+          textAlign: "center",
+          fontFamily: vt,
+          fontSize: 84,
+          color: COR.branco,
+          textShadow: `4px 4px 0 ${COR.tinta}`,
+          display: "flex",
+          justifyContent: "center",
+          columnGap: "0.3em",
+        }}
+      >
+        {ws.map((p, i) => (
+          <span key={i} style={{ opacity: t >= p.s ? 1 : 0, color: t >= p.s && t < p.e + 0.05 ? COR.lilas : COR.branco }}>
+            {p.w}
+          </span>
+        ))}
+      </div>
+      {aparece ? (
+        <div style={{ position: "absolute", left: bx, top: by, width: btnW + 12, height: btnH + 12, transform: `scale(${pop(local)})` }}>
+          <div style={{ position: "absolute", left: 12, top: 12, width: btnW, height: btnH, background: "#000", clipPath: degrau(btnW, btnH, 10) }} />
+          <div style={{ position: "absolute", left: afunda, top: afunda, width: btnW, height: btnH, transform: "none" }}>
+            <div style={{ position: "absolute", inset: 0, background: COR.branco, clipPath: degrau(btnW, btnH, 10) }} />
+            <div
+              style={{
+                position: "absolute",
+                left: 8,
+                top: 8,
+                width: btnW - 16,
+                height: btnH - 16,
+                background: clicando ? "#6A00C8" : COR.roxo,
+                clipPath: degrau(btnW - 16, btnH - 16, 6),
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontFamily: silk,
+                fontWeight: 400,
+                fontSize: 84,
+                color: COR.branco,
+                textShadow: `5px 5px 0 ${COR.tinta}`,
+                whiteSpace: "nowrap",
+              }}
+            >
+              <span style={{ fontSize: 56, marginRight: 24 }}>▶</span>CLIQUE AQUI
+            </div>
+          </div>
+          {/* cursor no canto direito do botao, sem cobrir o "AQUI" */}
+          <div style={{ position: "absolute", left: btnW - 96 + mx, top: btnH - 66 + my + (clicando ? 6 : 0) }}>
+            <Sprite mapa={SPR.mao} px={6} />
+          </div>
+        </div>
+      ) : null}
+    </>
+  );
+};
+
+const CaixaDialogo: React.FC = () => {
+  const { t } = useT();
+  const atual = MODOS.find((m) => t >= m.de && t < m.ate) ?? MODOS[MODOS.length - 1];
+  const { clip, local } = useEntrada(atual.de);
+  const rotulo = ROTULO[atual.modo];
+  let conteudo: React.ReactNode = null;
+  if (atual.modo === "item") conteudo = <ModoItem />;
+  if (atual.modo === "fala1") conteudo = <Legenda de={2.0} ate={4.5} destaque={["logo", "embalagem"]} />;
+  if (atual.modo === "custo") conteudo = <ModoCusto />;
+  if (atual.modo === "inventario") conteudo = <ModoInventario />;
+  if (atual.modo === "atributos") conteudo = <ModoAtributos />;
+  if (atual.modo === "fala2") conteudo = <Legenda de={12.95} ate={15.05} destaque={["marca"]} />;
+  if (atual.modo === "continue") conteudo = <ModoContinue />;
+  const rotuloAtivo = local < 6 && Math.floor(local / 2) % 2 === 0;
+  return (
+    <>
+      <MolduraPixel x={CAIXA.x} y={CAIXA.y} w={CAIXA.w} h={CAIXA.h} s={10} borda={8} corBorda={COR.branco} corMiolo="#160830" sombra={14}>
+        <div style={{ position: "absolute", inset: 6, border: `4px solid ${COR.roxo}` }} />
+        <div style={{ position: "absolute", inset: 0, clipPath: clip }}>{conteudo}</div>
+      </MolduraPixel>
+      {/* plaquinha com o nome (estilo RPG) */}
+      <div
+        style={{
+          position: "absolute",
+          left: CAIXA.x + 40,
+          top: CAIXA.y - 30,
+          padding: "6px 22px 4px",
+          background: rotuloAtivo ? COR.branco : COR.roxo,
+          border: `5px solid ${COR.branco}`,
+          boxShadow: `6px 6px 0 ${COR.tinta}`,
+          fontFamily: silk,
+          fontWeight: 400,
+          fontSize: 44,
+          lineHeight: 1,
+          color: rotuloAtivo ? COR.roxo : COR.branco,
+        }}
+      >
+        {rotulo}
+      </div>
+    </>
+  );
+};
+
+// ---------- Efeitos sonoros 8-bit (sinteticos, gerados localmente) ----------
+const SFX: { src: string; t: number; vol: number }[] = [
+  { src: "sfx_item.wav", t: 0.42, vol: 0.16 },
+  { src: "sfx_moeda.wav", t: 5.28, vol: 0.16 },
+  { src: "sfx_fase.wav", t: 6.56, vol: 0.12 },
+  { src: "sfx_blip.wav", t: 7.08, vol: 0.14 },
+  { src: "sfx_blip.wav", t: 7.8, vol: 0.14 },
+  { src: "sfx_blip.wav", t: 8.48, vol: 0.14 },
+  { src: "sfx_blip.wav", t: 9.32, vol: 0.14 },
+  { src: "sfx_barra.wav", t: 10.28, vol: 0.1 },
+  { src: "sfx_barra.wav", t: 11.16, vol: 0.1 },
+  { src: "sfx_barra.wav", t: 11.9, vol: 0.1 },
+  { src: "sfx_fase.wav", t: 12.95, vol: 0.12 },
+  { src: "sfx_click.wav", t: 16.02, vol: 0.16 },
+];
+
+// Os SFX somam som sintetico ao audio validado: ficam DESLIGADOS ate o usuario aprovar.
+const USAR_SFX = false;
+
+export const V4: React.FC = () => {
+  const { fps } = useVideoConfig();
+  return (
+    <AbsoluteFill style={{ background: COR.fundo, fontVariantLigatures: "none" }}>
+      <Fundo />
+      <HUD />
+      <Tela />
+      <BarraMissao />
+      <CaixaDialogo />
+      <Audio src={staticFile("v/v4/v4.mp4")} />
+      {(USAR_SFX ? SFX : []).map((s, i) => (
+        <Sequence key={i} from={Math.round(s.t * fps)} durationInFrames={Math.round(0.6 * fps)} layout="none">
+          <Audio src={staticFile(`v/v4/${s.src}`)} volume={s.vol} />
+        </Sequence>
+      ))}
+    </AbsoluteFill>
+  );
+};
+

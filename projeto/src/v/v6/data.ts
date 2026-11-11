@@ -1,4 +1,4 @@
-// V6 · Totem Mind Geeks · estilo 21 (Lancamento tech)
+// V6 · Totem Maindx · estilo 21 (Lancamento tech)
 // Tempos por palavra: faster_whisper small pt (analise/validados/v6/words.json), em segundos.
 
 export const FPS = 30;
@@ -13,7 +13,7 @@ export const PHRASES: Phrase[] = [
   { words: [{ t: "Seu", s: 0.0 }, { t: "negócio", s: 0.52 }, { t: "ainda", s: 0.84, br: true }, { t: "depende", s: 1.32 }] },
   { words: [{ t: "de", s: 1.66 }, { t: "processos", s: 1.9 }, { t: "manuais.", s: 2.32, hi: true, br: true }] },
   { words: [{ t: "Nós", s: 5.56 }, { t: "trazemos", s: 6.24 }, { t: "a", s: 6.66, br: true }, { t: "solução.", s: 6.86, hi: true }] },
-  { words: [{ t: "O", s: 7.82 }, { t: "Totem", s: 7.86 }, { t: "da", s: 8.18 }, { t: "Mind", s: 8.36, hi: true, br: true }, { t: "Geeks.", s: 8.64, hi: true }] },
+  { words: [{ t: "O", s: 7.82 }, { t: "Totem", s: 7.86 }, { t: "da", s: 8.18 }, { t: "Maindx.", s: 8.36, hi: true, br: true }] },
   { words: [{ t: "O", s: 9.54 }, { t: "Totem", s: 9.64 }, { t: "conta", s: 10.04 }, { t: "com", s: 10.3, br: true }, { t: "uma", s: 10.56 }, { t: "tela", s: 10.66 }] },
   { words: [{ t: "de", s: 10.86 }, { t: "alta", s: 11.1 }, { t: "resolução", s: 11.3 }, { t: "de", s: 11.82, br: true }, { t: "7", s: 12.3, hi: true }, { t: "polegadas.", s: 12.62, hi: true }] },
   { words: [{ t: "E", s: 13.56 }, { t: "conta", s: 13.62 }, { t: "com", s: 13.98 }, { t: "3", s: 14.18, hi: true, br: true }, { t: "sistemas", s: 14.48, hi: true }, { t: "padrões.", s: 15.14 }] },

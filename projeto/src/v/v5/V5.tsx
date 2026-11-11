@@ -51,7 +51,8 @@ const CHUNKS: [number, number][] = [
   [26, 31], // E isso que faz o cliente
   [32, 35], // lembrar da sua marca.
 ];
-const CAPTION_END = 13.02; // a partir daqui o CTA ocupa a area da legenda
+// a tira sai quando comeca "lembrar da sua marca": a ficha 5 traz a frase inteira (sem palavra repetida nas duas)
+const CAPTION_END = 12.0;
 
 // ---------- Geometria (1080x1920; essencial entre y 285 e 1635) ----------
 const POL = { x: 74, y: 290, w: 932, h: 888, pad: 26 };
@@ -59,8 +60,13 @@ const PHOTO = { w: 880, h: 770 }; // mostra so as linhas 0-630 do quadro 720 (le
 const STRIP = { x: 80, y: 1196, w: 920, h: 146 };
 const CARD_Y = 1360;
 const CARD_H = 252;
-// palavras que viram destaque na ficha: na tira ficam apagadas (o olho vai para a ficha)
-const KEYS = new Set([3, 8, 16, 17, 23, 24, 25, 33, 34, 35]);
+// palavras que a ficha mostra: na tira viram lacuna de formulario (linha lilas), sem repetir a palavra.
+// valor = ultimo quadro em que a ficha mostra a palavra (depois disso a tira volta a escrever)
+const KEYS = new Map<number, number>([
+  [3, 99999], [6, 119], [8, 99999], [16, 99999], [17, 99999],
+  [23, 99999], [24, 99999], [25, 99999], [33, 99999], [34, 99999], [35, 99999],
+]);
+const DUR = 493; // audio do original vai ate 16,42 s
 
 // Rotacao da polaroid principal (tremor quando chega nova evidencia + giro lento no congelamento final)
 const wob = (frame: number, f0: number) => {
@@ -69,31 +75,20 @@ const wob = (frame: number, f0: number) => {
   return Math.sin(d * 0.75) * ((20 - d) / 20);
 };
 const polRot = (frame: number) =>
-  -1.1 + (wob(frame, 76) + wob(frame, 140) + wob(frame, 327)) * 1.5 + interpolate(frame, [427, 486], [0, 0.5], CL);
-// ponto da polaroid (coordenadas internas) -> tela, respeitando a rotacao
-const polPoint = (px: number, py: number, frame: number): [number, number] => {
-  const ox = POL.w / 2;
-  const oy = POL.h * 0.02;
-  const r = (polRot(frame) * Math.PI) / 180;
-  const dx = px - ox;
-  const dy = py - oy;
-  return [POL.x + ox + dx * Math.cos(r) - dy * Math.sin(r), POL.y + oy + dx * Math.sin(r) + dy * Math.cos(r)];
-};
+  -1.1 + (wob(frame, 76) + wob(frame, 140) + wob(frame, 327)) * 1.5 + interpolate(frame, [427, DUR], [0, 0.7], CL);
 // flash de foto: pico branco curto, saida rapida (3-4 quadros)
 const flashAt = (frame: number) =>
   interpolate(frame, [73, 75, 78], [0, 0.85, 0], CL) +
   interpolate(frame, [137, 139, 142], [0, 1, 0], CL) +
   interpolate(frame, [324, 326, 329], [0, 1, 0], CL);
 
-// Evidencias que saem da polaroid e ficam presas no rodape do mural (faixa so decorativa)
-const MS = 0.27;
+// Evidencias anteriores: a cada corte a foto antiga fica na pilha ATRAS da polaroid (as bordas aparecem),
+// o caso se acumula sem ocupar o rodape (y > 1640 fica sob a interface do Reels).
 const EVID = [
-  { T: 76, img: "v/v5/f060.jpg", label: "EVIDÊNCIA 01", cx: 196, rot: 3 },
-  { T: 140, img: "v/v5/f132.jpg", label: "EVIDÊNCIA 02", cx: 540, rot: -2 },
-  { T: 327, img: "v/v5/f317.jpg", label: "EVIDÊNCIA 03", cx: 884, rot: 2 },
+  { T: 76, img: "v/v5/f060.jpg", rot: -4.4, dx: -8, dy: 4 },
+  { T: 140, img: "v/v5/f132.jpg", rot: 3.6, dx: 8, dy: 2 },
+  { T: 327, img: "v/v5/f317.jpg", rot: -2.2, dx: -2, dy: 10 },
 ];
-const MINI_TOP = 1642;
-const MINI_PIN_Y = MINI_TOP + 8;
 
 // ---------- Pecas do mural ----------
 const Cork: React.FC = () => (
@@ -282,7 +277,8 @@ const Polaroid: React.FC = () => {
   // gancho: a polaroid bate na cortica (escala 1,08 -> 1) e a tachinha entra
   const slam = interpolate(frame, [0, 4, 7], [1.08, 0.985, 1], { ...CL, easing: OUT });
   const pinS = interpolate(frame, [0, 3, 6], [1.8, 0.88, 1], { ...CL, easing: OUT });
-  const freezeZoom = interpolate(frame, [427, 486], [1, 1.045], CL);
+  // congelamento final (o original escurece): zoom lento e continuo ate o ultimo quadro
+  const freezeZoom = interpolate(frame, [424, DUR], [1, 1.09], { ...CL, easing: Easing.inOut(Easing.sin) });
 
   return (
     <div
@@ -413,104 +409,52 @@ const LogoArrow: React.FC = () => {
         <Typed text="SUA LOGO AQUI" f0={266} cps={50} />
       </div>
       <svg width={PHOTO.w} height={PHOTO.h} style={{ position: "absolute", left: 0, top: 0, opacity: out }}>
-        <path d="M 650 452 C 645 500 620 535 580 560" fill="none" stroke={ROXO} strokeWidth={11} strokeLinecap="round"
+        {/* tinta escura (caneta), nao o roxo da Tridi: aponta o resultado do carimbo sem associar a marca alheia */}
+        <path d="M 650 452 C 645 500 620 535 580 560" fill="none" stroke={TINTA} strokeWidth={10} strokeLinecap="round"
           pathLength={1} strokeDasharray={1} strokeDashoffset={draw} />
-        <path d="M 620 563 L 580 561 L 595 524" fill="none" stroke={ROXO} strokeWidth={11} strokeLinecap="round"
+        <path d="M 620 563 L 580 561 L 595 524" fill="none" stroke={TINTA} strokeWidth={10} strokeLinecap="round"
           strokeLinejoin="round" pathLength={1} strokeDasharray={1} strokeDashoffset={head} />
       </svg>
     </>
   );
 };
 
-// Evidencia anterior: sai da polaroid no corte, encolhe e fica presa no rodape do mural
-const MiniEvidence: React.FC<{ T: number; img: string; label: string; cx: number; rot: number }> = ({
-  T,
-  img,
-  label,
-  cx,
-  rot,
-}) => {
+// Evidencia anterior: no corte (coberto pelo flash) a foto antiga gira para tras da polaroid e fica na pilha.
+// So as bordas aparecem: o caso se acumula dentro da area segura, sem nada no rodape.
+const PileCard: React.FC<{ T: number; img: string; rot: number; dx: number; dy: number }> = ({ T, img, rot, dx, dy }) => {
   const frame = useCurrentFrame();
   if (frame < T) return null;
-  const p = interpolate(frame, [T, T + 16], [0, 1], { ...CL, easing: OUT });
-  const endL = cx - (POL.w * MS) / 2;
-  const left = interpolate(p, [0, 1], [POL.x, endL]);
-  const top = interpolate(p, [0, 1], [POL.y, MINI_TOP]);
-  const s = interpolate(p, [0, 1], [1, MS]);
-  const r = interpolate(p, [0, 1], [polRot(T), rot]);
-  const flash = frame < T + 6 ? flashAt(frame) : 0; // so o flash do proprio corte
+  const p = interpolate(frame, [T, T + 14], [0, 1], { ...CL, easing: OUT });
   return (
     <div
       style={{
         position: "absolute",
-        left,
-        top,
+        left: POL.x,
+        top: POL.y,
         width: POL.w,
         height: POL.h,
-        background: "#F7F3EA",
-        boxShadow: "0 40px 60px rgba(0,0,0,0.6)",
-        transformOrigin: "0 0",
-        scale: s,
-        rotate: `${r}deg`,
-        zIndex: p < 0.6 ? 9 : 4,
+        background: "#EFE9DC",
+        boxShadow: "0 16px 30px rgba(0,0,0,0.5)",
+        transformOrigin: "50% 2%",
+        rotate: `${interpolate(p, [0, 1], [polRot(T), rot])}deg`,
+        translate: `${dx * p}px ${dy * p}px`,
+        zIndex: 1,
       }}
     >
       <div style={{ position: "absolute", left: POL.pad, top: POL.pad, width: PHOTO.w, height: PHOTO.h, overflow: "hidden" }}>
-        <Img src={staticFile(img)} style={{ width: PHOTO.w, height: PHOTO.h }} />
-        <AbsoluteFill style={{ background: "#fff", opacity: flash }} />
-      </div>
-      <div
-        style={{
-          position: "absolute",
-          left: 0,
-          width: POL.w,
-          top: POL.pad + PHOTO.h,
-          height: POL.h - POL.pad - PHOTO.h,
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          fontFamily: courier,
-          fontSize: 82,
-          letterSpacing: 6,
-          color: TINTA,
-        }}
-      >
-        {label}
+        <Img src={staticFile(img)} style={{ width: PHOTO.w, height: PHOTO.h, filter: "brightness(0.82) sepia(0.15)" }} />
       </div>
     </div>
   );
 };
 
-// O mural se monta: evidencias no rodape, fio roxo 01 -> 02 -> 03 e ligacao com a polaroid principal
-const Mural: React.FC = () => {
-  const frame = useCurrentFrame();
-  const pinPop = (T: number) => interpolate(frame, [T + 13, T + 16, T + 19], [0, 1.5, 1], { ...CL, easing: OUT });
-  const L = polPoint(26, POL.h - 16, frame);
-  const R = polPoint(POL.w - 26, POL.h - 16, frame);
-  const [e1, e2, e3] = EVID;
-  const p1: [number, number] = [e1.cx, MINI_PIN_Y];
-  const p2: [number, number] = [e2.cx, MINI_PIN_Y];
-  const p3: [number, number] = [e3.cx, MINI_PIN_Y];
-  return (
-    <>
-      {EVID.map((e) => (
-        <MiniEvidence key={e.T} {...e} />
-      ))}
-      {/* 01 liga na evidencia atual (polaroid) pela margem esquerda; 03 liga na conclusao pela direita */}
-      <Thread a={p1} b={L} c={[-20, 1520]} f0={e1.T + 16} z={7} />
-      <Thread a={p1} b={p2} sag={46} f0={e2.T + 16} z={7} />
-      <Thread a={p2} b={p3} sag={46} f0={e3.T + 16} z={7} />
-      <Thread a={p3} b={R} c={[1100, 1520]} f0={e3.T + 26} z={7} />
-      {EVID.map((e) => (frame >= e.T + 13 ? <Pin key={e.T} x={e.cx} y={MINI_PIN_Y} size={30} s={pinPop(e.T)} z={9} /> : null))}
-      {frame >= e1.T + 16 ? (
-        <Pin x={L[0]} y={L[1]} size={28} s={interpolate(frame, [e1.T + 22, e1.T + 26], [0, 1], CL)} z={9} />
-      ) : null}
-      {frame >= e3.T + 26 ? (
-        <Pin x={R[0]} y={R[1]} size={28} s={interpolate(frame, [e3.T + 32, e3.T + 36], [0, 1], CL)} z={9} />
-      ) : null}
-    </>
-  );
-};
+const Mural: React.FC = () => (
+  <>
+    {EVID.map((e) => (
+      <PileCard key={e.T} {...e} />
+    ))}
+  </>
+);
 
 // ---------- Cabecalho do dossie ----------
 const Header: React.FC = () => (
@@ -552,7 +496,8 @@ const CaptionStrip: React.FC = () => {
   // bloco atual: do inicio da 1a palavra ate o inicio do bloco seguinte
   let ci = -1;
   for (let i = 0; i < CHUNKS.length; i++) {
-    if (t >= WORDS[CHUNKS[i][0]].s - 0.02 || i === 0) ci = i;
+    // blocos que comecam depois da saida da tira nao entram (a ficha 5 mostra essa frase)
+    if (i === 0 || (t >= WORDS[CHUNKS[i][0]].s - 0.02 && WORDS[CHUNKS[i][0]].s < CAPTION_END)) ci = i;
   }
   const [a, b] = CHUNKS[ci];
   const words = WORDS.slice(a, b + 1);
@@ -588,11 +533,20 @@ const CaptionStrip: React.FC = () => {
           const p = Math.max(0, Math.min(1, ((t - w.s) / dur) * 1.5));
           const n = Math.ceil(p * w.w.length);
           const isActive = i === active;
-          const isKey = KEYS.has(a + i);
+          const isKey = frame <= (KEYS.get(a + i) ?? -1);
           const showCursor = isActive && (n < w.w.length || blink);
+          // palavra-chave: lacuna (linha lilas do tamanho da palavra); a pontuacao continua visivel
+          const core = w.w.replace(/[.,?!]+$/, "");
           return (
             <React.Fragment key={`${a}-${i}`}>
-              <span style={{ color: isKey ? "#B3A79C" : isActive ? ROXO : TINTA }}>{w.w.slice(0, n)}</span>
+              {isKey ? (
+                <>
+                  <span style={{ color: "transparent", borderBottom: `6px solid ${LILAS}` }}>{core.slice(0, n)}</span>
+                  <span>{w.w.slice(core.length, Math.max(core.length, n))}</span>
+                </>
+              ) : (
+                <span style={{ color: isActive ? ROXO : TINTA }}>{w.w.slice(0, n)}</span>
+              )}
               {showCursor ? (
                 <span style={{ display: "inline-block", width: 0, position: "relative" }}>
                   <span
@@ -726,14 +680,15 @@ const Cards: React.FC = () => {
 
       {/* Cena 3: logo em qualquer embalagem (ficha entra ~0,2 s antes da palavra-chave) */}
       <Card x={100} w={880} rot={-1} inF={186} outF={284}>
-        <Label>VOCÊ MARCA SUA LOGO EM</Label>
+        <Label>VOCÊ MARCA SUA LOGO</Label>
         <div style={{ height: 4 }} />
         <Big text={"QUALQUER\nEMBALAGEM"} f0={192} size={84} />
       </Card>
 
       {/* Cena 4: a cada entrega, o cliente lembra */}
-      <Card x={100} w={880} rot={1.2} inF={285} outF={362}>
-        <Label>A CADA ENTREGA, SEU CLIENTE</Label>
+      {/* sai antes da ficha 5 entrar (antes as duas se sobrepunham em ~12,1-12,3 s) */}
+      <Card x={100} w={880} rot={1.2} inF={285} outF={354}>
+        <Label>A CADA ENTREGA,</Label>
         <div style={{ height: 44 }} />
         <Big text="LEMBRA DE VOCÊ" f0={291} size={92} color={ROXO} />
       </Card>
@@ -812,7 +767,7 @@ export const V5: React.FC = () => {
       <AbsoluteFill
         style={{
           translate: `${shake * 8}px ${shake * 5}px`,
-          scale: interpolate(frame, [0, 486], [1, 1.015]),
+          scale: interpolate(frame, [0, DUR], [1, 1.015]),
         }}
       >
         <Cork />

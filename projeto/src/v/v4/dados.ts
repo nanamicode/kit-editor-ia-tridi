@@ -1,5 +1,6 @@
 // V4 Tridi - dados da fala (faster_whisper small pt, word_timestamps).
 // Correcao: o Whisper ouviu "carinho"; a fala real (e a legenda original) e "um carimbo".
+// Grafia: "papel kraft" (com K), nao "craft".
 export type Palavra = { w: string; s: number; e: number };
 
 export const PALAVRAS: Palavra[] = [
@@ -24,7 +25,7 @@ export const PALAVRAS: Palavra[] = [
   { w: "caixa,", s: 7.08, e: 7.62 },
   { w: "saquinho,", s: 7.8, e: 8.28 },
   { w: "papel", s: 8.48, e: 8.64 },
-  { w: "craft,", s: 8.64, e: 9.12 },
+  { w: "kraft,", s: 8.64, e: 9.12 },
   { w: "qualquer", s: 9.32, e: 9.56 },
   { w: "coisa", s: 9.56, e: 10.28 },
   { w: "simples,", s: 10.28, e: 10.88 },
@@ -73,4 +74,8 @@ export const TRANSICOES = [6.56, 12.9];
 
 export const CORTE_APRESENTADORA = 12.9; // corte real (ffmpeg scene)
 export const ORIGINAL_PRETO = 16.73; // ffmpeg blackdetect: black_start 16.730 (quadro 502) ate o fim
-export const DURACAO_ORIGINAL_S = 17.875;
+// Fade-out do original: comeca em 16.23 s (quadro 16.229 ja escurece) e chega ao preto em 16.77 s.
+// De FREEZE_CTA ate a cartela, a tela segura o ultimo quadro claro (16.188 s, public/v/v4/cta_freeze.png).
+export const FREEZE_CTA = 16.22;
+// Duracao = audio do original inteiro (ffprobe: audio 18.088 s; o video do original para em 17.875 s).
+export const DURACAO_ORIGINAL_S = 18.088;

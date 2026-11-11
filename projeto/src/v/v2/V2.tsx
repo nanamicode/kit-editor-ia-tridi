@@ -276,14 +276,15 @@ const Quadro: React.FC = () => {
   const s = spring({ frame: frame - ult, fps, config: { damping: 14, stiffness: 200 } });
   const naPagina = frame >= PAGINA.de && frame < PAGINA.ate;
   const punch = naPagina ? interpolate(s, [0, 1], [0.86, 1]) : 1 + 0.022 * (1 - s);
-  const empurra = interpolate(frame, [CONGELA, 536], [1, 1.045], CL);
+  const empurra = interpolate(frame, [CONGELA, 536], [1, 1.1], CL);
+  const desce = interpolate(frame, [CONGELA, 536], [0, 14], CL);
   return (
     <Moldura g={g} scale={punch}>
       <Video src={staticFile("v/v2/v2.mp4")} style={posMidia(g)} />
       <SombraBorda />
       {/* quadro final congelado: o original escurece para preto em 16,25 s; seguramos o gesto apontando para o CTA com empurrao lento */}
       <Sequence from={CONGELA} layout="absolute-fill">
-        <AbsoluteFill style={{ transform: `scale(${empurra})`, transformOrigin: "50% 30%" }}>
+        <AbsoluteFill style={{ transform: `translateY(${desce}px) scale(${empurra})`, transformOrigin: "50% 28%" }}>
           <Img
             src={staticFile("v/v2/freeze.jpg")}
             style={{ position: "absolute", left: 0, top: 0, width: 720 * CHEIO.esc, height: 880 * CHEIO.esc, filter: GIBI }}
@@ -516,19 +517,25 @@ const Legenda: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
-  const idx = BLOCOS.findIndex((b, i) => {
-    const ini = PALAVRAS[b.de].s - 0.06;
+  // balao: a frase anterior fica inteira e acesa ate a proxima palavra comecar (sem balao "fantasma" so com texto apagado)
+  const iniDe = (b: (typeof BLOCOS)[number]) => PALAVRAS[b.de].s - (b.tipo === "balao" ? 0.02 : 0.06);
+  // balao seguido de bloco oculto (CTA) fica opaco ate o estouro entrar e sai "estourando" (escala 1 -> 0 em 3 quadros, sem fade)
+  const fimDe = (i: number) => {
     const prox = BLOCOS[i + 1];
-    const fim = prox ? PALAVRAS[prox.de].s - 0.06 : 17.45;
-    return t >= ini && t < fim;
-  });
+    if (!prox) return 17.45;
+    return iniDe(prox) + (BLOCOS[i].tipo === "balao" && prox.tipo === "oculto" ? 0.15 : 0);
+  };
+  const idx = BLOCOS.findIndex((b, i) => t >= iniDe(b) && t < fimDe(i));
   if (idx < 0) return null;
   const b = BLOCOS[idx];
   if (b.tipo === "oculto") return null;
   // so o primeiro bloco de uma sequencia do mesmo tipo entra com opacidade; nas trocas o balao fica opaco e so o texto muda
   const continua = idx > 0 && BLOCOS[idx - 1].tipo === b.tipo;
-  const iniF = Math.round((PALAVRAS[b.de].s - 0.06) * fps);
+  const iniF = Math.round(iniDe(b) * fps);
+  const fimF = fimDe(idx) * fps;
   const ent = spring({ frame: frame - iniF, fps, config: { damping: 13, stiffness: 210 } });
+  const saiB =
+    b.tipo === "balao" && BLOCOS[idx + 1]?.tipo === "oculto" ? interpolate(frame, [fimF - 3, fimF], [1, 0], CL) : 1;
   const op = continua ? 1 : Math.min(1, ent * 2);
   const palavras = PALAVRAS.slice(b.de, b.ate + 1);
 
@@ -586,10 +593,10 @@ const Legenda: React.FC = () => {
   }
 
   // balao de fala no topo (dentro do 4:5), rabicho apontando para a cabeca da apresentadora
-  const escB = continua ? 1 : interpolate(ent, [0, 1], [0.7, 1]);
+  const escB = (continua ? 1 : interpolate(ent, [0, 1], [0.7, 1])) * saiB;
   return (
     <AbsoluteFill>
-      <svg width={1080} height={1920} style={{ position: "absolute", opacity: op }}>
+      <svg width={1080} height={1920} style={{ position: "absolute", opacity: saiB < 1 ? 0 : op }}>
         <polygon points="560,462 680,462 512,598" fill={COR.branco} stroke={TINTA} strokeWidth={7} strokeLinejoin="round" />
       </svg>
       <AbsoluteFill style={{ alignItems: "center" }}>
@@ -639,10 +646,10 @@ const Cta: React.FC = () => {
       style={{
         position: "absolute",
         left: 140,
-        top: 1360,
+        top: 1320,
         width: 800,
         height: 270,
-        transform: `scale(${0.92 * interpolate(pop, [0, 1], [0.2, 1]) * (f > 12 ? pulso : 1)}) rotate(${-4 + tremor}deg)`,
+        transform: `scale(${0.84 * interpolate(pop, [0, 1], [0.2, 1]) * (f > 12 ? pulso : 1)}) rotate(${-4 + tremor}deg)`,
       }}
     >
       <svg width={800} height={270} style={{ position: "absolute" }}>

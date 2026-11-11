@@ -69,6 +69,96 @@ const windowRect = (p: number) => {
 	return {s, x, y, w, h, srcX};
 };
 
+// Fechamento: inicio do traco da planta final (o video ja apagou)
+const END_T0 = 29.17;
+
+// ---------- DET. B: insert do proprio original mostrando a impressora (saida do papel) ----------
+// Cortes do original: 7,533 s (frontal -> traseira) e 9,433 s (traseira -> mao na tela) = quadros 226..282.
+// Fonte: close frontal 12,733-14,466 s (quadros 382..433), tocado a 0,87x para cobrir os 57 quadros.
+const INS = {from: 226, dur: 57, trim: 383, rate: 0.87};
+// centro da saida do papel no quadro-fonte (px do original 1080x1920), medido em 4 instantes do plano
+const SLOT_T = [12.76, 13.3, 13.9, 14.43];
+const SLOT_X = [550, 562, 643, 702];
+const SLOT_Y = [1378, 1362, 1342, 1340];
+const CHIP_H = 52;
+const PrinterInsert: React.FC = () => {
+	const f = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	const s = WIN.h / SRC_H; // 0,8 (moldura)
+	// push-in lento. ty (r2): sobe devagar no inicio (u^2) para a legenda queimada do original ('display de LED', visivel na
+	// fonte ate ~f20) ficar abaixo da borda de baixo da janela; subir mais cedo traz essa legenda para dentro da janela.
+	const z = interpolate(f, [0, INS.dur - 1], [1, 1.15], {...clamp, easing: Easing.bezier(0.33, 0, 0.4, 1)});
+	const u = (z - 1) / 0.15;
+	const tx = -120 * u;
+	const ty = -92 - 192 * u * u;
+	const srcT = (INS.trim + f * INS.rate) / fps;
+	const sx = interpolate(srcT, SLOT_T, SLOT_X, clamp);
+	const sy = interpolate(srcT, SLOT_T, SLOT_Y, clamp);
+	const lx = sx * s * z + tx;
+	const ly = (sy - SRC_TOP) * s * z + ty;
+	const hw = 140 * s * z + 18;
+	const hh = 34;
+	const dBr = interpolate(f, [6, 18], [1, 0], {...clamp, easing: EASE});
+	const lbl = interpolate(f, [12, 22], [0, 1], {...clamp, easing: EASE});
+	const out = interpolate(f, [INS.dur - 4, INS.dur - 1], [1, 0], clamp);
+	const c = 22;
+	const br = [
+		`M${lx - hw} ${ly - hh + c} V${ly - hh} H${lx - hw + c}`,
+		`M${lx + hw - c} ${ly - hh} H${lx + hw} V${ly - hh + c}`,
+		`M${lx - hw} ${ly + hh - c} V${ly + hh} H${lx - hw + c}`,
+		`M${lx + hw - c} ${ly + hh} H${lx + hw} V${ly + hh - c}`,
+	].join(' ');
+	return (
+		<>
+			<AbsoluteFill style={{translate: `${tx}px ${ty}px`, scale: z, transformOrigin: '0px 0px'}}>
+				<Video
+					src={staticFile('v/v7/v7.mp4')}
+					trimBefore={INS.trim}
+					playbackRate={INS.rate}
+					muted
+					style={{position: 'absolute', left: 0, top: -SRC_TOP * s, width: 1080 * s, height: 1920 * s}}
+				/>
+			</AbsoluteFill>
+			<svg width={WIN.w} height={WIN.h} style={{position: 'absolute', left: 0, top: 0, opacity: out}}>
+				<path d={br} {...stroke(dBr, 9)} stroke={C.paperDeep} opacity={0.6} />
+				<path d={br} {...stroke(dBr, 4)} stroke={C.lilac} />
+				{/* r2: chip acima do colchete (abaixo ele encostava na borda de baixo da janela) */}
+				<path d={`M${lx} ${ly - hh} V${ly - hh - 26}`} {...stroke(1 - lbl, 3)} stroke={C.lilac} />
+			</svg>
+			<div
+				style={{
+					position: 'absolute',
+					left: lx - 130,
+					width: 260,
+					top: ly - hh - 26 - CHIP_H,
+					height: CHIP_H,
+					display: 'flex',
+					alignItems: 'flex-end',
+					justifyContent: 'center',
+					opacity: lbl * out,
+					translate: `0px ${(1 - lbl) * -10}px`,
+				}}
+			>
+				<div
+					style={{
+						backgroundColor: C.chip,
+						border: `2px solid ${C.lilac}`,
+						padding: '6px 16px',
+						fontFamily: MONO,
+						fontWeight: 700,
+						fontSize: 30,
+						letterSpacing: '0.12em',
+						color: C.line,
+						whiteSpace: 'nowrap',
+					}}
+				>
+					IMPRESSORA
+				</div>
+			</div>
+		</>
+	);
+};
+
 // ---------- Secoes (planta n.) sincronizadas pela fala ----------
 type Part = [string, boolean];
 const SECTIONS: {t0: number; t1: number; label: string; title: Part[]}[] = [
@@ -117,7 +207,7 @@ const Sheet: React.FC = () => {
 // Desenhos de construcao ao fundo (traco fino, quase apagado)
 const BackgroundDrawings: React.FC = () => {
 	const frame = useCurrentFrame();
-	const draw = interpolate(frame, [0, 24], [0.45, 0], {...clamp, easing: EASE});
+	const draw = interpolate(frame + 24, [0, 24], [0.45, 0], {...clamp, easing: EASE}); // +24: quadro 0 (capa) ja completo
 	const st = {fill: 'none', stroke: C.line, strokeWidth: 2, pathLength: 1, strokeDasharray: 1, strokeDashoffset: draw};
 	return (
 		<svg width={1080} height={1920} style={{position: 'absolute', opacity: 0.2}}>
@@ -137,7 +227,7 @@ const SheetFrame: React.FC = () => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
 	const p = useCtaProgress();
-	const draw = interpolate(frame, [0, 0.7 * fps], [0.45, 0], {...clamp, easing: EASE});
+	const draw = interpolate(frame + 0.7 * fps, [0, 0.7 * fps], [0.45, 0], {...clamp, easing: EASE}); // quadro 0 (capa) ja completo
 	const line = {fill: 'none', stroke: C.line, pathLength: 1, strokeDasharray: 1, strokeDashoffset: draw};
 	return (
 		<AbsoluteFill>
@@ -188,7 +278,7 @@ const SheetFrame: React.FC = () => {
 			>
 				TOTEM DE MESA PRO
 				<br />
-				MIND GEEKS
+				MAINDX
 			</div>
 		</AbsoluteFill>
 	);
@@ -231,8 +321,9 @@ const VideoWindow: React.FC = () => {
 	const r = windowRect(p);
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
-	// o original escurece ate o preto em ~29,4 s: a folha da planta assume o fundo do fechamento
-	const fadeOut = interpolate(frame, [28.9 * fps, 29.25 * fps], [1, 0], clamp);
+	// o original escurece ate o preto em ~29,4 s: o video some por completo ANTES da planta final comecar
+	// a se tracar (END_T0), para nao haver rosto fantasma sob o desenho
+	const fadeOut = interpolate(frame, [28.93 * fps, END_T0 * fps - 1], [1, 0], clamp);
 	return (
 		<div
 			style={{
@@ -258,6 +349,11 @@ const VideoWindow: React.FC = () => {
 					}}
 				/>
 			</AbsoluteFill>
+			{/* DET. B: o plano original de 7,53-9,43 s mostra a traseira do totem; no lugar dele entra o close
+			    frontal do proprio original (12,77-14,43 s) em que a saida do papel da impressora aparece */}
+			<Sequence name="Insert impressora" from={INS.from} durationInFrames={INS.dur} layout="none">
+				<PrinterInsert />
+			</Sequence>
 			{/* leve tinta azul-roxa de papel tecnico sobre o video */}
 			<AbsoluteFill style={{backgroundColor: 'rgba(40,14,110,0.12)', mixBlendMode: 'multiply'}} />
 		</div>
@@ -298,7 +394,7 @@ const WindowMarks: React.FC = () => {
 	const {fps} = useVideoConfig();
 	const p = useCtaProgress();
 	const r = windowRect(p);
-	const draw = interpolate(frame, [0, 0.8 * fps], [0.45, 0], {...clamp, easing: EASE});
+	const draw = interpolate(frame + 0.8 * fps, [0, 0.8 * fps], [0.45, 0], {...clamp, easing: EASE}); // quadro 0 (capa) ja completo
 	const st = {fill: 'none', stroke: C.line, strokeWidth: 3, pathLength: 1, strokeDasharray: 1, strokeDashoffset: draw};
 	const L = 46;
 	const o = 12;
@@ -883,14 +979,15 @@ const Callout: React.FC<{at: number; d: string; x: number; y: number; align: 'le
 const EndPlan: React.FC = () => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
-	const t0 = 29.3 * fps;
+	// tracado comprimido: todos os rotulos ficam >= 1,3 s legiveis antes do fim (quadro 946)
+	const t0 = END_T0 * fps;
 	if (frame < t0 - 1) return null;
 	const k = 3;
 	const X = 540 - 40 * k;
 	const Y = 640;
-	const dT = interpolate(frame, [t0, t0 + 18], [1, 0], {...clamp, easing: EASE});
-	const dC = interpolate(frame, [t0 + 40, t0 + 52], [1, 0], {...clamp, easing: EASE});
-	const lc = interpolate(frame, [t0 + 46, t0 + 56], [0, 1], {...clamp, easing: EASE});
+	const dT = interpolate(frame, [t0, t0 + 14], [1, 0], {...clamp, easing: EASE});
+	const dC = interpolate(frame, [t0 + 18, t0 + 28], [1, 0], {...clamp, easing: EASE});
+	const lc = interpolate(frame, [t0 + 20, t0 + 28], [0, 1], {...clamp, easing: EASE});
 	const yb = Y + 182 * k + 34;
 	return (
 		<AbsoluteFill>
@@ -898,9 +995,9 @@ const EndPlan: React.FC = () => {
 				<TotemPath x={X} y={Y} k={k} off={dT} />
 				<path d={`M${X - 30} ${yb} H${X + 80 * k + 30} M${X - 30} ${yb - 12} V${yb + 12} M${X + 80 * k + 30} ${yb - 12} V${yb + 12}`} {...stroke(dC, 2.5)} stroke={C.lilac} />
 			</svg>
-			<Callout at={t0 + 16} d={`M${X + 72 * k} ${Y + 54 * k} H712`} x={724} y={Y + 54 * k - 34} align="left" l1="tela" l2={'15,6"'} hi />
-			<Callout at={t0 + 24} d={`M${X + 16 * k} ${Y + 117 * k} H380`} x={368} y={Y + 117 * k - 50} align="right" l1="display" l2="de LED" />
-			<Callout at={t0 + 32} d={`M${X + 56 * k} ${Y + 138 * k} L${X + 80 * k + 40} ${Y + 138 * k} L712 ${Y + 138 * k + 40}`} x={724} y={Y + 138 * k + 8} align="left" l1="impressora" l2="térmica" />
+			<Callout at={t0 + 8} d={`M${X + 72 * k} ${Y + 54 * k} H712`} x={724} y={Y + 54 * k - 34} align="left" l1="tela" l2={'15,6"'} hi />
+			<Callout at={t0 + 12} d={`M${X + 16 * k} ${Y + 117 * k} H380`} x={368} y={Y + 117 * k - 50} align="right" l1="display" l2="de LED" />
+			<Callout at={t0 + 16} d={`M${X + 56 * k} ${Y + 138 * k} L${X + 80 * k + 40} ${Y + 138 * k} L712 ${Y + 138 * k + 40}`} x={724} y={Y + 138 * k + 8} align="left" l1="impressora" l2="térmica" />
 			<div style={{position: 'absolute', left: 0, right: 0, top: yb + 22, display: 'flex', justifyContent: 'center', opacity: lc}}>
 				<BigText size={46} color={C.lilac}>
 					compacto
@@ -997,7 +1094,7 @@ export const V7: React.FC = () => {
 				</Card>
 			</Sequence>
 			<Sequence name="Det B impressora" from={Math.round(7.6 * fps)} durationInFrames={Math.round(4.0 * fps)} layout="none">
-				<Card side="right" tag="DET. B — IMPRESSORA" dur={Math.round(4.0 * fps)}>
+				<Card side="right" tag="DET. B — IMPRESSORA" dur={Math.round(4.0 * fps)} pos={{left: 118, top: 440, k: 0.9}}>
 					<CardImpressora />
 				</Card>
 			</Sequence>

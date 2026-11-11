@@ -59,11 +59,14 @@ export const BLOCOS: Bloco[] = [
   { de: 8, ate: 10, tipo: "narracao" },
   { de: 11, ate: 13, tipo: "narracao" },
   { de: 14, ate: 22, tipo: "oculto" }, // pagina de gibi SERVE EM: CAIXA / SACOLA / PAPEL KRAFT + "O QUE FOR!"
-  { de: 23, ate: 26, tipo: "narracao" },
+  // "ágil e" fica so no splash "ÁGIL!" (titulo != legenda): a legenda mostra so "PRÁTICO," e depois "PROFISSIONAL."
+  { de: 23, ate: 23, tipo: "narracao" },
+  { de: 24, ate: 25, tipo: "oculto" },
+  { de: 26, ate: 26, tipo: "narracao" },
   { de: 27, ate: 32, tipo: "balao" },
   { de: 33, ate: 36, tipo: "balao" },
   { de: 37, ate: 39, tipo: "balao" },
-  { de: 40, ate: 41, tipo: "balao" },
+  { de: 40, ate: 41, tipo: "oculto" }, // "Clique aqui." ja esta no estouro do CTA: o balao sai, nunca repete o texto
 ];
 
 // Titulos: so o que traz algo a mais (gancho e item final da lista)
@@ -76,7 +79,8 @@ export const TITULOS: Titulo[] = [
 // Onomatopeias nos contatos do carimbo (frame de inicio, texto, centro x/y, rotacao, tamanho)
 export type Ono = { f: number; t: string; x: number; y: number; rot: number; w: number; dur: number };
 export const ONOS: Ono[] = [
-  { f: 0, t: "TUM!", x: 790, y: 735, rot: 9, w: 500, dur: 26 },
+  // gancho: no canto inferior direito do quadro, cobre o "@...design..." cortado da estampa do original (0,3-0,95 s)
+  { f: 0, t: "TUM!", x: 800, y: 1432, rot: -8, w: 560, dur: 33 },
   { f: 72, t: "TUM!", x: 300, y: 800, rot: -8, w: 400, dur: 20 },
   { f: 123, t: "PÁ!", x: 290, y: 1170, rot: 7, w: 380, dur: 20 },
   { f: 296, t: "TUM!", x: 800, y: 1230, rot: -7, w: 400, dur: 20 },

@@ -1,0 +1,32 @@
+# V4 — pendências conhecidas (rodada anterior)
+## Do render final (estado ATUAL verificado no MP4)
+- Não corrigi a grafia 'Papel craft' (o certo é 'kraft') nem o aperto do texto na grade FUNCIONA EM, porque o pedido era só corrigir se o render falhasse.
+- Os 0,21 s finais de áudio do original não entraram no render. É silêncio, mas a duração total que o contêiner informa (17,877 s) é menor que os 18,088 s do original.
+- Revisei 6 quadros parados. Não assisti à animação em movimento nem ouvi a sincronia de legenda e áudio.
+
+## Da revisão independente (nota 6.5) — ANTES da rodada de correção; parte pode já estar corrigida, CONFIRA no estado atual
+- [alto] t=0.5s: In Pixelify Sans bold (600/700) the capital C has an opening so small that it reads as O. The key words come out wrong on a phone: 'OARIMBO' (0.5-2s), 'Oaixa' and 'Papel oraft' (6.6-10s), and in the CTA the main button reads '▶ OLIQUE AQUI' (15.9-17.87s; confirmed in still_492 at 1080px). The C/O swap hits the product name and the call to action, the two most important words in the ad. | correção sugerida: Switch the font for titles, the button and the inventory labels: Silkscreen (already loaded, and its C reads correctly in the HUD), or Press Start 2P / VT323 via @remotion/google-fonts. Alternatively use Pixelify at weight 400 and check the C. Re-check stills 50, 300 and 492 after the change.
+- [medio] t=16.73s: The original footage goes black at 16.73s (blackdetect), not at 17.2s as the editor reported. The closing card (stamp + TRIDI) only appears at about 17.27s, so the game screen is completely black for about 0.53s (frames ~502-517), while the CTA is still on. | correção sugerida: Start the closing card at frame 502 (16.73s), or freeze the last good frame of the presenter (~16.70s) until the card comes in. Use ffmpeg blackdetect to set the exact frame.
+- [medio] t=0s: The game screen shows the footage at only ~900x760 out of 1080x1920 (about 33% of the area), and about 200px of empty grid sits above the stripes and about 230px below. The products being stamped (O Brabo Burguer, cup, saquinho), which are the visual proof, end up small next to the HUD and the dialogue box. The hook in the first 3s depends on that image. | correção sugerida: Make the screen taller, e.g. 1000x860, by moving the HUD/stripes up to around y 250-285 and tightening the MISSÃO bar to the box. That keeps everything inside y 285-1635 and still excludes source y >= 608 (the burned caption).
+- [baixo] t=15.05s: The phase transition (pixelate) is set off at 15.05s on the presenter's face mid-sentence ('Quer saber mais?'), with no real cut there. The face breaks up into blocks right as the CTA starts, which is decoration that gets in the way of the speech. The other two transitions (6.55s and 12.90s) do fall on real cuts and work well. | correção sugerida: Remove the pixelate at 15.05s and switch FASE 03 -> CONTINUE? with only a HUD blink and the SFX, keeping the face clean.
+- [baixo] t=0s: Original audio: integrated loudness is the same as the original (-14.1 vs -14.2 LUFS), but 12 synthetic SFX were added on top of the validated audio. The rule asks to preserve the audio. The SFX are low, but a validated creative is no longer 100% the original audio. | correção sugerida: Keep the SFX only if the user approves. Otherwise empty the SFX array in V4.tsx. Listen to the full preview to confirm the SFX do not mask syllables (the coin at ~4.6s and the bars at 10-12s, over the speech).
+- [baixo] t=10.24s: The ATRIBUTOS bars (Simples/Rápido/Profissional) fill all the way up like a 'max rating'. That is a quantitative visual reading of the speech (a mild implicit promise), even without a number. | correção sugerida: Fill only to ~80%, or swap the bars for a check per item, keeping the RPG look without implying 'maximum'.
+- [baixo] t=0s: Positives checked: the style 8 look is clearly recognizable (HUD 'TRIDI · CARIMBOS / FASE 0X' with hazard stripes and a dark grid, almost identical to example 08-retro-gamer-1, plus pixel sprites and an RPG box). Tridi palette, accented captions (você, Rápido, É, MISSÃO) synced to the words. No residue of the burned caption in any frame I checked (product shots and presenter, including the pixelated frames). No invented number or price ('30 centavos' is spoken). Third-party brands appear only in the footage. Duration 17.877s vs 17.875s. Everything essential sits inside y 285-1635. | correção sugerida: Keep it as is. Only fix the items above.
+
+## Correcao rodada 1 (2026-11-11) — feito, verificado por stills em r2/
+- kraft: ITENS "Papel kraft" + dados.ts palavra "kraft," (still_290).
+- Grade FUNCIONA EM com respiro: slot 108, sprite px7, rotulo 54px; 2 linhas sobram ~40px ate a borda (still_290).
+- Item: "personalizado" nao encosta mais na borda de baixo (still_50).
+- CTA: o original faz fade-out de 16.23 a 16.77 s (signalstats). De 16.22 s ate a cartela (16.73 s) a tela segura o ultimo quadro claro (public/v/v4/cta_freeze.png, 16.188 s). Vinheta/scanline mais leves na apresentadora (still_488/500).
+- Sem tela preta: freeze ate 502, cartela (fundo roxo) desde 502 (still_503/542).
+- Duracao 543 quadros = 18.10 s; audio por <Audio> proprio (Video mudo). Render so de audio (wav): 18.10 s, -14.2 LUFS igual ao original.
+- C/O: Silkscreen 400 le C (CARIMBO, CLIQUE) — still_50/488.
+- 15.05 s sem pixelate (still_452). Botao CTA e cursor com respiro dentro da caixa.
+- Nao assistido em movimento; MP4 nao re-renderizado nesta etapa.
+
+## Rodada 2 (ajuste pos-revisor, nota 8.3)
+- [medio] Grade FUNCIONA EM: coluna desceu (top 32 -> 50), check recolhido (right -14, top -2), marginTop 12 -> 10. Check ~25 px abaixo da plaquinha e ~40 px da linha roxa interna; rotulo de 2 linhas ~20 px da base. Stills r2b/s_265, s_290, crop_check_290.
+- [baixo] Filete claro no topo da apresentadora (borda do teto do original, y<=48 px): enquadre translateY(-48) scale(1.07) -> translateY(-72) scale(1.1); topo visivel = origem y 48, base = origem ~601 (legenda queimada em 608 continua fora). Stills r2b/s_400, s_410, s_430, s_445 sem filete; CTA s_488/s_501 rosto inteiro e claro (topo do cabelo encosta na borda, como ja quase encostava antes).
+- [baixo] Cartela final: passoN comeca em 2, carimbo ja no 1o quadro (s_502).
+- Pendente: render MP4 so quando o usuario pedir (duracao 543 quadros = 18,10 s confirmada por selectComposition).
+- Nota de disco: bundle do Remotion no Windows COPIA public/ (268 MB) para o TEMP; para stills, usar r2b/stills.mjs com publicDir minimo (so v/v4).

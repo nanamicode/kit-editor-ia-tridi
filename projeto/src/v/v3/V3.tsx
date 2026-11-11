@@ -57,6 +57,9 @@ const enter = (f: number, a: number, dur = 10) =>
   interpolate(f, [a, a + dur], [0, 1], { ...clamp, easing: EO });
 const leave = (f: number, b: number, dur = 6) =>
   interpolate(f, [b - dur, b], [1, 0], { ...clamp, easing: IO });
+// texto que ja esta na pagina, apagado, e acende quando a fala chega nele
+const acende = (f: number, a: number, base: number) =>
+  interpolate(f, [a - 2, a + 6], [base, 1], { ...clamp, easing: EO });
 
 const Rise: React.FC<{
   a: number;
@@ -162,38 +165,52 @@ const Masthead: React.FC = () => {
 
 // ---------- Foto recortada (unico <Video>, leva o audio original) ----------
 type Lay = { x: number; y: number; w: number; h: number; s: number; cy: number; kb: number };
-// Grade unica da revista: manchete no topo (y 300-560), foto ate y 1450,
-// legenda em y 1474-1632, rodape (folio) abaixo. Todas as fotos terminam
-// em 1450, entao a troca de pagina nunca cobre a manchete.
-const LAYS: Lay[] = [
-  { x: 70, y: 606, w: 940, h: 844, s: 1.306, cy: 560, kb: 1.06 }, // capa
-  { x: 70, y: 560, w: 560, h: 890, s: 0.86, cy: 540, kb: 1.05 }, // materia + indice
-  { x: 70, y: 576, w: 940, h: 874, s: 1.306, cy: 712, kb: 1.06 }, // destaque + olho
-  { x: 70, y: 616, w: 940, h: 834, s: 1.306, cy: 492, kb: 1.04 }, // entrevista
+// Grade unica da revista (rodada 2): foto maior, de x 40 a 1040 (o fio e a
+// sombra continuam; o texto segue nas margens 66-70). Paginas com legenda
+// (capa, materia): foto ate y 1500 e legenda em y 1504-1640, dentro do 4:5.
+// Paginas sem legenda (destaque, fecho: a manchete ja diz a fala): foto
+// ate y 1630. Rodape (folio) em y 1676, fora do 4:5 (decorativo).
+const FOTO_X = 40;
+const FOTO_W = 1000;
+const S_W = FOTO_W / SRC_W; // 1.389: preenche a largura da foto
+const LAY_CAPA: Lay = { x: FOTO_X, y: 606, w: FOTO_W, h: 894, s: S_W, cy: 560, kb: 1.06 };
+// materia comeca larga (a coluna so abre quando a fala chega na marca)
+const LAY_MAT_LARGA: Lay = { x: FOTO_X, y: 560, w: FOTO_W, h: 940, s: S_W, cy: 560, kb: 1.02 };
+const LAY_MAT_INDICE: Lay = { x: FOTO_X, y: 560, w: 590, h: 940, s: 0.9, cy: 540, kb: 1.05 };
+const LAY_DESTAQUE: Lay = { x: FOTO_X, y: 576, w: FOTO_W, h: 1054, s: S_W, cy: 712, kb: 1.06 };
+const LAY_FECHO: Lay = { x: FOTO_X, y: 616, w: FOTO_W, h: 1014, s: S_W, cy: 492, kb: 1.04 };
+// quadros-chave da foto (a pagina 2 tem duas formas: larga e com indice)
+const COLUNA_ABRE = 248; // ~8,3 s, "a sua marca"
+const KEYS: { f: number; end: number; lay: Lay }[] = [
+  { f: 0, end: 176, lay: LAY_CAPA },
+  { f: 176, end: COLUNA_ABRE, lay: LAY_MAT_LARGA },
+  { f: COLUNA_ABRE, end: 407, lay: LAY_MAT_INDICE },
+  { f: 407, end: 556, lay: LAY_DESTAQUE },
+  { f: 556, end: 701, lay: LAY_FECHO },
 ];
 const STARTS = [0, 176, 407, 556];
-const ENDS = [176, 407, 556, 701];
 const SECOES = ["Capa", "Matéria", "Destaque", "Fechamento"];
+const LEGENDA_ATE = 409; // a partir da pagina Destaque a manchete carrega a fala
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 
 const layAt = (i: number, f: number): Lay => {
-  const L = LAYS[i];
+  const { lay: L, f: a, end } = KEYS[i];
   // capa: push-in mais firme nos 3 s do gancho, depois segue lento
   const k =
     i === 0
-      ? interpolate(f, [0, 90, ENDS[0]], [1, 1.04, L.kb], clamp)
-      : interpolate(f, [STARTS[i], ENDS[i]], [1, L.kb], clamp);
+      ? interpolate(f, [0, 90, end], [1, 1.04, L.kb], clamp)
+      : interpolate(f, [a, end], [1, L.kb], clamp);
   return { ...L, s: L.s * k };
 };
 
 const Photo: React.FC = () => {
   const f = useCurrentFrame();
   let i = 0;
-  for (let j = 0; j < STARTS.length; j++) if (f >= STARTS[j]) i = j;
+  for (let j = 0; j < KEYS.length; j++) if (f >= KEYS[j].f) i = j;
   let g = layAt(i, f);
   if (i > 0) {
-    const t = interpolate(f, [STARTS[i], STARTS[i] + 10], [0, 1], { ...clamp, easing: IO });
-    const prev = layAt(i - 1, STARTS[i]);
+    const t = interpolate(f, [KEYS[i].f, KEYS[i].f + 10], [0, 1], { ...clamp, easing: IO });
+    const prev = layAt(i - 1, KEYS[i].f);
     g = {
       x: lerp(prev.x, g.x, t),
       y: lerp(prev.y, g.y, t),
@@ -269,18 +286,30 @@ const Carimbo: React.FC<{
   rot: number;
   lines: string[];
   size?: number;
-}> = ({ a, b, x, y, rot, lines, size = 62 }) => {
+  // retangulo da foto: o selo e recortado nele e nunca cruza o fio
+  clip: { x: number; y: number; w: number; h: number };
+}> = ({ a, b, x, y, rot, lines, size = 62, clip }) => {
   const f = useCurrentFrame();
   if (f < a || f >= b) return null;
-  const sc = interpolate(f, [a, a + 5], [1.55, 1], { ...clamp, easing: Easing.in(Easing.quad) });
+  const sc = interpolate(f, [a, a + 5], [1.22, 1], { ...clamp, easing: Easing.in(Easing.quad) });
   const o = Math.min(interpolate(f, [a, a + 3], [0, 0.93], clamp), leave(f, b, 5));
   const tinta = staticFile("v/v3/tinta_mascara_tile_1024.png");
   return (
     <div
       style={{
         position: "absolute",
-        left: x,
-        top: y,
+        left: clip.x,
+        top: clip.y,
+        width: clip.w,
+        height: clip.h,
+        overflow: "hidden",
+      }}
+    >
+    <div
+      style={{
+        position: "absolute",
+        left: x - clip.x,
+        top: y - clip.y,
         transform: `translate(-50%, -50%) rotate(${rot}deg) scale(${sc})`,
         opacity: o,
       }}
@@ -315,6 +344,7 @@ const Carimbo: React.FC<{
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };
@@ -359,17 +389,30 @@ const Sublinha: React.FC<{ a: number; w: number }> = ({ a, w }) => {
 // gancho: a pergunta inteira ja esta na pagina no quadro 0
 const Capa: React.FC = () => (
   <>
-    <Rise a={-12} b={176} out={4} style={{ left: 70, top: 300, ...kicker }}>
+    {/* troca de pagina: a manchete que sai some nos 3 quadros finais e a
+        proxima comeca 1 quadro antes do fim dela; nunca ha quadro com as
+        duas visiveis (texto sobre texto) nem quadro sem nenhuma */}
+    <Rise a={-12} b={176} out={3} style={{ left: 70, top: 300, ...kicker }}>
       Capa · Embalagem
     </Rise>
-    <Rise a={-11} b={176} out={4} style={{ left: 66, top: 362, ...manchete(112) }}>
+    <Rise a={-11} b={176} out={3} style={{ left: 66, top: 362, ...manchete(112) }}>
       Ainda parece
     </Rise>
-    <Rise a={-10} b={176} out={4} style={{ left: 66, top: 476 }}>
+    <Rise a={-10} b={176} out={3} style={{ left: 66, top: 476 }}>
       <div style={manchete(112, true, COR.roxo)}>comum?</div>
     </Rise>
-    {/* selo inteiro dentro da foto (borda direita da foto = 1010) */}
-    <Carimbo a={121} b={176} x={630} y={1296} rot={-7} lines={["Carimbo", "Personalizado"]} />
+    {/* selo no canto superior esquerdo da foto (fundo livre), recortado
+        nela: nao cobre a marca carimbada no saco kraft (a prova), nem a mao */}
+    <Carimbo
+      a={121}
+      b={176}
+      x={336}
+      y={762}
+      rot={-7}
+      size={50}
+      lines={["Carimbo", "Personalizado"]}
+      clip={{ x: LAY_CAPA.x, y: LAY_CAPA.y, w: LAY_CAPA.w, h: LAY_CAPA.h }}
+    />
   </>
 );
 
@@ -383,83 +426,126 @@ const Materia: React.FC = () => {
   const f = useCurrentFrame();
   return (
     <>
-      <Rise a={176} b={407} out={3} style={{ left: 66, top: 306, ...manchete(104) }}>
+      <Rise a={175} b={407} out={3} style={{ left: 66, top: 306, ...manchete(104) }}>
         Muda isso
       </Rise>
-      <Rise a={199} b={407} out={3} style={{ left: 66, top: 412 }}>
-        <div style={manchete(104, true, COR.roxo)}>em segundos.</div>
+      {/* 2a linha entra junto, apagada, e acende quando e falada (199) */}
+      <Rise a={177} b={407} out={3} style={{ left: 66, top: 412 }}>
+        <div style={{ ...manchete(104, true, COR.roxo), opacity: acende(f, 199, 0.3) }}>em segundos.</div>
       </Rise>
-      {/* fio vertical de coluna */}
+      {/* a coluna so existe quando a foto estreita (COLUNA_ABRE): antes disso
+          a foto ocupa a pagina inteira e nao sobra papel vazio */}
       <div
         style={{
           position: "absolute",
           left: 652,
           top: 560,
           width: 2,
-          height: 890 * enter(f, 186, 16),
+          height: 940 * enter(f, COLUNA_ABRE + 5, 10),
           background: COR.fio,
           opacity: leave(f, 407, 3),
         }}
       />
-      <Rise a={236} b={407} out={3} dist={18} style={{ left: 674, top: 572, ...kicker }}>
+      {/* coluna entra enquanto a foto termina de estreitar (a borda da foto
+          passa de x 660 no quadro ~COLUNA_ABRE+6): sem coluna vazia */}
+      <Rise
+        a={COLUNA_ABRE + 5}
+        b={407}
+        out={3}
+        dist={18}
+        style={{ left: 674, top: 572, ...kicker, letterSpacing: "0.02em" }}
+      >
         Sua marca em
       </Rise>
-      {/* indice: numeros grandes dominam a coluna (contraste focal do estilo) */}
-      {ITENS.map((it, k) => (
-        <Rise key={it.n} a={it.a} b={407} out={3} dist={22} style={{ left: 674, top: 650 + k * 236, width: 336 }}>
-          <div style={{ height: 2, background: COR.fio, marginBottom: 12 }} />
-          <div
-            style={{
-              fontFamily: oswald,
-              fontWeight: 700,
-              fontSize: 132,
-              lineHeight: 1,
-              letterSpacing: "0.02em",
-              color: COR.roxo,
-            }}
+      {/* indice: os tres itens entram juntos, apagados, e cada um acende
+          quando e falado (foco no item explicado, coluna nunca vazia) */}
+      {ITENS.map((it, k) => {
+        const aceso = interpolate(f, [it.a - 2, it.a + 6], [0.24, 1], { ...clamp, easing: EO });
+        return (
+          <Rise
+            key={it.n}
+            a={COLUNA_ABRE + 6 + k * 2}
+            b={407}
+            out={3}
+            dist={22}
+            style={{ left: 674, top: 650 + k * 250, width: 336 }}
           >
-            {it.n}
-          </div>
-          <div style={{ ...manchete(56), marginTop: 2 }}>{it.t}</div>
-        </Rise>
-      ))}
+            <div style={{ height: 2, background: COR.fio, marginBottom: 12 }} />
+            <div style={{ opacity: aceso }}>
+              <div
+                style={{
+                  fontFamily: oswald,
+                  fontWeight: 700,
+                  fontSize: 132,
+                  lineHeight: 1,
+                  letterSpacing: "0.02em",
+                  color: COR.roxo,
+                  transformOrigin: "left center",
+                  transform: `scale(${0.94 + 0.06 * aceso})`,
+                }}
+              >
+                {it.n}
+              </div>
+              <div style={{ ...manchete(56), marginTop: 2 }}>{it.t}</div>
+            </div>
+          </Rise>
+        );
+      })}
     </>
   );
 };
 
 // ---------- Cena 3 · OLHO (407-556) ----------
-const Olho: React.FC = () => (
+const Olho: React.FC = () => {
+  const f = useCurrentFrame();
+  return (
   <>
     {/* manchete no mesmo lugar da anterior: troca direta, sem pagina vazia */}
-    <Rise a={407} b={478} out={4} style={{ left: 66, top: 300, ...manchete(128) }}>
+    <Rise a={406} b={478} out={3} style={{ left: 66, top: 300, ...manchete(128) }}>
       Identidade
     </Rise>
-    <Rise a={436} b={478} out={4} style={{ left: 70, top: 440 }}>
-      <div style={manchete(80, true, COR.roxo)}>&amp; profissionalismo.</div>
+    {/* 2a linha entra junto, apagada, e acende quando e falada (436) */}
+    <Rise a={408} b={478} out={3} style={{ left: 70, top: 440 }}>
+      <div style={{ ...manchete(80, true, COR.roxo), opacity: acende(f, 436, 0.3) }}>
+        &amp; profissionalismo.
+      </div>
       <Sublinha a={445} w={790} />
     </Rise>
-    <Rise a={478} b={556} out={3} style={{ left: 56, top: 250, ...manchete(220, false, COR.roxo), lineHeight: 1 }}>
+    <Rise a={477} b={556} out={3} style={{ left: 56, top: 250, ...manchete(220, false, COR.roxo), lineHeight: 1 }}>
       “
     </Rise>
-    <Rise a={479} b={556} out={3} style={{ left: 172, top: 318 }}>
+    <Rise a={477} b={556} out={3} style={{ left: 172, top: 318 }}>
       <div style={{ ...manchete(84, true), fontWeight: 700, lineHeight: 1.12 }}>Seu cliente percebe</div>
       <div style={{ ...manchete(84, true), fontWeight: 700, lineHeight: 1.12 }}>esses detalhes.</div>
       <div style={{ height: 3, width: 160, background: COR.roxo, marginTop: 18 }} />
     </Rise>
   </>
-);
+  );
+};
 
 // ---------- Cena 4 · ENTREVISTA / FECHO (556-701) ----------
 const LINHAS = [
-  { t: "rápido", a: 556 },
+  { t: "rápido", a: 555 },
   { t: "econômico", a: 587 },
   { t: "profissional", a: 638 },
 ];
-const Fecho: React.FC = () => (
+// as tres linhas entram juntas na troca de pagina (sem faixa de papel vazio
+// entre texto e foto); cada uma acende quando e falada
+const Fecho: React.FC = () => {
+  const f = useCurrentFrame();
+  return (
   <>
     {LINHAS.map((l, k) => (
-      <Rise key={l.t} a={l.a} dist={22} style={{ left: 70, top: 300 + k * 98, width: 940 }}>
-        <div style={{ display: "flex", alignItems: "baseline", gap: 26, height: 94 }}>
+      <Rise key={l.t} a={555 + k * 3} dist={22} style={{ left: 70, top: 300 + k * 98, width: 940 }}>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "baseline",
+            gap: 26,
+            height: 94,
+            opacity: k === 0 ? 1 : acende(f, l.a, 0.24),
+          }}
+        >
           <span
             style={{
               fontFamily: oswald,
@@ -477,10 +563,21 @@ const Fecho: React.FC = () => (
         <div style={{ height: 2, background: COR.fio, opacity: 0.85 }} />
       </Rise>
     ))}
-    {/* selo inteiro dentro da foto, canto superior direito (parede vazia) */}
-    <Carimbo a={667} b={760} x={790} y={770} rot={6} lines={["Carimbos", "Tridi"]} size={70} />
+    {/* selo inteiro dentro da foto, canto superior direito (parede vazia),
+        recortado na foto: nao passa do canto */}
+    <Carimbo
+      a={667}
+      b={760}
+      x={800}
+      y={790}
+      rot={6}
+      lines={["Carimbos", "Tridi"]}
+      size={64}
+      clip={{ x: LAY_FECHO.x, y: LAY_FECHO.y, w: LAY_FECHO.w, h: LAY_FECHO.h }}
+    />
   </>
-);
+  );
+};
 
 // ---------- Rodape (folio) + vinheta escura do papel ----------
 // A secao troca no primeiro quadro de cada pagina: a pagina sempre tem
@@ -500,7 +597,7 @@ const Folio: React.FC = () => {
     whiteSpace: "nowrap",
   };
   return (
-    <div style={{ position: "absolute", left: 70, top: 1652, width: 940 }}>
+    <div style={{ position: "absolute", left: 70, top: 1676, width: 940 }}>
       <div style={{ height: 2, background: COR.fio }} />
       <div style={{ display: "flex", justifyContent: "space-between", marginTop: 12 }}>
         <span style={txt}>Tridi · Carimbos</span>
@@ -528,10 +625,10 @@ const Vinheta: React.FC = () => (
       style={{
         position: "absolute",
         left: 0,
-        top: 1600,
+        top: 1690,
         width: 1080,
-        height: 320,
-        background: "linear-gradient(to top, rgba(24,20,18,0.7) 0%, rgba(24,20,18,0.25) 50%, rgba(24,20,18,0) 100%)",
+        height: 230,
+        background: "linear-gradient(to top, rgba(24,20,18,0.78) 0%, rgba(24,20,18,0.3) 55%, rgba(24,20,18,0) 100%)",
       }}
     />
   </AbsoluteFill>
@@ -539,12 +636,24 @@ const Vinheta: React.FC = () => (
 
 // ---------- Legenda (fala real) ----------
 const GRUPOS = [0, 5, 11, 14, 18, 23, 27, 33, 36, 41, 45, words.length];
-// grupos cujo texto ja esta na manchete da pagina: legenda recua (menor,
-// mais clara) para nao competir com o titulo; o audio continua igual
-const ECO = new Set([3, 7, 8, 9, 10]);
+// grupo 3 ("muda isso em segundos") repete a manchete: legenda recua
+// (menor, mais clara). Da pagina Destaque em diante (LEGENDA_ATE) a fala
+// inteira ja esta na manchete/olho/linhas MAIS: a legenda sai e a manchete
+// faz o papel de texto da fala (o audio continua igual).
+// grupo 0 ("Seu negocio ainda parece comum") quase repete a manchete do
+// gancho: recua tambem, e assim cabe em uma linha
+const ECO = new Set([0, 3]);
+// destaque so em palavra de conteudo: artigo, preposicao, conjuncao,
+// pronome e intensificador nunca recebem o grifo
+const FRACAS = new Set([
+  "seu", "sua", "um", "uma", "o", "a", "os", "as", "e", "de", "da", "do",
+  "na", "no", "em", "com", "muito", "mais", "isso", "esses", "você", "tudo", "ainda",
+]);
+const limpa = (w: string) => w.toLowerCase().replace(/[.,?!]/g, "");
 const Legenda: React.FC = () => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
+  if (f >= LEGENDA_ATE) return null;
   const t = f / fps;
   let g = -1;
   for (let k = 0; k < GRUPOS.length - 1; k++) {
@@ -555,11 +664,12 @@ const Legenda: React.FC = () => {
   }
   if (g < 0) return null;
   const a = Math.round((words[GRUPOS[g]].s - 0.08) * fps);
-  const p = enter(f, a, 5);
+  const p = Math.min(enter(f, a, 5), leave(f, LEGENDA_ATE, 4));
   const ws = words.slice(GRUPOS[g], GRUPOS[g + 1]);
+  // ultima palavra de conteudo ja falada no grupo (fraca nao rouba o grifo)
   let ativo = -1;
   ws.forEach((w, k) => {
-    if (t >= w.s - 0.04) ativo = k;
+    if (t >= w.s - 0.04 && !FRACAS.has(limpa(w.w))) ativo = k;
   });
   const eco = ECO.has(g);
   return (
@@ -568,8 +678,8 @@ const Legenda: React.FC = () => {
         position: "absolute",
         left: 80,
         width: 920,
-        top: 1474,
-        height: 158,
+        top: 1506,
+        height: 134,
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -581,8 +691,8 @@ const Legenda: React.FC = () => {
         style={{
           fontFamily: playfair,
           fontWeight: 700,
-          fontSize: eco ? 52 : 66,
-          lineHeight: 1.16,
+          fontSize: eco ? 52 : 62,
+          lineHeight: 1.1,
           color: COR.tinta,
           textAlign: "center",
         }}

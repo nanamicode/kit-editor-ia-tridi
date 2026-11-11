@@ -1,0 +1,1404 @@
+[
+ {
+  "numero": "V1",
+  "nome_pt": "Minimalismo (Minimalism)",
+  "categoria": "Clean e Moderno",
+  "o_que_e": "Muito espaço vazio, poucos elementos e uma só cor de destaque.",
+  "quando_usar_em_anuncio": "Funciona para produto premium ou oferta simples em público morno, quando o anúncio precisa respirar e passar confiança. Bom para remarketing: pouca coisa na tela, uma ideia só.",
+  "nichos_bons": [
+   "Infoproduto de método",
+   "Consultoria",
+   "Estética premium",
+   "Joias",
+   "Arquitetura"
+  ],
+  "evitar_quando": "Públicos que respondem a barulho e promoção agressiva (varejo popular, queima de estoque).",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V2",
+   "V3"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Minimalismo (Minimalism). Detalhes do estilo: Muito espaço vazio, poucos elementos e uma só cor de destaque. Cores: uma só cor de destaque sobre fundo off-white ou cinza claro. Luz e clima: luz suave e difusa de estúdio, clima calmo e confiante. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Minimalism style. Style details: ample negative space, one clear focal object, very few elements, soft shadow, clean edges. Colours: single accent colour on an off-white or light grey background. Lighting and mood: soft diffused studio light, calm and confident mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V01-minimalism-1.jpg",
+   "exemplos/img/visuais/V01-minimalism-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V2",
+  "nome_pt": "Design Suíço (Swiss Design)",
+  "categoria": "Clean e Moderno",
+  "o_que_e": "Grade rígida, tipografia sem serifa e alinhamento perfeito.",
+  "quando_usar_em_anuncio": "Bom para infoproduto de método, finanças e dados em público frio/morno que quer sensação de organização e seriedade. Combina com painéis e números.",
+  "nichos_bons": [
+   "Infoproduto de gestão",
+   "Contabilidade",
+   "Tecnologia",
+   "Educação",
+   "Consultoria"
+  ],
+  "evitar_quando": "Produto emocional ou infantil que pede calor e brincadeira.",
+  "equivale_no_catalogo": "20 Didático demonstrativo",
+  "combina_com": [
+   "V1",
+   "V8"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Design Suíço (Swiss Design). Detalhes do estilo: Grade rígida, tipografia sem serifa e alinhamento perfeito. Cores: branco, preto e um vermelho vivo. Luz e clima: luz chapada e uniforme, clima objetivo e racional. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Swiss Design style. Style details: strict grid layout, asymmetric composition, geometric shapes, flat objects aligned to the grid. Colours: white, black and one vivid red. Lighting and mood: flat even lighting, objective and rational mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V02-swiss-design-1.jpg",
+   "exemplos/img/visuais/V02-swiss-design-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V3",
+  "nome_pt": "Design Chapado (Flat Design)",
+  "categoria": "Clean e Moderno",
+  "o_que_e": "Formas simples, cores lisas, sem sombra nem textura.",
+  "quando_usar_em_anuncio": "Serve para explicar passo a passo, apps e serviços em qualquer temperatura de funil. Fácil de ler no celular e de repetir em série.",
+  "nichos_bons": [
+   "Apps e SaaS",
+   "Serviços locais",
+   "Educação",
+   "Finanças pessoais",
+   "Infoproduto"
+  ],
+  "evitar_quando": "Produto que depende de realismo (comida, imóvel, moda).",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V29",
+   "V1"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Design Chapado (Flat Design). Detalhes do estilo: Formas simples, cores lisas, sem sombra nem textura. Cores: paleta de 4 cores lisas e vibrantes. Luz e clima: luz inexistente, tudo chapado, clima limpo e amigável. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Flat Design style. Style details: flat vector shapes, solid colours, no gradients, no shadows, simple icons. Colours: palette of four solid vibrant colours. Lighting and mood: no lighting effects, everything flat, clean and friendly mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V03-flat-design-1.jpg",
+   "exemplos/img/visuais/V03-flat-design-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V4",
+  "nome_pt": "Editorial (Editorial)",
+  "categoria": "Clean e Moderno",
+  "o_que_e": "Estilo de revista: foto forte, título serifado e muito respiro.",
+  "quando_usar_em_anuncio": "Funciona em público morno que valoriza autoridade: mentoria, moda, estética e conteúdo de opinião. Bom para capa de carrossel e abertura de VSL.",
+  "nichos_bons": [
+   "Mentoria",
+   "Moda",
+   "Estética",
+   "Coaching",
+   "Infoproduto de marca pessoal"
+  ],
+  "evitar_quando": "Oferta de preço baixo e urgência bruta.",
+  "equivale_no_catalogo": "16 Camadas editorial",
+  "combina_com": [
+   "V1",
+   "V35"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Editorial (Editorial). Detalhes do estilo: Estilo de revista: foto forte, título serifado e muito respiro. Cores: preto, branco e um tom de papel creme. Luz e clima: luz de estúdio de moda, contraste suave e sofisticado. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Editorial style. Style details: magazine layout feel, large hero photo, elegant serif headline area, generous margins, fine rules. Colours: black, white and a cream paper tone. Lighting and mood: fashion studio lighting, soft contrast, sophisticated mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V04-editorial-1.jpg",
+   "exemplos/img/visuais/V04-editorial-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V5",
+  "nome_pt": "Neumorfismo (Neumorphism)",
+  "categoria": "Clean e Moderno",
+  "o_que_e": "Botões e cartões macios que parecem sair da própria superfície.",
+  "quando_usar_em_anuncio": "Bom para app, painel e ferramenta em público morno: dá sensação de interface tátil e moderna. Funciona em tela de celular preenchida.",
+  "nichos_bons": [
+   "Apps e SaaS",
+   "Automação",
+   "Infoproduto de ferramenta",
+   "Saúde digital"
+  ],
+  "evitar_quando": "Qualquer anúncio que precise de contraste forte: o efeito some no feed.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V6",
+   "V1"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Neumorfismo (Neumorphism). Detalhes do estilo: Botões e cartões macios que parecem sair da própria superfície. Cores: tons de cinza-azulado ou bege num só matiz. Luz e clima: luz suave vinda do alto à esquerda, clima tátil e calmo. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Neumorphism style. Style details: soft extruded shapes, subtle inner and outer shadows, rounded buttons, monochrome surface. Colours: tones of one hue, blue-grey or beige. Lighting and mood: soft light from the top left, tactile calm mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V05-neumorphism-1.jpg",
+   "exemplos/img/visuais/V05-neumorphism-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V6",
+  "nome_pt": "Glassmorfismo (Glassmorphism)",
+  "categoria": "Clean e Moderno",
+  "o_que_e": "Painéis de vidro fosco e translúcido sobre fundo colorido.",
+  "quando_usar_em_anuncio": "Funciona para tecnologia, finanças e painéis em público frio/morno: mostra interface com ar premium. Ótimo atrás de números e cartões de prova.",
+  "nichos_bons": [
+   "Infoproduto de tráfego",
+   "Fintech",
+   "SaaS",
+   "Consultoria digital",
+   "Mentoria"
+  ],
+  "evitar_quando": "Público que desconfia de visual de startup; produto artesanal.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V23",
+   "V5"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Glassmorfismo (Glassmorphism). Detalhes do estilo: Painéis de vidro fosco e translúcido sobre fundo colorido. Cores: fundo em degradê roxo, azul e rosa com vidro branco translúcido. Luz e clima: brilho suave atrás do vidro, clima moderno e premium. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Glassmorphism style. Style details: frosted glass panels, translucent layers, blurred colourful background, thin light borders. Colours: purple, blue and pink gradient background with translucent white glass. Lighting and mood: soft glow behind the glass, modern premium mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V06-glassmorphism-1.jpg",
+   "exemplos/img/visuais/V06-glassmorphism-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V7",
+  "nome_pt": "Moderno de Meados do Século (Mid-Century Modern)",
+  "categoria": "Clean e Moderno",
+  "o_que_e": "Formas orgânicas, madeira e cores terrosas dos anos 50 e 60.",
+  "quando_usar_em_anuncio": "Bom para decoração, imóveis e design de interiores em público morno com gosto por casa. Também dá charme a mentoria de estilo de vida.",
+  "nichos_bons": [
+   "Decoração",
+   "Imóveis",
+   "Arquitetura",
+   "Restaurantes",
+   "Cursos de design"
+  ],
+  "evitar_quando": "Tecnologia de ponta ou público jovem de games.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V49",
+   "V35"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Moderno de Meados do Século (Mid-Century Modern). Detalhes do estilo: Formas orgânicas, madeira e cores terrosas dos anos 50 e 60. Cores: mostarda, verde-oliva, laranja queimado e azul-petróleo. Luz e clima: luz quente de tarde, clima acolhedor e elegante. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Mid-Century Modern style. Style details: organic curved shapes, tapered wooden legs, 1950s furniture motifs, atomic age patterns. Colours: mustard, olive, burnt orange and teal. Lighting and mood: warm afternoon light, cosy elegant mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V07-mid-century-modern-1.jpg",
+   "exemplos/img/visuais/V07-mid-century-modern-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V8",
+  "nome_pt": "Planta Azul (Blueprint)",
+  "categoria": "Clean e Moderno",
+  "o_que_e": "Desenho técnico branco sobre fundo azul, com medidas e grade.",
+  "quando_usar_em_anuncio": "Funciona para método, processo e engenharia: mostra que existe um sistema por trás. Bom em público morno que quer ver o passo a passo.",
+  "nichos_bons": [
+   "Infoproduto de método",
+   "Engenharia",
+   "Construção",
+   "Arquitetura",
+   "Consultoria de processos"
+  ],
+  "evitar_quando": "Produto emocional, infantil ou de beleza.",
+  "equivale_no_catalogo": "20 Didático demonstrativo",
+  "combina_com": [
+   "V2",
+   "V30"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Planta Azul (Blueprint). Detalhes do estilo: Desenho técnico branco sobre fundo azul, com medidas e grade. Cores: azul-marinho profundo com linhas brancas. Luz e clima: luz plana de papel técnico, clima preciso e metódico. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Blueprint style. Style details: technical drawing lines, white linework on deep blue paper, measurement marks, grid, annotations as abstract marks. Colours: deep navy blue with white lines. Lighting and mood: flat technical paper look, precise methodical mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V08-blueprint-1.jpg",
+   "exemplos/img/visuais/V08-blueprint-2.jpg",
+   "exemplos/img/visuais/V08-blueprint-3.jpg",
+   "exemplos/img/visuais/V08-blueprint-4.jpg",
+   "exemplos/img/visuais/V08-blueprint-5.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V9",
+  "nome_pt": "Maximalismo (Maximalism)",
+  "categoria": "Bold e Expressivo",
+  "o_que_e": "Excesso proposital: padrão sobre padrão, cor em toda parte.",
+  "quando_usar_em_anuncio": "Chama atenção em público frio saturado de anúncio limpo. Bom para moda, festa e entretenimento; pede um ponto focal forte para não virar bagunça.",
+  "nichos_bons": [
+   "Moda",
+   "Festas e eventos",
+   "Entretenimento",
+   "Cosméticos",
+   "Lojas de presentes"
+  ],
+  "evitar_quando": "Oferta que precisa de clareza (finanças, saúde, B2B).",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V12",
+   "V10"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Maximalismo (Maximalism). Detalhes do estilo: Excesso proposital: padrão sobre padrão, cor em toda parte. Cores: cores saturadas e ricas: magenta, esmeralda, dourado, roxo. Luz e clima: luz teatral e quente, clima exuberante. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Maximalism style. Style details: dense layered patterns, rich ornament, every surface decorated, bold abundance, clear focal subject in the middle. Colours: rich saturated colours: magenta, emerald, gold, purple. Lighting and mood: theatrical warm light, exuberant mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V09-maximalism-1.jpg",
+   "exemplos/img/visuais/V09-maximalism-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V10",
+  "nome_pt": "Pop Art (Pop Art)",
+  "categoria": "Bold e Expressivo",
+  "o_que_e": "Cores primárias, contorno preto grosso e pontos de impressão.",
+  "quando_usar_em_anuncio": "Ótimo para parar o dedo no feed frio: humor, promoção e produto de consumo. Funciona para oferta direta e público popular.",
+  "nichos_bons": [
+   "Varejo",
+   "Lanchonetes",
+   "Moda popular",
+   "Eventos",
+   "Infoproduto de entrada"
+  ],
+  "evitar_quando": "Marca de luxo ou serviço que precisa soar sério.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V40",
+   "V12"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Pop Art (Pop Art). Detalhes do estilo: Cores primárias, contorno preto grosso e pontos de impressão. Cores: vermelho, amarelo, azul e preto. Luz e clima: luz chapada e brilhante, clima divertido e impactante. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Pop Art style. Style details: thick black outlines, flat primary colours, halftone dots, comic speech-bubble energy without text. Colours: red, yellow, blue and black. Lighting and mood: flat bright lighting, fun and punchy mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V10-pop-art-1.jpg",
+   "exemplos/img/visuais/V10-pop-art-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V11",
+  "nome_pt": "Brutalismo (Brutalism)",
+  "categoria": "Bold e Expressivo",
+  "o_que_e": "Visual cru e proposital: blocos duros, contraste alto, nada de enfeite.",
+  "quando_usar_em_anuncio": "Bom para quebrar o padrão em público frio e passar de cara que o conteúdo é direto, sem enrolação. Combina com letreiro grande e oferta honesta.",
+  "nichos_bons": [
+   "Infoproduto direto",
+   "Tráfego pago",
+   "Agências",
+   "Música e cultura",
+   "Streetwear"
+  ],
+  "evitar_quando": "Público que busca delicadeza e acolhimento (estética, infantil).",
+  "equivale_no_catalogo": "3 Letreiro / tipografia gigante",
+  "combina_com": [
+   "V44",
+   "V2"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Brutalismo (Brutalism). Detalhes do estilo: Visual cru e proposital: blocos duros, contraste alto, nada de enfeite. Cores: preto, branco e uma cor ácida (amarelo ou verde limão). Luz e clima: luz dura e direta, clima cru e sem filtro. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Brutalism style. Style details: raw heavy blocks, hard shadows, monospace feel, harsh geometry, unpolished concrete-like surfaces. Colours: black, white and one acid colour such as yellow or lime. Lighting and mood: hard direct light, raw unfiltered mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V11-brutalism-1.jpg",
+   "exemplos/img/visuais/V11-brutalism-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V12",
+  "nome_pt": "Design Memphis (Memphis Design)",
+  "categoria": "Bold e Expressivo",
+  "o_que_e": "Formas geométricas soltas, rabiscos e cores vibrantes dos anos 80.",
+  "quando_usar_em_anuncio": "Funciona para público jovem e criativo, cursos de criatividade, festas e marcas leves. Dá alegria sem ficar infantil demais.",
+  "nichos_bons": [
+   "Cursos criativos",
+   "Papelaria",
+   "Moda jovem",
+   "Eventos",
+   "Cafeterias"
+  ],
+  "evitar_quando": "Produto sério e técnico (jurídico, saúde, B2B).",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V9",
+   "V34"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Design Memphis (Memphis Design). Detalhes do estilo: Formas geométricas soltas, rabiscos e cores vibrantes dos anos 80. Cores: rosa, turquesa, amarelo e preto. Luz e clima: luz chapada e alegre, clima descontraído. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Memphis Design style. Style details: scattered geometric shapes, squiggles, confetti patterns, terrazzo textures, playful 1980s composition. Colours: pink, turquoise, yellow and black. Lighting and mood: flat cheerful light, playful mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V12-memphis-design-1.jpg",
+   "exemplos/img/visuais/V12-memphis-design-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V13",
+  "nome_pt": "Psicodélico (Psychedelic)",
+  "categoria": "Bold e Expressivo",
+  "o_que_e": "Cores ondulantes, formas derretidas e padrões hipnóticos.",
+  "quando_usar_em_anuncio": "Serve para festas, música, bem-estar alternativo e entretenimento em público frio. Chama atenção, mas pode ficar confuso: use com ponto focal claro.",
+  "nichos_bons": [
+   "Festas e shows",
+   "Bem-estar",
+   "Música",
+   "Moda alternativa",
+   "Cursos de arte"
+  ],
+  "evitar_quando": "Finanças, saúde séria e qualquer coisa que dependa de confiança técnica.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V19",
+   "V9"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Psicodélico (Psychedelic). Detalhes do estilo: Cores ondulantes, formas derretidas e padrões hipnóticos. Cores: degradê vibrante de laranja, rosa, roxo e verde. Luz e clima: brilho intenso e fluido, clima onírico. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Psychedelic style. Style details: swirling liquid patterns, melting shapes, kaleidoscope symmetry, hypnotic flowing lines, centred subject. Colours: vibrant gradient of orange, pink, purple and green. Lighting and mood: intense fluid glow, dreamlike mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V13-psychedelic-1.jpg",
+   "exemplos/img/visuais/V13-psychedelic-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V14",
+  "nome_pt": "Grafite (Graffiti)",
+  "categoria": "Bold e Expressivo",
+  "o_que_e": "Pintura de rua: spray, escorrido, contorno e cor forte no muro.",
+  "quando_usar_em_anuncio": "Funciona para público jovem de rua: streetwear, música, barbearia e eventos. Dá identidade forte a anúncio de produto com atitude.",
+  "nichos_bons": [
+   "Streetwear",
+   "Barbearias",
+   "Música",
+   "Eventos",
+   "Cursos de arte urbana"
+  ],
+  "evitar_quando": "Público sênior, saúde e serviços formais.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V11",
+   "V10"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Grafite (Graffiti). Detalhes do estilo: Pintura de rua: spray, escorrido, contorno e cor forte no muro. Cores: cores de spray: neon, preto e branco sobre tijolo. Luz e clima: luz de rua à noite, clima de atitude. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Graffiti style. Style details: spray paint on brick wall, drips, bold outlines, street art lettering shapes without readable text, vibrant layers. Colours: spray colours: neon over black and white on brick. Lighting and mood: night street light, edgy mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V14-graffiti-1.jpg",
+   "exemplos/img/visuais/V14-graffiti-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V15",
+  "nome_pt": "Bauhaus (Bauhaus)",
+  "categoria": "Bold e Expressivo",
+  "o_que_e": "Círculo, quadrado e triângulo em cores primárias, composição ousada.",
+  "quando_usar_em_anuncio": "Bom para educação, design e método em público frio/morno que aprecia clareza com personalidade. Funciona muito bem em capa de curso.",
+  "nichos_bons": [
+   "Cursos de design",
+   "Educação",
+   "Arquitetura",
+   "Consultoria",
+   "Infoproduto de método"
+  ],
+  "evitar_quando": "Produto sofisticado e delicado (alta joalheria, noivas).",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V2",
+   "V35"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Bauhaus (Bauhaus). Detalhes do estilo: Círculo, quadrado e triângulo em cores primárias, composição ousada. Cores: vermelho, azul, amarelo, preto e bege. Luz e clima: luz chapada e limpa, clima de vanguarda. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Bauhaus style. Style details: circle square triangle geometry, primary colours, bold diagonal composition, constructivist balance. Colours: red, blue, yellow, black and beige. Lighting and mood: flat clean light, avant-garde mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V15-bauhaus-1.jpg",
+   "exemplos/img/visuais/V15-bauhaus-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V16",
+  "nome_pt": "Kawaii (Kawaii)",
+  "categoria": "Bold e Expressivo",
+  "o_que_e": "Fofura japonesa: carinhas, pastel e formas arredondadas.",
+  "quando_usar_em_anuncio": "Ótimo para público infantil, papelaria, confeitaria e produto fofo. Atinge mães e jovens em remarketing leve.",
+  "nichos_bons": [
+   "Infantil",
+   "Confeitaria",
+   "Papelaria",
+   "Pet shop",
+   "Moda jovem"
+  ],
+  "evitar_quando": "B2B técnico, finanças e jurídico.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V25",
+   "V49"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Kawaii (Kawaii). Detalhes do estilo: Fofura japonesa: carinhas, pastel e formas arredondadas. Cores: rosa, lilás, azul-bebê e menta em tom pastel. Luz e clima: luz suave e brilhante, clima doce e alegre. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Kawaii style. Style details: cute rounded characters, tiny smiling faces, pastel sweets, sparkles, soft chubby shapes. Colours: pastel pink, lilac, baby blue and mint. Lighting and mood: soft bright light, sweet cheerful mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V16-kawaii-1.jpg",
+   "exemplos/img/visuais/V16-kawaii-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V17",
+  "nome_pt": "Futurista (Futuristic)",
+  "categoria": "Futurista e Digital",
+  "o_que_e": "Linhas limpas, brilho azul e interface de ficção científica.",
+  "quando_usar_em_anuncio": "Funciona para tecnologia e automação em público frio, mas já é comum em anúncio de IA. Use com cuidado e traga um detalhe próprio.",
+  "nichos_bons": [
+   "Tecnologia",
+   "Automação",
+   "Infoproduto de IA",
+   "Energia solar",
+   "Carros elétricos"
+  ],
+  "evitar_quando": "Anúncio de IA em feed saturado; produto artesanal ou tradicional.",
+  "equivale_no_catalogo": "21 Lançamento tech",
+  "combina_com": [
+   "V23",
+   "V22"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Futurista (Futuristic). Detalhes do estilo: Linhas limpas, brilho azul e interface de ficção científica. Cores: azul elétrico, ciano e branco sobre fundo escuro. Luz e clima: brilho frio de neon suave, clima de inovação. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Futuristic style. Style details: sleek interface elements, glowing lines, smooth curved surfaces, high-tech environment, clean futuristic design. Colours: electric blue, cyan and white on a dark background. Lighting and mood: cool soft neon glow, innovative mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V17-futuristic-1.jpg",
+   "exemplos/img/visuais/V17-futuristic-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V18",
+  "nome_pt": "Cyberpunk (Cyberpunk)",
+  "categoria": "Futurista e Digital",
+  "o_que_e": "Cidade noturna com neon rosa e azul, chuva e tecnologia suja.",
+  "quando_usar_em_anuncio": "Serve para games, música e entretenimento em público frio jovem. Está batido em anúncio de IA; evite para infoproduto de tecnologia comum.",
+  "nichos_bons": [
+   "Games",
+   "Música eletrônica",
+   "Streetwear",
+   "Eventos noturnos",
+   "Entretenimento"
+  ],
+  "evitar_quando": "Anúncio de IA/tecnologia (batido); público sênior; serviços locais.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V20",
+   "V17"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Cyberpunk (Cyberpunk). Detalhes do estilo: Cidade noturna com neon rosa e azul, chuva e tecnologia suja. Cores: neon rosa e ciano sobre preto e azul-noite. Luz e clima: luz de neon refletida na chuva, clima denso e noturno. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Cyberpunk style. Style details: rainy neon city at night, holographic signs without readable text, dense urban tech, reflections on wet asphalt. Colours: neon pink and cyan over black and midnight blue. Lighting and mood: neon light reflected in rain, dense nocturnal mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V18-cyberpunk-1.jpg",
+   "exemplos/img/visuais/V18-cyberpunk-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V19",
+  "nome_pt": "Vaporwave (Vaporwave)",
+  "categoria": "Futurista e Digital",
+  "o_que_e": "Estética nostálgica dos anos 90: estátuas, grades e degradê rosa-azul.",
+  "quando_usar_em_anuncio": "Funciona para música, moda alternativa e conteúdo de cultura da internet em público jovem. Dá clima de nostalgia irônica.",
+  "nichos_bons": [
+   "Música",
+   "Moda alternativa",
+   "Games",
+   "Cursos criativos",
+   "Cafeterias"
+  ],
+  "evitar_quando": "Público sênior, saúde e produto sério.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V20",
+   "V34"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Vaporwave (Vaporwave). Detalhes do estilo: Estética nostálgica dos anos 90: estátuas, grades e degradê rosa-azul. Cores: rosa-chiclete, ciano e roxo pastel. Luz e clima: luz de pôr do sol difusa, clima nostálgico e sonhador. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Vaporwave style. Style details: pastel sunset gradients, marble statue, palm trees, grid floor, retro computer motifs, dreamy nostalgia. Colours: bubblegum pink, cyan and pastel purple. Lighting and mood: diffuse sunset light, nostalgic dreamy mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V19-vaporwave-1.jpg",
+   "exemplos/img/visuais/V19-vaporwave-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V20",
+  "nome_pt": "Synthwave (Synthwave)",
+  "categoria": "Futurista e Digital",
+  "o_que_e": "Sol listrado, grade em perspectiva e neon dos anos 80.",
+  "quando_usar_em_anuncio": "Funciona para games, música e eventos em público jovem. Está batido em anúncio de IA e tecnologia; pouco útil para infoproduto sério.",
+  "nichos_bons": [
+   "Games",
+   "Música",
+   "Eventos",
+   "Streaming",
+   "Carros"
+  ],
+  "evitar_quando": "Anúncio de IA/tecnologia (batido); saúde; serviços formais.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V18",
+   "V19"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Synthwave (Synthwave). Detalhes do estilo: Sol listrado, grade em perspectiva e neon dos anos 80. Cores: roxo escuro, rosa neon e laranja. Luz e clima: brilho de neon no horizonte, clima de velocidade. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Synthwave style. Style details: striped retro sun, perspective neon grid, 1980s chrome, dark purple horizon, outrun vibe. Colours: dark purple, neon pink and orange. Lighting and mood: neon horizon glow, speed-driven mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V20-synthwave-1.jpg",
+   "exemplos/img/visuais/V20-synthwave-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V21",
+  "nome_pt": "Holográfico (Holographic)",
+  "categoria": "Futurista e Digital",
+  "o_que_e": "Superfície iridescente que muda de cor, como adesivo brilhante.",
+  "quando_usar_em_anuncio": "Bom para beleza, moda e produto jovem premium. Dá sensação de novidade em público frio e morno.",
+  "nichos_bons": [
+   "Cosméticos",
+   "Moda",
+   "Acessórios",
+   "Tecnologia de consumo",
+   "Eventos"
+  ],
+  "evitar_quando": "B2B técnico, saúde e finanças tradicionais.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V22",
+   "V23"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Holográfico (Holographic). Detalhes do estilo: Superfície iridescente que muda de cor, como adesivo brilhante. Cores: degradê iridescente de rosa, azul, verde e lilás. Luz e clima: reflexos brilhantes de arco-íris, clima mágico. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Holographic style. Style details: iridescent foil surface, rainbow shifting reflections, glossy sticker texture, smooth gradients. Colours: iridescent gradient of pink, blue, green and lilac. Lighting and mood: shiny rainbow reflections, magical mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V21-holographic-1.jpg",
+   "exemplos/img/visuais/V21-holographic-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V22",
+  "nome_pt": "Cromado e Metálico (Chrome and Metallic)",
+  "categoria": "Futurista e Digital",
+  "o_que_e": "Metal espelhado, curvas líquidas e reflexo forte.",
+  "quando_usar_em_anuncio": "Funciona para carros, tecnologia e produtos premium em público frio. Passa força e sofisticação; dá bom destaque a título de impacto.",
+  "nichos_bons": [
+   "Carros e oficinas",
+   "Joalheria",
+   "Tecnologia",
+   "Moda",
+   "Academias"
+  ],
+  "evitar_quando": "Público que busca delicadeza ou naturalidade (orgânicos, infantil).",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V17",
+   "V21"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Cromado e Metálico (Chrome and Metallic). Detalhes do estilo: Metal espelhado, curvas líquidas e reflexo forte. Cores: prata espelhada com reflexo azul e preto. Luz e clima: luz de estúdio com realces fortes, clima potente. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Chrome and Metallic style. Style details: liquid chrome shapes, mirror reflections, polished metal, sharp specular highlights, dramatic contrast. Colours: mirror silver with blue reflections and black. Lighting and mood: studio light with sharp highlights, powerful mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V22-chrome-and-metallic-1.jpg",
+   "exemplos/img/visuais/V22-chrome-and-metallic-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V23",
+  "nome_pt": "Aurora (Aurora)",
+  "categoria": "Futurista e Digital",
+  "o_que_e": "Degradês suaves e desfocados como luz boreal.",
+  "quando_usar_em_anuncio": "Muito bom como fundo atrás de números, painéis e títulos: dá clima premium sem poluir. Funciona em qualquer temperatura de funil.",
+  "nichos_bons": [
+   "Infoproduto",
+   "Bem-estar",
+   "Consultoria",
+   "Apps",
+   "Mentoria"
+  ],
+  "evitar_quando": "Quando se quer clima rústico ou popular.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V6",
+   "V1"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Aurora (Aurora). Detalhes do estilo: Degradês suaves e desfocados como luz boreal. Cores: verde-água, roxo, azul e rosa em degradê suave. Luz e clima: luz difusa e luminosa, clima sereno e premium. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Aurora style. Style details: soft blurred gradient glow, flowing aurora ribbons, smooth colour transitions, ethereal atmosphere. Colours: teal, purple, blue and pink in soft gradient. Lighting and mood: diffuse luminous light, serene premium mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V23-aurora-1.jpg",
+   "exemplos/img/visuais/V23-aurora-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V24",
+  "nome_pt": "Pixel Art (Pixel Art)",
+  "categoria": "Futurista e Digital",
+  "o_que_e": "Imagem feita de quadradinhos, como jogo antigo.",
+  "quando_usar_em_anuncio": "Funciona para games, brincadeira e nostalgia em público frio/orgânico. Também dá certo para infoproduto com tom leve ou gamificado.",
+  "nichos_bons": [
+   "Games",
+   "Infoproduto gamificado",
+   "Cafeterias geek",
+   "Cursos de programação",
+   "Eventos"
+  ],
+  "evitar_quando": "Produto premium, saúde e serviços formais.",
+  "equivale_no_catalogo": "8 Retrô gamer 16-bit",
+  "combina_com": [
+   "V34",
+   "V16"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Pixel Art (Pixel Art). Detalhes do estilo: Imagem feita de quadradinhos, como jogo antigo. Cores: paleta reduzida de 8 a 16 cores vibrantes. Luz e clima: luz chapada de jogo, clima brincalhão. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Pixel Art style. Style details: visible square pixels, limited palette, 16-bit sprite look, pixel scene with crisp edges. Colours: reduced palette of 8 to 16 vibrant colours. Lighting and mood: flat game-style lighting, playful mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V24-pixel-art-1.jpg",
+   "exemplos/img/visuais/V24-pixel-art-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V25",
+  "nome_pt": "Massinha (Clay) (Clay Style)",
+  "categoria": "3D e Ilustrado",
+  "o_que_e": "Personagens e objetos de massinha, com marcas de dedo.",
+  "quando_usar_em_anuncio": "Ótimo para infantil, confeitaria e explicação leve em público morno. Dá carinho e humor a quem precisa explicar algo difícil.",
+  "nichos_bons": [
+   "Infantil",
+   "Confeitaria",
+   "Educação",
+   "Pet shop",
+   "Infoproduto de explicação"
+  ],
+  "evitar_quando": "Produto sério, técnico ou de luxo.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V16",
+   "V26"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Massinha (Clay) (Clay Style). Detalhes do estilo: Personagens e objetos de massinha, com marcas de dedo. Cores: cores vivas e macias de massinha. Luz e clima: luz de miniatura com sombra suave, clima artesanal e amigável. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Clay Style style. Style details: handmade clay figures, visible fingerprints, soft rounded forms, stop-motion toy feel. Colours: vivid soft plasticine colours. Lighting and mood: miniature soft light with gentle shadows, handmade friendly mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V25-clay-style-1.jpg",
+   "exemplos/img/visuais/V25-clay-style-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V26",
+  "nome_pt": "Render 3D (3D Render)",
+  "categoria": "3D e Ilustrado",
+  "o_que_e": "Objetos 3D polidos, com luz de estúdio e profundidade.",
+  "quando_usar_em_anuncio": "Bom para produto físico, tecnologia e capa de curso em público frio/morno. Dá cara de produto de verdade a algo digital.",
+  "nichos_bons": [
+   "Tecnologia",
+   "Cosméticos",
+   "Infoproduto (capa 3D)",
+   "Eletrônicos",
+   "Suplementos"
+  ],
+  "evitar_quando": "Mensagem pessoal e humana, onde um objeto frio atrapalha.",
+  "equivale_no_catalogo": "21 Lançamento tech",
+  "combina_com": [
+   "V27",
+   "V22"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Render 3D (3D Render). Detalhes do estilo: Objetos 3D polidos, com luz de estúdio e profundidade. Cores: cores limpas com um destaque forte sobre fundo neutro. Luz e clima: luz de estúdio com sombra suave, clima premium. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in 3D Render style. Style details: polished 3D objects, studio lighting, soft reflections, depth of field, high-end product render. Colours: clean colours with one strong accent on a neutral background. Lighting and mood: studio light with soft shadows, premium mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V26-3d-render-1.jpg",
+   "exemplos/img/visuais/V26-3d-render-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V27",
+  "nome_pt": "Isométrico (Isometric)",
+  "categoria": "3D e Ilustrado",
+  "o_que_e": "Cenas em 3D visto de cima em ângulo fixo, como maquete.",
+  "quando_usar_em_anuncio": "Funciona para explicar processo, sistema ou fluxo em público morno. Ótimo para mostrar uma fábrica, funil ou loja em miniatura.",
+  "nichos_bons": [
+   "Infoproduto de processo",
+   "Logística",
+   "Imóveis",
+   "Tecnologia",
+   "Varejo"
+  ],
+  "evitar_quando": "Mensagem emocional ou pessoal.",
+  "equivale_no_catalogo": "21 Lançamento tech",
+  "combina_com": [
+   "V26",
+   "V3"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Isométrico (Isometric). Detalhes do estilo: Cenas em 3D visto de cima em ângulo fixo, como maquete. Cores: cores suaves e limpas com um destaque. Luz e clima: luz suave e uniforme, clima organizado. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Isometric style. Style details: isometric 30-degree miniature scene, tiny buildings and objects, clean geometry, diorama feel. Colours: soft clean colours with one accent. Lighting and mood: soft even light, organised mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V27-isometric-1.jpg",
+   "exemplos/img/visuais/V27-isometric-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V28",
+  "nome_pt": "Baixa Poligonagem (Low Poly)",
+  "categoria": "3D e Ilustrado",
+  "o_que_e": "Formas feitas de triângulos facetados, como cristal.",
+  "quando_usar_em_anuncio": "Serve para tecnologia, jogos e paisagens estilizadas em público frio. Dá visual moderno e leve sem exigir realismo.",
+  "nichos_bons": [
+   "Tecnologia",
+   "Games",
+   "Turismo",
+   "Apps",
+   "Educação"
+  ],
+  "evitar_quando": "Produto que depende de realismo e calor humano.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V26",
+   "V17"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Baixa Poligonagem (Low Poly). Detalhes do estilo: Formas feitas de triângulos facetados, como cristal. Cores: degradê de azul, verde e laranja em facetas. Luz e clima: luz direcional simples, clima limpo e estilizado. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Low Poly style. Style details: faceted triangle mesh, low-polygon shapes, crystalline surfaces, stylised landscape. Colours: gradient of blue, green and orange facets. Lighting and mood: simple directional light, clean stylised mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V28-low-poly-1.jpg",
+   "exemplos/img/visuais/V28-low-poly-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V29",
+  "nome_pt": "Arte Vetorial (Vector Art)",
+  "categoria": "3D e Ilustrado",
+  "o_que_e": "Ilustração limpa com curvas suaves e cores lisas.",
+  "quando_usar_em_anuncio": "Versátil para qualquer funil: explica serviço, produto ou personagem sem precisar de foto. Boa escolha quando faltam fotos de qualidade.",
+  "nichos_bons": [
+   "Serviços locais",
+   "Educação",
+   "Saúde",
+   "Infoproduto",
+   "Apps"
+  ],
+  "evitar_quando": "Quando o produto vende pela foto real (comida, imóvel).",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V3",
+   "V30"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Arte Vetorial (Vector Art). Detalhes do estilo: Ilustração limpa com curvas suaves e cores lisas. Cores: paleta de 5 cores harmônicas. Luz e clima: luz estilizada e simples, clima claro e acessível. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Vector Art style. Style details: clean vector illustration, smooth curves, flat colour fills, crisp edges, friendly characters. Colours: palette of five harmonious colours. Lighting and mood: simple stylised light, clear and approachable mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V29-vector-art-1.jpg",
+   "exemplos/img/visuais/V29-vector-art-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V30",
+  "nome_pt": "Traço Contínuo (Line Art) (Line Art)",
+  "categoria": "3D e Ilustrado",
+  "o_que_e": "Desenho só com linha fina, sem preenchimento.",
+  "quando_usar_em_anuncio": "Funciona para marca elegante e leve em público morno: bem-estar, estética, papelaria e conteúdo de reflexão. Boa para fundo de carrossel.",
+  "nichos_bons": [
+   "Estética",
+   "Bem-estar",
+   "Psicologia",
+   "Papelaria",
+   "Mentoria"
+  ],
+  "evitar_quando": "Quando a oferta pede impacto bruto e urgência.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V1",
+   "V8"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Traço Contínuo (Line Art) (Line Art). Detalhes do estilo: Desenho só com linha fina, sem preenchimento. Cores: linha preta fina sobre fundo claro, com um toque de cor. Luz e clima: sem luz, só traço, clima delicado e artístico. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Line Art style. Style details: single continuous thin line drawing, minimal outline, no fill, elegant gesture, lots of white space. Colours: thin black line on a light background with one touch of colour. Lighting and mood: no lighting, line only, delicate artistic mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V30-line-art-1.jpg",
+   "exemplos/img/visuais/V30-line-art-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V31",
+  "nome_pt": "Aquarela (Watercolor)",
+  "categoria": "3D e Ilustrado",
+  "o_que_e": "Pintura com tinta d'água: manchas suaves e bordas que escorrem.",
+  "quando_usar_em_anuncio": "Bom para convites, casamento, bem-estar e confeitaria. Traz delicadeza e carinho em público morno e feminino.",
+  "nichos_bons": [
+   "Casamentos",
+   "Bem-estar",
+   "Confeitaria",
+   "Terapias",
+   "Floricultura"
+  ],
+  "evitar_quando": "Tecnologia, finanças e público que busca precisão.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V49",
+   "V30"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Aquarela (Watercolor). Detalhes do estilo: Pintura com tinta d'água: manchas suaves e bordas que escorrem. Cores: rosa, pêssego, verde-sálvia e azul diluídos. Luz e clima: luz suave de manhã, clima delicado e calmo. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Watercolor style. Style details: soft watercolour washes, bleeding edges, paper grain, delicate brushwork, airy composition. Colours: diluted pink, peach, sage green and blue. Lighting and mood: soft morning light, delicate calm mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V31-watercolor-1.jpg",
+   "exemplos/img/visuais/V31-watercolor-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V32",
+  "nome_pt": "Ukiyo-e (Ukiyo-e)",
+  "categoria": "3D e Ilustrado",
+  "o_que_e": "Gravura japonesa clássica, com ondas, contornos e papel antigo.",
+  "quando_usar_em_anuncio": "Funciona para culinária japonesa, artes marciais, bem-estar oriental e produto com ideia de mestre e disciplina. Chama atenção pela elegância.",
+  "nichos_bons": [
+   "Culinária japonesa",
+   "Artes marciais",
+   "Chás e bem-estar",
+   "Cursos de arte",
+   "Turismo"
+  ],
+  "evitar_quando": "Produto sem relação cultural e público que estranha o oriental.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V31",
+   "V36"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Ukiyo-e (Ukiyo-e). Detalhes do estilo: Gravura japonesa clássica, com ondas, contornos e papel antigo. Cores: azul-índigo, vermelho-coral e bege de papel. Luz e clima: luz suave de gravura, clima sereno e disciplinado. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Ukiyo-e style. Style details: Japanese woodblock print, flowing waves, bold ink outlines, flat colour areas, aged paper texture. Colours: indigo blue, coral red and paper beige. Lighting and mood: soft print-style light, serene disciplined mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V32-ukiyo-e-1.jpg",
+   "exemplos/img/visuais/V32-ukiyo-e-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V33",
+  "nome_pt": "Retrô (Retro)",
+  "categoria": "Retrô e Nostálgico",
+  "o_que_e": "Visual de décadas passadas: cores quentes e formas arredondadas.",
+  "quando_usar_em_anuncio": "Funciona para marcas com história, lanchonetes, barbearias e produto de confiança antiga. Transmite tradição e conforto.",
+  "nichos_bons": [
+   "Lanchonetes",
+   "Barbearias",
+   "Oficinas",
+   "Móveis",
+   "Cafeterias"
+  ],
+  "evitar_quando": "Tecnologia de ponta e público que busca novidade.",
+  "equivale_no_catalogo": "19 Documentário",
+  "combina_com": [
+   "V7",
+   "V39"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Retrô (Retro). Detalhes do estilo: Visual de décadas passadas: cores quentes e formas arredondadas. Cores: laranja, mostarda, marrom e creme. Luz e clima: luz quente suave, clima nostálgico. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Retro style. Style details: 1970s retro look, warm faded tones, rounded shapes, vintage print feel, nostalgic composition. Colours: orange, mustard, brown and cream. Lighting and mood: soft warm light, nostalgic mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V33-retro-1.jpg",
+   "exemplos/img/visuais/V33-retro-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V34",
+  "nome_pt": "Y2K (Y2K)",
+  "categoria": "Retrô e Nostálgico",
+  "o_que_e": "Anos 2000: cromado, bolhas, brilho e tecnologia otimista.",
+  "quando_usar_em_anuncio": "Funciona para público jovem e feminino, moda e beleza. Dá nostalgia divertida em público frio.",
+  "nichos_bons": [
+   "Moda jovem",
+   "Cosméticos",
+   "Acessórios",
+   "Música",
+   "Eventos"
+  ],
+  "evitar_quando": "B2B, saúde e finanças tradicionais.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V22",
+   "V21"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Y2K (Y2K). Detalhes do estilo: Anos 2000: cromado, bolhas, brilho e tecnologia otimista. Cores: azul-bebê, prata, rosa choque e branco. Luz e clima: luz brilhante e plástica, clima brincalhão. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Y2K style. Style details: early-2000s digital optimism, glossy bubbles, chrome stars, translucent plastic, pixel sparkles. Colours: baby blue, silver, hot pink and white. Lighting and mood: glossy plastic light, playful mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V34-y2k-1.jpg",
+   "exemplos/img/visuais/V34-y2k-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V35",
+  "nome_pt": "Art Déco (Art Deco)",
+  "categoria": "Retrô e Nostálgico",
+  "o_que_e": "Geometria dourada simétrica dos anos 20, com luxo e elegância.",
+  "quando_usar_em_anuncio": "Funciona para luxo, joalheria, casamento e serviços premium em público morno. Passa sofisticação e valor alto.",
+  "nichos_bons": [
+   "Joalheria",
+   "Casamentos",
+   "Eventos de luxo",
+   "Hotéis",
+   "Mentoria premium"
+  ],
+  "evitar_quando": "Oferta barata e popular, público jovem de games.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V4",
+   "V7"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Art Déco (Art Deco). Detalhes do estilo: Geometria dourada simétrica dos anos 20, com luxo e elegância. Cores: dourado, preto e verde-esmeralda ou azul-petróleo. Luz e clima: luz dramática com brilho dourado, clima luxuoso. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Art Deco style. Style details: symmetrical gold geometric patterns, fan shapes, stepped lines, 1920s glamour, ornamental frame. Colours: gold, black and emerald or deep teal. Lighting and mood: dramatic light with golden shine, luxurious mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V35-art-deco-1.jpg",
+   "exemplos/img/visuais/V35-art-deco-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V36",
+  "nome_pt": "Art Nouveau (Art Nouveau)",
+  "categoria": "Retrô e Nostálgico",
+  "o_que_e": "Linhas curvas de flores e folhas, ornamento elegante de 1900.",
+  "quando_usar_em_anuncio": "Bom para floricultura, estética, casamento e chá. Traz delicadeza e arte em público feminino e morno.",
+  "nichos_bons": [
+   "Floricultura",
+   "Estética",
+   "Casamentos",
+   "Cafeterias",
+   "Perfumaria"
+  ],
+  "evitar_quando": "Tecnologia e público masculino jovem.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V31",
+   "V35"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Art Nouveau (Art Nouveau). Detalhes do estilo: Linhas curvas de flores e folhas, ornamento elegante de 1900. Cores: verde-musgo, ouro velho e rosa antigo. Luz e clima: luz suave de ateliê, clima artístico e delicado. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Art Nouveau style. Style details: flowing organic curves, floral and leaf ornament, whiplash lines, decorative border frame, muted elegance. Colours: moss green, antique gold and dusty rose. Lighting and mood: soft atelier light, artistic delicate mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V36-art-nouveau-1.jpg",
+   "exemplos/img/visuais/V36-art-nouveau-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V37",
+  "nome_pt": "Estilo Vitoriano (Victorian Style)",
+  "categoria": "Retrô e Nostálgico",
+  "o_que_e": "Ornamento rebuscado, gravuras e papel envelhecido do século 19.",
+  "quando_usar_em_anuncio": "Funciona para chá, livraria, antiguidades e conteúdo de história com ar de segredo. Bom em abertura com clima de documento antigo.",
+  "nichos_bons": [
+   "Livrarias",
+   "Antiguidades",
+   "Cafeterias",
+   "Conteúdo de história",
+   "Casamentos clássicos"
+  ],
+  "evitar_quando": "Público jovem moderno, tecnologia e promoções.",
+  "equivale_no_catalogo": "19 Documentário",
+  "combina_com": [
+   "V47",
+   "V36"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Estilo Vitoriano (Victorian Style). Detalhes do estilo: Ornamento rebuscado, gravuras e papel envelhecido do século 19. Cores: bordô, verde-garrafa, dourado e sépia. Luz e clima: luz de lamparina, clima de salão antigo. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Victorian Style style. Style details: ornate Victorian engraving, antique frames, aged paper, intricate floral details, 19th century parlour. Colours: burgundy, bottle green, gold and sepia. Lighting and mood: oil-lamp light, old parlour mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V37-victorian-style-1.jpg",
+   "exemplos/img/visuais/V37-victorian-style-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V38",
+  "nome_pt": "Steampunk (Steampunk)",
+  "categoria": "Retrô e Nostálgico",
+  "o_que_e": "Engrenagens, cobre e vapor num passado que nunca existiu.",
+  "quando_usar_em_anuncio": "Serve para games, eventos temáticos, cafeterias e marcas autorais. Chama atenção, mas é de nicho; fora desses públicos pode confundir.",
+  "nichos_bons": [
+   "Games",
+   "Eventos temáticos",
+   "Cafeterias",
+   "Joias artesanais",
+   "Cursos de engenharia criativa"
+  ],
+  "evitar_quando": "Qualquer produto sem relação com o tema e públicos tradicionais.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V37",
+   "V22"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Steampunk (Steampunk). Detalhes do estilo: Engrenagens, cobre e vapor num passado que nunca existiu. Cores: cobre, latão, marrom e verde-oxidado. Luz e clima: luz quente de lampião com vapor, clima de invenção. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Steampunk style. Style details: brass gears, copper pipes, steam, riveted metal, Victorian machinery, intricate mechanical details. Colours: copper, brass, brown and verdigris. Lighting and mood: warm lantern light with steam, inventive mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V38-steampunk-1.jpg",
+   "exemplos/img/visuais/V38-steampunk-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V39",
+  "nome_pt": "Risografia (Risograph)",
+  "categoria": "Retrô e Nostálgico",
+  "o_que_e": "Impressão em poucas tintas, com grão e cores levemente desalinhadas.",
+  "quando_usar_em_anuncio": "Funciona para público criativo, papelaria, cafeterias e conteúdo cultural. Dá cara de feito à mão em escala.",
+  "nichos_bons": [
+   "Papelaria",
+   "Cafeterias",
+   "Cursos criativos",
+   "Eventos culturais",
+   "Livrarias"
+  ],
+  "evitar_quando": "Luxo e tecnologia fria.",
+  "equivale_no_catalogo": "18 Colagem",
+  "combina_com": [
+   "V40",
+   "V41"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Risografia (Risograph). Detalhes do estilo: Impressão em poucas tintas, com grão e cores levemente desalinhadas. Cores: duas ou três tintas: rosa fluorescente, azul e amarelo. Luz e clima: sem luz, impressão chapada com grão, clima autoral. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Risograph style. Style details: two or three ink layers, grainy texture, slight misregistration, overprinted colours, zine print feel. Colours: two or three inks: fluorescent pink, blue and yellow. Lighting and mood: no lighting, flat grainy print, authorial mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V39-risograph-1.jpg",
+   "exemplos/img/visuais/V39-risograph-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V40",
+  "nome_pt": "Retícula (Halftone) (Halftone)",
+  "categoria": "Retrô e Nostálgico",
+  "o_que_e": "Imagem feita de pontinhos, como jornal ou quadrinho antigo.",
+  "quando_usar_em_anuncio": "Funciona para impacto gráfico em público frio, com ar de jornal ou HQ. Bom para letreiro grande e oferta direta.",
+  "nichos_bons": [
+   "Infoproduto direto",
+   "Música",
+   "Streetwear",
+   "Eventos",
+   "Livrarias"
+  ],
+  "evitar_quando": "Produto delicado ou premium suave.",
+  "equivale_no_catalogo": "18 Colagem",
+  "combina_com": [
+   "V10",
+   "V39"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Retícula (Halftone) (Halftone). Detalhes do estilo: Imagem feita de pontinhos, como jornal ou quadrinho antigo. Cores: preto, branco e uma cor chapada (vermelho ou amarelo). Luz e clima: luz de contraste alto, clima gráfico e direto. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Halftone style. Style details: visible halftone dot pattern, newsprint grain, high contrast, limited colour print. Colours: black, white and one solid colour such as red or yellow. Lighting and mood: high contrast light, graphic direct mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V40-halftone-1.jpg",
+   "exemplos/img/visuais/V40-halftone-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V41",
+  "nome_pt": "Colagem (Collage Art)",
+  "categoria": "Feito à mão e Texturizado",
+  "o_que_e": "Recortes de revista, papel e fotos sobrepostos.",
+  "quando_usar_em_anuncio": "Funciona em público frio e morno que gosta de visual autoral: moda, cultura, estética e infoproduto criativo. Ótimo para mostrar várias ideias numa só imagem.",
+  "nichos_bons": [
+   "Moda",
+   "Infoproduto criativo",
+   "Estética",
+   "Cultura",
+   "Marca pessoal"
+  ],
+  "evitar_quando": "Público que precisa de clareza e sobriedade total.",
+  "equivale_no_catalogo": "18 Colagem",
+  "combina_com": [
+   "V39",
+   "V44"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Colagem (Collage Art). Detalhes do estilo: Recortes de revista, papel e fotos sobrepostos. Cores: cores vivas sobre papel kraft ou jornal. Luz e clima: luz de mesa de trabalho, clima autoral e criativo. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Collage Art style. Style details: torn paper cutouts, magazine fragments, layered photos, tape marks, overlapping elements. Colours: vivid colours over kraft or newsprint paper. Lighting and mood: work-table light, authorial creative mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V41-collage-art-1.jpg",
+   "exemplos/img/visuais/V41-collage-art-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V42",
+  "nome_pt": "Recorte de Papel (Paper Cut)",
+  "categoria": "Feito à mão e Texturizado",
+  "o_que_e": "Camadas de papel cortado com sombras que criam profundidade.",
+  "quando_usar_em_anuncio": "Bom para infantil, festas, confeitaria e conteúdo afetivo em público morno. Dá volume e carinho sem precisar de 3D real.",
+  "nichos_bons": [
+   "Infantil",
+   "Festas",
+   "Confeitaria",
+   "Papelaria",
+   "Educação"
+  ],
+  "evitar_quando": "Tecnologia fria e produto técnico.",
+  "equivale_no_catalogo": "18 Colagem",
+  "combina_com": [
+   "V25",
+   "V16"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Recorte de Papel (Paper Cut). Detalhes do estilo: Camadas de papel cortado com sombras que criam profundidade. Cores: papéis coloridos em tons de uma mesma família. Luz e clima: luz suave vinda de cima, sombras entre as camadas, clima artesanal. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Paper Cut style. Style details: layered cut paper, stacked depth, soft cast shadows, handmade craft, diorama of paper. Colours: coloured papers in tones of one family. Lighting and mood: soft top light with shadows between layers, handcrafted mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V42-paper-cut-1.jpg",
+   "exemplos/img/visuais/V42-paper-cut-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V43",
+  "nome_pt": "Letra à Mão (Handwritten)",
+  "categoria": "Feito à mão e Texturizado",
+  "o_que_e": "Rabiscos, setas e anotações feitas à mão, como caderno.",
+  "quando_usar_em_anuncio": "Funciona para tom de conversa, bastidor e dica em público frio/orgânico. Aproxima, mas não use texto de verdade: deixe rabiscos abstratos.",
+  "nichos_bons": [
+   "Infoproduto",
+   "Mentoria",
+   "Educação",
+   "Confeitaria",
+   "Coaching"
+  ],
+  "evitar_quando": "Marca de luxo e comunicação formal.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V41",
+   "V45"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Letra à Mão (Handwritten). Detalhes do estilo: Rabiscos, setas e anotações feitas à mão, como caderno. Cores: caneta azul ou preta e marca-texto amarelo. Luz e clima: luz natural de mesa, clima próximo e informal. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Handwritten style. Style details: hand-drawn doodles, arrows and underline marks as abstract scribbles, notebook paper, marker strokes. Colours: blue or black pen and yellow highlighter. Lighting and mood: natural desk light, close informal mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V43-handwritten-1.jpg",
+   "exemplos/img/visuais/V43-handwritten-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V44",
+  "nome_pt": "Grunge (Grunge)",
+  "categoria": "Feito à mão e Texturizado",
+  "o_que_e": "Visual sujo e rasgado: textura, riscos e tinta desgastada.",
+  "quando_usar_em_anuncio": "Funciona para música, streetwear e conteúdo de atitude em público frio jovem. Combina com oferta de choque ou desabafo.",
+  "nichos_bons": [
+   "Música",
+   "Streetwear",
+   "Barbearias",
+   "Academias",
+   "Eventos"
+  ],
+  "evitar_quando": "Estética, saúde, infantil e luxo.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V11",
+   "V14"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Grunge (Grunge). Detalhes do estilo: Visual sujo e rasgado: textura, riscos e tinta desgastada. Cores: preto, cinza, ferrugem e um toque de vermelho. Luz e clima: luz fraca e áspera, clima rebelde. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Grunge style. Style details: distressed textures, torn edges, scratches, worn ink, dirty film grain. Colours: black, grey, rust and a touch of red. Lighting and mood: dim harsh light, rebellious mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V44-grunge-1.jpg",
+   "exemplos/img/visuais/V44-grunge-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V45",
+  "nome_pt": "Boêmio (Bohemian)",
+  "categoria": "Feito à mão e Texturizado",
+  "o_que_e": "Padrões étnicos, franjas, plantas e tons terrosos.",
+  "quando_usar_em_anuncio": "Bom para bem-estar, yoga, decoração e moda leve em público feminino e morno. Traz acolhimento e liberdade.",
+  "nichos_bons": [
+   "Yoga",
+   "Decoração",
+   "Moda",
+   "Terapias",
+   "Cafeterias"
+  ],
+  "evitar_quando": "Tecnologia, finanças e B2B.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V49",
+   "V50"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Boêmio (Bohemian). Detalhes do estilo: Padrões étnicos, franjas, plantas e tons terrosos. Cores: terracota, mostarda, verde-oliva e creme. Luz e clima: luz dourada de fim de tarde, clima livre e acolhedor. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Bohemian style. Style details: macramé and woven textures, ethnic patterns, hanging plants, earthy layers, relaxed arrangement. Colours: terracotta, mustard, olive green and cream. Lighting and mood: golden late-afternoon light, free cosy mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V45-bohemian-1.jpg",
+   "exemplos/img/visuais/V45-bohemian-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V46",
+  "nome_pt": "Design em Série (Serial Design) (Serial Design)",
+  "categoria": "Feito à mão e Texturizado",
+  "o_que_e": "Um mesmo layout repetido em várias peças, para formar uma coleção.",
+  "quando_usar_em_anuncio": "Excelente para carrossel e perfil: cada peça segue a mesma regra, e o conjunto vira marca. Funciona em qualquer funil que use sequência.",
+  "nichos_bons": [
+   "Infoproduto em carrossel",
+   "Moda",
+   "Conteúdo educativo",
+   "Perfis de especialista",
+   "Lojas"
+  ],
+  "evitar_quando": "Anúncio de peça única que não será repetido.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V1",
+   "V15"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Design em Série (Serial Design) (Serial Design). Detalhes do estilo: Um mesmo layout repetido em várias peças, para formar uma coleção. Cores: duas cores fixas mais uma de destaque que muda em cada peça. Luz e clima: luz uniforme igual em todas as peças, clima coeso. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Serial Design style. Style details: repeated modular layout, consistent grid of tiles, same motif varied across a set, rhythmic pattern. Colours: two fixed colours plus one accent that changes per piece. Lighting and mood: identical even light across the set, cohesive mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V46-serial-design-1.jpg",
+   "exemplos/img/visuais/V46-serial-design-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V47",
+  "nome_pt": "Gótico (Gothic)",
+  "categoria": "Clima e Estética",
+  "o_que_e": "Preto profundo, arcos, velas e clima sombrio e dramático.",
+  "quando_usar_em_anuncio": "Funciona para música, tatuagem, mistério e produto de ar noir em público frio. Bom para fisgar com tensão e segredo.",
+  "nichos_bons": [
+   "Tatuagem",
+   "Música",
+   "Livros de mistério",
+   "Moda alternativa",
+   "Eventos"
+  ],
+  "evitar_quando": "Infantil, saúde, bem-estar e promoções leves.",
+  "equivale_no_catalogo": "7 HQ noir com personagem",
+  "combina_com": [
+   "V48",
+   "V37"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Gótico (Gothic). Detalhes do estilo: Preto profundo, arcos, velas e clima sombrio e dramático. Cores: preto, bordô e prata fosca. Luz e clima: luz de vela com sombras profundas, clima sombrio e dramático. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Gothic style. Style details: dark gothic arches, candlelight, deep shadows, stone textures, dramatic mystery. Colours: black, burgundy and matte silver. Lighting and mood: candlelight with deep shadows, dark dramatic mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V47-gothic-1.jpg",
+   "exemplos/img/visuais/V47-gothic-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V48",
+  "nome_pt": "Dark Academia (Dark Academia)",
+  "categoria": "Clima e Estética",
+  "o_que_e": "Biblioteca, livros, madeira escura e clima de estudo erudito.",
+  "quando_usar_em_anuncio": "Funciona para cursos, livros, mentoria e concursos em público morno que valoriza estudo e autoridade. Ótimo para infoproduto de conhecimento.",
+  "nichos_bons": [
+   "Concursos",
+   "Livros",
+   "Mentoria",
+   "Cursos de idiomas",
+   "Infoproduto de conhecimento"
+  ],
+  "evitar_quando": "Público que busca leveza, humor ou promoção rápida.",
+  "equivale_no_catalogo": "5 Dossiê",
+  "combina_com": [
+   "V37",
+   "V4"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Dark Academia (Dark Academia). Detalhes do estilo: Biblioteca, livros, madeira escura e clima de estudo erudito. Cores: marrom escuro, verde-floresta, dourado e creme. Luz e clima: luz quente de abajur com sombras, clima erudito e acolhedor. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Dark Academia style. Style details: old library, dark wood, leather books, brass lamps, tweed texture, scholarly atmosphere. Colours: dark brown, forest green, gold and cream. Lighting and mood: warm lamp light with shadows, scholarly cosy mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V48-dark-academia-1.jpg",
+   "exemplos/img/visuais/V48-dark-academia-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V49",
+  "nome_pt": "Cottagecore (Cottagecore)",
+  "categoria": "Clima e Estética",
+  "o_que_e": "Vida no campo: flores, pão, tecido e luz de cozinha de sítio.",
+  "quando_usar_em_anuncio": "Funciona para confeitaria, artesanato, bem-estar e família em público morno e feminino. Traz acolhimento e vida simples.",
+  "nichos_bons": [
+   "Confeitaria",
+   "Artesanato",
+   "Floricultura",
+   "Bem-estar",
+   "Casa e decoração"
+  ],
+  "evitar_quando": "Tecnologia, tráfego e mensagem urbana e rápida.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V31",
+   "V45"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Cottagecore (Cottagecore). Detalhes do estilo: Vida no campo: flores, pão, tecido e luz de cozinha de sítio. Cores: verde-sálvia, creme, rosa antigo e amarelo manteiga. Luz e clima: luz de manhã atravessando a janela, clima sereno. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Cottagecore style. Style details: countryside cottage, wildflowers, linen cloth, fresh bread, wooden table, pastoral calm. Colours: sage green, cream, dusty rose and butter yellow. Lighting and mood: morning window light, serene mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V49-cottagecore-1.jpg",
+   "exemplos/img/visuais/V49-cottagecore-2.jpg"
+  ],
+  "status": "com imagem"
+ },
+ {
+  "numero": "V50",
+  "nome_pt": "Wabi-Sabi (Wabi-Sabi)",
+  "categoria": "Clima e Estética",
+  "o_que_e": "Beleza do simples e do imperfeito: cerâmica, madeira e silêncio.",
+  "quando_usar_em_anuncio": "Funciona para bem-estar, decoração, cerâmica e marcas calmas em público morno. Combina com oferta sem pressa.",
+  "nichos_bons": [
+   "Bem-estar",
+   "Cerâmica",
+   "Decoração",
+   "Terapias",
+   "Mentoria calma"
+  ],
+  "evitar_quando": "Oferta de urgência e conteúdo agressivo.",
+  "equivale_no_catalogo": null,
+  "combina_com": [
+   "V1",
+   "V49"
+  ],
+  "prompt_pt": "Crie uma imagem vertical de [ASSUNTO] no estilo Wabi-Sabi (Wabi-Sabi). Detalhes do estilo: Beleza do simples e do imperfeito: cerâmica, madeira e silêncio. Cores: bege, cinza-pedra, argila e verde-musgo apagado. Luz e clima: luz natural lateral e baixa, clima silencioso. Formato: 9:16 (1080x1920), preenchido até as bordas; deixe o importante no centro (área 4:5). Restrições: sem texto extra, sem marca d'água, sem mãos ou rostos deformados, mantenha o assunto nítido.",
+  "prompt_en": "Create an image of [SUBJECT] in Wabi-Sabi style. Style details: imperfect handmade ceramics, raw wood, linen, muted textures, quiet minimal arrangement, visible cracks. Colours: beige, stone grey, clay and muted moss green. Lighting and mood: low natural side light, quiet mood. Format: 9:16 vertical (1080x1920), full-bleed to the edges, with all important content kept in the central 4:5 area. Constraints: no extra text, no watermark, no distorted hands or faces, keep the subject sharp.",
+  "regra_tela": "Se aparecer celular, monitor ou painel, a tela precisa estar preenchida com interface coerente com o assunto (nunca vazia).",
+  "imagens": [
+   "exemplos/img/visuais/V50-wabi-sabi-1.jpg",
+   "exemplos/img/visuais/V50-wabi-sabi-2.jpg"
+  ],
+  "status": "com imagem"
+ }
+]

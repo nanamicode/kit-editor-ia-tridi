@@ -1,0 +1,1078 @@
+[
+ {
+  "numero": 1,
+  "id": "painel-do-comprador",
+  "nome": "Painel do comprador (print animado, antes/depois, nota ou gráfico subindo)",
+  "apelidos": [
+   "painel-do-comprador",
+   "nº antigo 1",
+   "Painel que o comprador usa",
+   "prova-na-tela",
+   "nº antigo 3",
+   "Prova na tela",
+   "ontem-x-hoje",
+   "nº antigo 5",
+   "Ontem x Hoje",
+   "grafico-vivo",
+   "nº antigo 9",
+   "Gráfico vivo (nota que sobe)",
+   "nº v2 anterior 1",
+   "nº v2 anterior 3",
+   "nº v2 anterior 5",
+   "nº v2 anterior 9",
+   "painel",
+   "painel do comprador",
+   "prova_painel",
+   "prova no painel",
+   "antes_e_depois",
+   "antes e depois",
+   "gráfico",
+   "nota que sobe"
+  ],
+  "quando_usar": "Frio, morno e remarketing: a tela que o comprador já abre toda semana (Gerenciador, Eventos, nota do Pixel) com número real ou ilustrativo marcado. Variações: (a) painel recriado com o número virando na palavra; (b) print real animado — círculo, zoom, dedo, sem redesenhar; (c) antes/depois de um número (ontem × hoje); (d) nota ou gráfico subindo. É o estilo que mais vendeu.",
+  "voz": "clonada (confirmar por peça)",
+  "skill": "painel-do-comprador-na-cena + prova-na-tela",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/01-painel-do-comprador-1.jpg",
+   "exemplos/img/v2/01-painel-do-comprador-2.jpg",
+   "exemplos/img/v2/01-painel-do-comprador-3.jpg",
+   "exemplos/img/v2/01-painel-do-comprador-4.jpg",
+   "exemplos/img/v2/01-painel-do-comprador-5.jpg"
+  ]
+ },
+ {
+  "numero": 2,
+  "id": "autor-no-celular",
+  "nome": "Vídeo do autor dentro do celular + painel",
+  "apelidos": [
+   "autor-no-celular",
+   "nº antigo 2",
+   "Vídeo do autor dentro do celular + painel",
+   "nº v2 anterior 2",
+   "meme_humor",
+   "meme",
+   "câmera escondida"
+  ],
+  "quando_usar": "Frio/morno quando a promessa precisa de uma pessoa: o aluno aparece falando num mockup de celular enquanto o painel e os eventos animam ao lado.",
+  "voz": "real do autor (no celular)",
+  "skill": "painel-do-comprador-na-cena + mct-talking-head-hybrid",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/02-autor-no-celular-1.jpg",
+   "exemplos/img/v2/02-autor-no-celular-2.jpg",
+   "exemplos/img/v2/02-autor-no-celular-3.jpg",
+   "exemplos/img/v2/02-autor-no-celular-4.jpg",
+   "exemplos/img/v2/02-autor-no-celular-5.jpg"
+  ]
+ },
+ {
+  "numero": 3,
+  "id": "letreiro-eva",
+  "nome": "Letreiro / tipografia gigante (Hard Copy clássico, muro de texto)",
+  "apelidos": [
+   "letreiro-eva",
+   "nº antigo 4",
+   "Letreiro EVA (tipografia gigante + b-roll sóbrio)",
+   "muro-de-texto-com-frase-marcada",
+   "nº antigo 38",
+   "Muro de texto com frase marcada (efeito)",
+   "nº v2 anterior 4",
+   "nº v2 anterior 31",
+   "hardcopy",
+   "hardcopy clássico",
+   "hard copy",
+   "hardcopy_silhueta",
+   "letreiro atrás da pessoa",
+   "letreiro eva",
+   "muro de texto",
+   "frase marcada"
+  ],
+  "quando_usar": "Frio: palavra-chave enorme, legenda curta e cortes rápidos sobre cena humana sóbria ou print P&B — o clássico do sistema. Variação: muro de texto com a frase falada marcada em amarelo (efeito tipográfico para revelar o detalhe).",
+  "voz": "clonada (confirmar por peça)",
+  "skill": "hardcopy-style (roteia) + catalogo-de-efeitos (muro-de-texto-com-frase-marcada)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/03-letreiro-eva-1.jpg",
+   "exemplos/img/v2/03-letreiro-eva-2.jpg",
+   "exemplos/img/v2/03-letreiro-eva-3.jpg",
+   "exemplos/img/v2/03-letreiro-eva-4.jpg",
+   "exemplos/img/v2/03-letreiro-eva-5.jpg"
+  ]
+ },
+ {
+  "numero": 4,
+  "id": "plantao",
+  "nome": "Plantão (telejornal)",
+  "apelidos": [
+   "plantao",
+   "nº antigo 6",
+   "Plantão (telejornal)",
+   "nº v2 anterior 6",
+   "plantão urgente",
+   "telejornal"
+  ],
+  "quando_usar": "Morno/orgânico: urgência de notícia (tarja, ticker, 'ao vivo') em cima de um fato real.",
+  "voz": "clonada",
+  "skill": "sem skill dedicada (usar prova-na-tela + hardcopy-style)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/04-plantao-1.jpg",
+   "exemplos/img/v2/04-plantao-2.jpg",
+   "exemplos/img/v2/04-plantao-3.jpg",
+   "exemplos/img/v2/04-plantao-4.jpg",
+   "exemplos/img/v2/04-plantao-5.jpg"
+  ]
+ },
+ {
+  "numero": 5,
+  "id": "dossie",
+  "nome": "Dossiê (mural de investigação; variação noir)",
+  "apelidos": [
+   "dossie",
+   "nº antigo 7",
+   "Dossiê (mural de investigação)",
+   "nº v2 anterior 7",
+   "nº v2 anterior 33",
+   "true crime",
+   "mural de investigação",
+   "Mix 3",
+   "Mix 3 · Hard Copy noir + Dossiê",
+   "mix-hardcopy-noir-dossie",
+   "causa da morte",
+   "perícia"
+  ],
+  "quando_usar": "Meio de funil quando a dor é uma perda invisível: a dor vira um caso — cortiça, polaroids, fio vermelho, datilografia e carimbo CASO ENCERRADO. Variação noir: layout Hard Copy (b-roll escuro em cima, letreiro embaixo) com fichas de suspeito e o Gerenciador claro como prova (FCA Causa da Morte).",
+  "voz": "clonada",
+  "skill": "sem skill dedicada",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/05-dossie-1.jpg",
+   "exemplos/img/v2/05-dossie-2.jpg",
+   "exemplos/img/v2/05-dossie-3.jpg",
+   "exemplos/img/v2/05-dossie-4.jpg",
+   "exemplos/img/v2/05-dossie-5.jpg"
+  ],
+  "roteiro": "kishōtenketsu"
+ },
+ {
+  "numero": 6,
+  "id": "terminal-comando",
+  "nome": "Terminal / POV comando",
+  "apelidos": [
+   "terminal-comando",
+   "nº antigo 8",
+   "Terminal / POV comando",
+   "nº v2 anterior 8",
+   "terminal",
+   "pov comando"
+  ],
+  "quando_usar": "Complemento para público técnico: a tela de comando executando o trabalho.",
+  "voz": "clonada",
+  "skill": "sem skill dedicada",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/06-terminal-comando-1.jpg",
+   "exemplos/img/v2/06-terminal-comando-2.jpg",
+   "exemplos/img/v2/06-terminal-comando-3.jpg",
+   "exemplos/img/v2/06-terminal-comando-4.jpg",
+   "exemplos/img/v2/06-terminal-comando-5.jpg"
+  ]
+ },
+ {
+  "numero": 7,
+  "id": "hq-noir-personagem",
+  "nome": "HQ noir com personagem (vilão)",
+  "apelidos": [
+   "hq-noir-personagem",
+   "nº antigo 10",
+   "HQ noir com personagem (vilão)",
+   "nº v2 anterior 10",
+   "hq",
+   "noir",
+   "vilão",
+   "leiloeiro"
+  ],
+  "quando_usar": "Frio: graphic novel animada narrada, com um vilão recorrente que personifica o inimigo comum; sem rosto do aluno.",
+  "voz": "clonada",
+  "skill": "hardcopy-hq-ia-noir",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/07-hq-noir-personagem-1.jpg",
+   "exemplos/img/v2/07-hq-noir-personagem-2.jpg",
+   "exemplos/img/v2/07-hq-noir-personagem-3.jpg",
+   "exemplos/img/v2/07-hq-noir-personagem-4.jpg",
+   "exemplos/img/v2/07-hq-noir-personagem-5.jpg"
+  ]
+ },
+ {
+  "numero": 8,
+  "id": "retro-gamer",
+  "nome": "Retrô gamer 16-bit",
+  "apelidos": [
+   "retro-gamer",
+   "nº antigo 11",
+   "Retrô gamer 16-bit",
+   "nº v2 anterior 11",
+   "retro_game",
+   "game retrô",
+   "16-bit",
+   "trailer_anos80",
+   "snes"
+  ],
+  "quando_usar": "Frio/orgânico: interface de jogo com sprites; vira brincadeira de 'escolha seu assistente' ou viagem no tempo.",
+  "voz": "clonada (confirmar por peça)",
+  "skill": "sem skill dedicada",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/08-retro-gamer-1.jpg",
+   "exemplos/img/v2/08-retro-gamer-2.jpg",
+   "exemplos/img/v2/08-retro-gamer-3.jpg",
+   "exemplos/img/v2/08-retro-gamer-4.jpg",
+   "exemplos/img/v2/08-retro-gamer-5.jpg"
+  ]
+ },
+ {
+  "numero": 9,
+  "id": "filme-lancamento",
+  "nome": "Filme de lançamento / missão",
+  "apelidos": [
+   "filme-lancamento",
+   "nº antigo 12",
+   "Filme de lançamento / missão",
+   "nº v2 anterior 12",
+   "missao_secreta",
+   "missão secreta",
+   "missão"
+  ],
+  "quando_usar": "Pré-venda e abertura: 15-40 s de impacto, HUD de missão, preço em bloco.",
+  "voz": "clonada",
+  "skill": "filme-de-lancamento",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/09-filme-lancamento-1.jpg",
+   "exemplos/img/v2/09-filme-lancamento-2.jpg",
+   "exemplos/img/v2/09-filme-lancamento-3.jpg",
+   "exemplos/img/v2/09-filme-lancamento-4.jpg",
+   "exemplos/img/v2/09-filme-lancamento-5.jpg"
+  ]
+ },
+ {
+  "numero": 10,
+  "id": "por-profissao",
+  "nome": "Anúncio por profissão / nicho",
+  "apelidos": [
+   "por-profissao",
+   "nº antigo 13",
+   "Anúncio por profissão / nicho",
+   "nº v2 anterior 13",
+   "profissao_em_destaque",
+   "nicho",
+   "anúncio dentro do anúncio"
+  ],
+  "quando_usar": "Frio aberto: profissão enorme na primeira palavra, símbolo visual da classe e demonstração do que o produto fez para ela.",
+  "voz": "clonada (confirmar por peça)",
+  "skill": "hardcopy-anuncio-dentro-do-anuncio",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/10-por-profissao-1.jpg",
+   "exemplos/img/v2/10-por-profissao-2.jpg",
+   "exemplos/img/v2/10-por-profissao-3.jpg",
+   "exemplos/img/v2/10-por-profissao-4.jpg",
+   "exemplos/img/v2/10-por-profissao-5.jpg"
+  ]
+ },
+ {
+  "numero": 11,
+  "id": "talking-head-v2",
+  "nome": "Talking head (autor falando; variação com IDV da FCA e efeitos)",
+  "apelidos": [
+   "talking-head-v2",
+   "nº antigo 14",
+   "Talking head receita v2 (autor falando)",
+   "orbit-remarketing",
+   "nº antigo 23",
+   "Orbit dos nossos anúncios em volta dele",
+   "parede-de-anuncios",
+   "nº antigo 24",
+   "Parede de anúncios atrás dele",
+   "ui-world-fabrica",
+   "nº antigo 25",
+   "UI da Fábrica (barra de pedido + assistentes de pixel art)",
+   "animacao-radar-andromeda",
+   "nº antigo 26",
+   "Radar Andrômeda (logo da Meta + radar + espaço)",
+   "autor-some-ilustracao",
+   "nº antigo 28",
+   "Ele sai do quadro e a tela vira ilustração",
+   "transformacao-personagem-cartola",
+   "nº antigo 29",
+   "Final: ele vira o personagem de cartola",
+   "lettering-atras-e-giant-caption",
+   "nº antigo 30",
+   "Fonte gigante atrás + legenda por palavra dourada",
+   "nº v2 anterior 14",
+   "nº v2 anterior 23",
+   "apresentador_em_cena",
+   "apresentador em cena",
+   "talking head",
+   "Mix 1 · Talking head da Fábrica com efeitos",
+   "orbit",
+   "parede de anúncios",
+   "ui world",
+   "radar andrômeda",
+   "cartola",
+   "lettering atrás",
+   "giant caption",
+   "bruto 1"
+  ],
+  "quando_usar": "Quando a promessa precisa de uma pessoa: o autor falando, cortes de pausa, legenda curta com palavra de destaque. Variação Fábrica: ele recortado sobre a IDV roxa da FCA e, a cada frase, um efeito entra — orbit e parede dos nossos anúncios, janela da Fábrica com assistentes de pixel art, radar Andrômeda, palavra gigante atrás, ele some e a tela vira ilustração, final virando o personagem de cartola.",
+  "voz": "real do autor",
+  "skill": "edicao-talking-head-fabrica + apresentador-em-cena (+ remotion-megabrain e catalogo-de-efeitos na variação Fábrica)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/11-talking-head-v2-1.jpg",
+   "exemplos/img/v2/11-talking-head-v2-2.jpg",
+   "exemplos/img/v2/11-talking-head-v2-3.jpg",
+   "exemplos/img/v2/11-talking-head-v2-4.jpg",
+   "exemplos/img/v2/11-talking-head-v2-5.jpg"
+  ]
+ },
+ {
+  "numero": 12,
+  "id": "avatar-lipsync",
+  "nome": "Avatar do autor (lipsync; variação com painel)",
+  "apelidos": [
+   "avatar-lipsync",
+   "nº antigo 15",
+   "Avatar com voz real (lipsync)",
+   "apresentacao-avatar-painel",
+   "nº antigo 16",
+   "Apresentação do sistema (avatar + painel)",
+   "nº v2 anterior 15",
+   "nº v2 anterior 16",
+   "avatar_heygen",
+   "heygen",
+   "avatar",
+   "fabrica_assistentes",
+   "fábrica e assistentes",
+   "apresentação do sistema"
+  ],
+  "quando_usar": "Quando ele não pode gravar: avatar com a voz real do autor em lipsync, sobre painéis da marca. Variação com painel: o avatar apresenta o sistema enquanto o painel/fábrica (assistentes de pixel art, etapas) monta ao lado.",
+  "voz": "voz real do autor + avatar",
+  "skill": "heygen-ad-builder (+ motion-explicativo-3d na variação com painel)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/12-avatar-lipsync-1.jpg",
+   "exemplos/img/v2/12-avatar-lipsync-2.jpg",
+   "exemplos/img/v2/12-avatar-lipsync-3.jpg",
+   "exemplos/img/v2/12-avatar-lipsync-4.jpg",
+   "exemplos/img/v2/12-avatar-lipsync-5.jpg"
+  ]
+ },
+ {
+  "numero": 13,
+  "id": "vsl-longa",
+  "nome": "VSL e série",
+  "apelidos": [
+   "vsl-longa",
+   "nº antigo 18",
+   "VSL longa em atos",
+   "serie-capitulos",
+   "nº antigo 17",
+   "Série de vendas / capítulos",
+   "nº v2 anterior 17",
+   "nº v2 anterior 18",
+   "vsl",
+   "série de vendas",
+   "stories em partes",
+   "serie_de_vendas"
+  ],
+  "quando_usar": "Quente: VSL inteira na página de vendas (8 a 14 min: lead, virada, pitch), sem preço na fala — a voz manda clicar abaixo. Série curta para stories e orgânico (episódios com gancho e oferta só no último) só quando o autor pedir.",
+  "voz": "clonada",
+  "skill": "vsl-kishotenketsu + rmbc-vsl-creator (série: serie-de-vendas)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/13-vsl-longa-1.jpg",
+   "exemplos/img/v2/13-vsl-longa-2.jpg",
+   "exemplos/img/v2/13-vsl-longa-3.jpg",
+   "exemplos/img/v2/13-vsl-longa-4.jpg",
+   "exemplos/img/v2/13-vsl-longa-5.jpg"
+  ]
+ },
+ {
+  "numero": 14,
+  "id": "estatico-par",
+  "nome": "Estático e carrossel em par",
+  "apelidos": [
+   "estatico-par",
+   "nº antigo 19",
+   "Estático e carrossel em par",
+   "nº v2 anterior 19",
+   "estático",
+   "carrossel",
+   "imagem"
+  ],
+  "quando_usar": "Todo funil: imagem única ou carrossel, sempre em duas artes (1080x1920 e 1080x1350) e em versão paga e orgânica.",
+  "voz": "sem voz",
+  "skill": "criativo-estatico-par",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/14-estatico-par-1.jpg",
+   "exemplos/img/v2/14-estatico-par-2.jpg",
+   "exemplos/img/v2/14-estatico-par-3.jpg",
+   "exemplos/img/v2/14-estatico-par-4.jpg",
+   "exemplos/img/v2/14-estatico-par-5.jpg"
+  ]
+ },
+ {
+  "numero": 15,
+  "id": "evento-presencial",
+  "nome": "Evento presencial (sala cheia + prova)",
+  "apelidos": [
+   "evento-presencial",
+   "nº antigo 20",
+   "Evento presencial (sala cheia + prova)",
+   "nº v2 anterior 20",
+   "imersao_evento",
+   "imersão",
+   "sala cheia"
+  ],
+  "quando_usar": "Frio local: painel com ROAS, fotos de sala cheia e vaga limitada.",
+  "voz": "clonada (confirmar por peça)",
+  "skill": "painel-do-comprador-na-cena",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/15-evento-presencial-1.jpg",
+   "exemplos/img/v2/15-evento-presencial-2.jpg",
+   "exemplos/img/v2/15-evento-presencial-3.jpg",
+   "exemplos/img/v2/15-evento-presencial-4.jpg",
+   "exemplos/img/v2/15-evento-presencial-5.jpg"
+  ]
+ },
+ {
+  "numero": 16,
+  "id": "camadas-editorial",
+  "nome": "Camadas editorial (cartão com a cabeça saindo + lettering serif)",
+  "apelidos": [
+   "camadas-editorial",
+   "nº antigo 21",
+   "Camadas editorial (cartão com a cabeça saindo + lettering serif)",
+   "cartao-cabeca-saindo",
+   "nº antigo 27",
+   "Cartão com a cabeça saindo do topo",
+   "nº v2 anterior 21",
+   "camadas_editorial",
+   "cartão com a cabeça saindo"
+  ],
+  "quando_usar": "Frio e orgânico de tecnologia/método: a pessoa fala de dentro de um cartão arredondado e a cabeça passa por cima do título; fundo claro pontilhado (fala) alterna com escuro de acento (dado), título em 2 níveis (sans + palavra serif itálica), legenda palavra a palavra, telas que se montam, PiP circular e CTA em caixa digitada. Bom para relato de cliente, serviço B2B, agência e ferramenta de IA.",
+  "voz": "real do depoente (ou clonada na versão sem rosto)",
+  "skill": "estilo-camadas-editorial",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/16-camadas-editorial-1.jpg",
+   "exemplos/img/v2/16-camadas-editorial-2.jpg",
+   "exemplos/img/v2/16-camadas-editorial-3.jpg",
+   "exemplos/img/v2/16-camadas-editorial-4.jpg",
+   "exemplos/img/v2/16-camadas-editorial-5.jpg"
+  ]
+ },
+ {
+  "numero": 17,
+  "id": "aula-camera-telas",
+  "nome": "Aula em câmera com telas (tela à esquerda + cartão do rosto)",
+  "apelidos": [
+   "aula-camera-telas",
+   "nº antigo 22",
+   "Aula em câmera com telas (tela à esquerda + cartão do rosto)",
+   "nº v2 anterior 22",
+   "aula",
+   "edição de aula"
+  ],
+  "quando_usar": "Aula gravada, tutorial e módulo de curso em que a pessoa aparece: a gravação de tela ou o slide ocupa ~70% da largura à esquerda e o rosto fica num cartão vertical à direita o tempo todo; rosto cheio só na abertura, em frase-chave (2–4 s) e na virada de bloco; cartão de bloco com número gigante em contorno, barra de progresso no topo, zoom na tela quando o texto fica pequeno, espera de máquina cortada e cartão final. Preferido do autor para aulas em que ele aparece.",
+  "voz": "real",
+  "skill": "edicao-de-aula",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/17-aula-camera-telas-1.jpg",
+   "exemplos/img/v2/17-aula-camera-telas-2.jpg",
+   "exemplos/img/v2/17-aula-camera-telas-3.jpg",
+   "exemplos/img/v2/17-aula-camera-telas-4.jpg",
+   "exemplos/img/v2/17-aula-camera-telas-5.jpg"
+  ]
+ },
+ {
+  "numero": 18,
+  "id": "colagem-vox-papel-recortado",
+  "nome": "Colagem (papel recortado e colagem rápida)",
+  "apelidos": [
+   "colagem-vox-papel-recortado",
+   "nº antigo 31",
+   "Colagem de papel recortado (estilo Vox)",
+   "colagem-rapida-influenciadores-ia",
+   "nº antigo 33",
+   "Colagem rápida com apresentadores de IA (só a forma)",
+   "nº v2 anterior 24",
+   "nº v2 anterior 26",
+   "colagem_recortes",
+   "vox",
+   "papel recortado",
+   "influenciadores ia",
+   "apresentadores de ia",
+   "colagem rápida"
+  ],
+  "quando_usar": "Abertura sem rosto ou com apresentador: recortes com borda branca sobre jornal, kraft ou cor chapada com grão, letra serifa gigante atrás, tarjas rasgadas. Variação rápida: colagem acelerada de recortes entre falas de um apresentador (só a forma).",
+  "voz": "a definir na amostra",
+  "skill": "estilo-colagem-vox + estilo-efeitos-nomeados",
+  "status": "pronto",
+  "so_referencia": false,
+  "inclui_referencia": true,
+  "imagens": [
+   "exemplos/img/v2/18-colagem-vox-papel-recortado-1.jpg",
+   "exemplos/img/v2/18-colagem-vox-papel-recortado-2.jpg",
+   "exemplos/img/v2/18-colagem-vox-papel-recortado-3.jpg",
+   "exemplos/img/v2/18-colagem-FCA-L4-1.jpg",
+   "exemplos/img/ref-vox-colagem-tarjas-marca-texto-amarelo.jpg"
+  ],
+  "roteiro": "kishōtenketsu"
+ },
+ {
+  "numero": 19,
+  "id": "arquivo-editorial-documentario",
+  "nome": "Documentário (arquivo e retrô; variação abertura de TV)",
+  "apelidos": [
+   "arquivo-editorial-documentario",
+   "nº antigo 34",
+   "Documentário de arquivo / arquivo editorial (só a forma)",
+   "abertura-tv-retro-recuo-de-camera",
+   "nº antigo 32",
+   "Abertura de TV retrô (recuo de câmera)",
+   "documentario-retro-de-ia",
+   "nº antigo 35",
+   "Documentário retrô de IA / motion retrô (só a forma)",
+   "nº v2 anterior 25",
+   "nº v2 anterior 27",
+   "nº v2 anterior 28",
+   "arquivo editorial",
+   "documentário de arquivo",
+   "documentário retrô",
+   "earn edits",
+   "tv retrô",
+   "abertura tv"
+  ],
+  "quando_usar": "Abertura de VSL, Reels ou anúncio com clima de documentário: imagens de arquivo e gravuras com tarja de texto, motion retrô com textura e luz de cena. Variação abertura de TV: o vídeo começa dentro de uma TV de tubo e a câmera recua até mostrar a TV inteira.",
+  "voz": "locução própria (clone do autor perfil B ou outra), nunca sobre vídeo dele falando",
+  "skill": "estilo-arquivo-editorial + estilo-earn-edits + abertura-tv-retro",
+  "status": "pronto",
+  "so_referencia": false,
+  "inclui_referencia": true,
+  "imagens": [
+   "exemplos/img/v2/19-arquivo-editorial-documentar-1.jpg",
+   "exemplos/img/v2/19-arquivo-editorial-documentar-2.jpg",
+   "exemplos/img/v2/19-arquivo-editorial-documentar-3.jpg",
+   "exemplos/img/ref-arquivo-tarja-amarela-gravura-grao.jpg",
+   "exemplos/img/ref-earn-doc-zoom-pela-janela.jpg"
+  ]
+ },
+ {
+  "numero": 20,
+  "id": "didatico-demonstrativo",
+  "nome": "Didático demonstrativo (a animação mostra o conceito)",
+  "apelidos": [
+   "didatico-demonstrativo",
+   "nº antigo 36",
+   "Didático demonstrativo: a animação mostra o conceito (só a forma)",
+   "nº v2 anterior 29",
+   "didático",
+   "só a forma"
+  ],
+  "quando_usar": "Ensinar UM princípio em 45–50 s sem rosto (contraste, foco, excesso, hierarquia): papel quadriculado claro, tapete de corte ou feltro, acabamento limpo; par 'palavra de ligação pequena + CHAVE enorme'; recortes com borda branca de adesivo; e cada conceito vira uma demonstração na tela (só um elemento acende, a imagem perde as camadas, pequeno × grande, a forma intrusa, cheio × vazio, setas convergindo). Fecha com a peça encolhendo para dentro do nosso painel e 'COMENTE' + PALAVRA.",
+  "voz": "locução própria (clone do autor perfil B ou outra), nunca sobre vídeo dele falando",
+  "skill": "estilo-earn-edits",
+  "status": "pronto",
+  "so_referencia": false,
+  "inclui_referencia": true,
+  "imagens": [
+   "exemplos/img/v2/20-didatico-demonstrativo-1.jpg",
+   "exemplos/img/v2/20-didatico-demonstrativo-2.jpg",
+   "exemplos/img/v2/20-didatico-demonstrativo-3.jpg",
+   "exemplos/img/ref-earn-did-saturacao-unica.jpg",
+   "exemplos/img/ref-earn-did-recorte-adesivo-linhas-guia.jpg"
+  ]
+ },
+ {
+  "numero": 21,
+  "id": "lancamento-tech",
+  "nome": "Lançamento tech (grade, pontos e produto 3D)",
+  "apelidos": [
+   "lancamento-tech",
+   "nº antigo 37",
+   "Lançamento tech (grade, pontos e produto 3D) — só a forma",
+   "nº v2 anterior 30",
+   "lançamento tech",
+   "produto 3d",
+   "só a forma"
+  ],
+  "quando_usar": "Lançar uma ferramenta ou recurso nosso (robô, painel, fábrica) em 17–25 s, sem rosto: fundo liso carvão ou cinza-claro, letra sem serifa pequena, 1 cor de acento, palavra seguinte em cinza que acende quando é dita, grade de painéis que se desenha e se preenche, imagem que nasce de pontos, produto 3D girando com uma palavra gigante atrás, CTA \"comente PALAVRA\".",
+  "voz": "locução própria (clone do autor perfil B) ou só música",
+  "skill": "estilo-earn-edits",
+  "status": "pronto",
+  "so_referencia": false,
+  "inclui_referencia": true,
+  "imagens": [
+   "exemplos/img/v2/21-lancamento-tech-1.jpg",
+   "exemplos/img/v2/21-lancamento-tech-2.jpg",
+   "exemplos/img/v2/21-lancamento-tech-3.jpg",
+   "exemplos/img/ref-earn-tech-grade-de-paineis.jpg"
+  ]
+ },
+ {
+  "numero": 22,
+  "id": "mix-hardcopy-noir-painel",
+  "nome": "Mix 1 · Hard Copy noir + Painel do comprador (série kishō 22–23/10)",
+  "mix_de": [
+   "3 Letreiro / tipografia gigante",
+   "1 Painel do comprador"
+  ],
+  "apelidos": [
+   "nº v2 anterior 32",
+   "kishō",
+   "kisho",
+   "kishotenketsu",
+   "hard copy noir",
+   "b-roll noir",
+   "Mix 2",
+   "Mix 2 · Hard Copy noir + Painel do comprador"
+  ],
+  "quando_usar": "Frio, morno e remarketing sem rosto: b-roll real escuro (grade da marca) no topo, degradê para o preto embaixo com letreiro CAPS condensado e 1 palavra colorida, legenda palavra a palavra, e no meio as telas claras que o comprador já usa (Gerenciador, Gerenciador de Eventos, WhatsApp, Claude Code) feitas em código. Gancho de 3–4 acontecimentos em 0–3 s, cortes de até 1,3 s, CTA 'Clique em Saiba mais' com setas. A história é uma metáfora (cinema, cadeira vazia, alvo, alfaiate, intérprete) que vira no twist.",
+  "voz": "clonada do autor (eleven_v4, perfil B)",
+  "skill": "vsl-kishotenketsu (roteiro) + hardcopy-style + painel-do-comprador-na-cena",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/22-mix-hardcopy-noir-painel-1.jpg",
+   "exemplos/img/v2/22-mix-hardcopy-noir-painel-2.jpg",
+   "exemplos/img/v2/22-mix-hardcopy-noir-painel-3.jpg",
+   "exemplos/img/v2/22-mix-hardcopy-noir-painel-4.jpg",
+   "exemplos/img/v2/22-mix-hardcopy-noir-painel-5.jpg"
+  ],
+  "roteiro": "kishōtenketsu"
+ },
+ {
+  "numero": 23,
+  "id": "blueprint",
+  "nome": "Blueprint (planta de engenharia)",
+  "apelidos": [
+   "estilo 23",
+   "Blueprint (planta de engenharia)",
+   "blueprint",
+   "blueprint",
+   "planta",
+   "planta de engenharia",
+   "folha azul",
+   "visual V8",
+   "V8",
+   "visual de referência V8"
+  ],
+  "quando_usar": "Folha azul de engenharia com traço branco: o produto vira uma planta (andares, escadas, cotas) e o número do painel entra como medida. Serviu ao MCT (Pixel + API de Conversão), à Fábrica (FCA) e ao Lead Certo (MLC), do meio ao fundo de funil: morno que já viu o problema (MCT-L1, MCT-L5) e quente que só precisa da peça que falta (BP-FUNDO). Também serviu ao topo frio (C-V08).",
+  "voz": "clonada do autor (eleven_v4, perfil B)",
+  "skill": "estilo-por-referencia + HyperFrames (MCT) e Remotion (FCA, Lead Certo) (roteiro vsl-kishotenketsu)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/23-blueprint-1.jpg",
+   "exemplos/img/v2/23-blueprint-2.jpg",
+   "exemplos/img/v2/23-blueprint-3.jpg",
+   "exemplos/img/v2/23-blueprint-4.jpg",
+   "exemplos/img/v2/23-blueprint-5.jpg"
+  ],
+  "roteiro": "kishōtenketsu"
+ },
+ {
+  "numero": 24,
+  "id": "line-art",
+  "nome": "Traço contínuo (Line Art)",
+  "apelidos": [
+   "estilo 24",
+   "Traço contínuo (Line Art)",
+   "line-art",
+   "line art",
+   "lineart",
+   "traço contínuo",
+   "traco continuo",
+   "linha única",
+   "visual V30",
+   "V30",
+   "visual de referência V30"
+  ],
+  "quando_usar": "Desenho de um traço só sobre fundo claro, que vai se completando enquanto a voz explica. Usamos no topo de funil frio do MCT (curso gravado de Pixel + API de Conversão): leve, sem rosto, bom para explicar o conceito sem parecer anúncio.",
+  "voz": "clonada do autor (eleven_v4, perfil B)",
+  "skill": "estilo-por-referencia + HyperFrames (roteiro vsl-kishotenketsu)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/24-line-art-1.jpg",
+   "exemplos/img/v2/24-line-art-2.jpg",
+   "exemplos/img/v2/24-line-art-3.jpg",
+   "exemplos/img/v2/24-line-art-4.jpg"
+  ],
+  "roteiro": "kishōtenketsu"
+ },
+ {
+  "numero": 25,
+  "id": "suico-grade-tipografica",
+  "nome": "Suíço / grade tipográfica (Swiss)",
+  "apelidos": [
+   "estilo 25",
+   "Suíço / grade tipográfica (Swiss)",
+   "suico-grade-tipografica",
+   "swiss",
+   "suiço",
+   "suico",
+   "grade tipográfica",
+   "grade tipografica",
+   "visual V2",
+   "V2",
+   "visual de referência V2"
+  ],
+  "quando_usar": "Grade rígida, tipografia grotesca grande, poucas cores e muito alinhamento: o dado vira quadro de partidas. Serviu ao MCT: meio de funil morno (MCT-L2, O Quadro de Partidas) e fundo quente com garantia de 7 dias (MCT-L6, Três Perguntas).",
+  "voz": "clonada do autor (eleven_v4, perfil B)",
+  "skill": "estilo-por-referencia + HyperFrames (roteiro vsl-kishotenketsu)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/25-suico-grade-tipografica-1.jpg",
+   "exemplos/img/v2/25-suico-grade-tipografica-2.jpg",
+   "exemplos/img/v2/25-suico-grade-tipografica-3.jpg",
+   "exemplos/img/v2/25-suico-grade-tipografica-4.jpg",
+   "exemplos/img/v2/25-suico-grade-tipografica-5.jpg"
+  ],
+  "roteiro": "kishōtenketsu"
+ },
+ {
+  "numero": 26,
+  "id": "reticula-jornal-halftone",
+  "nome": "Retícula de jornal (Halftone)",
+  "apelidos": [
+   "estilo 26",
+   "Retícula de jornal (Halftone)",
+   "reticula-jornal-halftone",
+   "halftone",
+   "retícula",
+   "reticula",
+   "jornal",
+   "pontos de impressão",
+   "visual V40",
+   "V40",
+   "visual de referência V40"
+  ],
+  "quando_usar": "Imagem em pontos de impressão de jornal, preto e uma cor, com ar de recorte de arquivo. Usamos no MCT para o meio de funil morno (MCT-L3, O Retrato): o retrato do Pixel incompleto.",
+  "voz": "clonada do autor (eleven_v4, perfil B)",
+  "skill": "estilo-por-referencia + HyperFrames (roteiro vsl-kishotenketsu)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/26-reticula-jornal-halftone-1.jpg",
+   "exemplos/img/v2/26-reticula-jornal-halftone-2.jpg",
+   "exemplos/img/v2/26-reticula-jornal-halftone-3.jpg",
+   "exemplos/img/v2/26-reticula-jornal-halftone-4.jpg"
+  ],
+  "roteiro": "kishōtenketsu"
+ },
+ {
+  "numero": 27,
+  "id": "brutalista",
+  "nome": "Brutalista",
+  "apelidos": [
+   "estilo 27",
+   "Brutalista",
+   "brutalista",
+   "brutalism",
+   "brutalismo",
+   "brutalista",
+   "visual V11",
+   "V11",
+   "visual de referência V11"
+  ],
+  "quando_usar": "Blocos crus, bordas grossas, tipografia pesada e contraste duro: a peça grita o erro. Usamos no MCT para o meio de funil morno sobre eventos que ensinam o Meta (MCT-L4, A Acareação).",
+  "voz": "clonada do autor (eleven_v4, perfil B)",
+  "skill": "estilo-por-referencia + HyperFrames (roteiro vsl-kishotenketsu)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/27-brutalista-1.jpg",
+   "exemplos/img/v2/27-brutalista-2.jpg",
+   "exemplos/img/v2/27-brutalista-3.jpg",
+   "exemplos/img/v2/27-brutalista-4.jpg"
+  ],
+  "roteiro": "kishōtenketsu"
+ },
+ {
+  "numero": 28,
+  "id": "vidro-aurora-glassmorphism",
+  "nome": "Vidro + aurora (Glassmorphism)",
+  "apelidos": [
+   "estilo 28",
+   "Vidro + aurora (Glassmorphism)",
+   "vidro-aurora-glassmorphism",
+   "glassmorphism",
+   "vidro",
+   "aurora",
+   "vidro e aurora",
+   "visual V6",
+   "visual V23",
+   "V6",
+   "V23",
+   "visual de referência V6+V23"
+  ],
+  "quando_usar": "Painéis de vidro fosco sobre fundo de aurora em degradê, com brilho suave. Serviu ao Lead Certo: meio de funil morno (MLC-L1, O Placar de Vidro: limpe o vidro do painel) e fundo quente com acesso na hora (MLC-L5, Atrás do Botão).",
+  "voz": "clonada do autor (eleven_v4, perfil B)",
+  "skill": "estilo-por-referencia + Remotion (roteiro vsl-kishotenketsu)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/28-vidro-aurora-glassmorphism-1.jpg",
+   "exemplos/img/v2/28-vidro-aurora-glassmorphism-2.jpg",
+   "exemplos/img/v2/28-vidro-aurora-glassmorphism-3.jpg",
+   "exemplos/img/v2/28-vidro-aurora-glassmorphism-4.jpg",
+   "exemplos/img/v2/28-vidro-aurora-glassmorphism-5.jpg"
+  ],
+  "roteiro": "kishōtenketsu"
+ },
+ {
+  "numero": 29,
+  "id": "xilogravura-ukiyo-e",
+  "nome": "Xilogravura japonesa (Ukiyo-e)",
+  "apelidos": [
+   "estilo 29",
+   "Xilogravura japonesa (Ukiyo-e)",
+   "xilogravura-ukiyo-e",
+   "ukiyo-e",
+   "ukiyoe",
+   "xilogravura",
+   "japonesa",
+   "gravura japonesa",
+   "visual V32",
+   "V32",
+   "visual de referência V32"
+  ],
+  "quando_usar": "Gravura japonesa com ondas, linhas de madeira e paleta restrita: a metáfora vira cena de livro antigo. Usamos no Lead Certo para o meio de funil morno (MLC-L2, A Malha: escolha a malha antes).",
+  "voz": "clonada do autor (eleven_v4, perfil B)",
+  "skill": "estilo-por-referencia + Remotion (roteiro vsl-kishotenketsu)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/29-xilogravura-ukiyo-e-1.jpg",
+   "exemplos/img/v2/29-xilogravura-ukiyo-e-2.jpg",
+   "exemplos/img/v2/29-xilogravura-ukiyo-e-3.jpg",
+   "exemplos/img/v2/29-xilogravura-ukiyo-e-4.jpg"
+  ],
+  "roteiro": "kishōtenketsu"
+ },
+ {
+  "numero": 30,
+  "id": "revista-editorial",
+  "nome": "Revista editorial",
+  "apelidos": [
+   "estilo 30",
+   "Revista editorial",
+   "revista-editorial",
+   "editorial",
+   "revista",
+   "magazine",
+   "visual V4",
+   "V4",
+   "visual de referência V4"
+  ],
+  "quando_usar": "Página de revista: manchete serifada, colunas, fotos recortadas e números em destaque. Serviu ao Lead Certo: meio de funil morno com prova de custo (MLC-L3, R$ 11,93 para R$ 3,71 por contato) e fundo quente (MLC-L6, A Terceira Carta).",
+  "voz": "clonada do autor (eleven_v4, perfil B)",
+  "skill": "estilo-por-referencia + Remotion (roteiro vsl-kishotenketsu)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/30-revista-editorial-1.jpg",
+   "exemplos/img/v2/30-revista-editorial-2.jpg",
+   "exemplos/img/v2/30-revista-editorial-3.jpg",
+   "exemplos/img/v2/30-revista-editorial-4.jpg",
+   "exemplos/img/v2/30-revista-editorial-5.jpg"
+  ],
+  "roteiro": "kishōtenketsu"
+ },
+ {
+  "numero": 31,
+  "id": "isometrico-fabrica",
+  "nome": "Isométrico (fábrica / diorama 3D)",
+  "apelidos": [
+   "estilo 31",
+   "Isométrico (fábrica / diorama 3D)",
+   "isometrico-fabrica",
+   "isometric",
+   "isométrico",
+   "isometrico",
+   "diorama",
+   "fábrica 3d",
+   "fabrica 3d",
+   "esteira",
+   "visual V27",
+   "V27",
+   "visual de referência V27"
+  ],
+  "quando_usar": "Fábrica em miniatura vista de cima em 30 graus: esteiras, máquinas e peças que andam enquanto a voz conta o processo. Serviu ao Lead Certo (MLC-L4, a esteira que barra antes da porta) e à Fábrica de Criativos, meio morno (FCA-L1) e fundo quente (FCA-L5).",
+  "voz": "clonada do autor (eleven_v4, perfil B)",
+  "skill": "estilo-por-referencia + Remotion (roteiro vsl-kishotenketsu)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/31-isometrico-fabrica-1.jpg",
+   "exemplos/img/v2/31-isometrico-fabrica-3.jpg",
+   "exemplos/img/v2/31-isometrico-fabrica-4.jpg",
+   "exemplos/img/v2/31-isometrico-fabrica-5.jpg"
+  ],
+  "roteiro": "kishōtenketsu"
+ },
+ {
+  "numero": 32,
+  "id": "quadrinho-pop-art",
+  "nome": "Quadrinho Pop Art",
+  "apelidos": [
+   "estilo 32",
+   "Quadrinho Pop Art",
+   "quadrinho-pop-art",
+   "pop art",
+   "popart",
+   "quadrinho",
+   "balão",
+   "balao",
+   "hq pop",
+   "visual V10",
+   "V10",
+   "visual de referência V10"
+  ],
+  "quando_usar": "Cores chapadas, pontos de retícula, balões de fala e onomatopeias de gibi. Serviu à Fábrica de Criativos: meio morno (FCA-L2, Qual dos Três?) e fundo quente (FCA-L6, O Comando é o Balão: você pede em português).",
+  "voz": "clonada do autor (eleven_v4, perfil B)",
+  "skill": "estilo-por-referencia + Remotion (roteiro vsl-kishotenketsu)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/32-quadrinho-pop-art-1.jpg",
+   "exemplos/img/v2/32-quadrinho-pop-art-2.jpg",
+   "exemplos/img/v2/32-quadrinho-pop-art-3.jpg",
+   "exemplos/img/v2/32-quadrinho-pop-art-4.jpg",
+   "exemplos/img/v2/32-quadrinho-pop-art-5.jpg"
+  ],
+  "roteiro": "kishōtenketsu"
+ },
+ {
+  "numero": 33,
+  "id": "dark-academia",
+  "nome": "Dark Academia (biblioteca à luz de vela)",
+  "apelidos": [
+   "estilo 33",
+   "Dark Academia (biblioteca à luz de vela)",
+   "dark-academia",
+   "dark academia",
+   "biblioteca",
+   "luz de vela",
+   "visual V48",
+   "V48",
+   "visual de referência V48"
+  ],
+  "quando_usar": "Biblioteca antiga, madeira escura, livros e luz de vela: a experiência de 15 anos de anúncio como acervo. Usamos na Fábrica de Criativos para o meio de funil morno (FCA-L3, A Receita Estava Certa).",
+  "voz": "clonada do autor (eleven_v4, perfil B)",
+  "skill": "estilo-por-referencia + Remotion (roteiro vsl-kishotenketsu)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/33-dark-academia-1.jpg",
+   "exemplos/img/v2/33-dark-academia-2.jpg",
+   "exemplos/img/v2/33-dark-academia-3.jpg",
+   "exemplos/img/v2/33-dark-academia-4.jpg"
+  ],
+  "roteiro": "kishōtenketsu"
+ },
+ {
+  "numero": 34,
+  "id": "dossie-documental",
+  "nome": "Dossiê documental",
+  "apelidos": [
+   "estilo 34",
+   "Dossiê documental",
+   "dossie-documental",
+   "dossiê",
+   "dossie",
+   "documental",
+   "arquivo",
+   "manchete",
+   "jornal",
+   "fechadura",
+   "cor seletiva",
+   "quadro-negro",
+   "mural de fotos",
+   "visual de referência "
+  ],
+  "quando_usar": "Documentário de arquivo: cena fotorreal em cor que vira foto P&B recortada numa manchete, data digitada em quadro-negro, mural de fotos, TV de tubo, palavras que empilham na virada, fechadura que revela a prova e o produto como objeto (etiqueta pendurada no computador retrô). Cor seletiva: o eleito fica em cor numa cena P&B. Serviu ao Lead Certo: meio morno (DOSSIE-A, O painel comemorando) e fundo quente (DOSSIE-B, O dossiê).",
+  "voz": "clonada do autor (eleven_v4, perfil B)",
+  "skill": "estilo-por-referencia + HyperFrames (receita: skill catalogo-de-efeitos, references/ESTILO-34-DOSSIE-DOCUMENTAL.md)",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/34-dossie-documental-1.jpg",
+   "exemplos/img/v2/34-dossie-documental-2.jpg",
+   "exemplos/img/v2/34-dossie-documental-3.jpg",
+   "exemplos/img/v2/34-dossie-documental-4.jpg",
+   "exemplos/img/v2/34-dossie-documental-5.jpg",
+   "exemplos/img/v2/34-dossie-documental-6.jpg",
+   "exemplos/img/v2/34-dossie-documental-7.jpg",
+   "exemplos/img/v2/34-dossie-documental-8.jpg"
+  ]
+ },
+ {
+  "numero": 35,
+  "id": "isometrico-explicativo",
+  "nome": "Isométrico explicativo (máquina que explica)",
+  "apelidos": [
+   "estilo 35",
+   "Isométrico explicativo (máquina que explica)",
+   "isometrico-explicativo",
+   "isométrico explicativo",
+   "anatomy",
+   "máquina",
+   "mecanismo",
+   "como funciona",
+   "por dentro",
+   "figura isométrica",
+   "explicador",
+   "visual de referência "
+  ],
+  "quando_usar": "Uma máquina física desenhada em isométrico, com dezenas de peças reais, cujo funcionamento É o mecanismo do produto: cada parte age quando a voz fala dela. Serve para meio de funil e para explicar 'como funciona por dentro' (aula, página, carrossel). Nasceu da skill anatomy (MIT) em 25/10: separadora de moedas (Lead Certo), telégrafo de duas linhas (MCT) e rotativa de 5 unidades (Fábrica de Criativos).",
+  "voz": "clonada do autor (eleven_v4, perfil B)",
+  "skill": "anatomy (figura) + HyperFrames (montagem); ponte para vídeo em .claude/skills/anatomy/NOTA-MEGABRAIN.md",
+  "status": "pronto",
+  "so_referencia": false,
+  "imagens": [
+   "exemplos/img/v2/35-isometrico-explicativo-1.jpg",
+   "exemplos/img/v2/35-isometrico-explicativo-2.jpg",
+   "exemplos/img/v2/35-isometrico-explicativo-3.jpg",
+   "exemplos/img/v2/35-isometrico-explicativo-4.jpg",
+   "exemplos/img/v2/35-isometrico-explicativo-5.jpg",
+   "exemplos/img/v2/35-isometrico-explicativo-6.jpg"
+  ]
+ }
+]

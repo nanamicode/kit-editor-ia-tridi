@@ -2,12 +2,12 @@
 // A tela do jogo mostra o video original recortado acima da legenda queimada;
 // a caixa de dialogo (RPG) traz a fala; HUD de fase e barra de missao.
 import React from "react";
-import { AbsoluteFill, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Img, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { Audio, Video } from "@remotion/media";
 import { pixelate } from "@remotion/effects/pixelate";
 import { loadFont as loadVT } from "@remotion/google-fonts/VT323";
 import { loadFont as loadSilk } from "@remotion/google-fonts/Silkscreen";
-import { CORTE_APRESENTADORA, FASES, MODOS, ORIGINAL_PRETO, PALAVRAS, TRANSICOES, type Modo } from "./dados";
+import { CORTE_APRESENTADORA, FASES, FREEZE_CTA, MODOS, ORIGINAL_PRETO, PALAVRAS, TRANSICOES, type Modo } from "./dados";
 import { MolduraPixel, PAL, SPR, Sprite, degrau } from "./sprites";
 
 // Pixelify Sans saiu: no peso 600/700 o "C" fechava e lia "O" (OARIMBO, OLIQUE). Silkscreen = titulos/botao; VT323 = texto corrido.
@@ -127,34 +127,40 @@ const Tela: React.FC = () => {
   // liga o CRT nos 3 primeiros quadros
   const liga = interpolate(frame, [0, 3], [0.06, 1], clamp);
   const flash = interpolate(frame, [0, 4], [0.9, 0], clamp);
+  const naApresentadora = t >= CORTE_APRESENTADORA;
+  const enquadre: React.CSSProperties = {
+    position: "absolute",
+    left: 0,
+    top: 0,
+    width: iw,
+    height: iw,
+    transformOrigin: "50% 0%",
+    // recorte um pouco maior: esconde a borda do teto (filete claro, origem y<=48 px; topo visivel = origem 48) e a mancha da esquerda;
+    // base visivel = origem ~601 px, ainda acima da legenda queimada (608)
+    transform: naApresentadora ? "translateY(-72px) scale(1.1)" : "none",
+  };
   return (
     <MolduraPixel x={TELA.x} y={TELA.y} w={TELA.w} h={TELA.h} s={10} borda={TELA.borda} corBorda={COR.lilas} corMiolo="#000000" sombra={16}>
       <div style={{ position: "absolute", inset: 0, transform: `scaleY(${liga})` }}>
         <div style={{ position: "absolute", left: 0, top: 0, width: iw, height: ih, overflow: "hidden" }}>
           {/* 720x720 -> 976x976; so os 608 px de cima aparecem (824 px) */}
-          <Video
-            src={staticFile("v/v4/v4.mp4")}
-            style={{
-              position: "absolute",
-              left: 0,
-              top: 0,
-              width: iw,
-              height: iw,
-              transformOrigin: "50% 0%",
-              transform: t >= CORTE_APRESENTADORA ? "translateY(-48px) scale(1.07)" : "none",
-            }}
-            effects={[pixelate({ blockSize: bloco, disabled: bloco <= 1 })]}
-          />
+          {/* audio sai de um <Audio> proprio (cobre os 18.088 s do audio original) */}
+          <Video src={staticFile("v/v4/v4.mp4")} muted style={enquadre} effects={[pixelate({ blockSize: bloco, disabled: bloco <= 1 })]} />
+          {/* o original faz fade para o preto a partir de 16.23 s: segura o ultimo quadro claro ate a cartela */}
+          {t >= FREEZE_CTA ? <Img src={staticFile("v/v4/cta_freeze.png")} style={enquadre} /> : null}
         </div>
         {/* linhas de varredura + vinheta de tubo */}
         <div
           style={{
             position: "absolute",
             inset: 0,
-            backgroundImage: "repeating-linear-gradient(0deg, rgba(0,0,0,0.22) 0px, rgba(0,0,0,0.22) 2px, transparent 2px, transparent 5px)",
+            backgroundImage: naApresentadora
+              ? "repeating-linear-gradient(0deg, rgba(0,0,0,0.12) 0px, rgba(0,0,0,0.12) 2px, transparent 2px, transparent 5px)"
+              : "repeating-linear-gradient(0deg, rgba(0,0,0,0.22) 0px, rgba(0,0,0,0.22) 2px, transparent 2px, transparent 5px)",
           }}
         />
-        <div style={{ position: "absolute", inset: 0, boxShadow: "inset 0 0 90px rgba(0,0,0,0.65)" }} />
+        {/* vinheta de tubo mais leve na apresentadora: rosto claro no CTA */}
+        <div style={{ position: "absolute", inset: 0, boxShadow: naApresentadora ? "inset 0 0 60px rgba(0,0,0,0.35)" : "inset 0 0 90px rgba(0,0,0,0.65)" }} />
         {t >= ORIGINAL_PRETO ? <CartelaFinal /> : null}
         <div style={{ position: "absolute", inset: 0, background: "white", opacity: flash }} />
       </div>
@@ -164,7 +170,8 @@ const Tela: React.FC = () => {
 const CartelaFinal: React.FC = () => {
   const { frame, fps } = useT();
   const local = frame - Math.round(ORIGINAL_PRETO * fps);
-  const passoN = Math.min(4, Math.floor(local / 2) + 1);
+  // comeca no passo 2: o carimbo ja aparece no 1o quadro da cartela (sem quadro roxo vazio)
+  const passoN = Math.min(4, Math.floor(local / 2) + 2);
   return (
     <div style={{ position: "absolute", inset: 0, background: "#160830" }}>
     <div
@@ -345,14 +352,15 @@ const ModoItem: React.FC = () => {
           <div key={i} style={{ position: "absolute", left: x, top: yy, width: 12, height: 12, background: COR.branco }} />
         ) : null,
       )}
-      <div style={{ position: "absolute", left: 210, top: 34, right: 24 }}>
-        <div style={{ fontFamily: silk, fontSize: 44, color: COR.lilas, textShadow: `4px 4px 0 ${COR.tinta}` }}>com um</div>
+      {/* respiro: o "p" de personalizado nao encosta mais na borda de baixo */}
+      <div style={{ position: "absolute", left: 210, top: 30, right: 24 }}>
+        <div style={{ fontFamily: silk, fontSize: 44, lineHeight: 1.1, color: COR.lilas, textShadow: `4px 4px 0 ${COR.tinta}` }}>com um</div>
         <div
           style={{
             fontFamily: silk,
             fontWeight: 400,
             fontSize: 96,
-            lineHeight: 1.0,
+            lineHeight: 0.92,
             color: COR.branco,
             textShadow: `6px 6px 0 ${COR.roxo}`,
             transformOrigin: "left center",
@@ -364,9 +372,9 @@ const ModoItem: React.FC = () => {
         <div
           style={{
             fontFamily: vt,
-            fontSize: 112,
-            lineHeight: 0.95,
-            marginTop: 8,
+            fontSize: 104,
+            lineHeight: 0.9,
+            marginTop: 4,
             color: t >= tPer && t < 1.92 ? COR.lilas : COR.branco,
             textShadow: `6px 6px 0 ${COR.roxo}`,
             transformOrigin: "left center",
@@ -436,7 +444,7 @@ const ModoCusto: React.FC = () => {
 const ITENS = [
   { nome: "Caixa", chave: "caixa", spr: SPR.caixa },
   { nome: "Saquinho", chave: "saquinho", spr: SPR.saquinho },
-  { nome: "Papel craft", chave: "papel", spr: SPR.papel },
+  { nome: "Papel kraft", chave: "papel", spr: SPR.papel },
   { nome: "Qualquer coisa", chave: "qualquer", spr: SPR.estrela },
 ];
 
@@ -452,9 +460,11 @@ const ModoInventario: React.FC = () => {
         const ativo = t >= ts;
         const local = frame - Math.round(ts * fps);
         const sc = ativo ? pop(local) : 1;
-        const slot = 132;
+        // respiro: slot menor e rotulo em 2 linhas folgadas, nada encosta na borda da caixa
+        const slot = 108;
         return (
-          <div key={it.chave} style={{ position: "absolute", left: x0 + i * (colW + gap), top: 44, width: colW }}>
+          // top 50: check a >=16 px da plaquinha "FUNCIONA EM:" e da linha roxa interna; rotulo de 2 linhas a ~19 px da base
+          <div key={it.chave} style={{ position: "absolute", left: x0 + i * (colW + gap), top: 50, width: colW }}>
             <div style={{ position: "relative", width: slot, height: slot, margin: "0 auto", transform: `scale(${sc})` }}>
               <div style={{ position: "absolute", inset: 0, background: ativo ? COR.branco : COR.vazio, clipPath: degrau(slot, slot, 8) }} />
               <div
@@ -468,22 +478,22 @@ const ModoInventario: React.FC = () => {
                   clipPath: degrau(slot - 16, slot - 16, 6),
                 }}
               />
-              <div style={{ position: "absolute", left: (slot - 96) / 2, top: (slot - 96) / 2, opacity: ativo ? 1 : 0.28 }}>
-                <Sprite mapa={it.spr} px={8} />
+              <div style={{ position: "absolute", left: (slot - 84) / 2, top: (slot - 84) / 2, opacity: ativo ? 1 : 0.28 }}>
+                <Sprite mapa={it.spr} px={7} />
               </div>
               {ativo && local >= 3 ? (
-                <div style={{ position: "absolute", right: -18, top: -16 }}>
-                  <Sprite mapa={SPR.check} px={5} pal={{ o: COR.tinta, w: "#7CFF6B" }} />
+                <div style={{ position: "absolute", right: -14, top: -2 }}>
+                  <Sprite mapa={SPR.check} px={4} pal={{ o: COR.tinta, w: "#7CFF6B" }} />
                 </div>
               ) : null}
             </div>
             <div
               style={{
-                marginTop: 14,
+                marginTop: 10,
                 textAlign: "center",
                 fontFamily: vt,
-                fontSize: 60,
-                lineHeight: 0.9,
+                fontSize: 54,
+                lineHeight: 0.95,
                 color: ativo ? COR.branco : "#6E5A8E",
                 textShadow: ativo ? `4px 4px 0 ${COR.tinta}` : "none",
               }}
@@ -583,12 +593,13 @@ const ModoContinue: React.FC = () => {
   const fClick = Math.round(tAqui * fps);
   const desdeClick = frame - fClick;
   const clicando = desdeClick >= 0 && desdeClick % 30 < 5;
-  const mx = interpolate(passo(local), [0, 6], [140, 0], clamp);
-  const my = interpolate(passo(local), [0, 6], [60, 0], clamp);
-  const btnW = 880;
-  const btnH = 136;
-  const bx = (944 - btnW) / 2;
-  const by = 150;
+  const mx = interpolate(passo(local), [0, 6], [50, 0], clamp);
+  const my = interpolate(passo(local), [0, 6], [0, 0], clamp);
+  // botao com respiro: nem o botao nem o cursor encostam na borda da caixa
+  const btnW = 860;
+  const btnH = 124;
+  const bx = (944 - btnW - 12) / 2;
+  const by = 136;
   const afunda = clicando ? 8 : 0;
   return (
     <>
@@ -597,7 +608,7 @@ const ModoContinue: React.FC = () => {
           position: "absolute",
           left: 0,
           right: 0,
-          top: 40,
+          top: 30,
           textAlign: "center",
           fontFamily: vt,
           fontSize: 84,
@@ -643,7 +654,7 @@ const ModoContinue: React.FC = () => {
             </div>
           </div>
           {/* cursor no canto direito do botao, sem cobrir o "AQUI" */}
-          <div style={{ position: "absolute", left: btnW - 62 + mx, top: btnH - 58 + my + (clicando ? 6 : 0) }}>
+          <div style={{ position: "absolute", left: btnW - 96 + mx, top: btnH - 66 + my + (clicando ? 6 : 0) }}>
             <Sprite mapa={SPR.mao} px={6} />
           </div>
         </div>
@@ -723,6 +734,7 @@ export const V4: React.FC = () => {
       <Tela />
       <BarraMissao />
       <CaixaDialogo />
+      <Audio src={staticFile("v/v4/v4.mp4")} />
       {(USAR_SFX ? SFX : []).map((s, i) => (
         <Sequence key={i} from={Math.round(s.t * fps)} durationInFrames={Math.round(0.6 * fps)} layout="none">
           <Audio src={staticFile(`v/v4/${s.src}`)} volume={s.vol} />

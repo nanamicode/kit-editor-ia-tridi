@@ -4,6 +4,9 @@
 // Sem narração: textos só DESCREVEM o que aparece. Áudio original (música) preservado.
 // Correção V02: cartão maior (836x1008), títulos concretos, FIG complementa (não repete), entradas escalonadas,
 // sem avanço lento (evita trepidação 23,976->30), zoom lento no quadro congelado do CTA.
+// Correção R2: cartão mais alto (836x1238, ocupa a faixa de baixo), FIG sobe para a linha do cabeçalho
+// (sem "FIG. 0X"/índice decorativo, sem rótulo que repetia o título), painel "BEBIDAS" cobre o copo com
+// marca de terceiros no plano 5. Marca dos totens: Maindx (não aparece escrita no original nem na edição).
 import React from "react";
 import {
   AbsoluteFill,
@@ -18,11 +21,9 @@ import {
 import { Audio, Video } from "@remotion/media";
 import { loadFont as loadInterTight } from "@remotion/google-fonts/InterTight";
 import { loadFont as loadInter } from "@remotion/google-fonts/Inter";
-import { loadFont as loadMono } from "@remotion/google-fonts/IBMPlexMono";
 
 const grotesca = loadInterTight("normal", { weights: ["800"], subsets: ["latin", "latin-ext"] }).fontFamily;
 const texto = loadInter("normal", { weights: ["600"], subsets: ["latin", "latin-ext"] }).fontFamily;
-const mono = loadMono("normal", { weights: ["500"], subsets: ["latin", "latin-ext"] }).fontFamily;
 
 export const V8_FPS = 30;
 export const V8_DURATION = 518; // 17,27 s (original 17,28 s)
@@ -40,20 +41,19 @@ const COR = {
   roxoTexto: "#A877FF", // palavra de acento sobre fundo escuro
 };
 const M = 80; // margem lateral
-const HEAD_Y = 196; // cabeçalho decorativo (fora do 4:5, dentro da margem de 100 px)
+const HEAD_Y = 196; // linha de apoio (descrição do plano) + régua de progresso; fora do 4:5, dentro da margem de 100 px
 const TITULO_Y = 286; // título: 2 linhas x 104 px -> 286..494
-const CARD = { x: M, y: 522, w: 836, h: 1008 }; // 522..1530
-const FIG_Y = 1560; // 1560..~1614 (dentro do 4:5, até 1635)
+const CARD = { x: M, y: 522, w: 836, h: 1238 }; // 522..1760 (imagem pode passar sob a UI; texto nenhum abaixo de 1635)
+const FIG_Y = HEAD_Y - 4; // descrição do plano na linha do cabeçalho
 const CARD_W_FINAL = 1080 - 2 * M; // 920 na cena da apresentadora
 const EASE = Easing.bezier(0.16, 1, 0.3, 1);
 const ATRASO_TITULO = 2; // título entra 2 quadros depois do corte
 const ATRASO_FIG = 6; // legenda de figura entra 6 quadros depois do corte
-const SAIDA = 4; // saída curta do texto anterior
+const SAIDA = 3; // saída curta do texto anterior (só opacidade, sem máscara)
 
 // Cortes reais do original (scdet), convertidos para 30 fps
 type Cena = {
   from: number;
-  rotulo: string; // função no cabeçalho
   l1: string;
   l2: string;
   fig: { pre: string; hl: string; post: string } | null; // complementa o título; null = sem FIG
@@ -61,17 +61,20 @@ type Cena = {
   z: number; // zoom sobre "largura cheia do cartão"
 };
 const CENAS: Cena[] = [
-  { from: 0, rotulo: "TELA", l1: "PEÇA", l2: "NA TELA", fig: { pre: "tela ", hl: "vertical", post: " de toque" }, cy: 1010, z: 1.0 },
-  { from: 78, rotulo: "CARDÁPIO", l1: "CARDÁPIO", l2: "DIGITAL", fig: { pre: "fotos dos ", hl: "lanches", post: "" }, cy: 1090, z: 1.1 },
-  { from: 169, rotulo: "INÍCIO", l1: "TOQUE PARA", l2: "INICIAR", fig: { pre: "botão na ", hl: "base", post: " da tela" }, cy: 900, z: 1.0 },
-  { from: 211, rotulo: "PAGAMENTO", l1: "PAGAMENTO", l2: "NO CARTÃO", fig: { pre: "teclado para ", hl: "senha", post: "" }, cy: 1170, z: 1.0 },
-  { from: 252, rotulo: "PEDIDO", l1: "ESCOLHA", l2: "NO TOQUE", fig: { pre: "monte o ", hl: "pedido", post: "" }, cy: 980, z: 1.0 },
-  { from: 296, rotulo: "ESTRUTURA", l1: "TOTEM", l2: "DE PÉ", fig: { pre: "acabamento ", hl: "preto", post: " brilhante" }, cy: 1200, z: 1.0 },
-  { from: 341, rotulo: "CONJUNTO", l1: "PEÇA E PAGUE", l2: "NO TOTEM", fig: { pre: "tela e ", hl: "leitor", post: " juntos" }, cy: 1060, z: 1.0 },
-  { from: 387, rotulo: "APRESENTAÇÃO", l1: "CONHEÇA", l2: "O TOTEM", fig: null, cy: 1150, z: 1.0 },
+  { from: 0, l1: "PEÇA", l2: "NA TELA", fig: { pre: "tela ", hl: "vertical", post: " de toque" }, cy: 1010, z: 1.0 },
+  { from: 78, l1: "CARDÁPIO", l2: "DIGITAL", fig: { pre: "fotos dos ", hl: "lanches", post: "" }, cy: 1090, z: 1.1 },
+  { from: 169, l1: "TOQUE PARA", l2: "INICIAR", fig: { pre: "botão na ", hl: "base", post: " da tela" }, cy: 900, z: 1.0 },
+  { from: 211, l1: "PAGAMENTO", l2: "NO CARTÃO", fig: { pre: "teclado para ", hl: "senha", post: "" }, cy: 1170, z: 1.0 },
+  { from: 252, l1: "ESCOLHA", l2: "NO TOQUE", fig: { pre: "monte o ", hl: "pedido", post: "" }, cy: 980, z: 1.0 },
+  { from: 296, l1: "TOTEM", l2: "DE PÉ", fig: { pre: "acabamento ", hl: "preto", post: " brilhante" }, cy: 1200, z: 1.0 },
+  { from: 341, l1: "PEÇA E PAGUE", l2: "NO TOTEM", fig: { pre: "tela e ", hl: "leitor", post: " juntos" }, cy: 1060, z: 1.0 },
+  { from: 387, l1: "CONHEÇA", l2: "O TOTEM", fig: null, cy: 1150, z: 1.0 },
 ];
 const CTA_FROM = 444; // ~14,8 s, acento da música
 const CENA_EXPANDE = 387;
+// Plano 5: o copo na tela do totem traz marca de terceiros (src x 360-510, y 630-915, câmera parada).
+// Painel da grade cobre essa área desde o quadro do corte e diz qual tela está aberta (a própria tela mostra "Bebidas").
+const TAPA = { cena: 4, x: 300, y: 585, w: 460, h: 375 }; // em px do vídeo-fonte 1080x1920
 const CONGELA = 460; // 15,33 s: quadro nítido, antes do fade-out para preto do original (15,85 s)
 
 const cenaDe = (f: number) => {
@@ -93,38 +96,15 @@ const Fundo: React.FC = () => (
     {[M, 1080 - M].map((x) => (
       <div key={x} style={{ position: "absolute", left: x, top: 0, width: 1, height: 1920, background: COR.guia }} />
     ))}
-    <div style={{ position: "absolute", left: 0, top: 1650, width: 1080, height: 1, background: COR.guia }} />
   </AbsoluteFill>
 );
 
-// ---------- Cabeçalho "quadro de partidas" (rótulo de função + índice) ----------
+// ---------- Cabeçalho: régua de progresso (a descrição do plano entra por cima dela, em <Figura>) ----------
 const Cabecalho: React.FC = () => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
-  const i = cenaDe(frame);
   return (
     <>
-      <div
-        style={{
-          position: "absolute",
-          left: M,
-          top: HEAD_Y,
-          width: 1080 - 2 * M,
-          display: "flex",
-          justifyContent: "space-between",
-          fontFamily: mono,
-          fontSize: 44,
-          letterSpacing: "0.04em",
-          color: COR.cinza,
-        }}
-      >
-        <span>
-          TOTEM · <span style={{ color: COR.branco }}>{CENAS[i].rotulo}</span>
-        </span>
-        <span>
-          <span style={{ color: COR.branco }}>{String(i + 1).padStart(2, "0")}</span>/{String(CENAS.length).padStart(2, "0")}
-        </span>
-      </div>
       <div style={{ position: "absolute", left: M, top: HEAD_Y + 64, width: 1080 - 2 * M, height: 2, background: COR.regua }} />
       <div
         style={{
@@ -140,7 +120,7 @@ const Cabecalho: React.FC = () => {
   );
 };
 
-// ---------- Título (duas linhas, entrada e saída por máscara) ----------
+// ---------- Título (duas linhas; R2: sem máscara, para nenhum quadro mostrar palavra cortada no corte) ----------
 const Titulo: React.FC<{ l1: string; l2: string; dur: number; caixa?: boolean; imediato?: boolean; semSaida?: boolean }> = ({
   l1,
   l2,
@@ -152,8 +132,8 @@ const Titulo: React.FC<{ l1: string; l2: string; dur: number; caixa?: boolean; i
   // imediato: o 1º título já está na tela no quadro 0 (gancho / miniatura)
   const raw = useCurrentFrame();
   const frame = raw + (imediato ? 12 : 0);
-  const sai = semSaida ? 0 : interpolate(raw, [dur - SAIDA, dur], [0, -116], { ...clamp, easing: Easing.in(Easing.cubic) });
-  const linha: React.CSSProperties = { overflow: "hidden", height: 104, display: "flex" };
+  const sai = semSaida ? 1 : interpolate(raw, [dur - SAIDA, dur], [1, 0], clamp);
+  const linha: React.CSSProperties = { height: 104, display: "flex" };
   const base: React.CSSProperties = {
     fontFamily: grotesca,
     fontSize: 100,
@@ -161,11 +141,13 @@ const Titulo: React.FC<{ l1: string; l2: string; dur: number; caixa?: boolean; i
     letterSpacing: "-0.035em",
     whiteSpace: "nowrap",
   };
-  const entra = (a: number) => interpolate(frame, [a, a + 7], [116, 0], { ...clamp, easing: EASE });
+  // entrada: opacidade + deslocamento curto (palavra sempre inteira)
+  const entra = (a: number) => interpolate(frame, [a, a + 6], [22, 0], { ...clamp, easing: EASE });
+  const op = (a: number) => Math.min(sai, interpolate(frame, [a, a + 4], [0, 1], clamp));
   return (
     <div style={{ position: "absolute", left: M - 4, top: TITULO_Y, width: 1080 - 2 * M + 8 }}>
       <div style={linha}>
-        <div style={{ ...base, color: COR.branco, translate: `0px ${entra(0) + sai}px` }}>{l1}</div>
+        <div style={{ ...base, color: COR.branco, translate: `0px ${entra(0)}px`, opacity: op(0) }}>{l1}</div>
       </div>
       <div style={linha}>
         <div
@@ -174,7 +156,8 @@ const Titulo: React.FC<{ l1: string; l2: string; dur: number; caixa?: boolean; i
             color: caixa ? COR.branco : COR.roxoTexto,
             background: caixa ? COR.roxo : "transparent",
             padding: caixa ? "0 22px 0 18px" : 0,
-            translate: `0px ${entra(2) + sai}px`,
+            translate: `0px ${entra(2)}px`,
+            opacity: op(2),
           }}
         >
           {l2}
@@ -185,8 +168,7 @@ const Titulo: React.FC<{ l1: string; l2: string; dur: number; caixa?: boolean; i
 };
 
 // ---------- Legenda de figura (apoio, complementa o título) ----------
-const Figura: React.FC<{ n: number; pre: string; hl: string; post: string; dur: number; imediato?: boolean }> = ({
-  n,
+const Figura: React.FC<{ pre: string; hl: string; post: string; dur: number; imediato?: boolean }> = ({
   pre,
   hl,
   post,
@@ -215,7 +197,6 @@ const Figura: React.FC<{ n: number; pre: string; hl: string; post: string; dur: 
         translate: interpolate(frame, [0, 10], ["0px 14px", "0px 0px"], { ...clamp, easing: EASE }),
       }}
     >
-      <span style={{ fontFamily: mono, color: COR.cinza }}>{`FIG. ${String(n).padStart(2, "0")} — `}</span>
       <span>{pre}</span>
       <span style={{ position: "relative", padding: "0 10px" }}>
         <span
@@ -295,6 +276,49 @@ const Cartao: React.FC = () => {
             style={{ position: "absolute", left, top, width: vw, height: vh, maxWidth: "none" }}
           />
         </Freeze>
+        {i === TAPA.cena ? (
+          <div
+            style={{
+              position: "absolute",
+              left: left + TAPA.x * k,
+              top: top + TAPA.y * k,
+              width: TAPA.w * k,
+              height: TAPA.h * k,
+              background: COR.fundo,
+              borderTop: `8px solid ${COR.roxo}`,
+              boxSizing: "border-box",
+              padding: "18px 22px 22px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center", // R3: bloco de texto junto, sem vazio no meio (o painel precisa da altura para cobrir o copo)
+              gap: 8,
+            }}
+          >
+            <div
+              style={{
+                fontFamily: grotesca,
+                fontSize: 64,
+                lineHeight: "70px",
+                letterSpacing: "-0.02em",
+                color: COR.branco,
+                translate: `0px ${interpolate(frame - c.from, [0, 8], [10, 0], { ...clamp, easing: EASE })}px`,
+              }}
+            >
+              BEBIDAS
+            </div>
+            <div
+              style={{
+                fontFamily: texto,
+                fontSize: 44,
+                lineHeight: "52px",
+                color: COR.claro,
+                opacity: interpolate(frame - c.from, [2, 8], [0, 1], clamp),
+              }}
+            >
+              sabor e preço
+            </div>
+          </div>
+        ) : null}
         {CENAS.map((s, n) => (
           <Sequence key={n} from={s.from} durationInFrames={20} layout="none">
             <BarraCorte />
@@ -370,7 +394,7 @@ export const V8: React.FC = () => {
         const fim = fimDe(n) + 2; // termina de sumir logo após o corte
         return (
           <Sequence key={`f${n}`} name={`Figura ${n + 1}`} from={ini} durationInFrames={fim - ini} layout="none">
-            <Figura n={n + 1} {...s.fig} dur={fim - ini} imediato={n === 0} />
+            <Figura {...s.fig} dur={fim - ini} imediato={n === 0} />
           </Sequence>
         );
       })}

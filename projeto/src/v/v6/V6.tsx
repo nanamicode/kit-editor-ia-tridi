@@ -21,7 +21,7 @@ const { fontFamily: OUTFIT } = loadOutfit("normal", { weights: ["500", "600", "7
 const { fontFamily: SERIF } = loadSerif("italic", { weights: ["400"], subsets: ["latin"] });
 const { fontFamily: MONO } = loadMono("normal", { weights: ["500"], subsets: ["latin"] });
 
-// Paleta (Mind Geeks: roxo do cenario + magenta do LED, sobre carvao)
+// Paleta (Maindx: roxo do cenario + magenta do LED, sobre carvao)
 const C = {
   bg: "#0A090D",
   panel: "#121017",
@@ -121,6 +121,7 @@ const Headline: React.FC = () => {
         if (frame < start - 1 || frame > end + 7) return null;
         const inP = ramp(frame, start, start + 7);
         const outT = ramp(frame, end, end + 7);
+        const outOp = ramp(frame, end + 3, end + 7); // a frase que sai segue legivel enquanto sobe
         const lines: (typeof ph.words)[] = [[]];
         ph.words.forEach((w) => {
           if (w.br) lines.push([]);
@@ -139,7 +140,7 @@ const Headline: React.FC = () => {
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
-              opacity: Math.min(inP, 1 - outT),
+              opacity: Math.min(inP, 1 - outOp),
               transform: `translateY(${(1 - inP) * 210 - outT * 210}px)`,
             }}
           >
@@ -234,7 +235,7 @@ const Card: React.FC<{
         transform: `scale(${scale})`,
       }}
     >
-      <WindowChrome w={rect.w} label="mind geeks" />
+      <WindowChrome w={rect.w} label="Maindx" />
       <div style={{ position: "absolute", left: 0, top: HEADER, width: rect.w, height: vh, overflow: "hidden", ...dotMask(reveal) }}>
         {children(rect.w, vh)}
         {dark > 0 ? <div style={{ position: "absolute", inset: 0, backgroundColor: `rgba(10,9,13,${dark})` }} /> : null}
@@ -279,9 +280,12 @@ const EndVideo: React.FC<{ w: number; frame: number }> = ({ w, frame }) => {
   );
 };
 
-// Escurece o cartao durante o flash branco da transicao original (9,1-9,7 s).
-const flashDark = (f: number) =>
-  interpolate(f, [272, 275, 279, 282, 283, 285, 287, 291], [0, 0.3, 0.55, 0.55, 0.1, 0.3, 0.3, 0], CL);
+// Flash branco da transicao original (fonte ~274-291: vazamento de luz, 2 quadros brancos, nevoa rosa).
+// 1) quadro limpo do totem (fonte 272) cobre a subida do flash e os quadros brancos, e se dissolve na apresentadora;
+// 2) na saida, contraste/brilho tiram a nevoa rosa do video ao vivo; 3) leve escurecimento residual.
+const flashCover = (f: number) => interpolate(f, [272, 274, 281, 287], [0, 1, 1, 0], CL);
+const hazeFix = (f: number) => interpolate(f, [280, 285, 293], [1, 1, 0], { ...CL, easing: Easing.out(Easing.quad) }) * (f >= 280 ? 1 : 0);
+const flashDark = (f: number) => interpolate(f, [281, 284, 292], [0, 0.12, 0], CL);
 
 /* ---------------- Grade de paineis que se desenha ---------------- */
 const GridLines: React.FC<{ draw: number; fade: number; paths: string[] }> = ({ draw, fade, paths }) => (
@@ -424,9 +428,10 @@ const ProblemGrid: React.FC<{ frame: number }> = ({ frame }) => {
   const fade = 1 - ramp(frame, 168, 180);
   const defs: PanelDef[] = [
     { r: GRID4[0], img: "v/v6/s_queue.jpg", s: 0.6, cx: 540, cy: 1050, fill: 97 },
-    { r: GRID4[1], img: "v/v6/s_red.jpg", s: 0.55, cx: 560, cy: 560, fill: 116 },
-    { r: GRID4[2], img: "v/v6/s_man.jpg", s: 0.55, cx: 520, cy: 720, fill: 125 },
-    { r: GRID4[3], img: "v/v6/s_desk.jpg", s: 0.55, cx: 560, cy: 640, fill: 134 },
+    // paineis entram em sequencia curta (8 quadros) para a grade nao ficar com celulas vazias
+    { r: GRID4[1], img: "v/v6/s_red.jpg", s: 0.55, cx: 560, cy: 560, fill: 105 },
+    { r: GRID4[2], img: "v/v6/s_man.jpg", s: 0.55, cx: 520, cy: 720, fill: 113 },
+    { r: GRID4[3], img: "v/v6/s_desk.jpg", s: 0.55, cx: 560, cy: 640, fill: 121 },
   ];
   return (
     <>
@@ -664,7 +669,20 @@ export const V6: React.FC = () => {
             frame < 180 ? (
               <Img src={staticFile("v/v6/s_t180.jpg")} style={shotStyle(CARD_SHOTS[1], w)} />
             ) : (
-              <CardVideo from={180} dur={302} w={w} h={h} frame={frame} />
+              <>
+                <div
+                  style={{
+                    position: "absolute",
+                    inset: 0,
+                    filter: hazeFix(frame) > 0 ? `contrast(${1 + 0.55 * hazeFix(frame)}) brightness(${1 - 0.25 * hazeFix(frame)}) saturate(${1 + 0.25 * hazeFix(frame)})` : undefined,
+                  }}
+                >
+                  <CardVideo from={180} dur={302} w={w} h={h} frame={frame} />
+                </div>
+                {flashCover(frame) > 0 ? (
+                  <Img src={staticFile("v/v6/s_t272.jpg")} style={{ ...shotStyle(CARD_SHOTS[3], w), opacity: flashCover(frame) }} />
+                ) : null}
+              </>
             )
           }
         </Card>

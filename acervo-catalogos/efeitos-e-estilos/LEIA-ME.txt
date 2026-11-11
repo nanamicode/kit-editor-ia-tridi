@@ -1,0 +1,5 @@
+04 - EFEITOS E ESTILOS
+
+Abra CATALOGO-ESTILOS-v2.html e CATALOGO-DE-EFEITOS.html no navegador (funcionam offline; use a busca).
+Peça no Claude 'estilo N' ou o nome do estilo. CATALOGO-ESTILOS-v2.json e catalogo-de-efeitos.json sao os mesmos dados em formato de maquina.
+exemplos/img/ traz as imagens de cada estilo. Seus estilos novos (/fca-novo-estilo) ficam em meus-estilos/, a partir do numero 100.
