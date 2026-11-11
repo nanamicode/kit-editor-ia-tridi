@@ -1,0 +1,264 @@
+FÁBRICA DE CRIATIVOS                    Nº M04-A6
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 4 · AULA 6
+
+ANÚNCIO DE TOPO, MEIO E FUNDO DE FUNIL
+
+NA TELA: TETO,
+COLUNAS E PÚBLICOS
+
+  4 CAPÍTULOS 3 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 As colunas
+   01 O teto
+   03 Os públicos                       4.6 04 Naprática
+                                                                              FCA · M04-A6
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 4 · AULA 6  NA TELA: TETO, COLUNAS E PÚBLICOS
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Esta é uma aula que o Lúcio adicionou depois, para o aluno ficar mais afiado na análise do
+resultado dos criativos. Primeiro ele explica o teto: o CPA que você persegue, definido pela sua
+margem e não pelo mercado, e que nunca deve ser copiado de outro nicho. Depois mostra, no
+Gerenciador de Anúncios, como criar as colunas que dizem se o criativo está indo bem antes de
+a venda acontecer: hook rate (taxa de reprodução de 3 segundos), retenção (ThruPlay ÷
+impressões, métrica personalizada em percentual) e CTR (clique no link). Por fim, mostra em
+Configurações de publicidade como dizer ao Meta quem são seus clientes e seus engajados,
+para que a campanha priorize novos clientes e o Meta entregue o criativo certo (topo, meio ou
+fundo) para cada público. Se hook, retenção e CTR estão bons e não vende, o problema está na
+página ou na oferta, não no criativo.
+
+IDEIA CENTRAL
+
+O teto vem da sua margem, não do mercado; e as colunas de
+hook rate, retenção e CTR dizem se o criativo está indo bem
+antes de a venda acontecer.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  O que é o teto
+
+    É o CPA que você fica perseguindo: o máximo que você paga por lead, venda ou
+    mensagem sem perder dinheiro. É individual (tem gente que quer 100% de lucro, tem
+    gente que quer 50% ou 20%), mas precisa ser um número pé no chão. Quem define é a
+    sua margem, não o mercado, e ele pode ser calculado sobre o primeiro produto ou
+    sobre o LTV do funil (order bumps, upsell, downsell).
+
+02  A conta do teto (exemplo da aula)
+
+    Produto de R$ 200, com R$ 30 de taxas e impostos e R$ 20 de custo de entrega: a
+    margem é R$ 150. Para ter 100% de lucro, o teto de CPA é R$ 75. Outro exemplo:
+    produto de R$ 100 com meta de 50% de lucro, a venda tem de custar no máximo R$ 50.
+
+FCA · MÓDULO 4 · AULA 6       PÁGINA 2
+WORKBOOK · MÓDULO 4 · AULA 6  NA TELA: TETO, COLUNAS E PÚBLICOS
+
+03  Teto do lead
+
+    Se você faz campanha para lead, o teto é o custo por lead máximo, e ele depende de
+    quantos leads você precisa para fazer uma venda. Exemplo da aula: a cada 10 leads
+    você faz uma venda de R$ 100; com 100% de lucro, pode gastar no máximo R$ 50 por
+    venda, ou seja, o custo por lead tem de ser no máximo R$ 5.
+
+04  É base, não lei
+
+    Cada um tem a sua realidade. Upsell e recompra aumentam o teto (uma segunda venda
+    é mais barata e mais fácil que a primeira). Fase do produto e conta a conta também
+    mudam o número. Se não der para calcular, dá para chutar e perseguir. Nunca copie o
+    teto de outro nicho.
+
+05  As colunas do criativo
+
+    Hook rate = taxa de reprodução de vídeo de 3 segundos por impressões (já existe, é só
+    marcar a taxa). Retenção = ThruPlay ÷ impressões, criada como métrica personalizada
+    em formato percentual, porque o Gerenciador só dá a quantidade. CTR = clique no link,
+    não 'cliques (todos)', que conta curtida e comentário. Em Colunas > Personalizar
+    colunas, você pode renomear (ex.: hook rate) e escolher se só você ou todo o portfólio
+    vê. Depois, salve.
+
+06  Como ler as colunas
+
+    Hook rate mede o gancho, retenção mede o corpo, CTR mede a chamada para ação. Se
+    os três estão de acordo com a tabela de referência e a venda não vem, o problema não
+    é o criativo: é a página ou a oferta.
+
+07  Clientes existentes e engajados
+
+    Em Configurações de publicidade da conta, diga ao Meta quem são seus clientes
+    (compradores, por produto; o Meta agora permite públicos de compra de até 730 dias,
+    então aumente os antigos) e seus engajados (leads, seguidores do Instagram, quem
+    iniciou checkout, abandonou ou gerou PIX e não pagou). Na campanha de vendas
+    aparece o relatório de segmentação de público; no conjunto de anúncios, a estratégia
+    de ciclo de vida do cliente: priorizar novos clientes faz o Meta excluir os clientes
+    existentes e buscar pessoas parecidas com eles. Com criativos de topo, meio e fundo
+    juntos, o Meta entrega cada um ao público certo.
+
+FCA · MÓDULO 4 · AULA 6       PÁGINA 3
+WORKBOOK · MÓDULO 4 · AULA 6                                       NA TELA: TETO, COLUNAS E PÚBLICOS
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/3
+
+Quando usar: Calcular o seu teto de CPA
+
+Meu produto custa R$ [preço]. A plataforma e os impostos levam R$ [taxas e
+impostos]. Entregar cada venda me custa R$ [custo de entrega]. Quero [50% ou
+100%] de lucro na primeira venda. Tenho [order bump, upsell, downsell ou
+recompra: descreva ou diga não]. Calcule a minha margem e o meu teto de CPA,
+mostrando a conta passo a passo e dizendo o que muda no teto se eu
+considerar o LTV do funil.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/3
+
+Quando usar: Calcular o teto do custo por lead
+
+Faço campanha para lead. A cada [número] leads eu faço 1 venda de R$ [valor
+da venda]. Quero [50% ou 100%] de lucro. Calcule o máximo que posso gastar
+por venda e o custo por lead máximo, mostrando a conta passo a passo.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/3
+
+Quando usar: Ler as colunas do criativo
+
+No meu Gerenciador, o criativo [nome] está com hook rate de [x]%, retenção
+de [y]%, CTR (clique no link) de [z]% e custo por resultado de R$ [valor],
+para um teto de R$ [teto]. Comparando com a tabela de referência da aula,
+diga se o problema está no gancho, no corpo, na chamada para ação ou na
+página/oferta, e o que testar primeiro.
+
+04                               → ✓ CERTO
+                                          Teto calculado com a sua margem
+O QUE NÃO FAZER                                                                      PÁGINA 4
+
+Teto copiado de outro nicho
+   ✕ ERRADO
+
+    Teto copiado de outro nicho
+
+FCA · MÓDULO 4 · AULA 6
+WORKBOOK · MÓDULO 4 · AULA 6  NA TELA: TETO, COLUNAS E PÚBLICOS
+
+05
+
+SUA VEZ
+
+Faça a sua conta do teto e configure a sua conta de anúncios:
+
+01 Preço do produto
+
+02 Taxas e impostos
+
+03 Custo de entrega
+
+04 Margem
+
+05 Lucro que quero na primeira venda (50%, 100%...) e teto de CPA
+
+06 Tenho funil (order bump, upsell, downsell)? Se sim, o teto muda para quanto?
+
+FCA · MÓDULO 4 · AULA 6                                                          PÁGINA 5
+WORKBOOK · MÓDULO 4 · AULA 6  NA TELA: TETO, COLUNAS E PÚBLICOS
+
+07 Se faço campanha para lead: leads necessários para 1 venda e teto de custo por lead
+
+08 Colunas criadas no Gerenciador: hook rate, retenção (métrica personalizada) e CTR
+    de clique no link (sim/não)
+
+09 Clientes existentes e engajados definidos em Configurações de publicidade
+    (sim/não)
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       Calculei o meu teto com a minha margem (sem copiar de outro nicho)
+
+       Se faço campanha para lead, sei quantos leads preciso para uma venda e o meu custo por lead
+       máximo
+
+       Criei a métrica personalizada de retenção (ThruPlay ÷ impressões, em percentual)
+
+       Marquei a taxa de reprodução de 3 segundos (hook rate) e o CTR de clique no link, e salvei as
+       colunas
+
+       Defini os clientes existentes na Configuração de publicidade (e aumentei para 730 dias os públicos
+       de compra antigos)
+
+       Defini os públicos engajados (leads, seguidores, checkout iniciado ou abandonado)
+
+       Testei a estratégia de ciclo de vida do cliente (priorizar novos clientes) no conjunto de anúncios
+
+FCA · MÓDULO 4 · AULA 6                                                       PÁGINA 6
+WORKBOOK · MÓDULO 4 · AULA 6                      NA TELA: TETO, COLUNAS E PÚBLICOS
+
+07
+
+GLOSSÁRIO
+
+Teto (CPA)           O máximo que você paga por lead, venda ou mensagem sem perder dinheiro;
+                     definido pela sua margem.
+
+Margem               Preço menos taxas, impostos e custo de entrega.
+
+LTV                  Valor do cliente no tempo, somando order bumps, upsell, downsell e recompra;
+
+                     pode aumentar o teto.
+
+Hook rate            Taxa de gancho: taxa de reprodução do vídeo de 3 segundos por impressões.
+
+ThruPlay             Quantidade de pessoas que viram o vídeo até o fim ou 15 segundos; o
+                     Gerenciador só dá o número, não a taxa.
+
+Métrica              Coluna que você cria com uma fórmula e um nome, e que fica salva na conta.
+personalizada
+                     Clique de quem foi para o site; diferente de 'cliques (todos)', que conta curtida
+Clique no link       e comentário.
+
+Estratégia de ciclo  Opção do conjunto de anúncios para priorizar todos os públicos ou só novos
+de vida do cliente   clientes.
+
+08                                                                    adsmanager.facebook.com
+
+LINKS DA AULA
+
+↗ Gerenciador de Anúncios
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+FCA · MÓDULO 4 · AULA 6                                               PÁGINA 7
+WORKBOOK · MÓDULO 4 · AULA 6                         NA TELA: TETO, COLUNAS E PÚBLICOS
+                                                       seguro.lucioartes.com/OA65829EA
+↗ 2 · Super Públicos: a segmentação           checkout.safe.lucioartes.com/42750161
+↗ 3 · Missão Claude Tracking: o trackeamento
+
+                         FIM DO WORKBOOK · MÓDULO 4 · AULA 6
+
+FCA · MÓDULO 4 · AULA 6                                       PÁGINA 8
+

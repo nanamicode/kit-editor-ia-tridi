@@ -1,0 +1,195 @@
+PEDIDO: quero produzir criativos para a minha oferta, do começo ao fim,
+seguindo todas as etapas do Módulo 9 da Fábrica de Criativos. Abaixo estão
+TODAS as informações de uma vez. Leia tudo, monte a ficha e só depois
+produza.
+
+COMO LER ESTE BRIEFING
+- Onde ficou [ESCREVA AQUI] sem resposta, ou escrevi "não sei" ou "você
+escolhe": descubra pela página e pelos arquivos; se não der, proponha a
+melhor opção e diga por quê, em 1 linha.
+- Nunca invente valor, bônus, garantia, data limite, número nem prova. Se
+faltar e for necessário, pergunte só isso.
+- Leia na hora todo link e toda pasta que eu passei (página, VSL, PDFs,
+prints, perfil do Instagram).
+- TODO VÍDEO que eu passar (VSL, anúncio de referência, Reel, vídeo meu),
+por link ou arquivo: baixe, transcreva no meu computador, gere a legenda com
+tempo, tire os quadros da tela e cruze fala e tela numa linha do tempo, com
+a skill assistir-video-de-referencia. Se o player da página não deixar
+baixar, me peça o arquivo.
+
+==================================================
+1. OFERTA
+==================================================
+Link da página de vendas: [ESCREVA AQUI]
+(ex.: https://seusite.com/oferta)
+
+Link ou arquivo do vídeo de vendas (VSL), se tiver: [ESCREVA AQUI]
+(ex.: arraste o arquivo para cá · ou "nenhum")
+
+Nome do produto: [ESCREVA AQUI]
+
+O que o produto entrega, em uma frase: [ESCREVA AQUI]
+(ex.: "a gravação de um workshop de 1h30 mão na massa na tela do
+gerenciador, que ensina a montar campanha de controle" · produto físico
+também vale: "promoção de [produto] na minha farmácia")
+
+Valor e forma de pagamento: [ESCREVA AQUI]
+(ex.: "12x de [valor]" · ou "não falar de valor")
+
+Bônus: [ESCREVA AQUI]
+(ex.: "aula bônus + grupo no WhatsApp" · ou deixe em branco/"nenhum")
+
+Garantia: [ESCREVA AQUI]
+
+Urgência ou escassez REAL: [ESCREVA AQUI]
+(ex.: "turma fecha sexta" · ou "nenhuma")
+
+==================================================
+2. PÚBLICO E FUNIL
+==================================================
+Quem compra: [ESCREVA AQUI]
+(ex.: "empresários de São Paulo, de 25 a 54 anos, que já investem em
+tráfego")
+
+A dor principal: [ESCREVA AQUI]
+(ex.: "não consegue fazer os anúncios do Meta performarem bem")
+
+O que ele mais deseja: [ESCREVA AQUI]
+
+A maior objeção: [ESCREVA AQUI]
+
+Etapa do funil: [ESCREVA AQUI]
+(opções: topo = quem não me conhece · meio = já viu algo meu · fundo =
+remarketing, quase comprando)
+
+Temperatura do público: [ESCREVA AQUI]
+(opções: frio · morno · quente)
+
+==================================================
+3. O QUE PRODUZIR
+==================================================
+Quantos criativos: [ESCREVA AQUI]
+(ex.: 3 · comece pequeno; pedir 3 de topo + 3 de meio + 3 de fundo de uma
+vez funciona, mas não é o recomendado)
+
+Formatos: [ESCREVA AQUI]
+(opções, pode mais de um: vídeo 9:16 · estático · carrossel)
+
+Duração do vídeo: [ESCREVA AQUI]
+(opções: 15 s · 30 s · 45 a 60 s · você escolhe)
+
+Ângulos ou ideias que eu já quero testar: [ESCREVA AQUI]
+(ex.: "você escolhe")
+
+Versão orgânica para Reels: [ESCREVA AQUI]
+(opções: não · sim, com "Digite PALAVRA" — escreva a palavra)
+
+==================================================
+4. ESTILO
+==================================================
+Estilo de edição: [ESCREVA AQUI]
+(veja os estilos no catálogo de estilos da Fábrica — ou peça "abra o
+catálogo de estilos" · escolheu? escreva o número: "estilo 12" · dois juntos:
+"mix do 3 com o 12" · não sabe? escreva "a Fábrica escolhe": sugira 2 estilos
+que combinam com a oferta, diga qual escolheria e por quê, e eu decido)
+
+Cores e fontes da marca: [ESCREVA AQUI]
+(ex.: "preto, dourado, fonte Montserrat" · ou "usar o que já está no
+CLAUDE.md")
+
+Criativo, anúncio ou perfil de referência: [ESCREVA AQUI]
+(ex.: "quero um criativo parecido com este" + print ou URL · ou "nenhum" ·
+se for vídeo, assista e copie a FORMA, nunca a obra)
+
+==================================================
+5. ARQUIVOS DE APOIO
+==================================================
+(escreva o caminho da pasta ou arraste a pasta para cá · ou "nenhum")
+Imagens, fotos e logo: [ESCREVA AQUI]
+Textos (copy, roteiro antigo, e-mails): [ESCREVA AQUI]
+Vídeos (aulas, gravações minhas, anúncios que já rodaram): [ESCREVA AQUI]
+PDFs (e-book, apresentação, material do produto): [ESCREVA AQUI]
+Depoimentos (print, vídeo, áudio): [ESCREVA AQUI]
+Prints de resultado (painel, vendas, conversas): [ESCREVA AQUI]
+Instagram de referência: [ESCREVA AQUI]
+
+==================================================
+6. VOZ
+==================================================
+Narração: [ESCREVA AQUI]
+(opções: básica do sistema, sem custo · minha voz gravada: caminho do áudio
+· voz clonada ElevenLabs: tem custo, ligar pelo /fca-conectar)
+
+Siglas e nomes difíceis e como se falam: [ESCREVA AQUI]
+(ex.: ROAS = "Rôas" · ou "nenhum")
+
+==================================================
+7. ONDE SALVAR
+==================================================
+Pasta de entrega: [ESCREVA AQUI]
+(ex.: a pasta padrão da Fábrica, ou outra, como Documentos · padrão se ficar
+em branco)
+
+==================================================
+8. REGRAS
+==================================================
+O vídeo pode falar o valor: [ESCREVA AQUI]
+(opções: não, a chamada manda clicar no botão · sim)
+
+Profissão regulamentada (saúde, direito, contabilidade, odontologia...):
+[ESCREVA AQUI]
+(opções: não · sim, qual)
+
+Regras minhas a mais: [ESCREVA AQUI]
+(ex.: "não usar a palavra milionário" · ou "nenhuma")
+
+Regras fixas (não mude): nada de promessa de resultado garantido (em
+profissão regulamentada, seguir o conselho da profissão); prova só real, a
+que eu enviei, marcada como real; dado sensível (nome, telefone, e-mail, ID
+de conta) borrado; 1 anúncio por criativo = 1 texto + 1 título, sem
+variações; tela de celular ou computador nunca em branco; nada é publicado,
+enviado ou postado.
+
+==================================================
+FICHA DE CONFIRMAÇÃO
+==================================================
+Antes de produzir, me mostre uma FICHA com tudo, bloco por bloco: o que eu
+escrevi, o que você descobriu lendo a página e os arquivos, e o que você
+escolheu por mim (com o motivo). Pergunte só o que ainda faltar. Faça uma
+previsão de custo antes de qualquer gasto (sei que é aproximada). Espere o
+meu "confirmo". Salve a ficha em BRIEFING.md dentro da pasta de entrega,
+para eu reusar ("use o mesmo BRIEFING.md e mude só X").
+
+==================================================
+EXECUÇÃO (depois do "confirmo")
+==================================================
+Siga as etapas do Módulo 9, na ordem, para cada criativo:
+a. Análise (9.1): quem compra, dor, objeção, promessa, mecanismo e provas,
+em poucas linhas.
+b. Ângulos e roteiro (9.2): ângulos e estilos, com a sua escolha e o motivo;
+gancho de 3 segundos; roteiro com gancho, corpo, prova e chamada. Espere eu
+aprovar os roteiros.
+c. Narração (9.3): no modo da ficha; siglas escritas como se fala; diga a
+duração.
+d. Arte, amostra e vídeo (9.4): AMOSTRA curta em 9:16 do primeiro criativo,
+e espere eu aprovar antes do lote. Um render por vez. Revise cada vídeo
+antes de me mostrar.
+e. Estáticos e carrosséis, se estiverem na ficha.
+f. Texto do anúncio (9.5): 1 texto + 1 título por criativo. Orgânico só se
+estiver na ficha.
+g. Capas (9.6): 3 opções 1080x1920 preenchidas até a borda, conteúdo dentro
+do 4:5, e a prévia 4:5 só para conferir.
+Antes de qualquer gasto (voz clonada, imagem ou vídeo por IA), diga o custo
+estimado e espere o meu "pode".
+
+==================================================
+ENTREGA
+==================================================
+Pasta de entrega com tudo nomeado:
+- BRIEFING.md (a ficha)
+- Por criativo: vídeo, texto e título, as 3 capas com prévia, roteiro e
+narração
+- ENTREGA.html com todas as entregas num lugar só (player, texto e título de
+cada criativo)
+No fim, diga em 5 linhas o que foi feito, onde ficou e o que eu preciso
+decidir. Não publique nada.

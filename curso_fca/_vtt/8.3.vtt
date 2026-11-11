@@ -1,0 +1,453 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.856
+Então vamos lá, vamos instalar a nossa fábrica e você vai ver o cartápio de opções que
+
+2
+00:00:03.856 --> 00:00:05.936
+você vai ter a partir de agora.
+
+3
+00:00:05.936 --> 00:00:10.536
+Então, primeiro passo, você vai baixar o zip, o link está aí abaixo, em algum lugar,
+
+4
+00:00:10.536 --> 00:00:13.096
+está abaixo aqui dessa aula o link para você baixar.
+
+5
+00:00:13.096 --> 00:00:17.960
+Você pode baixar para download, você vai abrir essa pasta no app do Claude Code, você
+
+6
+00:00:17.960 --> 00:00:22.568
+vai desipar ela, depois você vai lá no Claude Code e vai criar um projeto, abre-se essa
+
+7
+00:00:22.568 --> 00:00:28.072
+pasta por dentro do Claude Code, vai digitar o comando que abaixo dessa aula também tem
+
+8
+00:00:28.072 --> 00:00:32.200
+todo o PDF, o workbook, te ensinando a fazer tudo, mas é só você acompanhar a aula que
+
+9
+00:00:32.200 --> 00:00:33.000
+dá certo.
+
+10
+00:00:33.000 --> 00:00:37.704
+E você vai vendo cada etapa, ele instalando, e quando ficar tudo pronto, você já pode
+
+11
+00:00:37.704 --> 00:00:39.496
+gerar o seu primeiro vídeo.
+
+12
+00:00:39.496 --> 00:00:43.272
+Quem instalar a versão básica, a versão rápida, que eu não recomendo, eu recomendo
+
+13
+00:00:43.272 --> 00:00:47.944
+que você instale a versão completa, só que você precisa de 40 GB no seu HD ou você
+
+14
+00:00:47.944 --> 00:00:52.552
+paga para depois baixar, eu estou lidando para economizar.
+
+15
+00:00:52.552 --> 00:00:57.128
+Se você instalar a versão rápida, você vai ficar limitado, você vai precisar baixar
+
+16
+00:00:57.128 --> 00:01:00.072
+algum conteúdo depois para que a IA tenha um repertório, eu já estou lidando o meu
+
+17
+00:01:00.072 --> 00:01:01.896
+acervo, a minha biblioteca.
+
+18
+00:01:01.896 --> 00:01:07.144
+Então se você não fizer essa instalação, fizer a rápida, você pode complementar ela
+
+19
+00:01:07.144 --> 00:01:10.376
+depois, basta que "ah, quero ver aqui o que é que tem", aí você vai nesse comando
+
+20
+00:01:10.376 --> 00:01:12.192
+complementar, beleza?
+
+21
+00:01:12.192 --> 00:01:15.296
+Então o link vai estar abaixo dessa aula, você baixa, tá?
+
+22
+00:01:15.296 --> 00:01:19.264
+Quando você clicar no link, você vai ver essa tela aqui, inicialmente está no drive
+
+23
+00:01:19.264 --> 00:01:23.424
+aqui, você vai ver que tem aqui a pasta que você precisa baixar, você vai desipar essa
+
+24
+00:01:23.424 --> 00:01:28.480
+pasta aí, sugiro que seja no download ou na sua pasta já de projetos, bota lá "fábrica,
+
+25
+00:01:28.480 --> 00:01:32.128
+instalação", alguma coisa assim, aqui também tem o workbook, o manual da instalação completo
+
+26
+00:01:32.128 --> 00:01:33.600
+com tudo que eu vou falar aqui, tá?
+
+27
+00:01:33.600 --> 00:01:36.912
+Mas se você seguir essa aula aqui, vai dar certo, beleza?
+
+28
+00:01:36.912 --> 00:01:40.440
+Bom, um detalhe, você baixa para o seu computador, pode ir na parte do downloads mesmo, esse
+
+29
+00:01:40.440 --> 00:01:45.016
+arquivo aqui é só para instalação, quando você instalar, você pode até apagar depois,
+
+30
+00:01:45.016 --> 00:01:45.816
+beleza?
+
+31
+00:01:45.816 --> 00:01:49.368
+Então baixa para o seu computador, desipa ela e segue a sequência aqui.
+
+32
+00:01:49.368 --> 00:01:56.448
+Então você baixa, você desipa aí e não se esqueça de lembrar aonde você baixou
+
+33
+00:01:56.448 --> 00:01:58.112
+esse instalador, ok?
+
+34
+00:01:58.112 --> 00:02:01.496
+E aí você vai abrir essa pasta no aplicativo, você vai abrir o aplicativo do Claude, vai
+
+35
+00:02:01.496 --> 00:02:07.096
+acessar essa pasta, eu vou fazer passo a passo e você vai digitar o comando "/fca-instalar",
+
+36
+00:02:07.096 --> 00:02:08.440
+então vamos nessa aqui.
+
+37
+00:02:08.440 --> 00:02:12.272
+Vou abrir o aplicativo do Claude aqui, como eu falei para vocês, vou lá na pasta, você
+
+38
+00:02:12.272 --> 00:02:15.960
+pode fechar aqui, pode abrir um novo projeto, deixa eu apagar esse projeto aqui, vou criar
+
+39
+00:02:15.960 --> 00:02:22.448
+um novo, já estou aqui, vou lá na pasta, aqui já descompactei, abrir a pasta, beleza?
+
+40
+00:02:22.448 --> 00:02:28.296
+Depois de abrir a pasta eu vou para o comando "fca", já está aqui, "fca" e os comandos
+
+41
+00:02:28.296 --> 00:02:30.184
+que estão "instalar", beleza?
+
+42
+00:02:30.184 --> 00:02:34.376
+Esse é o comando, passinho, vamos voltar lá para você recapitular o passo a passo
+
+43
+00:02:34.376 --> 00:02:39.280
+conforme o que está aqui no manual, "instalar", ok, qual é o próximo passo?
+
+44
+00:02:39.280 --> 00:02:44.344
+A gente vai ver o cardápio, ou seja, o que ele oferece.
+
+45
+00:02:44.344 --> 00:02:51.896
+Vou dar um enter aqui, ele vai começar a iniciar tudo e vai exibir para a gente o cardápio.
+
+46
+00:02:51.896 --> 00:02:54.232
+Sempre aprenda a ler o que o Claude está mostrando, está vendo aqui?
+
+47
+00:02:54.232 --> 00:03:00.024
+Mostrar o cardápio de instalação, perguntar rápida ou completa, instalar etapa por etapa,
+
+48
+00:03:00.024 --> 00:03:00.824
+conferir.
+
+49
+00:03:00.824 --> 00:03:02.744
+Então, o que é que ele vai fazer aqui?
+
+50
+00:03:02.744 --> 00:03:07.176
+Ele vai perguntar se eu quero a instalação rápida ou a instalação completa.
+
+51
+00:03:07.176 --> 00:03:09.512
+A completa e a rápida, qual é a diferença?
+
+52
+00:03:09.512 --> 00:03:15.592
+A completa, o nome já fala, além de instalar a fábrica, você já vai ter muitos arquivos
+
+53
+00:03:15.592 --> 00:03:21.864
+para você utilizar como complementos nas suas composições, áudios, efeitos sonoros,
+
+54
+00:03:21.864 --> 00:03:24.488
+visuais, eu recomendo que você instale.
+
+55
+00:03:24.488 --> 00:03:27.560
+Então, só para você entender o que vai acontecer.
+
+56
+00:03:27.560 --> 00:03:31.144
+Quando você escolher, você vai ver, tem o tamanho de cada item, se você ler aquela
+
+57
+00:03:31.144 --> 00:03:36.168
+mensagem, ele fala o tamanho de cada item, para que serve cada coisa, se você quer
+
+58
+00:03:36.168 --> 00:03:40.752
+a rápida ou completa, o que você já tem, então ele vai olhar o que o seu computador
+
+59
+00:03:40.752 --> 00:03:47.672
+já tem, a rápida, os programas e sistemas da fábrica, transcrição local, kit inicial
+
+60
+00:03:47.672 --> 00:03:51.304
+do acervo, e vídeo de teste que você já vai conseguir ver logo em seguida.
+
+61
+00:03:51.304 --> 00:03:58.904
+A completa, tudo que a rápida tem, acervo completo, voz local ou 11-laps, lembra que
+
+62
+00:03:58.904 --> 00:04:03.608
+eu te falei do modo básico que você consegue já gerar voz de graça, etc., eu já adicionei
+
+63
+00:04:03.608 --> 00:04:10.672
+aqui, você precisa de 40 GB livres, então o espaço e o tempo de cada instalação ele
+
+64
+00:04:10.672 --> 00:04:16.752
+vai exibir, aviso do Chrome ele vai exibir, licença da voz, suas respostas, ele vai te
+
+65
+00:04:16.752 --> 00:04:20.272
+perguntar, então é mais ou menos assim que você vai ver aí na sua tela, ele vai te
+
+66
+00:04:20.272 --> 00:04:24.976
+fazer a primeira pergunta se você autoriza, você pode autorizar uma vez ou autorizar
+
+67
+00:04:24.976 --> 00:04:30.064
+para ele não perguntar de novo, então você diz sim e vai seguindo, e por que o Claude
+
+68
+00:04:30.064 --> 00:04:35.056
+fica pedindo permissão a você, porque é o freio de segurança padrão, a fábrica já
+
+69
+00:04:35.056 --> 00:04:39.120
+vai ser liberada se você permitir para sempre, como eu falei ali, ele já vai permitir a
+
+70
+00:04:39.120 --> 00:04:43.344
+instalação completa, sim e não, ele fica perguntando, você bota lá para ele não
+
+71
+00:04:43.344 --> 00:04:48.752
+perguntar novamente, ele vai avançar, você aceita as edições, e eu não aconselho que
+
+72
+00:04:48.752 --> 00:04:53.200
+você, vou repetir, mais uma vez opere no modo vida louca, lembra que você ativa lá,
+
+73
+00:04:53.200 --> 00:04:57.456
+porque sem esse freio pode dar algo errado nessa instalação ou qualquer outra coisa,
+
+74
+00:04:57.456 --> 00:05:05.488
+eu não recomendo, então quando você escolher a sua opção ele vai dar um tempo processando,
+
+75
+00:05:05.488 --> 00:05:08.816
+e na próxima você vai ver tudo pronto, deixa eu abrir aqui o aplicativo que eu vou dar
+
+76
+00:05:08.816 --> 00:05:14.528
+o comando, eu vou dar o comando aqui da completa, você vai ver, para você ter noção aqui
+
+77
+00:05:14.528 --> 00:05:18.928
+em cima, deixa eu diminuir o zoom, diminuir o zoom aqui, você vê que ele fala para você
+
+78
+00:05:18.928 --> 00:05:25.456
+aqui, tudo que ele vai instalar, tudo que vai ser instalado, as ferramentas, o Node.js,
+
+79
+00:05:25.456 --> 00:05:30.808
+tudo que você precisa instalar individualmente, aqui a fábrica já instala para você, beleza,
+
+80
+00:05:30.808 --> 00:05:36.840
+eu vou instalar aqui e já volto com a fábrica instalada para você, então acompanhe, nessa
+
+81
+00:05:36.840 --> 00:05:41.288
+aula aqui eu vou instalar a rápida, porque depois eu vou mostrar para você como você
+
+82
+00:05:41.288 --> 00:05:44.552
+complementar a sua instalação rápida, como eu já tenho uma instalação no computador
+
+83
+00:05:44.552 --> 00:05:47.912
+para mim não vai fazer diferença, agora para você faz diferença, eu aconselho você
+
+84
+00:05:47.912 --> 00:05:52.800
+a instalar novamente a completa, vou clicar aqui na rápida, qual instalação você quer?
+
+85
+00:05:52.800 --> 00:06:00.216
+Rápida, já coloquei, então ele vai começar a fazer o download, ele vai fazer o download,
+
+86
+00:06:00.216 --> 00:06:04.536
+ele vai fazer verificações no computador para saber o que você já tem, o que você
+
+87
+00:06:04.536 --> 00:06:08.600
+não tem, ele vai te perguntar algumas coisas, isso varia de computador para computador,
+
+88
+00:06:08.600 --> 00:06:13.112
+e aí você vai respondendo, ou se você for corajoso de deixar no modo vida louca, você
+
+89
+00:06:13.112 --> 00:06:17.624
+vem aqui e altera para o modo vida louca, eu não aconselho você fazer isso para que
+
+90
+00:06:17.624 --> 00:06:21.048
+você não tenha surpresas, ok?
+
+91
+00:06:21.048 --> 00:06:25.912
+Então vamos esperar aqui ele instalar e já já eu te mostro, você pode ver aqui que
+
+92
+00:06:25.912 --> 00:06:30.584
+ele já foi instalar a primeira, aqui ó, ele já começou, fez a primeira instalação
+
+93
+00:06:30.584 --> 00:06:36.152
+do git e python, tá, ele ó, esse tempo que ele calcula aqui é sempre super estimado,
+
+94
+00:06:36.152 --> 00:06:36.952
+tá?
+
+95
+00:06:36.952 --> 00:06:39.864
+Dependendo da sua internet e geralmente é bem mais rápido, tá vendo aqui, ó, em menos
+
+96
+00:06:39.864 --> 00:06:44.808
+de um minuto ele já já tá reduzindo muito, ó, ele já tá na etapa 4 de 8, tá?
+
+97
+00:06:44.808 --> 00:06:47.832
+Então vamos deixar ele instalar aqui, ficar monitorando se ele me perguntou alguma coisa,
+
+98
+00:06:47.832 --> 00:06:51.184
+a não ser que você bote no modo vida louca, mas eu não te aconselho.
+
+99
+00:06:51.184 --> 00:06:54.112
+Quando ele terminar a instalação ele vai abrir um vídeo de teste, ele vai fazer um
+
+100
+00:06:54.112 --> 00:06:58.288
+videozinho rápido só para testar, para ver se tá tudo funcionando, então se você vê
+
+101
+00:06:58.288 --> 00:07:02.992
+o vídeo é porque tá ok, às vezes pode não abrir, mas você fica de olho aqui nessas
+
+102
+00:07:02.992 --> 00:07:07.792
+etapas, então vamos aguardar ele instalar, já tá na etapa 7 de 8, tá vendo que é muito
+
+103
+00:07:07.792 --> 00:07:12.816
+rápido, então aquele tempo que ele estima não é tudo isso, ele estimou aqui 15 minutos
+
+104
+00:07:12.816 --> 00:07:16.656
+e tá sendo feito em menos de 2 minutos, tá, então a instalação completa também não
+
+105
+00:07:16.656 --> 00:07:20.752
+é aquele tempo todo que ele pode estimar, então aconselho que você instale a completa,
+
+106
+00:07:20.752 --> 00:07:26.608
+tá, para que você já saiba que já você consegue fazer tudo, ele já terminou, inclusive
+
+107
+00:07:26.608 --> 00:07:29.264
+ele já abriu vídeo aqui em outra aba, vou abrir aqui para você ver.
+
+108
+00:07:29.264 --> 00:07:33.880
+Bom, quando ele terminar ele vai dar ok aqui para você, isso pode variar de computador
+
+109
+00:07:33.880 --> 00:07:37.944
+para computador, porque depende do que você já tem no seu computador, e ele automaticamente
+
+110
+00:07:37.944 --> 00:07:45.811
+vai gerar um vídeo de 6 segundos só para te falar que a fábrica tá instalada.
+
+111
+00:07:45.811 --> 00:07:55.619
+Ele abriu a pasta já automaticamente aqui, vamos ver aqui o vídeo, pronto, fábrica
+
+112
+00:07:55.619 --> 00:08:02.531
+instalada, na próxima aula você vai ver as próximas etapas até você produzir seus
+
+113
+00:08:02.531 --> 00:08:06.243
+vídeos em alta produção, e eu te vejo na próxima aula, a sua fábrica já tá instalada.

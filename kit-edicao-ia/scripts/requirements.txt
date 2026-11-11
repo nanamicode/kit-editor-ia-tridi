@@ -1,0 +1,9 @@
+faster-whisper>=1.0  # transcrever.py (traz numpy); ffmpeg no PATH
+numpy>=1.24  # analisar_video.py, audio_trilha_sfx.py, checar_audio.py
+scipy>=1.10  # analisar_video.py, audio_trilha_sfx.py, checar_audio.py (filtros, STFT)
+soundfile>=0.12  # analisar_video.py, audio_trilha_sfx.py, checar_audio.py (wav)
+pillow>=10  # analisar_video.py (folha_1s.jpg)
+# analisar_video.py --whisper usa faster-whisper (linha acima); ffmpeg/ffprobe no PATH
+opencv-python-headless>=4.8  # recorte_rvm.py, remover_legenda_queimada.py (fluxo DIS, Poisson, guided filter)
+onnxruntime>=1.16  # recorte_rvm.py (RVM em CPU; modelo em modelos/rvm_mobilenetv3_fp32.onnx)
+# recorte_rvm.py e remover_legenda_queimada.py usam numpy (linha acima) e ffmpeg/ffprobe no PATH

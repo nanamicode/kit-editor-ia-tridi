@@ -1,0 +1,234 @@
+FÁBRICA DE CRIATIVOS                    Nº M07-A2
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 7 · AULA 2
+
+O QUE VOCÊ RECEBE
+
+BIBLIOTECA DE VÍDEOS
+DE REFERÊNCIA E
+NOSSOS ANÚNCIOS
+
+  4 CAPÍTULOS 2 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 A biblioteca
+   01 Abertura
+   03 Nossos anúncios                   7.2 04 Naprática
+                                                                              FCA · M07-A2
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 7 · AULA 2  BIBLIOTECA DE VÍDEOS DE REFERÊNCIA E NOSSOS ANÚNCIOS
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Para fechar a parte teórica, o Lúcio apresenta a biblioteca de vídeos de referência: 513 prompts
+de vídeos que ele fez no último mês, reunidos em um catálogo porque alguns alunos pediram
+para ver os prompts. Ele deixa claro que não se preocupa com prompt. O que importa é saber
+pedir, conhecer o público e ter uma biblioteca alimentando o Claude para ele evoluir. O catálogo
+e as outras coisas pesadas ficam em um Drive, cujo link vem na área de membros. Na aula 8.2
+um único comando de instalação anexa esse Drive e o catálogo abre no navegador. Os
+anúncios da Fábrica servem de referência: cada um mostra uma forma e você aplica no seu. Na
+prática, ele pede à skill /biblioteca-videos-ia referências de gancho para negócio local. Ele avisa
+para não copiar o anúncio inteiro: use a forma e escreva o seu conteúdo.
+
+IDEIA CENTRAL
+
+Use a forma da referência; o conteúdo é seu.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  A biblioteca e o catálogo de prompts
+
+    São 513 prompts dos vídeos que o Lúcio fez no último mês, reunidos em um catálogo a
+    pedido de alunos que queriam ver os prompts. Você não precisa se preocupar com isso:
+    ele não se preocupa com prompt, e sim em saber pedir, conhecer o público e manter
+    uma biblioteca alimentando o Claude para ele evoluir. Se quiser olhar, abra o catálogo e
+    busque com Cmd+F (Ctrl+F no Windows).
+
+02 Salve os vídeos que você achar bons
+
+               Quando você vir um vídeo legal no Instagram ou no Pinterest, pegue o link e guarde. Na
+
+               próxima aula o Lúcio ensina como fazer o seu Claude aprender a editar exatamente
+               como aquele vídeo que você viu.
+
+FCA · MÓDULO 7 · AULA 2                       PÁGINA 2
+WORKBOOK · MÓDULO 7 · AULA 2  BIBLIOTECA DE VÍDEOS DE REFERÊNCIA E NOSSOS ANÚNCIOS
+
+03  O que baixar e de onde
+
+    O link do Drive vem na área de membros, na parte da instalação. É nesse Drive que
+    ficam as coisas pesadas: referências, catálogo e outros materiais. Na aula 8.2 você faz
+    a instalação com um comando só, que pega o Drive e anexa automaticamente. Depois
+    disso, é só clicar e o catálogo abre no navegador.
+
+04  Os anúncios da Fábrica como referência
+
+    Você pode usar os anúncios do Lúcio como referência. Cada um mostra uma forma, e
+    você aplica no seu negócio. Peça ao Claude para usar o anúncio como referência de
+    estilo visual e adaptar, e passe o seu contexto. Os exemplos que ele mostra: anúncios
+    que rodaram de verdade, o dossiê (que faz muito sucesso), HQ com vilão, lista e letreiro
+    gigante. Há também um personagem que ele criou para a própria narrativa e que você
+    pode usar de base para criar um vídeo nesse estilo.
+
+05  Como pedir no estilo da referência
+
+    Primeiro, cite a referência. Se não lembrar o nome, tire um print ou uma foto. Depois,
+    diga o que aproveitar: o gancho, o ritmo, a estrutura. Por fim, diga o que trocar: a oferta,
+    o público, a prova. Você também pode tirar elementos (se o vídeo tem luxo e você não
+    quer, peça para tirar) e pôr os seus, como a sua foto, animada e com a roupa que quiser.
+
+06  Não copie o anúncio inteiro
+
+    Se você pegar o anúncio de um concorrente e pedir para copiar, o Claude copia. Peça
+    sempre para ele se basear na referência, para você usar só a forma e escrever o seu
+    conteúdo e não ter problemas. Para isso você precisa do seu contexto. O Lúcio juntou
+    todos os treinamentos, palestras, slides e fotos dele, mandou o Claude aprender e ler, e
+    o Claude já tem o contexto todo. Faça o mesmo.
+
+FCA · MÓDULO 7 · AULA 2       PÁGINA 3
+WORKBOOK · MÓDULO 7 · AULA 2                BIBLIOTECA DE VÍDEOS DE REFERÊNCIA E NOSSOS ANÚNCIOS
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ DIGITE NO CLAUDE CODE                                           PROMPT 1/2
+
+Quando usar: Depois da aula 8.2, para pedir referências de gancho do seu tipo de negócio (como o
+Lúcio fez na aula, com negócio local).
+
+/biblioteca-videos-ia Me      mostre 3 referências de gancho da biblioteca de
+vídeos para [seu tipo de      negócio]. Para cada uma: o nome, como aparece no
+catálogo; o que o gancho      faz nos 3 primeiros segundos; e o que eu posso
+aproveitar da forma, sem      copiar o vídeo. ANTES de executar, me mostre o
+PLANO.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/2
+
+Quando usar: Para usar um anúncio ou vídeo como referência de estilo visual e adaptar ao seu
+
+contexto.
+
+Use como referência o estilo visual de [nome da referência, ou anexo o
+print/foto]. Aproveite: [gancho, ritmo ou estrutura]. Não quero: [o que
+tirar, por exemplo o luxo]. Troque por: minha oferta [2 linhas], meu público
+[quem é] e minha prova [número ou caso]. Se for o caso, use a minha foto
+[anexada] no lugar, com [roupa ou cenário]. Baseie-se só na forma e escreva
+o meu conteúdo; não copie as falas nem o anúncio inteiro. ANTES de executar,
+me mostre o PLANO.
+
+04                                          → ✓ CERTO
+                                                     Usar só a forma e escrever o conteúdo seu
+O QUE NÃO FAZER
+
+Copiar o anúncio inteiro
+
+   ✕ ERRADO
+
+    Copiar o anúncio inteiro da referência
+
+FCA · MÓDULO 7 · AULA 2                                            PÁGINA 4
+WORKBOOK · MÓDULO 7 · AULA 2  BIBLIOTECA DE VÍDEOS DE REFERÊNCIA E NOSSOS ANÚNCIOS
+
+05
+
+SUA VEZ
+
+No papel, sem abrir nada: escolha um dos anúncios do Lúcio que você viu nesta aula (dossiê,
+HQ com vilão, lista, letreiro gigante) e anote o que você aproveitaria da forma e o que trocaria
+pelo seu conteúdo.
+
+01 Anúncio escolhido e o que ele faz nos 3 primeiros segundos
+
+02 O que vou aproveitar (gancho, ritmo ou estrutura)
+
+03 O que vou trocar (oferta, público, prova)
+
+04 O que vou tirar ou pôr no lugar (por exemplo, a minha foto)
+
+FCA · MÓDULO 7 · AULA 2                                         PÁGINA 5
+WORKBOOK · MÓDULO 7 · AULA 2  BIBLIOTECA DE VÍDEOS DE REFERÊNCIA E NOSSOS ANÚNCIOS
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+Sei que a biblioteca são 513 prompts de vídeos, reunidos em um catálogo, e que não preciso me
+preocupar com os prompts.
+
+Sei que o link do Drive vem na área de membros e que lá ficam as coisas pesadas, como
+referências e catálogo.
+
+Sei que na aula 8.2 um comando só de instalação anexa o Drive e o catálogo abre no navegador.
+
+Vou salvar o link dos vídeos legais que eu achar no Instagram e no Pinterest.
+
+Sei que posso usar os anúncios do Lúcio como referência: cada um mostra uma forma.
+
+Sei pedir no estilo da referência: citar (com print, se preciso), dizer o que aproveitar e o que trocar.
+
+Sei que não se copia o anúncio inteiro: uso só a forma e escrevo o meu conteúdo com o meu
+contexto.
+
+07
+
+GLOSSÁRIO
+
+Biblioteca de vídeos   Os 513 prompts dos vídeos que o Lúcio fez no último mês, reunidos em um
+de referência          catálogo.
+
+Catálogo               Página, vinda do Drive, que abre no navegador e permite buscar os prompts
+                       com Cmd+F (Ctrl+F no Windows).
+
+Referência             Vídeo ou anúncio que mostra a forma que você quer, para você citar ao pedir.
+
+Gancho                 O começo do vídeo ou anúncio, os primeiros segundos que prendem a
+                       atenção.
+
+/biblioteca-videos-ia  Skill do Claude Code que consulta a biblioteca e traz referências, como as de
+                       gancho.
+
+Contexto               Treinamentos, palestras, slides e fotos que você dá ao Claude para ele
+                       aprender sobre você e seu negócio.
+
+FCA · MÓDULO 7 · AULA 2                                                                PÁGINA 6
+WORKBOOK · MÓDULO 7 · AULA 2             BIBLIOTECA DE VÍDEOS DE REFERÊNCIA E NOSSOS ANÚNCIOS
+                                                                                        claude.com/download
+08
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 7 · AULA 2
+
+FCA · MÓDULO 7 · AULA 2                                       PÁGINA 7
+

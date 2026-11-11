@@ -1,0 +1,309 @@
+FÁBRICA DE CRIATIVOS                    Nº M08-A4
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 8 · AULA 4
+
+COMO INSTALAR E CONFIGURAR
+
+A BARRA, O DOUTOR
+E O PRIMEIRO VÍDEO
+
+  3 CAPÍTULOS 4 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Instalar
+   01 Abertura
+   03 Conferir                          8.4
+                                                                              FCA · M08-A4
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 8 · AULA 4  A BARRA, O DOUTOR E O PRIMEIRO VÍDEO
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Nesta aula o Lúcio mostra como conferir se a instalação deu certo. Você olha as etapas da
+instalação e vê se algo deu erro. Ele recomenda ler as etapas para entender o que a instalação
+rápida fez por você: o motor básico (Node.js, FFmpeg e transcrição local), o sistema, as skills e
+os agentes, e o kit inicial de sons, trilhas, b-rolls e catálogo de estilos. Para conferir tudo, você
+usa o /fca-doutor, que confere a instalação, aponta o problema e diz como resolver. Se algo
+falhar, você conversa com o próprio Claude, que resolve. Ele também mostra onde a Fábrica
+fica no computador e avisa sobre o espaço livre no disco. Na próxima aula você vê como
+completar o pacote.
+
+IDEIA CENTRAL
+
+Confira a instalação com o /fca-doutor e, se algo der erro,
+peça ao próprio Claude para resolver.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  O que a instalação rápida fez por você
+
+    Instalou o motor básico (Node.js, FFmpeg e transcrição local) e tudo o que você precisa
+    para começar: sistema, skills e agentes. Também trouxe o kit inicial de sons, trilhas, b-
+    rolls e o catálogo de estilos. B-rolls são os vídeos que você pode usar para montar os
+    seus. Com internet normal é rápido, mas o tempo depende da sua conexão.
+
+02  /fca-doutor
+
+    É o comando que confere a instalação. Se encontrar algum problema, ele aponta e diz
+    como resolver. Todos os comandos da Fábrica têm uma descrição ao lado quando você
+    começa a digitar. Na aula, o resultado foi um checkup total sem falhas.
+
+FCA · MÓDULO 8 · AULA 4                                      PÁGINA 2
+WORKBOOK · MÓDULO 8 · AULA 4                           A BARRA, O DOUTOR E O PRIMEIRO VÍDEO
+
+03       Se deu erro
+
+         Dê uma olhadinha nas etapas da instalação para ver se algo falhou. Se falhou, escreva
+         no próprio Claude, pergunte qual foi o erro e peça para refazer. O Lúcio reforça: você
+         precisa aprender a resolver os problemas com o próprio Claude. Se tiver falha e não
+         conseguir resolver, chame o Lúcio.
+
+04       Onde a Fábrica fica
+
+         O que você baixou foi só o instalador, e você pode apagá-lo depois. No Windows, a
+         pasta Fábrica de Criativos fica em Usuários, no seu nome. No Mac, ela fica em Finder,
+         Início, Fábrica de Criativos. Para trabalhar na Fábrica, abra essa pasta no app, selecione
+         a pasta e execute.
+
+05 Espaço livre no disco
+
+               Não siga com o disco quase cheio. Antes de instalar a Fábrica, veja se você tem pelo
+
+               menos 40 GB livres no HD. O modo rápido precisa de 5 GB livres.
+
+06 Próxima aula: completar o pacote
+
+               Quem instalou o pacote básico vai aprender a fazer o complemento na próxima aula.
+               Mesmo sem o complemento, você já consegue gerar seus primeiros vídeos. Só não terá
+               o acervo completo que o Lúcio está disponibilizando.
+
+03
+
+O QUE VEM NO PACOTE E POR QUÊ
+
+Tudo o que a Fábrica usa, em linguagem simples. O /fca-instalar cuida da instalação; você só precisa
+saber para que serve cada peça.
+
+Item     O que é                Para que a             Obrigatório?  Custa?
+                                Fábrica usa
+
+Node.js  Programa que roda      Roda o Remotion e o    Obrigatório   Grátis
+         aplicativos feitos em  HyperFrames, que
+         JavaScript             montam o vídeo
+
+Python   Linguagem que roda     Roda os scripts de     Obrigatório   Grátis
+         scripts do computador  áudio, imagem,
+                                legenda e conferência
+
+FCA · MÓDULO 8 · AULA 4                                                      PÁGINA 3
+WORKBOOK · MÓDULO 8 · AULA 4                                           A BARRA, O DOUTOR E O PRIMEIRO VÍDEO
+
+Item               O que é                    Para que a               Obrigatório?               Custa?
+                                              Fábrica usa
+ffmpeg             Faca suíça de vídeo e                                                          Grátis
+                   áudio                      Corta, converte, junta   Obrigatório
+                                              e confere todo vídeo e                              Grátis
+                                              áudio
+                                                                                                  Grátis para uso
+faster-whisper     Transcreve fala em         Gera legenda e           Obrigatório (o             pessoal ou
+Remotion           texto, no seu              transcrição sem          whisper.cpp é opcional)    empresa
+                   computador (o              mandar o áudio para                                 pequena (confira
+                   whisper.cpp é um motor     fora                                                a licença)
+                   opcional equivalente)                                                          Grátis
+                                              Monta o vídeo final:     Obrigatório
+                   Editor de vídeo por        pessoa, legenda,                                    Incluído
+                   código                     efeitos e cortes
+                                                                                                  Incluído
+Git                Guarda o histórico de      Atualiza o pacote e as   Obrigatório (o instalador
+                                              skills; o Claude usa     instala se faltar)         Incluído
+                   versões dos arquivos       por baixo
+                                                                                                  Incluído
+Skills da Fábrica  Receitas prontas que o     Ensinam o Claude a       Vêm no pacote
+                   Claude segue               fazer anúncio, roteiro,                             Incluído
+                                              capa e vídeo do jeito
+                                              da Fábrica                                          Grátis; pesos de
+                                                                                                  licença não
+Agentes            Especialistas virtuais     O Claude chama o         Vêm no pacote              comercial
+                   (copy, funil, edição)      especialista certo
+                                              para cada etapa
+
+Biblioteca de      Coleção de pedidos e       Ponto de partida para    Os textos vêm no
+prompts e          estilos visuais testados   criar sem começar do     pacote; os catálogos e a
+estilos                                       zero                     mídia vêm do Drive
+                                                                       (acervo, aula 8.5)
+
+Kit inicial do     ~0,4 GB de sons, trilhas,  Matéria-prima do         Rápida e Completa
+acervo             b-rolls, catálogo de       primeiro criativo e do
+                   estilos e prompts          vídeo de teste
+Conhecimento
+(dossiês e DNA)    Resumos de cursos de       Ajudam a criar: o        Vem no pacote
+                   copy, roteiro e design     Claude consulta antes
+                                              de escrever
+
+VoiceStudio (voz   Programa que cria voz      Narração grátis e        Só na Completa (ou
+local)             no seu computador          privada, para estudo e   depois, /fca-completar)
+                                              teste (aula 9.3)
+
+O único custo obrigatório é a assinatura do Claude. Chaves pagas (como a voz do ElevenLabs) só entram se você quiser
+o modo avançado (aula 8.6). Google Chrome: o HyperFrames usa; o instalador só avisa.
+
+FCA · MÓDULO 8 · AULA 4                                                                           PÁGINA 4
+WORKBOOK · MÓDULO 8 · AULA 4                                       A BARRA, O DOUTOR E O PRIMEIRO VÍDEO
+
+04
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ DIGITE NO CLAUDE CODE                                           PROMPT 1/4
+
+Quando usar: Conferir toda a instalação
+
+/fca-doutor
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/4
+
+Quando usar: Quando deu erro na instalação
+
+Deu erro na instalação. Qual foi o erro? Explique em linguagem simples e
+refaça a etapa que falhou.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/4
+
+Quando usar: Quando o /fca-doutor apontar um problema
+
+O /fca-doutor apontou este problema: [cole aqui o que apareceu]. Resolva
+para mim e depois rode o /fca-doutor de novo para conferir.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 4/4
+
+Quando usar: Quando você não sabe se há espaço no disco
+
+Quanto espaço livre eu tenho no meu HD? Preciso de pelo menos [40 GB para a
+Fábrica / 5 GB para o modo rápido]. Me diga se está ok.
+
+05                                             → ✓ CERTO
+                                                        Esperar o Tudo pronto; 5 GB (Rápida) ou 40
+O QUE NÃO FAZER                                         GB livres (Completa)
+
+Pular a conferência
+
+   ✕ ERRADO
+
+    Seguir sem o Tudo pronto, com disco quase
+    cheio
+
+FCA · MÓDULO 8 · AULA 4                                            PÁGINA 5
+WORKBOOK · MÓDULO 8 · AULA 4       A BARRA, O DOUTOR E O PRIMEIRO VÍDEO
+
+06
+
+SUA VEZ
+
+Confira a sua instalação e anote:
+
+01 Alguma etapa da instalação deu erro? Se sim, qual foi e o que você pediu ao Claude?
+
+02 O que o /fca-doutor mostrou? Deu checkup sem falhas ou apontou algum problema?
+
+03 Onde ficou a pasta Fábrica de Criativos no seu computador (Windows ou Mac)?
+
+04 Quanto espaço livre você tinha no HD antes de instalar?
+
+07                                                                              PÁGINA 6
+
+ANTES DA PRÓXIMA AULA
+
+       Li as etapas da instalação e vi se algo deu erro
+       Rodei o /fca-doutor e li o resultado
+       Se deu erro, perguntei ao Claude qual foi e pedi para refazer
+       Encontrei a pasta Fábrica de Criativos no meu computador
+
+FCA · MÓDULO 8 · AULA 4
+WORKBOOK · MÓDULO 8 · AULA 4                              A BARRA, O DOUTOR E O PRIMEIRO VÍDEO
+
+Sei que o arquivo baixado era só o instalador e que posso apagá-lo
+
+Conferi o espaço livre no HD (40 GB antes de instalar; 5 GB no modo rápido)
+
+Para trabalhar, abro a pasta Fábrica de Criativos no app
+
+08
+
+GLOSSÁRIO
+
+Instalador         O arquivo que você baixou para instalar a Fábrica. Depois da instalação, você
+                   pode apagá-lo.
+
+/fca-doutor        Comando que confere a instalação, aponta problemas e diz como resolver.
+
+Node.js            Parte do motor básico instalado pela instalação rápida.
+
+FFmpeg             Parte do motor básico: ferramenta que trabalha com vídeo e áudio.
+
+Transcrição local  Transcrição de áudio em texto feita no seu próprio computador. Faz parte do
+                   motor básico.
+
+B-rolls            Vídeos que você pode usar para montar os seus próprios vídeos. Vêm no kit
+                   inicial.
+
+Kit inicial        Sons, trilhas, b-rolls e catálogo de estilos que vêm na instalação rápida.
+
+Acervo             Biblioteca completa de materiais que o Lúcio disponibiliza. A instalação rápida
+                   traz só o kit inicial.
+
+09                                                                                  claude.com/download
+
+LINKS DA AULA                             drive.google.com/drive/folders/1xE1OACdDqMbNN43
+                                                                                       BCKPqp9B6YFqRrhHL
+↗ Baixar o app do Claude (Mac e Windows)
+↗ Sistema da Fábrica: fca-sistema.zip +    drive.google.com/drive/folders/1Q6yUiQMR5BZBfF
+                                                                                     zf5_5KLdi4jFaquHfh
+manual de instalação
+
+↗ Pacotes que o /fca-instalar baixa (se
+
+precisar baixar à mão)
+
+FCA · MÓDULO 8 · AULA 4                                                               PÁGINA 7
+WORKBOOK · MÓDULO 8 · AULA 4                                  A BARRA, O DOUTOR E O PRIMEIRO VÍDEO
+                                         drive.google.com/drive/folders/1KiRF1BB9v4fYJriCSf
+↗ Guias em PDF (instalação, erros
+                                                                                               NV5IaZU9q_cWEw
+comuns, add-ons)
+                                                                                                     nodejs.org
+↗ Node.js (site oficial)                                                                             python.org
+↗ Python (site oficial)                                                                              ffmpeg.org
+↗ ffmpeg (site oficial)
+
+10
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 8 · AULA 4
+
+FCA · MÓDULO 8 · AULA 4                                       PÁGINA 8
+

@@ -1,0 +1,186 @@
+FÁBRICA DE CRIATIVOS                                  Nº M09-A6
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 9 · AULA 6
+
+G E R A N D O S E U S C R I AT I VO S N A PR ÁT I CA
+
+AS 3 CAPAS
+
+  3 CAPÍTULOS 2 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Capas
+   01 Abertura
+   03 Conferir                          9.6
+                                                                              FCA · M09-A6
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 9 · AULA 6  AS 3 CAPAS
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+O Lúcio explica que a fábrica gera imagem também, é só pedir. Para as capas ele criou um
+padrão: o vídeo é 9x16 e a capa também é 9x16, mas só a área útil, o enquadramento que
+aparece no feed do Instagram, mostra o conteúdo inteiro. Tudo que não pode ser cortado
+precisa ficar dentro dessa área, mesmo com a imagem comprida. A fábrica já sabe disso: ao
+gerar um criativo de vídeo orgânico, ela devolve três variações de capa focadas no tema,
+tirando frames do vídeo e fazendo montagem, e você pode pedir o que quiser. Antes de subir,
+olhe sempre a capa, porque uma capa muito comprida pode ter uma parte importante cortada.
+Por fim, ele evita vários textos e títulos no mesmo criativo: prefere subir um anúncio de cada,
+com um texto por anúncio.
+
+IDEIA CENTRAL
+
+A capa é 9x16, mas o conteúdo importante fica dentro da área
+útil (zona segura), e você olha a capa antes de subir.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Capa 9x16 com área útil
+
+    O vídeo é 9x16 e a capa também. Mas o feed do Instagram mostra só uma parte: a área
+    útil. Tudo o que não pode ser cortado fica dentro desse enquadramento, mesmo que a
+    imagem seja comprida.
+
+02  Zona segura
+
+    É o espaço dentro da capa onde mora o conteúdo útil. Se você usa o mesmo vídeo em
+    vários posicionamentos, o que estiver fora dela talvez fique cortado.
+
+03  A fábrica já sabe disso
+
+    Ao pedir um criativo de vídeo orgânico, ela já gera três variações de capa. Pega o
+    contexto, tira frames do vídeo, faz montagem e coloca tudo dentro do enquadramento.
+    Você pode explicar o que quer e pedir o que quiser.
+
+FCA · MÓDULO 9 · AULA 6       PÁGINA 2
+WORKBOOK · MÓDULO 9 · AULA 6                                       AS 3 CAPAS
+
+04 Olhar antes de subir
+
+               Não suba a capa sem verificar. Uma capa muito comprida pode cortar uma parte
+
+               importante. Olhe sempre antes de subir.
+
+05 Pouco texto, um anúncio por texto
+
+               Evite muitos textos e vários títulos no mesmo criativo, mesmo que o Meta permita. O
+               Lúcio sobe um de cada: se quer um texto diferente na mesma imagem, cria outro
+               anúncio com aquele texto.
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/2
+
+Quando usar: Pedir as 3 capas do criativo
+
+Gere 3 capas para o criativo [nome do criativo], focadas no tema [tema].
+Formato 9x16, com o conteúdo útil dentro da zona segura (área que aparece no
+feed do Instagram). Pode tirar frames do vídeo e fazer montagem. Evite muito
+texto: um título curto por capa.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/2
+
+Quando usar: Ajustar uma capa que ficou ruim
+
+Refaça a capa [número] do criativo [nome do criativo]: [o que você quer
+mudar, por exemplo: título menor, rosto mais ao centro]. Mantenha 9x16 e
+todo o conteúdo importante dentro da zona segura.
+
+FCA · MÓDULO 9 · AULA 6                                                                      PÁGINA 3
+WORKBOOK · MÓDULO 9 · AULA 6                                                                     AS 3 CAPAS
+
+04                                           → ✓ CERTO
+                                                      Olhar a prévia 4:5; 1 texto e 1 título
+O QUE NÃO FAZER
+
+Subir sem conferir
+
+   ✕ ERRADO
+
+    Subir a capa sem ver o 4:5; 3 textos no
+    mesmo anúncio
+
+05
+
+SUA VEZ
+
+Peça as 3 capas do seu criativo, olhe cada uma antes de subir e anote:
+
+    01 Qual é o tema que as 3 capas focam?
+
+02 Alguma capa teve conteúdo importante perto da borda ou cortado? Qual e o que
+    você pediu para ajustar?
+
+03 Qual das 3 você escolheu e por quê?
+
+FCA · MÓDULO 9 · AULA 6                                                 PÁGINA 4
+WORKBOOK · MÓDULO 9 · AULA 6                                          AS 3 CAPAS
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       Pedi as 3 capas e todas estão em 9x16
+       Todo o conteúdo importante está dentro da zona segura
+       Olhei cada capa antes de subir
+       As capas têm pouco texto e um só título
+       Se quero outro texto na mesma imagem, vou criar outro anúncio
+
+07
+
+GLOSSÁRIO
+
+Área útil          O enquadramento da capa que aparece no feed do Instagram; o que importa
+                   fica dentro dele.
+
+Zona segura (safe  O mesmo que área útil: o espaço da capa onde o conteúdo não corre risco de
+zone)              ser cortado.
+
+Capa               A imagem de abertura do Reels, também em 9x16.
+
+Criativo orgânico  O vídeo feito para o perfil, não para anúncio pago; a fábrica gera 3 variações de
+                   capa para ele.
+
+08                                                                    claude.com/download
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+FCA · MÓDULO 9 · AULA 6                                               PÁGINA 5
+WORKBOOK · MÓDULO 9 · AULA 6                                  AS 3 CAPAS
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 9 · AULA 6
+
+FCA · MÓDULO 9 · AULA 6                                       PÁGINA 6
+

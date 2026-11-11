@@ -1,0 +1,230 @@
+FÁBRICA DE CRIATIVOS                    Nº M02-A4
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 2 · AULA 4
+
+ELEMENTOS DE UM ANÚNCIO VENCEDOR
+
+FORMATO, PROPORÇÃO E
+O PAR PAGO + ORGÂNICO
+
+  4 CAPÍTULOS 2 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 O par
+   01 Abertura
+   03 Proporção e zona segura           2.4 04 Naprática
+                                                                              FCA · M02-A4
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 2 · AULA 4  FORMATO, PROPORÇÃO E O PAR PAGO + ORGÂNICO
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+O Lucio abre a aula falando de formato, proporção e o par. O par é pago e orgânico: ele usa o
+mesmo anúncio que faz para vender também no orgânico e só muda a chamada para ação
+(CTA). No pago, o CTA é claro ("clique em comprar", "cadastre-se", "saiba mais"), com um texto e
+um título. No orgânico, o CTA manda digitar uma palavra, com capa e legenda, e uma
+automação responde a quem digitou. Feed do Instagram e do Facebook usam 4x5; Stories e
+Reels usam 9x16; Explorar, Messenger e Audience Network usam o centro em 4x5 (ou
+quadrado). Por isso ele faz o criativo em 9x16 (1080×1920) com a mensagem principal dentro
+da zona segura 4x5 (1080×1350), e assim uma imagem ou um vídeo serve para todos os
+lugares. Ele fecha pedindo para conferir sempre a capa: capa cortada no perfil, com texto fora
+do lugar, é game over.
+
+IDEIA CENTRAL
+
+Faça um criativo só em 9x16 com o essencial dentro da zona
+segura 4x5, e use o mesmo criativo em par: pago e orgânico,
+mudando só o CTA.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  O par: pago e orgânico
+
+    O Lucio só cria conteúdo para vender, então o mesmo anúncio que ele faz para vender é
+    o que ele usa no orgânico; só muda o CTA. No pago o CTA é claro (clique em comprar,
+    cadastre-se, saiba mais), com um texto e um título. No orgânico o CTA manda digitar
+    uma palavra, com capa e legenda, e uma automação envia algo a quem digitou. Dica
+    dele: os melhores criativos que rodam no tráfego pago também vão, no formato
+    orgânico, para o perfil. Só faça o orgânico se esse for o seu objetivo.
+
+FCA · MÓDULO 2 · AULA 4       PÁGINA 2
+WORKBOOK · MÓDULO 2 · AULA 4  FORMATO, PROPORÇÃO E O PAR PAGO + ORGÂNICO
+
+02  Onde o anúncio aparece
+
+    Feed do Instagram e do Facebook: 4x5, um pouco mais alongado. Stories e Reels: 9x16,
+    o mais comprido. Explorar, Messenger e Audience Network: o centro em 4x5 (ou
+    quadrado, no 1x1). O perfil e a grade do Instagram também mostram 4x5. O Lucio não
+    gosta muito de anunciar nesses últimos locais, mas com público aberto no Advantage a
+    Meta pode usá-los.
+
+03  O que acontece com o corte
+
+    Um 4x5 cabe em todos os lugares. Um 9x16 com posicionamento aberto é cortado nas
+    extremidades onde o local é 4x5, e cortado ainda mais onde é quadrado. Por isso ele
+    adota a zona segura.
+
+04  Zona segura
+
+    Faça o criativo inteiro em 9x16, bem comprido, mas pegue do centro para as
+    extremidades uma área como se fosse uma imagem 4x5. A mensagem principal, que
+    não pode faltar, fica dentro dela: título, o que chama a atenção e a chamada para ação.
+    Dá para colocar coisa fora, mas não o essencial. Assim ele não precisa criar um monte
+    de imagens e vídeos, o que gasta tokens e assinatura: uma imagem ou um vídeo que
+    cabe em todos os lugares.
+
+05  Dimensões
+
+    9x16 = 1080 × 1920. 4x5 = 1080 de largura por 1350 de altura, um retângulo só um
+    pouco alongado. Se você não consegue trabalhar com a zona segura, faça direto em
+    4x5.
+
+06  Conferir a capa
+
+    Confira a capa sempre. Peça ao Claude: "olha esta capa", anexe a imagem e peça para
+    recortar a área central. Capa cortada no perfil é horrível: corta o que não devia e deixa
+    texto fora do lugar, e isso é game over. As skills do Lucio já trazem essa checagem
+    embutida, mas entenda mesmo assim.
+
+FCA · MÓDULO 2 · AULA 4       PÁGINA 3
+WORKBOOK · MÓDULO 2 · AULA 4                     FORMATO, PROPORÇÃO E O PAR PAGO + ORGÂNICO
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/2
+
+Quando usar: Antes de publicar qualquer capa, para conferir se está tudo dentro da zona segura.
+
+Olha esta capa [anexe a imagem]. Ela é 1080×1920 (9x16). Recorte a área
+central no formato 4x5 (1080×1350) e me mostre. Me diga se o título, o
+rosto, o logo ou a chamada para ação ficam fora do recorte ou cortados e o
+que preciso mover para dentro. Antes de executar, me mostre o plano em
+passos curtos e espere meu OK. No final, diga como eu confiro que ficou
+certo.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/2
+
+Quando usar: Para montar o par (pago + orgânico) do mesmo criativo.
+
+Tenho este criativo: [descreva ou cole o roteiro/anúncio]. Monte o par: (1)
+versão paga, com 1 texto, 1 título e CTA claro [clique em comprar /
+cadastre-se / saiba mais]; (2) versão orgânica, com CTA "Digite [PALAVRA]",
+sugestão de capa e legenda. Mude só o CTA, o resto da ideia é a mesma. Antes
+de executar, me mostre o plano em passos curtos e espere meu OK. No final,
+diga como eu confiro que ficou certo.
+
+04                                               → ✓ CERTO
+                                                          Tudo dentro do 4:5, com respiro
+O QUE NÃO FAZER
+
+Capa cortada no perfil
+
+   ✕ ERRADO
+
+    Título cortado no perfil, legenda colada no
+    rosto
+
+FCA · MÓDULO 2 · AULA 4                                                                    PÁGINA 4
+WORKBOOK · MÓDULO 2 · AULA 4    FORMATO, PROPORÇÃO E O PAR PAGO + ORGÂNICO
+
+05
+
+SUA VEZ
+
+Pegue um criativo seu em 9x16 e confira se o essencial cabe na zona segura 4x5. Depois defina
+o par: o CTA do pago e o CTA do orgânico.
+
+01 O que está fora ou perto da borda do 4x5 (título, chamada para ação, o que chama a
+    atenção)
+
+02 O que vou mover para dentro
+
+03 O CTA da versão paga (comprar, cadastre-se ou saiba mais)
+
+04 A palavra do "Digite [PALAVRA]" da versão orgânica
+
+06                                                                     PÁGINA 5
+
+ANTES DA PRÓXIMA AULA
+
+       O criativo tem versão paga e versão orgânica, mudando só o CTA
+       O pago tem CTA claro, um texto e um título
+
+FCA · MÓDULO 2 · AULA 4
+WORKBOOK · MÓDULO 2 · AULA 4                             FORMATO, PROPORÇÃO E O PAR PAGO + ORGÂNICO
+
+      O orgânico tem "Digite [PALAVRA]", capa e legenda
+
+      O criativo está em 9x16 (1080×1920)
+
+      Título, o que chama a atenção e a chamada para ação estão dentro da zona segura 4x5
+      (1080×1350)
+
+      Conferi a capa recortando a área central antes de publicar
+
+      Nenhum texto ficou fora do lugar no perfil
+
+07
+
+GLOSSÁRIO
+
+9x16               Proporção vertical e comprida de Stories e Reels; use 1080 × 1920.
+
+4x5                Proporção um pouco alongada do feed, do perfil e da grade; 1080 × 1350. O
+
+                   centro dela é a zona segura.
+
+Zona segura        Área central, no formato 4x5, onde fica a mensagem principal para o criativo
+                   caber em todos os posicionamentos.
+
+Par                O mesmo criativo em duas versões: paga e orgânica, mudando só o CTA.
+
+CTA (chamada para  O que você pede para a pessoa fazer: comprar, cadastrar-se, saber mais ou
+ação)              digitar uma palavra.
+
+Posicionamento     Quando você deixa a Meta escolher onde o anúncio aparece; a imagem é
+aberto             cortada para caber em cada local.
+
+08                                                                claude.com/download
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+FCA · MÓDULO 2 · AULA 4                                                                    PÁGINA 6
+WORKBOOK · MÓDULO 2 · AULA 4                      FORMATO, PROPORÇÃO E O PAR PAGO + ORGÂNICO
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 2 · AULA 4
+
+FCA · MÓDULO 2 · AULA 4                                       PÁGINA 7
+

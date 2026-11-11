@@ -1,0 +1,226 @@
+FÁBRICA DE CRIATIVOS                                  Nº M09-A1
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 9 · AULA 1
+
+G E R A N D O S E U S C R I AT I VO S N A PR ÁT I CA
+
+COLAR O LINK: A
+IA LÊ A OFERTA
+
+  3 CAPÍTULOS 3 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Colar o link
+   01 Abertura
+   03 A análise                          9.1
+                                                                              FCA · M09-A1
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 9 · AULA 1  COLAR O LINK: A IA LÊ A OFERTA
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Este módulo leva você do link ao anúncio pronto. Nesta primeira aula, você cola a página de
+vendas de uma oferta no app do Claude, numa conversa nova. O Lúcio mostra o passo a passo
+para você entender o que os agentes fazem em cada etapa e saber corrigir um problema de
+forma pontual. No final do módulo ele ensina a fazer tudo de uma vez, com um passo só. Se a
+página tiver vídeo de vendas (VSL), a IA baixa, transcreve, gera a legenda com tempo e extrai
+quadros para entender o que aparece na tela. Em seguida ela entrega a análise: o público que
+compra, o que ele sente, a objeção, a promessa e a oferta que resolve. Você lê e corrige o que
+estiver errado antes de ir para os ângulos e roteiros, na próxima aula.
+
+IDEIA CENTRAL
+
+Quanto mais contexto você dá à IA (página, vídeo, perfil, texto,
+pastas), melhor ela entende a oferta, e é você quem confere e
+corrige a análise antes de seguir.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Passo a passo agora, um passo só no final
+
+    O módulo percorre as etapas separadas: link e análise, ângulos e roteiros, narração, arte
+    e amostra, texto e capas. No final você roda tudo de uma vez. Entender cada etapa
+    serve para corrigir um problema de forma mais pontual e mais certeira, sem refazer
+    tudo.
+
+02  O que você pode dar para a IA
+
+    Página de vendas, perfil de Instagram, vídeo do YouTube, post, documento, PDF, texto,
+    imagem, o que você tiver. Se não tiver nada, digite ou explique a sua oferta, seja produto
+    físico, digital ou serviço.
+
+FCA · MÓDULO 9 · AULA 1       PÁGINA 2
+WORKBOOK · MÓDULO 9 · AULA 1  COLAR O LINK: A IA LÊ A OFERTA
+
+03 Contexto alimenta a qualidade
+
+               Se você só der a página, a IA faz o máximo que dá. Se você também disser quem é o
+               público, qual dor o produto ou serviço resolve, o desejo e as objeções, ela aprende com
+
+               isso e entrega mais qualidade criativa.
+
+04  O que a IA faz quando a página tem vídeo
+
+    Ela baixa o vídeo e roda um pipeline de aprendizado: primeiro transcreve, depois gera a
+    legenda com o tempo (timestamp) e depois gera quadros (frames) do vídeo para
+    entender visualmente o que está aparecendo. Só depois de aprender isso ela executa.
+
+05  Quem tem um curso
+
+    A melhor coisa é transcrever as aulas ou passar a pasta com o material e pedir para a
+    IA assistir. Como ela passa a conhecer o conteúdo, fazer o anúncio fica muito mais
+    fácil: basta dizer para quem é o curso.
+
+06 Depoimentos
+
+               Se a página ou o vídeo tiver depoimentos, a IA entende o que foi dito e pode usá-los nos
+
+               seus criativos, se você quiser.
+
+07  A análise: você lê e corrige
+
+    A IA lê por você e mostra o público que compra, o que ele sente, a objeção (o que faz
+    desistir), a promessa e a oferta que resolve. Você corrige o que estiver errado. Essa
+    análise é o ponto de partida dos ângulos e dos roteiros da próxima aula.
+
+FCA · MÓDULO 9 · AULA 1       PÁGINA 3
+WORKBOOK · MÓDULO 9 · AULA 1                                       COLAR O LINK: A IA LÊ A OFERTA
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/3
+
+Quando usar: Ler a página e assistir à VSL (passo a passo)
+
+Leia esta página de vendas: [COLE AQUI O LINK DA OFERTA]. Se a página tiver
+vídeo (VSL), rode a skill assistir-video-de-referencia: baixe o vídeo,
+transcreva no meu computador, gere a legenda com tempo, tire os quadros da
+tela (a cada 2 segundos e nas mudanças de cena) com a folha de contato, e
+cruze fala e tela numa linha do tempo. Me diga em poucas linhas: quem
+compra, a dor principal, a maior objeção, a promessa e, se houver vídeo, o
+mecanismo e as provas (com o minuto em que aparecem). Não escreva nada de
+anúncio ainda.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/3
+
+Quando usar: Se o vídeo não baixar: arraste o arquivo
+
+Este é o vídeo de vendas (VSL) da mesma oferta: [ARRASTE O ARQUIVO AQUI].
+Rode a skill assistir-video-de-referencia: transcreva no meu computador,
+gere a legenda com tempo, tire os quadros da tela (a cada 2 segundos e nas
+mudanças de cena) com a folha de contato, e cruze fala e tela numa linha do
+tempo. Extraia: a promessa, o mecanismo (por que funciona), as provas, os
+depoimentos e as objeções que ele responde. Junte com a análise da página.
+Não escreva anúncio ainda.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/3
+
+Quando usar: Se você não tem página nem vídeo: explique a oferta
+
+Minha oferta é [PRODUTO OU SERVIÇO, físico ou digital]. O público é [QUEM
+COMPRA]. A dor que ela resolve é [DOR]. O desejo dele é [DESEJO]. As
+objeções são [OBJEÇÕES]. Se precisar, pesquise na internet para
+complementar. Me devolva a análise em poucas linhas: quem compra, a dor
+principal, a maior objeção e a promessa. Não escreva nada de anúncio ainda.
+
+FCA · MÓDULO 9 · AULA 1                                            PÁGINA 4
+WORKBOOK · MÓDULO 9 · AULA 1        COLAR O LINK: A IA LÊ A OFERTA
+
+04
+
+SUA VEZ
+
+Com uma oferta SUA, cole o link (ou descreva a oferta, se não tiver página) e anote:
+
+01 Qual oferta e qual material você usou (link, vídeo, pasta, texto)?
+
+02 O que a análise disse sobre quem compra, a dor e a promessa?
+
+03 Qual objeção a IA apontou e ela faz sentido para o seu público?
+
+04 O que você corrigiu na análise?
+
+05
+
+ANTES DA PRÓXIMA AULA
+
+       Abri uma conversa nova no app do Claude
+       Usei uma oferta minha, sem dado de cliente
+       Colei o link da página (ou descrevi a oferta, o público, a dor, o desejo e as objeções)
+       Se tinha vídeo de vendas, deixei a IA baixar, transcrever e extrair os quadros
+
+FCA · MÓDULO 9 · AULA 1                                                                         PÁGINA 5
+WORKBOOK · MÓDULO 9 · AULA 1                                        COLAR O LINK: A IA LÊ A OFERTA
+
+       Se tenho curso ou pasta de material, passei a transcrição ou o caminho da pasta
+
+       Li a análise: público, dor, objeção, promessa e oferta
+
+       Corrigi o que estava errado antes de seguir para a aula 9.2
+
+06
+
+GLOSSÁRIO
+
+VSL               Vídeo de vendas da página, que a IA transcreve e assiste para entender a
+                  oferta.
+
+Timestamp         O tempo de cada trecho na legenda, que mostra em que minuto algo foi dito.
+
+Frames (quadros)  Imagens tiradas do vídeo para a IA entender visualmente o que aparece na
+                  tela.
+
+Folha de contato  Uma imagem com vários quadros do vídeo juntos, para ver a tela de relance.
+
+Skill             Instrução pronta que ensina o Claude a executar uma tarefa, como assistir a
+                  um vídeo de referência.
+
+Objeção           O motivo que faz a pessoa desistir de comprar.
+
+Promessa          O resultado que a oferta diz entregar ao comprador.
+
+Mecanismo         O porquê de a oferta funcionar, a explicação que sustenta a promessa.
+
+07                                                                     claude.com/download
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+FCA · MÓDULO 9 · AULA 1                                                                 PÁGINA 6
+WORKBOOK · MÓDULO 9 · AULA 1                      COLAR O LINK: A IA LÊ A OFERTA
+
+08
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 9 · AULA 1
+
+FCA · MÓDULO 9 · AULA 1                                       PÁGINA 7
+

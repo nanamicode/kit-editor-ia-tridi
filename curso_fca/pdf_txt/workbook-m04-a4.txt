@@ -1,0 +1,274 @@
+FÁBRICA DE CRIATIVOS                    Nº M04-A4
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 4 · AULA 4
+
+ANÚNCIO DE TOPO, MEIO E FUNDO DE FUNIL
+
+TEMPERATURA
+DE TRÁFEGO
+
+  4 CAPÍTULOS 3 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Temperatura e etapa
+   01 Abertura
+   03 A matriz                          4.4 04 Acampanhacerta
+                                                                              FCA · M04-A4
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 4 · AULA 4                  TEMPERATURA DE TRÁFEGO
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Temperatura de tráfego não é nível de consciência nem etapa de funil. A temperatura é a
+relação da pessoa com você: frio nunca ouviu falar, morno te conhece, te segue e é lead mas
+nunca fechou nada, quente se comprometeu com você. A etapa do funil (topo, meio, fundo) é a
+relação da pessoa com o problema dela. A temperatura você escolhe no público, na hora de
+anunciar. A etapa você escolhe no criativo. Os 9 cruzamentos formam a matriz 3x3, que mostra
+quantos criativos você precisa. Na campanha, você define a temperatura, depois a etapa,
+depois um criativo por framework, e coloca topo, meio e fundo no mesmo conjunto. No Meta,
+você ensina a conta quem são seus clientes e seu público engajado.
+
+IDEIA CENTRAL
+
+Temperatura é você, etapa é o problema dele.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Temperatura: a relação da pessoa com você
+
+    Frio: nunca ouviu falar de você. Morno: já ouviu falar, te segue, é um lead cadastrado,
+    mas nunca fechou nada. Quente: já comprou e te acompanha. Quente é quem se
+    compromete com você. Quem comprou há dois anos e nunca mais voltou não é quente.
+    Quem virou lead, agendou uma reunião e participou já se comprometeu com o tempo e
+    passou de morno para quente. Para facilitar, quem já comprou de você é quente.
+
+02  Etapa: a relação da pessoa com o problema dela
+
+    Topo: pouca consciência. Ela não sabe que tem o problema, ou sabe e isso não
+    incomoda. Meio e fundo: ela já percebe o problema e vai atrás da solução. Etapa não
+    tem a ver com temperatura. Se eu começar a vender roupa e você não está precisando
+    de roupa, você está no topo do meu funil, mesmo me conhecendo. Se você já comprou
+    de mim e agora procura um curso de tráfego, você não está no topo.
+
+FCA · MÓDULO 4 · AULA 4                       PÁGINA 2
+WORKBOOK · MÓDULO 4 · AULA 4  TEMPERATURA DE TRÁFEGO
+
+03  Onde você escolhe cada uma
+
+    A temperatura você escolhe no público, quando vai anunciar: desconhecidos, leads ou
+    compradores. A etapa só o criativo define. Não dá para anunciar para o topo do funil
+    sem que o criativo tenha a mensagem de topo. Já uma campanha para tráfego quente
+    você faz pela segmentação de público.
+
+04  A matriz 3x3: os 9 cruzamentos
+
+    Frio: topo fala de um assunto amplo e de quem é você; meio fala do mecanismo e da
+    prova; fundo fala de prova, de por que você e não outro. Quente: topo apresenta um
+    problema novo ou um produto novo; meio mostra como o produto funciona; fundo faz
+    uma oferta direta e curta. Em teoria, três campanhas com pelo menos três criativos
+    cada (topo, meio e fundo) abrangem todo mundo. Cada caso é um caso e depende do
+    produto que você vende.
+
+05  Frio no fundo do funil (caso Lead Certo)
+
+    Existe tráfego frio que está no fundo do funil. Quem já faz tráfego para WhatsApp e está
+    de saco cheio de só receber lead desqualificado não me conhece (é frio), mas está no
+    fundo do funil do Lead Certo, o meu produto para quem faz tráfego para WhatsApp. Ele
+    só não está no meu funil ainda. Por isso eu tenho vários anúncios de fundo de funil
+    rodando para público frio.
+
+06  O que não fazer: primeiro a temperatura, depois a etapa
+
+    Topo não é igual a frio e fundo não é igual a quente. Primeiro separe para quem você vai
+    anunciar: frio, morno, quente ou todo mundo junto. Depois defina a etapa do criativo. O
+    ideal é ter pelo menos um criativo de cada etapa no mesmo conjunto de anúncios,
+    porque dentro do mesmo público frio há gente consciente do problema e gente
+    totalmente inconsciente, e o Meta só descobre quem é quem quando a pessoa interage
+    com o criativo.
+
+FCA · MÓDULO 4 · AULA 4       PÁGINA 3
+WORKBOOK · MÓDULO 4 · AULA 4  TEMPERATURA DE TRÁFEGO
+
+07  Como montar a campanha certa
+
+    1) Temperatura: quem eu vou atingir? 2) Etapa: topo, meio ou fundo? 3) Um criativo por
+    framework: AIDA, PAS, BAB e 4Ps. 4) A IA lê o resultado: conectando a fábrica, o Claude,
+    à sua conta de anúncios, ela acompanha os relatórios (ou a API em tempo real, que eu
+    ensino na formação Tráfego de Escala). Topo, meio e fundo vão no mesmo conjunto: o
+    Andromeda lê o sentido de cada criativo, cada pessoa recebe o criativo do momento
+    certo e o conjunto educa o público por você.
+
+08  Configurar o público na conta de anúncios
+
+    Nas configurações da conta de anúncios, em segmento de público, você ensina o Meta
+    quem é quem. Público engajado: engajados, seguidores, visitantes e leads. Clientes
+    existentes: sua lista de clientes e os compradores do Pixel. Vale fazer isso para toda
+    campanha de vendas. Ao criar a campanha, o Meta pergunta se você quer vender para
+    todos (custo menor, mas o anúncio aparece também para quem já comprou) ou só para
+    novos clientes (quem nunca comprou de você). Depende do negócio: eu não uso só
+    novos clientes porque tenho vários produtos, então faço por segmentação e exclusão.
+    Funciona melhor com os segmentos definidos.
+
+FCA · MÓDULO 4 · AULA 4       PÁGINA 4
+WORKBOOK · MÓDULO 4 · AULA 4                                       TEMPERATURA DE TRÁFEGO
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/3
+
+Quando usar: Para achar a casa do seu público na matriz (temperatura e etapa) e saber o que o criativo
+
+precisa dizer.
+
+Meu produto: [descreva em 1 linha]. O público da campanha: [quem é e como eu
+segmentei: desconhecidos, leads/seguidores, compradores]. Diga a temperatura
+dele em relação a mim (frio: nunca ouviu falar de mim; morno: me conhece, me
+segue, é lead mas não fechou; quente: já comprou ou se comprometeu comigo) e
+a etapa em relação ao problema (topo: não sabe do problema ou ele não
+incomoda; meio: procura como resolver; fundo: escolhe de quem comprar).
+Lembre que topo não é igual a frio e fundo não é igual a quente. Depois diga
+o que o criativo dessa casa precisa falar (frio: assunto amplo, mecanismo e
+prova, por que eu e não outro; quente: problema ou produto novo, como o
+produto funciona, oferta direta e curta) e o que ele não pode ter. Antes de
+executar, me mostre o plano em passos curtos e espere meu OK. No final, diga
+como eu confiro que ficou certo.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/3
+
+Quando usar: Para montar o conjunto com um criativo por etapa e um por framework.
+
+Vou rodar uma campanha para público [frio, morno, quente ou todos juntos] do
+meu produto [descreva em 1 linha]. Monte um criativo de topo, um de meio e
+um de fundo para o mesmo conjunto de anúncios, cada um em um framework
+diferente (AIDA, PAS, BAB ou 4Ps). Para cada criativo, diga a etapa, o
+framework e a mensagem principal. Dados que tenho: [dor do cliente,
+mecanismo, provas]. Antes de executar, me mostre o plano em passos curtos e
+espere meu OK. No final, diga como eu confiro que ficou certo.
+
+FCA · MÓDULO 4 · AULA 4                                            PÁGINA 5
+WORKBOOK · MÓDULO 4 · AULA 4             TEMPERATURA DE TRÁFEGO
+
+>_ COLE NO CLAUDE CODE                   PROMPT 3/3
+
+Quando usar: Para revisar se o criativo combina com o público e com a etapa.
+
+Aqui está meu criativo: [cole o roteiro ou a copy]. Ele vai rodar para:
+[descreva o público]. Diga em qual etapa do funil esse criativo foi escrito
+(topo, meio ou fundo) e para qual temperatura ele funciona. Se não bater com
+o público, aponte a casa certa da matriz temperatura x etapa e reescreva só
+o que precisa mudar. Antes de executar, me mostre o plano em passos curtos e
+espere meu OK. No final, diga como eu confiro que ficou certo.
+
+04                                       → ✓ CERTO
+                                                  Primeiro a temperatura, depois a etapa
+O QUE NÃO FAZER
+
+Topo não é sinônimo de frio
+
+   ✕ ERRADO
+
+    Topo = frio, fundo = quente, sempre
+
+05
+
+SUA VEZ
+
+Pegue a próxima campanha que você vai subir e monte a matriz dela: escolha a temperatura do
+público e defina um criativo para cada etapa.
+
+    01 Temperatura do público (frio, morno, quente ou todos juntos) e por que
+
+02 Criativo de topo: o que ele fala
+
+FCA · MÓDULO 4 · AULA 4                  PÁGINA 6
+WORKBOOK · MÓDULO 4 · AULA 4             TEMPERATURA DE TRÁFEGO
+    03 Criativo de meio: o que ele fala
+
+04 Criativo de fundo: o que ele fala
+
+05 Meu público engajado e minha lista de clientes já estão configurados na conta de
+    anúncios? (sim ou não)
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       Sei separar temperatura (minha relação com a pessoa) de etapa (a relação dela com o problema)
+       Escolhi a temperatura no público da campanha
+       Escolhi a etapa no criativo, e cada criativo tem a mensagem da sua etapa
+       Coloquei pelo menos um criativo de topo, um de meio e um de fundo no mesmo conjunto
+       Usei um framework diferente (AIDA, PAS, BAB ou 4Ps) em cada criativo
+       Configurei na conta de anúncios o público engajado e os clientes existentes
+       Decidi se a campanha de vendas vai para todos ou só para novos clientes, de acordo com o meu
+       negócio
+
+FCA · MÓDULO 4 · AULA 4                  PÁGINA 7
+WORKBOOK · MÓDULO 4 · AULA 4                      TEMPERATURA DE TRÁFEGO
+
+07
+
+GLOSSÁRIO
+
+Temperatura de       A relação da pessoa com você e sua marca: frio (nunca ouviu falar), morno (te
+tráfego              conhece, te segue, é lead) ou quente (comprometido, já comprou).
+
+Etapa do funil       A relação da pessoa com o problema dela: topo (pouca consciência), meio
+                     (procura como resolver) ou fundo (escolhe de quem comprar).
+
+Matriz 3x3           Os 9 cruzamentos entre temperatura (frio, morno, quente) e etapa (topo, meio,
+                     fundo). Mostra quantos criativos você precisa fazer.
+
+Frameworks de        Estruturas de roteiro usadas para criar um criativo por etapa: AIDA, PAS, BAB e
+criativo             4Ps.
+
+Público engajado     Na configuração da conta de anúncios: engajados, seguidores, visitantes e
+                     leads.
+
+Clientes existentes  Na configuração da conta de anúncios: sua lista de clientes e os compradores
+                     do Pixel.
+
+Andromeda            Sistema do Meta que lê o sentido de cada criativo e entrega a cada pessoa o
+                     criativo do momento certo.
+
+08                                                adsmanager.facebook.com
+
+LINKS DA AULA
+
+↗ Gerenciador de Anúncios (só leitura)
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+FCA · MÓDULO 4 · AULA 4                           PÁGINA 8
+WORKBOOK · MÓDULO 4 · AULA 4                                        TEMPERATURA DE TRÁFEGO
+                                                       seguro.lucioartes.com/OA65829EA
+↗ 2 · Super Públicos: a segmentação           checkout.safe.lucioartes.com/42750161
+↗ 3 · Missão Claude Tracking: o trackeamento
+
+                         FIM DO WORKBOOK · MÓDULO 4 · AULA 4
+
+FCA · MÓDULO 4 · AULA 4                                       PÁGINA 9
+

@@ -1,0 +1,238 @@
+FÁBRICA DE CRIATIVOS                    Nº M02-A1
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 2 · AULA 1
+
+ELEMENTOS DE UM ANÚNCIO VENCEDOR
+
+ANATOMIA: GANCHO,
+CORPO, PROVA E CTA
+
+  4 CAPÍTULOS 2 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 As 4 partes
+   01 Abertura
+   03 Exemplo e prática                 2.1 04 Erroetarefa
+                                                                              FCA · M02-A1
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 2 · AULA 1  ANATOMIA: GANCHO, CORPO, PROVA E CTA
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Neste módulo o Lúcio ensina a montar um anúncio que prende e vende, e a estrutura vale para
+qualquer lugar onde você anuncie. Todo anúncio tem quatro partes: gancho (de 0 a 3
+segundos), corpo (o problema e o caminho para resolvê-lo, de 3 a 15 segundos), prova e CTA
+(de 25 a 30 segundos). O gancho e o corpo prendem a atenção, e a prova e o CTA fecham. A
+regra que guia tudo é um anúncio, uma ideia, um ângulo e um pedido só no final. Ele lembra que
+o anúncio não vende: quem vende é a página de destino. O anúncio chama atenção, retém e
+convence a pessoa a clicar. A tarefa é pegar um anúncio qualquer, marcar as quatro partes e
+anotar a que falta.
+
+IDEIA CENTRAL
+
+Um anúncio, uma ideia, um ângulo e um pedido só: quem
+prende é o gancho e o corpo, quem fecha é a prova e o CTA.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Uma ideia, um ângulo, um pedido
+
+    O anúncio nasce de uma ideia, e para virar anúncio você explora ângulos, que são
+    abordagens diferentes de um mesmo tema. Em cada anúncio, aborde uma ideia só,
+    com um ângulo só e um pedido só (um CTA). Cuidado com a ambiguidade: se o
+    anúncio ficar difuso, ele deixa de chamar atenção por uma coisa.
+
+02  Quem prende e quem fecha
+
+    Quem prende a atenção são o gancho e o corpo. Primeiro você chama atenção com o
+    gancho, de 0 a 3 segundos. Depois vem o corpo, que fala do problema e do mecanismo
+    que resolve esse problema. Quem fecha são a prova e, por último, a chamada para
+    ação.
+
+FCA · MÓDULO 2 · AULA 1       PÁGINA 2
+WORKBOOK · MÓDULO 2 · AULA 1  ANATOMIA: GANCHO, CORPO, PROVA E CTA
+
+03  Prova
+
+    É um depoimento, um número ou algo que sustente o que está sendo dito. A prova não
+    precisa ser sua: se você tem um método ou presta um serviço, pode mostrar a prova de
+    que aquele serviço ou método funciona, mesmo que não seja seu. Se for sua, é melhor.
+    Ela aparece como prova social, números ou argumentação lógica, e é a tela que
+    convence. A prova social é matadora: se a pessoa chega até ela, há muita chance de
+    fechar.
+
+04  CTA (chamada para ação)
+
+    É o pedido final, e só pode haver um. O mais comum é o "Saiba mais", que é genérico,
+    mas não é regra. Opções como "Cadastre-se", "Comprar" ou "Fale no WhatsApp"
+    também servem. Em geral o CTA específico converte mais, embora às vezes feche em
+    quantidade menor. O que importa é a pessoa saber claramente o que fazer. No pago, o
+    botão padrão costuma ser o "Saiba mais", porque quase todo mundo já sabe o que ele
+    quer dizer.
+
+05  CTA combinado com a oferta
+
+    O CTA tem de combinar com a oferta. Se você quer que a pessoa mande uma
+    mensagem, não peça para comprar. Peça direto: "envie uma mensagem agora no nosso
+    WhatsApp, clique no botão abaixo". Se quer cadastro, peça o cadastro.
+
+06  Estrutura de referência e duração
+
+    A divisão que o Lúcio usa: gancho de 0 a 3 segundos, corpo de 3 a 15 segundos, prova
+    depois dele e CTA de 25 a 30 segundos. Ele costuma fazer anúncios de até 1 minuto,
+    mas ultimamente os de 30 segundos estão performando muito melhor. Se você encaixa
+    gancho, problema, prova e CTA em 30 segundos, melhor ainda. O anúncio é para
+    chamar atenção, reter atenção e convencer a pessoa a ir para a página, que é quem
+    vende.
+
+07  O que sustenta o anúncio no tráfego pago
+
+    Para vender com tráfego pago você precisa de duas coisas: rastreamento bem feito e
+    criativos feitos e personalizados para o seu público e o seu produto. O gancho precisa
+    ser ideal para o público que você quer atingir: no exemplo da aula, ele chamou a
+    atenção da pessoa certa.
+
+FCA · MÓDULO 2 · AULA 1       PÁGINA 3
+WORKBOOK · MÓDULO 2 · AULA 1                                       ANATOMIA: GANCHO, CORPO, PROVA E CTA
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                                                 PROMPT 1/2
+
+Quando usar: Para dissecar um anúncio, seu ou de outra pessoa, antes de refazer.
+
+Vou colar o roteiro (ou a descrição) de um anúncio. Separe em 4 partes:
+gancho (0 a 3 segundos), corpo (problema e mecanismo), prova e CTA. Para
+cada parte diga o que está bom e o que está fraco, em 1 linha. Diga se há
+mais de um CTA, se o anúncio tem uma ideia e um ângulo só, e se a prova é
+real (depoimento, número, tela) ou genérica.
+
+[cole aqui o roteiro ou a descrição do anúncio]
+
+Antes de executar, me mostre o plano em passos curtos e espere meu OK. No
+final, diga como eu confiro que ficou certo.
+
+>_ COLE NO CLAUDE CODE                                                                 PROMPT 2/2
+
+Quando usar: Para consertar a parte que falta ou está fraca.
+
+Pelo diagnóstico acima, a parte que falta ou está mais fraca é [gancho /
+corpo / prova / CTA]. Reescreva SÓ essa parte, mantendo o resto, para o
+público [descreva o público]. Mostre a versão antes e depois, lado a lado.
+Se for o CTA, deixe um pedido só, combinado com a oferta [descreva a oferta:
+compra, cadastro, mensagem no WhatsApp]. Antes de executar, me mostre o
+plano em passos curtos e espere meu OK. No final, diga como eu confiro que
+ficou certo.
+
+04                                           → ✓ CERTO
+                                                      1 CTA e prova que se vê na tela
+O QUE NÃO FAZER
+
+Dois erros que derrubam anúncio
+
+   ✕ ERRADO
+
+    2 CTAs e prova 'muita gente já comprou'
+
+FCA · MÓDULO 2 · AULA 1                                                                PÁGINA 4
+WORKBOOK · MÓDULO 2 · AULA 1                          ANATOMIA: GANCHO, CORPO, PROVA E CTA
+
+05
+
+SUA VEZ
+
+Escolha um anúncio qualquer (pode ser seu ou de um concorrente) e marque as 4 partes: onde
+está o gancho, o corpo, a prova e o CTA. Depois anote a parte que falta.
+
+01 Anúncio escolhido (onde você viu e qual é a ideia dele)
+
+02 Gancho (o que aparece e se diz de 0 a 3 segundos)
+
+03 Corpo (qual é o problema e qual é o mecanismo)
+
+04 Prova (depoimento, número ou o quê?)
+
+05 CTA (qual é o pedido? É um só?)
+
+FCA · MÓDULO 2 · AULA 1                                     PÁGINA 5
+WORKBOOK · MÓDULO 2 · AULA 1            ANATOMIA: GANCHO, CORPO, PROVA E CTA
+    06 A parte que falta ou está fraca
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       Sei nomear as 4 partes: gancho, corpo, prova e CTA
+       Sei dizer quais partes prendem (gancho e corpo) e quais fecham (prova e CTA)
+       Marquei as 4 partes em um anúncio
+       Conferi se o anúncio tem uma ideia, um ângulo e um pedido só
+       Conferi se há mais de um CTA (dois CTAs é game over)
+       Conferi se a prova se vê na tela
+       Anotei a parte que falta no anúncio
+
+07
+
+GLOSSÁRIO
+
+Gancho     A parte que chama atenção, de 0 a 3 segundos. É a parte mais importante do
+           anúncio.
+
+Corpo      A parte que prende a atenção: fala do problema e do mecanismo que o
+           resolve.
+
+Mecanismo  O caminho que resolve o problema apresentado no corpo.
+
+Prova      Depoimento, número ou algo que sustente o que foi dito. Pode ser prova social
+           ou argumentação lógica, e não precisa ser sua.
+
+CTA        Call to action, a chamada para ação: o pedido final do anúncio ("Saiba mais",
+           "Cadastre-se", "Fale no WhatsApp"). Só um por anúncio.
+
+FCA · MÓDULO 2 · AULA 1                                                              PÁGINA 6
+WORKBOOK · MÓDULO 2 · AULA 1                      ANATOMIA: GANCHO, CORPO, PROVA E CTA
+
+Ângulo        A abordagem diferente de um mesmo tema. Cada anúncio usa um ângulo só.
+
+Rastreamento  A medição bem feita dos resultados do anúncio. Com tráfego pago, é uma das
+              duas coisas de que você precisa, junto com criativos personalizados.
+
+08                                                             claude.com/download
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                          FIM DO WORKBOOK · MÓDULO 2 · AULA 1
+
+FCA · MÓDULO 2 · AULA 1                                        PÁGINA 7
+

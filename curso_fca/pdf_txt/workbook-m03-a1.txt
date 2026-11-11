@@ -1,0 +1,243 @@
+FÁBRICA DE CRIATIVOS                        Nº M03-A1
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 3 · AULA 1
+
+FRAMEWORKS DE COPY E ROTEIRO PARA ANÚNCIOS
+
+AIDA E PAS
+
+  4 CAPÍTULOS 2 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 AIDA
+   01 Fórmula é esqueleto               04 Escolher e aplicar
+   03 PAS
+                                         3.1
+LEIA NA TELA · ESCREVA NO PAINEL CLARO                                        FCA · M03-A1
+WORKBOOK · MÓDULO 3 · AULA 1                          AIDA E PAS
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Nesta aula você aprende as duas primeiras fórmulas do módulo 3: AIDA e PAS. Fórmula é
+esqueleto, não formulário: ela dá a ordem das ideias, e a voz, os exemplos e os detalhes são
+seus. A AIDA (Atenção, Interesse, Desejo, Ação) é a ordem da novidade e funciona muito bem
+para público frio. O PAS (Problema, Agitação, Solução) é para oferta direta a quem já tem o
+problema e quer resolver. O Lúcio mostrou dois anúncios que rodam hoje, um em cada fórmula,
+com a nota que a Fábrica deu a cada etapa. Ele também lembrou que, se você não der contexto
+à Fábrica, ela pode escolher o framework errado. Por isso você precisa saber reconhecer qual
+está sendo usado. Segundo ele, cerca de 90% dos anúncios dele usam AIDA ou PAS, conforme
+o público que quer atingir.
+
+IDEIA CENTRAL
+
+A fórmula escolhe a ordem; a sua voz é que convence.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Fórmula é esqueleto, não formulário
+
+    A fórmula (como a skill, que é uma receita de bolo) diz o que fazer em cada etapa e em
+    que ordem organizar as ideias do criativo. A voz, os exemplos e os detalhes vêm de
+    você junto com o Claude Code. Se você ler 'atenção, você tem interesse nisso?' na fala,
+    virou formulário. Use a mesma ordem, mas com a sua fala, o seu produto e o seu
+    serviço, em um caso real.
+
+02  AIDA: a ordem da novidade (público frio)
+
+    Atenção: o gancho, nos primeiros segundos, é a sua imagem e a sua frase de abertura.
+    Interesse: a pessoa faz 'ãn?, o que é isso?' e você explica a novidade. Desejo: você
+    desperta a vontade pelo que vai ofertar. Ação: um único passo claro, como 'Clique em
+    Saiba mais'. É ideal para público frio, gente alheia que não está procurando comprar e
+    nem conhece você. É uma estrutura com mais de 100 anos que só foi transportada para
+    o digital.
+
+FCA · MÓDULO 3 · AULA 1                               PÁGINA 2
+WORKBOOK · MÓDULO 3 · AULA 1  AIDA E PAS
+
+03  Exemplo de AIDA em anúncio de 24 segundos
+
+    Atenção: 'Chega de curioso no seu WhatsApp.' Quem anuncia para WhatsApp e tem
+    esse problema para na hora, mesmo sem estar procurando solução. Interesse: 'A culpa
+    não é do criativo nem do vendedor: o próprio formulário do Meta pode fechar a porta
+    pra quem não vai comprar.' Desejo: 'Quem chega no seu WhatsApp pergunta outra
+    coisa, posso pagar à vista? E o seu vendedor só atende quem quer comprar.' Ação:
+    'Clique em Saiba mais.' A venda acontece na página; o anúncio só chama a atenção,
+    desperta interesse e desejo e leva a pessoa até lá.
+
+04  Temperatura do público não é estágio do funil
+
+    Temperatura é em relação a você: não te conhece é frio, te conhece e te segue é morno,
+    já comprou de você é quente. Estágio do funil é em relação à pessoa e ao problema
+    dela: topo é quem tem o problema mas não está procurando; meio é quem já está
+    procurando como resolver; fundo é quem já sabe que existe solução e só está
+    escolhendo de quem comprar. O anúncio do exemplo é público frio para o Lúcio, mas
+    meio e fundo de funil para a solução dele.
+
+05  PAS: a ordem da dor
+
+    Problema: a dor, com as palavras do cliente, para 'enfiar o dedo no olho' dele. Agitação:
+    o que custa continuar assim. Solução: a saída, em uma frase. É mais ligado à oferta
+    direta para quem já tem o problema e está louco para resolver, ou já tentou resolver.
+    Exemplo da hamburgueria: em vez de 'hambúrguer artesanal, peça agora', 'Pedi o lanche
+    e chegou frio, de novo? Cada pedido frio é um cliente a menos. Aqui sai da chapa direto
+    pra sua porta.'
+
+06  Exemplo de PAS em anúncio de 23 segundos
+
+    Problema: 'O gerenciador marcou duas vendas, você fez cinco. A Meta não sabe quem
+    compra de você.' Agitação: 'Aí ela leiloa a sua verba pra quem só clica. Você clona a
+    campanha, troca o público e paga de novo pelo mesmo curioso.' Solução: 'O Claude
+    Code monta o FOP com um comando e a Meta passa a ver quem compra. Clique em
+    Saiba mais.' Fala direto com o gestor de tráfego incomodado com o rastreamento. O
+    anúncio levou nota 9.2 da Fábrica e vende muito.
+
+FCA · MÓDULO 3 · AULA 1       PÁGINA 3
+WORKBOOK · MÓDULO 3 · AULA 1                                       AIDA E PAS
+
+07  Como escolher entre as duas
+
+    AIDA: novidade, curiosidade, público frio. PAS: dor forte e conhecida, para quem já
+    tentou resolver e sabe que tem o problema. Dê o contexto à Fábrica para ela não
+    escolher o framework errado. Mesmo assim, saiba identificar qual foi usado, para
+    corrigir e testar outros.
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/2
+
+Quando usar: Para o Claude Code escrever o mesmo anúncio em AIDA e em PAS e você comparar.
+
+Use a skill de copy da Fábrica. Escreva o roteiro de um anúncio de 30
+segundos em duas versões: uma em AIDA e outra em PAS. Contexto: meu negócio
+é [o que você vende]; meu cliente é [quem compra e a dor que ele sente
+hoje]; ele me conhece? [não / me segue / já comprou]; a oferta é [oferta em
+1 linha]. Entregue cada versão em tabela (tempo × fala × tela), com o gancho
+nos primeiros segundos, uma etapa por bloco, e falas naturais, sem os nomes
+das etapas ditos em voz alta. Dê uma nota de 0 a 10 para cada etapa e a
+média do criativo. No fim, diga qual fórmula você recomenda para o meu
+público e por quê. ANTES de executar, me mostre o PLANO.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/2
+
+Quando usar: Para descobrir qual framework a Fábrica usou e testar outro.
+
+Olhe o roteiro que você acabou de escrever para [descreva ou cole o
+anúncio]. Qual framework você usou (AIDA, PAS ou outro) e por quê? Marque a
+fala de cada etapa. Depois reescreva o mesmo anúncio no outro framework,
+para eu comparar com o meu público [frio / morno / quente].
+
+FCA · MÓDULO 3 · AULA 1                                                                  PÁGINA 4
+WORKBOOK · MÓDULO 3 · AULA 1                                                                   AIDA E PAS
+
+04                                         → ✓ CERTO
+                                                    A mesma ordem, com a sua voz e um caso
+O QUE NÃO FAZER                                     real.
+
+O erro da fórmula-formulário
+
+   ✕ ERRADO
+
+    Atenção. Interesse. Desejo. Ação. Com
+    rótulo na fala.
+
+05
+
+SUA VEZ
+
+Escolha uma oferta sua e escreva dois roteiros de 30 segundos: um em AIDA e outro em PAS.
+Use a mesma ordem das etapas, mas com a sua fala, sem dizer o nome das etapas. Depois
+decida qual usar de acordo com o seu público: frio e curioso (AIDA) ou com dor forte e
+conhecida (PAS).
+
+    01 Minha oferta em 1 linha
+
+02 Meu público: frio, morno ou quente, e em que estágio do funil ele está (topo, meio ou
+    fundo)
+
+03 Roteiro de 30 s em AIDA: atenção, interesse, desejo e ação
+
+FCA · MÓDULO 3 · AULA 1                                        PÁGINA 5
+WORKBOOK · MÓDULO 3 · AULA 1                                 AIDA E PAS
+    04 Roteiro de 30 s em PAS: problema, agitação e solução
+
+    05 Qual eu usaria com esse público e por quê
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       Sei dizer o que significa AIDA e o que significa PAS.
+       Sei explicar por que fórmula é esqueleto e não formulário.
+       O gancho do meu roteiro aparece nos primeiros segundos.
+       Escrevi o roteiro em AIDA com um único passo de ação no final.
+       No PAS, a dor está nas palavras do meu cliente e a agitação mostra o que custa continuar assim.
+       Nenhuma fala diz 'atenção', 'interesse' ou 'desejo' como rótulo.
+       Sei diferenciar temperatura do público (frio, morno, quente) de estágio do funil (topo, meio, fundo).
+       Escolhi a fórmula de acordo com o público e dei esse contexto à Fábrica.
+
+07
+
+GLOSSÁRIO
+
+AIDA       Atenção, Interesse, Desejo, Ação. Ordem da novidade, ideal para público frio.
+
+PAS        Problema, Agitação, Solução. Ordem da dor, para quem já tem o problema e
+           quer resolver.
+
+FCA · MÓDULO 3 · AULA 1                                      PÁGINA 6
+WORKBOOK · MÓDULO 3 · AULA 1                                   AIDA E PAS
+
+Gancho                 Os primeiros segundos do criativo (imagem e frase) que chamam a atenção.
+
+Público frio, morno e  Temperatura em relação a você: frio não te conhece, morno te conhece e te
+quente                 segue, quente já comprou de você.
+
+Estágio do funil       Posição em relação ao problema da pessoa: topo (tem o problema, não
+                       procura), meio (procura como resolver), fundo (já escolhe de quem comprar).
+
+Agitação               A etapa do PAS que mostra o que custa continuar com o problema sem fazer
+                       nada.
+
+CTA                    Chamada para ação: o único passo pedido no final, como 'Clique em Saiba
+                       mais'.
+
+08                                                             claude.com/download
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                          FIM DO WORKBOOK · MÓDULO 3 · AULA 1
+
+FCA · MÓDULO 3 · AULA 1                                        PÁGINA 7
+

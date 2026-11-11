@@ -1,0 +1,263 @@
+FÁBRICA DE CRIATIVOS                    Nº M04-A1
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 4 · AULA 1
+
+ANÚNCIO DE TOPO, MEIO E FUNDO DE FUNIL
+
+TOPO: ATENÇÃO DE QUEM
+NÃO ESTÁ PROCURANDO
+
+  4 CAPÍTULOS 4 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 O funil
+   01 Abertura
+   03 O topo na prática                 4.1 04 Erroetarefa
+                                                                              FCA · M04-A1
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 4 · AULA 1  TOPO: ATENÇÃO DE QUEM NÃO ESTÁ PROCURANDO
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+O módulo 4 trata de funil de tráfego e de marketing: topo, meio e fundo, e a forma de se
+comunicar em cada etapa para atrair a atenção das pessoas. Nesta aula o Lúcio fala do topo,
+quem ainda não procura a solução que você vende. Ele separa funil (3 etapas) dos 5 níveis de
+consciência de Schwartz, que cabem dentro dessas 3 etapas. No topo, o objetivo é fazer a
+pessoa parar o dedo no feed e chamar a atenção para o assunto, não para o produto. A receita
+é assunto amplo que ele já pensa, gancho forte nos três primeiros segundos e CTA leve, sem
+pedir a compra. O erro comum é pedir para comprar cedo demais, e o topo se mede por gancho
+e retenção, não por venda.
+
+IDEIA CENTRAL
+
+Topo não vende, apresenta: pare o dedo de quem não está
+procurando com um assunto amplo que ele já pensa, não com
+o produto.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Funil: mais gente na etapa anterior
+
+    O funil representa um fluxo com direção: sempre há mais pessoas na etapa anterior do
+    que na posterior, por isso o formato. São três etapas: topo (não procura), meio (já
+    procura e compara) e fundo (escolhe de quem comprar, por que A e não B). Para cada
+    etapa há uma forma de se comunicar.
+
+02  Funil não é nível de consciência
+
+    Funil tem 3 etapas; os níveis de consciência de Schwartz são 5, mas estão enquadrados
+    nessas 3 etapas. Inconsciente (nem sabe que tem o problema) e consciente do
+    problema (sabe, mas não incomoda ainda) estão no topo. Consciente da solução está
+    no meio: aí se fala do mecanismo. Consciente do produto (já conhece você) e
+    totalmente consciente (só espera uma oferta, como a de Black Friday) estão no fundo: é
+    preciso provar a diferença.
+
+FCA · MÓDULO 4 · AULA 1       PÁGINA 2
+WORKBOOK · MÓDULO 4 · AULA 1  TOPO: ATENÇÃO DE QUEM NÃO ESTÁ PROCURANDO
+
+03  Assunto maior que o produto
+
+    Quem está no topo não liga para oferta do tipo 'compre o produto tal'. Em vez de falar
+    do curso de tráfego pago, fale das técnicas que fazem o negócio vender mais, e uma
+    delas é tráfego pago. O assunto 'vender mais' é mais importante do que o 'como vender
+    mais'. Sem o problema na cabeça dele, fazer oferta é gastar dinheiro.
+
+04  Parar o dedo
+
+    O trabalho do anúncio de topo é fazer a pessoa parar de rolar o feed no Instagram ou no
+    Facebook. Você chama a atenção para o assunto, não para o produto, e o CTA leva a
+    pessoa para algo que aumente o nível de consciência dela, como uma página com um
+    VSL contando a história. Assim você tem chance de vender no primeiro impacto ou no
+    segundo; se chega vendendo, ele não te ouve.
+
+05  A receita do anúncio de topo
+
+    Assunto amplo que ele já pensa, gancho forte nos três primeiros segundos (nas
+    primeiras camadas) e CTA leve, sem pedir para comprar. No anúncio de exemplo da
+    aula, feito com o framework AIDA, o gancho foi 'vídeo bonito, sozinho, não vende nada',
+    o assunto foi ampliado ('ninguém compra por causa de um corte') e o CTA foi 'toque em
+    Saiba Mais', sem oferecer o produto.
+
+06  Erro: pedir para comprar cedo demais
+
+    Pedir a compra cedo funciona com quem está no fundo do funil, não no topo. Na
+    campanha automatizada Advantage, o ideal é subir no mesmo conjunto criativos para
+    os três níveis de consciência, porque ela consegue atingir públicos diferentes com cada
+    um. Por isso também vale informar na conta de anúncios quem são seus clientes e os
+    engajados.
+
+07  Medir gancho e retenção
+
+    No topo, a pergunta é se o anúncio atrai e retém o suficiente, e isso se vê na conta de
+    anúncios. Antes da venda, olhe os números: com CTR de 3 contra CTR de 1 e nenhum
+    vendido ainda, o de 3 tem mais chance de vender. Se o CTR e a retenção estão abaixo
+    do mínimo, peça outro criativo e leve esse dado para o Claude. Depois que a venda
+    acontece, vale quem vendeu mais.
+
+FCA · MÓDULO 4 · AULA 1       PÁGINA 3
+WORKBOOK · MÓDULO 4 · AULA 1  TOPO: ATENÇÃO DE QUEM NÃO ESTÁ PROCURANDO
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/4
+
+Quando usar: Para achar assuntos de topo do seu negócio, no formato dos exemplos da aula.
+
+Meu negócio: [infoprodutor, gestor de tráfego, clínica, prestador de serviço
+ou outro]. Meu produto: [descreva em 1 linha]. Meu público no topo do funil:
+[quem é e qual problema ele tem sem procurar solução]. Me dê 5 assuntos mais
+amplos que o produto, que esse público já pensa. Para cada um, escreva o
+gancho dos 3 primeiros segundos. Nenhum pode falar do produto nem pedir a
+compra. Antes de executar, me mostre o plano em passos curtos e espere meu
+OK. No final, diga como eu confiro que ficou certo.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/4
+
+Quando usar: Para montar um anúncio de topo no esquema da aula: gancho, assunto ampliado e CTA
+
+leve.
+
+Com o assunto [assunto escolhido], monte um roteiro de anúncio de topo
+seguindo o AIDA: 1) gancho forte nos 3 primeiros segundos; 2) ampliação do
+assunto, sem falar do produto; 3) CTA leve que leve a pessoa a uma página
+que aumenta o nível de consciência dela (por exemplo, 'Toque em Saiba
+Mais'). Público: [quem é]. Antes de executar, me mostre o plano em passos
+curtos e espere meu OK. No final, diga como eu confiro que ficou certo.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/4
+
+Quando usar: Para revisar um anúncio seu e achar onde ele pede a compra cedo demais.
+
+Aqui está o texto/roteiro do meu anúncio: [cole]. O público é de topo de
+funil. Ele fala de um assunto maior que o produto? O gancho prende nos 3
+primeiros segundos? O CTA é leve ou pede a compra cedo demais? Aponte o que
+está errado e reescreva só isso. Antes de executar, me mostre o plano em
+passos curtos e espere meu OK. No final, diga como eu confiro que ficou
+certo.
+
+FCA · MÓDULO 4 · AULA 1                                            PÁGINA 4
+WORKBOOK · MÓDULO 4 · AULA 1            TOPO: ATENÇÃO DE QUEM NÃO ESTÁ PROCURANDO
+
+>_ COLE NO CLAUDE CODE                  PROMPT 4/4
+
+Quando usar: Quando o anúncio de topo está rodando e os números estão abaixo do mínimo.
+
+Meu anúncio de topo está com CTR de [X] e taxa de retenção de [Y], abaixo do
+mínimo. O roteiro dele é: [cole]. O assunto é: [assunto]. Diagnostique se o
+problema está no gancho ou na retenção e me dê 3 versões novas de criativo
+para testar, todas de topo, sem pedir a compra. Antes de executar, me mostre
+o plano em passos curtos e espere meu OK. No final, diga como eu confiro que
+ficou certo.
+
+04                                      → ✓ CERTO
+                                                 Atrair com assunto amplo, medir gancho e
+O QUE NÃO FAZER                                  retenção
+
+Pedir a compra cedo demais
+
+   ✕ ERRADO
+
+    Pedir a compra no primeiro contato
+
+05
+
+SUA VEZ
+
+Escolha um assunto de topo para o seu negócio e monte o anúncio, sem falar do produto e sem
+pedir a compra.
+
+    01 Meu negócio e o problema que meu público tem sem procurar solução
+
+02 Assunto maior que o meu produto
+
+FCA · MÓDULO 4 · AULA 1                 PÁGINA 5
+WORKBOOK · MÓDULO 4 · AULA 1                 TOPO: ATENÇÃO DE QUEM NÃO ESTÁ PROCURANDO
+    03 Gancho dos 3 primeiros segundos
+
+04 CTA leve que vou usar (para onde levo a pessoa)
+
+05 Números que vou observar: CTR e retenção
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       Sei explicar topo, meio e fundo do funil
+       Sei que os 5 níveis de consciência cabem dentro das 3 etapas do funil
+       O assunto do meu anúncio de topo é maior que o produto
+       O gancho dos 3 primeiros segundos faz a pessoa parar o dedo
+       O CTA leva para algo que aumenta a consciência, sem pedir a compra
+       Vou medir CTR e retenção antes da venda
+       Se os números ficarem abaixo do mínimo, vou pedir outro criativo e levar o dado para o Claude
+
+FCA · MÓDULO 4 · AULA 1                             PÁGINA 6
+WORKBOOK · MÓDULO 4 · AULA 1            TOPO: ATENÇÃO DE QUEM NÃO ESTÁ PROCURANDO
+
+07
+
+GLOSSÁRIO
+
+Topo de funil   Quem ainda não procura a solução que você vende: o inconsciente e o
+                consciente do problema.
+
+Meio de funil   Quem já procura e compara soluções; aqui se mostra como funciona (o
+                mecanismo).
+
+Fundo de funil  A escolha de quem comprar: por que comprar de A e não de B.
+
+Níveis de       Cinco níveis: inconsciente, consciente do problema, da solução, do produto e
+consciência de  totalmente consciente. Ficam dentro das três etapas do funil.
+Schwartz
+                Fazer a pessoa parar de rolar o feed para prestar atenção no seu anúncio.
+Parar o dedo
+
+CTA leve        Pedido pequeno que não pede a compra, como 'Saiba Mais', e leva para algo
+                que aumenta o nível de consciência.
+
+Retenção        Quanto do vídeo as pessoas assistem; junto com o gancho, é a métrica do
+                topo.
+
+CTR             Taxa de cliques do anúncio; antes da venda, o CTR maior indica mais chance
+                de vender.
+
+08                                       adsmanager.facebook.com
+                                        facebook.com/ads/library
+LINKS DA AULA
+
+↗ Gerenciador de Anúncios (só leitura)
+↗ Biblioteca de Anúncios da Meta
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+refeitas em formato de curso, sem pagar de novo.
+
+FCA · MÓDULO 4 · AULA 1                                                      PÁGINA 7
+WORKBOOK · MÓDULO 4 · AULA 1                  TOPO: ATENÇÃO DE QUEM NÃO ESTÁ PROCURANDO
+                                                           seguro.lucioartes.com/O11E6C3B5
+↗ 1 · Campanhas de Controle: o processo                    seguro.lucioartes.com/OA65829EA
+↗ 2 · Super Públicos: a segmentação
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 4 · AULA 1
+
+FCA · MÓDULO 4 · AULA 1                                       PÁGINA 8
+

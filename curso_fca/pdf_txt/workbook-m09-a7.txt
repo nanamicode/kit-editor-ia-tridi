@@ -1,0 +1,240 @@
+FÁBRICA DE CRIATIVOS                                  Nº M09-A7
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 9 · AULA 7
+
+G E R A N D O S E U S C R I AT I VO S N A PR ÁT I CA
+
+REVISAR, CORRIGIR E CRIAR
+VERSÕES PELAS MÉTRICAS
+
+  5 CAPÍTULOS 4 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Ler os números
+   01 Abertura                          04 Nova versão
+   03 Corrigir
+   05 Registrar                         9.7
+                                                                              FCA · M09-A7
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 9 · AULA 7  REVISAR, CORRIGIR E CRIAR VERSÕES PELAS MÉTRICAS
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Nesta aula extra, o Lúcio retoma os números que você deve observar assim que subir os vídeos,
+antes mesmo de ter vendas: gancho (quem passou dos 3 segundos), retenção (quem viu os 15
+segundos iniciais em relação a quem viu os 3 segundos) e CTR (quem clicou). As referências
+são gancho acima de 30%, retenção a partir de 10% (muito bom) e CTR a partir de 1%, e esses
+números podem se equilibrar entre si. Quando algum número foge do padrão, você pede ao
+Claude, com print das métricas personalizadas ou com o connector da Meta, que analise os
+criativos e aponte qual está fora dos padrões da fábrica. Aí você faz uma correção por vez,
+mexendo só no ponto fraco, salva como versão nova (V1, V2, V3), compara o antes e o depois e
+registra para o Claude o que funcionou e o que não funcionou.
+
+IDEIA CENTRAL
+
+Os números dizem o que mexer no criativo: uma correção por
+vez, em versão nova numerada (V1, V2, V3), e registre o que
+funcionou para o Claude aprender.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Os três números de referência
+
+    Gancho: quem viu 3 segundos; o anúncio está bom quando passa de 30%. Retenção:
+    quem viu os 15 segundos iniciais em relação a quem viu os 3 segundos; muito bom a
+    partir de 10%. CTR: quem clicou; a partir de 1%. Observe esses números antes de ter as
+    vendas.
+
+02 Os números se equilibram
+
+               Os valores podem variar e compensar um ao outro. Exemplo do Lúcio: 8% de retenção
+               com 35% ou 40% de gancho não é um anúncio ruim, mas dá para melhorar. Para
+
+               melhorar, peça ao Claude.
+
+FCA · MÓDULO 9 · AULA 7       PÁGINA 2
+WORKBOOK · MÓDULO 9 · AULA 7  REVISAR, CORRIGIR E CRIAR VERSÕES PELAS MÉTRICAS
+
+03  Gancho versus retenção
+
+    Muita gente passa dos 3 segundos, mas pouca chega até o fim. Se o gancho está ruim,
+    peça para ajustar o gancho. Se a retenção está fraca, peça para melhorar os 15
+    segundos que vêm depois do gancho. O Claude pode editar e construir um novo criativo
+    baseado nessas métricas.
+
+04  Não gastar para descobrir o óbvio
+
+    Com 10% de gancho e 5% de retenção, dificilmente vai vender, então você não precisa
+    gastar dinheiro para descobrir. Isso é a regra, não a exceção: um criativo com 15% de
+    gancho e 5% de retenção que, por milagre, converte e dá lucro não está ruim, mas é
+    improvável.
+
+05  Uma correção por vez
+
+    Mexa só no ponto fraco e deixe o resto igual. Nunca mexa em gancho, voz e arte juntos.
+    Salve a nova versão como V1, V2, V3 e compare o antes e o depois, para saber o que
+    você alterou que fez funcionar.
+
+06 Juntar o melhor dos dois
+
+               Se a versão A tem gancho ruim e retenção boa, e na versão B o gancho melhorou, faça
+
+               agora uma versão C com o melhor dos dois mundos.
+
+07  Descobrir o porquê antes de refazer
+
+    Criativo que não converte não se refaz por refazer: peça ao Claude para identificar o
+    motivo (gancho, retenção ou outro ponto fora do parâmetro) e só então crie o novo.
+    Fazer criativo só por fazer deixa tudo aleatório e você não descobre nada. Registre tudo
+    o que funcionou para ele aprender e não repetir o erro.
+
+FCA · MÓDULO 9 · AULA 7       PÁGINA 3
+WORKBOOK · MÓDULO 9 · AULA 7  REVISAR, CORRIGIR E CRIAR VERSÕES PELAS MÉTRICAS
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/4
+
+Quando usar: Análise dos criativos (print ou connector da Meta)
+
+Analise os criativos que você fez, com base nas métricas que estou te
+passando [print das métricas personalizadas ou conta de anúncios [nome da
+conta]]. Diga qual está fora dos padrões da fábrica (gancho acima de 30%,
+retenção a partir de 10%, CTR a partir de 1%) e qual é o motivo de ele não
+estar convertendo.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/4
+
+Quando usar: Pedir melhoria
+
+O que você sugere para melhorar o criativo [nome do criativo]? Reescreva
+esse criativo, ou crie outro, melhorando só [o gancho / os 15 segundos
+depois do gancho] para reter mais. Mexa só nisso e deixe o resto igual.
+Salve como versão nova [V2].
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/4
+
+Quando usar: Juntar o melhor dos dois
+
+A versão A tem [gancho ruim] e [retenção boa]. Na versão B, [o gancho
+melhorou]. Crie agora uma versão C com o melhor dos dois mundos.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 4/4
+
+Quando usar: Registrar o que funcionou
+
+Registre o que funcionou e o que não funcionou da [V1] para a [V2]: [o que
+mudei], [como ficaram os números]. Guarde isso para você aprender e não
+cometer mais esse erro nos próximos criativos.
+
+FCA · MÓDULO 9 · AULA 7                                                PÁGINA 4
+WORKBOOK · MÓDULO 9 · AULA 7            REVISAR, CORRIGIR E CRIAR VERSÕES PELAS MÉTRICAS
+
+04                                      → ✓ CERTO
+                                                  Uma mudança por vez, nova versão
+O QUE NÃO FAZER                                   numerada
+
+Trocar tudo de uma vez
+
+   ✕ ERRADO
+
+    Mexer em gancho, voz e arte juntos
+
+05
+
+SUA VEZ
+
+Pegue os números de um criativo seu e anote:
+
+    01 Gancho, retenção e CTR do criativo (quem viu 3 segundos, quem viu os 15 segundos
+         iniciais em relação a quem viu os 3 segundos, quem clicou)
+
+02 Qual número está fora do padrão da fábrica e qual é o motivo apontado pelo Claude?
+
+03 O que você mudou na V2 (uma correção só)?
+
+04 O que funcionou e o que não funcionou, para registrar para o Claude?
+
+FCA · MÓDULO 9 · AULA 7                                                  PÁGINA 5
+WORKBOOK · MÓDULO 9 · AULA 7  REVISAR, CORRIGIR E CRIAR VERSÕES PELAS MÉTRICAS
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+     Observei gancho, retenção e CTR antes de ter vendas
+
+     Passei o print das métricas personalizadas (ou conectei a conta pelo connector da Meta) e pedi
+     para o Claude apontar o que está fora do padrão
+
+     Pedi ao Claude o motivo de o criativo não converter antes de refazer
+
+     Corrigi uma coisa por vez, sem mexer em gancho, voz e arte juntos
+
+     Salvei a mudança como versão nova (V1, V2, V3) e comparei o antes e o depois
+
+     Se um tinha gancho bom e outro retenção boa, pedi uma versão juntando o melhor dos dois
+
+     Registrei para o Claude o que funcionou e o que não funcionou
+
+07
+
+GLOSSÁRIO
+
+Gancho             Percentual de quem viu os 3 segundos iniciais do vídeo. Referência: acima de
+                   30%.
+
+Retenção           Quem viu os 15 segundos iniciais em relação a quem viu os 3 segundos (não é
+                   até o fim). Muito bom a partir de 10%.
+
+CTR                Percentual de quem clicou no anúncio. Referência: a partir de 1%.
+
+Versão             Cada cópia numerada do criativo (V1, V2, V3) para comparar o antes e o
+                   depois.
+
+Connector da Meta  Conexão do Claude com a sua conta de anúncios, para ele analisar os criativos
+                   sem você precisar enviar print.
+
+08                                                                         claude.com/download
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+FCA · MÓDULO 9 · AULA 7                                                               PÁGINA 6
+WORKBOOK · MÓDULO 9 · AULA 7                      REVISAR, CORRIGIR E CRIAR VERSÕES PELAS MÉTRICAS
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 9 · AULA 7
+
+FCA · MÓDULO 9 · AULA 7                                       PÁGINA 7
+

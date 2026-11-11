@@ -1,0 +1,385 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.224
+Bom, vamos lá, essa aula aqui é só pra gente encerrar com chave de ouro, terminal,
+
+2
+00:00:03.224 --> 00:00:04.024
+conectores e plugins.
+
+3
+00:00:04.024 --> 00:00:04.824
+O que é o terminal?
+
+4
+00:00:04.824 --> 00:00:05.624
+O que é o plugin?
+
+5
+00:00:05.624 --> 00:00:07.064
+Você vai entender aqui agora.
+
+6
+00:00:07.064 --> 00:00:11.312
+Então é o seguinte, o terminal do Mac ou no Windows é opcional, tá?
+
+7
+00:00:11.312 --> 00:00:16.080
+Se você quiser instalar, é só você pegar esse comando aqui pra instalar por terminal,
+
+8
+00:00:16.080 --> 00:00:16.880
+tá?
+
+9
+00:00:16.880 --> 00:00:21.296
+Pra quem não está entendendo o que é terminal, no Windows basta você ir lá no command e
+
+10
+00:00:21.296 --> 00:00:25.680
+digitar cmd ou ir lá nos acessórios e abrir o cmd, o command.
+
+11
+00:00:25.680 --> 00:00:28.624
+No Mac é parecidos e o que é o terminal?
+
+12
+00:00:28.624 --> 00:00:31.296
+Simplesmente essa telinha preta, tá?
+
+13
+00:00:31.296 --> 00:00:32.368
+Simplesmente essa telinha preta.
+
+14
+00:00:32.368 --> 00:00:35.216
+Então se você der esse comando aqui, esse não, tá?
+
+15
+00:00:35.216 --> 00:00:37.136
+Eu digitei o comando errado.
+
+16
+00:00:37.136 --> 00:00:41.808
+Se você pegar o seu computador, não tiver o Claude, o aplicativo, e você quer usar via
+
+17
+00:00:41.808 --> 00:00:48.312
+linha de comando, basta você pegar esse comando aqui na linha de comando, largar aqui, dar
+
+18
+00:00:48.312 --> 00:00:49.816
+enter e vai instalar o Claude.
+
+19
+00:00:49.816 --> 00:00:54.936
+Mas honestamente, como você está aqui muito provavelmente pra usar a fábrica, você não
+
+20
+00:00:54.936 --> 00:00:58.344
+vai querer ter esse trabalho de usar via terminal, tá?
+
+21
+00:00:58.344 --> 00:01:02.296
+Se você já usa terminal, muito provavelmente você não precisa que eu te ensine a instalar
+
+22
+00:01:02.296 --> 00:01:04.408
+o Claude pelo terminal, tá?
+
+23
+00:01:04.408 --> 00:01:09.944
+Porque uma vez instalado no terminal, é só abrir o Claude com o comando Claude e eu tô
+
+24
+00:01:09.944 --> 00:01:11.224
+dentro do Claude, tá?
+
+25
+00:01:11.224 --> 00:01:18.424
+E a partir daqui eu faço tudo que o aplicativo do Claude faz, só que de forma digitada, tá?
+
+26
+00:01:18.424 --> 00:01:22.328
+Pelo nosso trabalho de marketing, eu não vejo vantagem de vocês querem utilizar aqui, mas
+
+27
+00:01:22.328 --> 00:01:24.312
+se você quiser, fique à vontade.
+
+28
+00:01:24.312 --> 00:01:32.664
+Vou fechar aqui, botar um kit pra sair, fique à vontade.
+
+29
+00:01:32.664 --> 00:01:36.128
+Mas voltando pra cá, terminal do Mac é opcional, tá?
+
+30
+00:01:36.128 --> 00:01:39.248
+Terminal do Windows, em vez de você digitar aquele comando do Mac, você vai digitar
+
+31
+00:01:39.248 --> 00:01:43.232
+este comando aqui pra você instalar o Claude Code se você quiser por linha de comando,
+
+32
+00:01:43.232 --> 00:01:44.032
+tá?
+
+33
+00:01:44.032 --> 00:01:44.832
+E os conectores.
+
+34
+00:01:44.832 --> 00:01:46.688
+Conector, o que é um conector?
+
+35
+00:01:46.688 --> 00:01:51.072
+Ele facilita a sua vida com conexões com ferramentas externas.
+
+36
+00:01:51.072 --> 00:01:54.152
+Você vê aqui, ó, configurações, conectores.
+
+37
+00:01:54.152 --> 00:01:55.336
+Temos alguns aqui, tá?
+
+38
+00:01:55.336 --> 00:01:59.432
+Eu já tô aqui no Gmail, porque eu escrevo e leio e-mails, Google Drive que eu faço,
+
+39
+00:01:59.432 --> 00:02:00.232
+tá?
+
+40
+00:02:00.232 --> 00:02:04.720
+Quando tem aqui o Claude do Chrome, eu vou instalar aqui um conector.
+
+41
+00:02:04.720 --> 00:02:10.848
+Um conector, você pode já pegar pré-construídos, tem algumas dezenas de pré-construídos, ou
+
+42
+00:02:10.848 --> 00:02:16.080
+você pode criar os seus conectores, tipo Meta Ads.
+
+43
+00:02:16.080 --> 00:02:19.728
+Aí você procura na internet qual o servidor do Meta Ads, tá?
+
+44
+00:02:19.728 --> 00:02:23.440
+Eu vou colocar na descrição deste vídeo qual é o servidor, deixa eu pegar aqui o
+
+45
+00:02:23.440 --> 00:02:25.360
+MCP do Meta Ads, né?
+
+46
+00:02:25.360 --> 00:02:29.152
+Deixa eu pegar aqui, ó, conectar, ah, Lúcio, como é que eu faço então isso?
+
+47
+00:02:29.152 --> 00:02:37.800
+Cara, é só você, ó, vou fazer assim, vou fazer assim, como conectar o MCP do Meta Ads
+
+48
+00:02:37.800 --> 00:02:40.088
+a você via conector.
+
+49
+00:02:40.088 --> 00:02:47.248
+Ó, aqui mesmo ele te responde tudo, eu posso pegar na internet, posso pegar aqui pra conectar
+
+50
+00:02:47.248 --> 00:02:50.672
+minha conta de anúncios direto daqui, tá?
+
+51
+00:02:50.672 --> 00:02:56.968
+Ele vai procurar, eu quero, vou botar aqui, via MCP, ó.
+
+52
+00:02:56.968 --> 00:02:58.952
+Ele já pegou aqui algumas coisas, tá?
+
+53
+00:02:58.952 --> 00:03:04.208
+Do Pipeboard, mas eu não quero, eu quero, eu quero, se ele não achar, eu quero o MCP
+
+54
+00:03:04.208 --> 00:03:05.008
+Oficial.
+
+55
+00:03:05.008 --> 00:03:07.232
+Ele vai procurar.
+
+56
+00:03:07.232 --> 00:03:17.520
+Ele tá procurando.
+
+57
+00:03:17.520 --> 00:03:23.088
+Mas eu vou adiantar aqui que ele já, ele vai achar, você vem em conectores, configurações,
+
+58
+00:03:23.088 --> 00:03:30.128
+adicionar o conector, nesse caso aqui o conector personalizado, a Meta, aí você tem que ter
+
+59
+00:03:30.128 --> 00:03:35.304
+o endereço do servidor MCP da Meta, que é esse aqui, vou adiantar, autenticar, entrar
+
+60
+00:03:35.304 --> 00:03:39.720
+agora, login quando necessário, cliente ou alt, registrar automaticamente, cara, não
+
+61
+00:03:39.720 --> 00:03:41.768
+vou mexer em nada disso aqui, adicionar, o que é que ele vai fazer?
+
+62
+00:03:41.768 --> 00:03:46.984
+Ele vai abrir a conta do Metaedis, ele tá abrindo aqui em uma outra aba, eu vou confirmar,
+
+63
+00:03:46.984 --> 00:03:54.264
+tem que estar logado no seu Facebook, vou confirmar, confirmando, aceitar, ele vai pedir
+
+64
+00:03:54.264 --> 00:04:00.120
+aqui os BMs, deixa eu botar aqui pra você ver, vou aceitar os BMs, aceitar todos, aceitar,
+
+65
+00:04:00.120 --> 00:04:03.904
+então a partir de agora, a fábrica ainda tem acesso às suas contas de anúncio, o
+
+66
+00:04:03.904 --> 00:04:09.792
+seu Claude, então fica aí a dica, se alguma conta sua não tiver habilitado o servidor
+
+67
+00:04:09.792 --> 00:04:15.040
+MCP, aí ele vai listar as contas que você tem, que já está habilitada, e a partir
+
+68
+00:04:15.040 --> 00:04:20.544
+de agora, apesar de eu não ter prometido, é muito simples agora você botar o Claude
+
+69
+00:04:20.544 --> 00:04:25.632
+pra fazer o que? Para criar os seus anúncios da fábrica direto, tá aqui ó, ele já tem
+
+70
+00:04:25.632 --> 00:04:30.752
+as permissões de leitura das minhas contas de anúncio, tá? Então fica aí essa dica,
+
+71
+00:04:30.752 --> 00:04:35.936
+você pode usar isso pra várias outras coisas, mas eu sei que essa aqui é muito útil, ó,
+
+72
+00:04:35.936 --> 00:04:48.872
+se eu quiser publicar um anúncio direto por aqui em uma conta, você consegue? Só responda,
+
+73
+00:04:48.872 --> 00:04:55.992
+claro que eu consigo, ele vai dizer, né? Ó, aí, vocês entenderam? Essa é a fábrica,
+
+74
+00:04:55.992 --> 00:05:00.408
+com a fábrica, você vai agora, no próximo módulo, a gente vai fazer só o criativo,
+
+75
+00:05:00.408 --> 00:05:05.784
+e você vai ver que os criativos sai com copy perfeito, a roteiro perfeito, visual perfeito,
+
+76
+00:05:05.784 --> 00:05:11.704
+e você pode subir direto na sua conta de anúncio, já por aqui, por dentro, beleza?
+
+77
+00:05:11.704 --> 00:05:17.368
+Então é simples assim, basta você estar logado, já foi difícil, hoje não é mais.
+
+78
+00:05:17.368 --> 00:05:22.232
+Então aqui você tem tudo que você precisa pra criar os seus anúncios, tá? Plug-in e
+
+79
+00:05:22.232 --> 00:05:26.840
+as regras da casa, ó, plug-in, abre plug-ins, qual a diferença de plug-ins e conectores?
+
+80
+00:05:26.840 --> 00:05:31.064
+Basicamente hoje não tá tendo mais diferença alguma, plug-ins adiciona alguma funcionalidade,
+
+81
+00:05:31.064 --> 00:05:37.272
+beleza? Mas eu não uso praticamente nenhum, tá? O Claude, uma dica pra você, toda a regra
+
+82
+00:05:37.272 --> 00:05:43.512
+que você quer, que fique salvo pra todas as sessões e todos os projetos, você pede
+
+83
+00:05:43.512 --> 00:05:48.480
+pro Claude salvar no Claude.md, que é a memória dele que serve a tudo, beleza?
+
+84
+00:05:48.480 --> 00:05:54.896
+/init cria, /memory edita, ó, /init cria, /memory edita, você não precisar nem saber muito disso
+
+85
+00:05:54.896 --> 00:05:59.664
+aqui, tá? Faça a IA trabalhar em equipe, isso aqui é muito importante de você entender,
+
+86
+00:05:59.664 --> 00:06:06.472
+faça a IA trabalhar em equipe. Bom, o chefe planeja, pesquisa e varre outro agente, um
+
+87
+00:06:06.472 --> 00:06:11.256
+faz o roteiro e critica e o chefe revisa. O que é isso aqui? Quando a gente for criar
+
+88
+00:06:11.256 --> 00:06:15.416
+agora os criativos, a fábrica tá divido assim, um planeja, outro pesquisa, outro faz
+
+89
+00:06:15.416 --> 00:06:22.008
+o roteiro, outro revisa tudo, outro edita e etc. Então, aqui já tem subagentes e agentes
+
+90
+00:06:22.008 --> 00:06:26.544
+que vão trabalhar e você não vai nem perceber, não se preocupe com isso. Então, não reabri
+
+91
+00:06:26.544 --> 00:06:31.152
+o terminal plug-ins todo, cara, não, você não precisa fazer isso tudo, eu tô lhe ensinando
+
+92
+00:06:31.152 --> 00:06:34.640
+muito a mais do que você precisa pra executar a fábrica. Mas é porque eu quero que você
+
+93
+00:06:34.640 --> 00:06:38.928
+entenda um pouco dessa ferramenta maravilhosa que é o Claude, pra que você consiga extrair
+
+94
+00:06:38.928 --> 00:06:45.712
+muito mais dela do que só criativos. Beleza? Nesse módulo aqui foi o último módulo de
+
+95
+00:06:45.712 --> 00:06:49.616
+instalação e configuração, tá? Você viu como usar o terminal, conectores, regras e
+
+96
+00:06:49.616 --> 00:06:55.152
+modelos instalado, agora vamos produzir. E eu te vejo na próxima aula. Vai valer a pena.

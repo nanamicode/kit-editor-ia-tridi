@@ -1,0 +1,245 @@
+FÁBRICA DE CRIATIVOS                    Nº M04-A3
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 4 · AULA 3
+
+ANÚNCIO DE TOPO, MEIO E FUNDO DE FUNIL
+
+FUNDO: REMARKETING
+E DECISÃO
+
+  4 CAPÍTULOS 3 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 O fundo
+   01 Abertura
+   03 Uma objeção por criativo          4.3 04 Naprática
+                                                                              FCA · M04-A3
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 4 · AULA 3  FUNDO: REMARKETING E DECISÃO
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+O fundo do funil é a hora em que a pessoa já sabe do problema, já conhece várias soluções e
+várias lojas, e só falta decidir de quem comprar. O jeito de ganhar essa decisão é quebrar a
+objeção, ou seja, qualquer coisa que a pessoa use para dizer que não vai comprar e que você
+consegue vencer com argumento. Falta de dinheiro não entra nisso, porque não é algo que o
+vendedor resolve. O Lúcio mostrou um anúncio de fundo que está rodando e vendendo, que
+derruba a objeção "e se eu não souber mexer em código?". A regra é uma objeção por criativo,
+com de três a cinco criativos no mesmo conjunto, garantia e oferta clara. E urgência só se for
+verdadeira, porque contador falso já leva reprovação.
+
+IDEIA CENTRAL
+
+Uma objeção, um criativo: se você tem cinco objeções, faz
+cinco criativos, cada um falando de uma só.
+
+02
+
+O QUE VOCÊ APRENDE
+
+ 01 Fundo: escolhe de quem comprar
+
+                    Quem está no fundo já sabe do problema, já conhece várias soluções, produtos e lojas.
+                    A pergunta agora é por que ele compra de você. Ele está só esperando para decidir, e o
+                    que destrava é quebrar a objeção.
+
+02  O que é (e o que não é) objeção
+
+    Objeção é qualquer coisa que a pessoa use para dizer que não vai comprar e que você
+    consegue vencer com os seus argumentos. Falta de dinheiro não é objeção: o vendedor
+    não resolve isso e não vai dar dinheiro a ninguém. "É caro" é objeção, porque dá para
+    responder com argumento. As três clássicas do produto do exemplo: "não sei editar", "é
+    caro" e "não tenho tempo".
+
+FCA · MÓDULO 4 · AULA 3                                    PÁGINA 2
+WORKBOOK · MÓDULO 4 · AULA 3  FUNDO: REMARKETING E DECISÃO
+
+03  Mapa da objeção
+
+    A pessoa visitou a página e não comprou: qual objeção travou? Pode ser o "é caro", o
+    tempo, a confiança ou o "não é para mim". O criativo derruba isso quando você separa
+    bem, na cabeça, o criativo de topo, o de meio e o de fundo. Você precisa ter os três
+    rodando na campanha.
+
+04  Exemplo real: "E se eu não souber mexer em código?"
+
+    O anúncio abre com a objeção, responde direto ("não precisa, você cola o link da sua
+    página e digita um comando; o código quem escreve é o Claude Code"), reforça a
+    garantia e fecha com um CTA único: "Toque em Saiba mais e faça o teste". Para a
+    missão Claude Tracking, a objeção muda: a pessoa acha que precisa mexer em algo por
+    causa do rastreamento, e o anúncio mostra que não. A objeção certa depende do
+    produto.
+
+05  Uma objeção por criativo, vários no mesmo conjunto
+
+    Se o seu produto tem cinco objeções comuns, crie um conjunto de anúncios com cinco
+    criativos, cada um falando de uma delas. Fica de três a cinco criativos no mesmo
+    conjunto, com garantia e oferta claras. Um criativo falando de tudo não derruba
+    nenhuma objeção. Segundo o Lúcio, é a fórmula que sempre funcionou e funciona até
+    hoje.
+
+06  Urgência só se for verdadeira
+
+    O Meta vem punindo contador falso, e o Google já pune há mais tempo, porque é fraude
+    em sistema. O Meta já começou a reprovar anúncio por isso. Se todo dia "acaba hoje",
+    você corre o risco de reprovação e está sendo desonesto. O Lúcio já usou muito e hoje
+    só coloca quando realmente vai encerrar algo.
+
+07 Como descobrir as objeções
+
+               Com os anúncios no ar, peça para a Inteligência Artificial ler os comentários do seu
+               anúncio, e também os seus e-mails. Ela levanta as objeções de quem interage com
+
+               você.
+
+FCA · MÓDULO 4 · AULA 3       PÁGINA 3
+WORKBOOK · MÓDULO 4 · AULA 3                                       FUNDO: REMARKETING E DECISÃO
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/3
+
+Quando usar: Para descobrir as objeções a partir dos comentários e e-mails.
+
+Meu produto: [descreva em 1 linha]. Abaixo estão os comentários dos meus
+anúncios e/ou e-mails de interessados: [cole]. Leia tudo e liste as objeções
+reais, da mais frequente para a menos frequente, com uma frase de exemplo de
+cada. Não conte falta de dinheiro como objeção; só o que eu consigo vencer
+com argumento. Antes de executar, me mostre o plano em passos curtos e
+espere meu OK. No final, diga como eu confiro que ficou certo.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/3
+
+Quando usar: Para transformar UMA objeção em roteiro de criativo de fundo.
+
+Meu produto: [descreva em 1 linha]. Objeção que este criativo vai derrubar:
+[ex.: "E se eu não souber mexer em código?"]. Escreva um roteiro curto de
+anúncio de fundo de funil que: 1) abre citando a objeção em forma de
+pergunta; 2) responde direto, em linguagem simples; 3) lembra a garantia de
+forma clara; 4) fecha com um único CTA: [ex.: "Toque em Saiba mais e faça o
+teste"]. Fale só dessa objeção, sem urgência inventada. Antes de executar,
+me mostre o plano em passos curtos e espere meu OK. No final, diga como eu
+confiro que ficou certo.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/3
+
+Quando usar: Para revisar um anúncio de fundo que você já escreveu.
+
+Aqui está meu anúncio de fundo: [cole]. Ele derruba só 1 objeção? A objeção
+está citada logo no início? A garantia e a oferta estão claras? O CTA é
+único e direto? Tem urgência ou contador que não seja verdadeiro? Aponte o
+que estiver errado e reescreva só essas partes. Antes de executar, me mostre
+o plano em passos curtos e espere meu OK. No final, diga como eu confiro que
+ficou certo.
+
+FCA · MÓDULO 4 · AULA 3                                            PÁGINA 4
+WORKBOOK · MÓDULO 4 · AULA 3                                              FUNDO: REMARKETING E DECISÃO
+
+04                                             → ✓ CERTO
+                                                        Urgência só se verdadeira; criativo que serve
+O QUE NÃO FAZER                                         a todos
+
+Urgência falsa e nicho errado
+
+   ✕ ERRADO
+
+    Urgência falsa ou criativo de um nicho só
+
+05
+
+SUA VEZ
+
+Liste de 3 a 5 objeções reais de quem visita sua página e não compra (sem contar falta de
+dinheiro). Para cada uma, planeje um criativo de fundo. Depois escreva por completo o primeiro,
+falando só de uma objeção.
+
+    01 Objeções reais (de 3 a 5)
+
+02 Objeção escolhida para o primeiro criativo
+
+03 Gancho que cita a objeção
+
+04 Resposta direta à objeção
+
+FCA · MÓDULO 4 · AULA 3                        PÁGINA 5
+WORKBOOK · MÓDULO 4 · AULA 3                 FUNDO: REMARKETING E DECISÃO
+    05 Garantia e oferta, ditas com clareza
+
+    06 CTA único
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       Levantei as objeções reais, lendo comentários e e-mails, sem contar falta de dinheiro
+       Escolhi UMA objeção para este criativo
+       O gancho cita a objeção logo no início
+       A resposta é direta e fala só dessa objeção
+       Garantia e oferta estão claras
+       O CTA é único e direto
+       Montei o conjunto com de 3 a 5 criativos, um para cada objeção
+       Não usei urgência nem contador falso
+
+07
+
+GLOSSÁRIO
+
+Fundo de funil  Quem já sabe do problema e conhece várias soluções e lojas; só falta decidir
+                de quem comprar.
+
+FCA · MÓDULO 4 · AULA 3                                                                       PÁGINA 6
+WORKBOOK · MÓDULO 4 · AULA 3                      FUNDO: REMARKETING E DECISÃO
+
+Objeção              Qualquer coisa que a pessoa use para dizer que não vai comprar e que você
+                     consegue vencer com argumento. Falta de dinheiro não é objeção.
+
+Mapa da objeção      Pergunta-guia: a pessoa visitou a página e não comprou, qual objeção travou?
+                     Por exemplo: é caro, tempo, confiança, "não é para mim".
+
+Conjunto de          Nível da campanha que reúne os criativos; no fundo, de 3 a 5 criativos, cada
+anúncios             um com uma objeção.
+
+CTA                  Chamada para a ação; no fundo, uma só e direta, como "Toque em Saiba mais
+                     e faça o teste".
+
+Urgência verdadeira  Prazo ou encerramento que realmente existe. Contador falso pode levar o
+                     anúncio à reprovação.
+
+08                                                            adsmanager.facebook.com
+
+LINKS DA AULA
+
+↗ Gerenciador de Anúncios (só leitura)
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 4 · AULA 3
+
+FCA · MÓDULO 4 · AULA 3                                       PÁGINA 7
+

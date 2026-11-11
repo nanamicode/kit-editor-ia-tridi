@@ -1,0 +1,457 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.600
+Módulo 6, aula 2, take 1.
+
+2
+00:00:00.600 --> 00:00:01.400
+Vamos nessa.
+
+3
+00:00:01.400 --> 00:00:04.104
+Vamos falar agora do modo avançado, um pouco mais das ferramentas que a gente pode usar
+
+4
+00:00:04.104 --> 00:00:07.128
+para poder deixar nossos vídeos com melhor qualidade, tá?
+
+5
+00:00:07.128 --> 00:00:10.200
+Mas você já vai ter bons resultados com o que eu te passei.
+
+6
+00:00:10.200 --> 00:00:11.000
+Então é o seguinte.
+
+7
+00:00:11.000 --> 00:00:16.248
+É opcional cada uma com chave própria, vou explicar sobre isso, como é que você instala
+
+8
+00:00:16.248 --> 00:00:17.048
+as ferramentas.
+
+9
+00:00:17.048 --> 00:00:22.688
+A chave entra via, você vai digitar esse comando, /fca conectar, toda vez que a gente
+
+10
+00:00:22.688 --> 00:00:27.040
+quiser conectar uma ferramenta nova, tem ferramentas que tem chave de API, outra webhook, aí você
+
+11
+00:00:27.040 --> 00:00:27.840
+vai fornecer.
+
+12
+00:00:27.840 --> 00:00:30.936
+Um detalhe, nunca cole chave no chat.
+
+13
+00:00:30.936 --> 00:00:35.288
+Nunca cole senha, dado pessoal, ou chave de API naquele chat que a gente usa para dar
+
+14
+00:00:35.288 --> 00:00:36.088
+os comandos.
+
+15
+00:00:36.088 --> 00:00:40.120
+Existe um local adequado para você colocar isso, e eu vou te mostrar lá na tela do cloud
+
+16
+00:00:40.120 --> 00:00:42.328
+como é que faz isso, beleza?
+
+17
+00:00:42.328 --> 00:00:46.680
+Então vou falar um pouco de ferramentas que eu uso, em referência ao que eu uso.
+
+18
+00:00:46.680 --> 00:00:48.800
+Primeiro, família número 1, que é voice.
+
+19
+00:00:48.800 --> 00:00:51.584
+Eu uso Eleven Labs ou Voice Studio, tá?
+
+20
+00:00:51.584 --> 00:00:56.608
+O plano básico eu uso Voice Studio, gratuito lá, e o Eleven Labs ainda para mim é o melhor
+
+21
+00:00:56.608 --> 00:00:59.168
+que faz, só que ele é pago de 5 a 22 dólares, tá bom?
+
+22
+00:00:59.168 --> 00:01:04.352
+O plano de 5 dólares lhe dá um monte de coisa, eu uso o plano de 22, ele me atende a vários
+
+23
+00:01:04.352 --> 00:01:08.256
+vídeos que eu faço, vídeos longos, vídeos curtos o mês inteiro, beleza?
+
+24
+00:01:08.256 --> 00:01:11.680
+Para vídeos mais simples eu uso Voice Studio, agora quando eu estou vendendo produtos da
+
+25
+00:01:11.680 --> 00:01:16.656
+minha autoria, que eu sou expert, que eu apareço, eu prefiro usar o Eleven Labs, agora produtos
+
+26
+00:01:16.656 --> 00:01:20.992
+que eu tenho é books, aplicativos que eu vendo por aí, eu uso Voice Studio mesmo, tá?
+
+27
+00:01:20.992 --> 00:01:22.016
+E dá certo.
+
+28
+00:01:22.016 --> 00:01:25.408
+Beleza, é local, não paga nada, tá?
+
+29
+00:01:25.408 --> 00:01:29.376
+Você liga quando a voz pesar na venda, quando você começar a achar que você precisa de
+
+30
+00:01:29.376 --> 00:01:33.920
+uma voz mais parecida com a sua, se for o seu caso, aí sim você vai para o Eleven
+
+31
+00:01:33.920 --> 00:01:36.768
+Labs e usa ele lá, tá?
+
+32
+00:01:36.768 --> 00:01:41.328
+Família 2 imagem, o que é que eu uso para a imagem, olha, eu uso a OpenAI, eu vou mostrar
+
+33
+00:01:41.328 --> 00:01:45.520
+como é que conecta, que é do chat EPT, tá fazendo imagens muito boas, tá?
+
+34
+00:01:45.520 --> 00:01:50.832
+Vou lhe dar um conselho, eu prefiro focar tudo em um mínimo de ferramentas possíveis,
+
+35
+00:01:50.832 --> 00:01:54.864
+senão fica uma loucura, eu uso a OpenAI porque eu já tenho o plano do chat EPT, erro, plano
+
+36
+00:01:54.864 --> 00:01:59.600
+não, desculpa, a OpenAI API lá que eu uso para várias coisas, para várias que a OpenAI,
+
+37
+00:01:59.600 --> 00:02:04.464
+a dona do chat EPT, ela não usa uma chave de API para cada ferramenta, ela usa uma chave
+
+38
+00:02:04.464 --> 00:02:09.584
+de API que lhe dá acesso a todas as ferramentas dela, então custa de dois centavos a sete
+
+39
+00:02:09.584 --> 00:02:13.392
+centavos por imagem, muito barato, tá?
+
+40
+00:02:13.392 --> 00:02:19.760
+Ele tá muito bom, modelo novo 2.5, ele mantém a consistência dos personagens, então, cara,
+
+41
+00:02:19.760 --> 00:02:25.424
+teste a qualidade média antes da alta, porque eu não uso a qualidade alta para os vídeos,
+
+42
+00:02:25.424 --> 00:02:30.768
+eu uso a média mesmo, que é 720, se eu não me engano, dos vídeos, da imagem e dessas
+
+43
+00:02:30.768 --> 00:02:33.136
+imagens que eu gero lá, é que eu faço tudo, tá?
+
+44
+00:02:33.136 --> 00:02:37.072
+E muita coisa, eu nem preciso gerar imagem, pegue banco de imagens e vídeo, como Pexels
+
+45
+00:02:37.072 --> 00:02:38.032
+mesmo, que você vai ver aqui.
+
+46
+00:02:38.032 --> 00:02:44.080
+Vídeo, PAL, eu vou mostrar essa plataforma, é, por que?
+
+47
+00:02:44.080 --> 00:02:48.272
+Tem a Citence, tem a Higgs Field, tem não sei o que, mas a PAL é diferente, a PAL é
+
+48
+00:02:48.272 --> 00:02:51.840
+pré-paga, é bem baratinho, porque a Higgs Field você tem que pagar uma assinatura,
+
+49
+00:02:51.840 --> 00:02:56.576
+a PAL você bota lá cinco dólares, dez dólares, esse mês que foi o mês que eu mais produzi,
+
+50
+00:02:56.576 --> 00:02:58.568
+eu gastei trinta dólares, tá?
+
+51
+00:02:58.568 --> 00:03:03.928
+Porque você usa isso para fazer vídeos de coisas que você ainda não tem vídeo, tipo,
+
+52
+00:03:03.928 --> 00:03:08.328
+se você pega uma foto minha para criar um vídeo, eu preciso do modelo de A, como Kling
+
+53
+00:03:08.328 --> 00:03:12.648
+que faz isso, você pode ter a Citence, né, mas o Kling é o que eu mais uso, você pode
+
+54
+00:03:12.648 --> 00:03:15.912
+usar pela Higgs Field, eu uso pela PAL porque eu boto lá vinte, trinta dólares e faço
+
+55
+00:03:15.912 --> 00:03:20.080
+os takes, tá, automaticamente, sem eu precisar me preocupar com isso.
+
+56
+00:03:20.080 --> 00:03:24.400
+A Higgs está mais ou menos vinte centavos a cinquenta por clipe, para mim tá, fica
+
+57
+00:03:24.400 --> 00:03:29.384
+muito bom, não tá nem isso, eu acho, e pede sempre o modelo mais barato primeiro, as nossas
+
+58
+00:03:29.384 --> 00:03:32.872
+skills aqui a gente reconhece o que você está pedindo, se você quiser que ele faça
+
+59
+00:03:32.872 --> 00:03:37.064
+um vídeo a partir de uma imagem, etc., um personagem, aí ele já reconhece qual o melhor
+
+60
+00:03:37.064 --> 00:03:37.864
+modelo.
+
+61
+00:03:37.864 --> 00:03:42.760
+Avatar e dados, olha, Ray-Jane é o avatar que eu uso, mas existe outras, tá, Ray-Jane
+
+62
+00:03:42.760 --> 00:03:46.696
+foi para criar o meu avatar, mas eu estou testando outras, e quando eu achar uma melhor,
+
+63
+00:03:46.696 --> 00:03:49.736
+eu vou começar a divulgar, tá, e atualizo aqui no curso.
+
+64
+00:03:49.736 --> 00:03:54.792
+API-Fi, API-Fi é muito boa porque na API-Fi eu conecto lá e eu tenho acesso a várias
+
+65
+00:03:54.792 --> 00:03:59.688
+APIs lá dentro, uma delas é para poder copiar anúncio de concorrente, fazer espionagem
+
+66
+00:03:59.688 --> 00:04:03.784
+de anúncio no Facebook, dá para fazer gratuito, dá para fazer gratuito pela biblioteca, mas
+
+67
+00:04:03.784 --> 00:04:09.480
+pela API-Fi eu consigo pegar um perfil e baixar todos os posts, fazer análise, é bem legal
+
+68
+00:04:09.480 --> 00:04:12.808
+e não é muito caro, tá, já foi mais barato, mas ainda é muito barato.
+
+69
+00:04:12.808 --> 00:04:17.032
+E API da Meta, tá, métricas, etc., aqui é mais complexo, você tem que criar um aplicativo,
+
+70
+00:04:17.032 --> 00:04:22.344
+conectar no seu VM, né, e gerar uma chave desse usuário e colocar no cloud, tá, eu
+
+71
+00:04:22.344 --> 00:04:26.280
+ensino, eu falo muito disso, na formação tráfego de escala nova, tá, que eu foco
+
+72
+00:04:26.280 --> 00:04:31.864
+em tráfego com IA, mas se você conectar funciona muito bem, não sabe fazer é muito
+
+73
+00:04:31.864 --> 00:04:34.448
+fácil, é só digitar que ele te fala.
+
+74
+00:04:34.448 --> 00:04:39.200
+Então tá aqui o pacote do plano avançado, tá, é claro que pode ter muito mais coisas
+
+75
+00:04:39.200 --> 00:04:43.952
+que você pode colocar, mas isso aqui basicamente eu faço todo o meu trabalho com isso aqui,
+
+76
+00:04:43.952 --> 00:04:50.128
+tá bom, ordem para ligar, o que é isso?
+
+77
+00:04:50.128 --> 00:04:57.200
+Primeiro começa grátis, Pexels, Pixabuy e Free Sound, ou seja, a Pexels é um banco
+
+78
+00:04:57.200 --> 00:05:01.552
+de imagens e vídeos, eu uso, tem chave de API, você conecta, você pega centenas, milhares
+
+79
+00:05:01.552 --> 00:05:06.224
+de vídeos e imagens lá para o cloud cortar, fazer edição, Pixab aí também, e o Free
+
+80
+00:05:06.224 --> 00:05:10.608
+Sound e esses áudios, aquelas coisas, tá, você encontra lá gratuitamente.
+
+81
+00:05:10.608 --> 00:05:14.856
+Eleven Labs, depois OpenAI, existe outra plataforma de áudio também muito bom que
+
+82
+00:05:14.856 --> 00:05:18.824
+é a Epidemic Sound, só que esse tem que pagar uma assinatura, não precisa, tá, Free
+
+83
+00:05:18.824 --> 00:05:23.848
+Sound já tem muita coisa, depois a OpenAPI, OpenAI quer dizer, FAL, depois o resto, começa
+
+84
+00:05:23.848 --> 00:05:29.896
+assim, ó, grátis primeiro, comece grátis, tá, use o Voice Studio e pegue o Pexels,
+
+85
+00:05:29.896 --> 00:05:34.344
+o Pixabuy, o Free Sound, é muito simples, você pede ao próprio cloud, ele já abre
+
+86
+00:05:34.344 --> 00:05:39.264
+a página e conecta, você cria conta, ele conecta, um detalhe importante, tenha a extensão
+
+87
+00:05:39.264 --> 00:05:44.480
+do cloud no seu navegador, eu vou explicar isso mais lá na frente, Eleven Labs como
+
+88
+00:05:44.480 --> 00:05:48.208
+eu falei, FAL, depois o resto. Vou dar aqui um exemplo, ó, você vai ver
+
+89
+00:05:48.208 --> 00:05:53.584
+o mesmo anúncio criado com o plano grátis básico e com o avançado, primeiro setup
+
+90
+00:05:53.584 --> 00:05:58.864
+gratuito, você vai ver da esquerda, e depois da direita o setup avançado, aí você vai
+
+91
+00:05:58.864 --> 00:06:04.240
+ver a pequena diferença talvez na voz, preste atenção para você ver a sutil diferença.
+
+92
+00:06:08.858 --> 00:06:14.538
+Sozinho não vem de nada. Família 1, Voice, é o que o público mais percebe.
+
+93
+00:06:14.538 --> 00:06:20.408
+Percebeu a diferença? Vou voltar aqui. O mesmo áudio. Por que? Você tá vendo diferença
+
+94
+00:06:20.408 --> 00:06:24.216
+aqui ó, qual a diferença do vídeo 1 com o vídeo 2? Primeiro, o vídeo 1 pegou imagem
+
+95
+00:06:24.216 --> 00:06:33.224
+de banco de imagem, um vídeo, e colocou a imagem no meio, e a voz é do modelo do
+
+96
+00:06:33.224 --> 00:06:38.624
+Voice Studio local, beleza? Já a segunda pegou a minha voz clonada pelo Eleven Labs
+
+97
+00:06:38.624 --> 00:06:43.520
+versão 4, e o vídeo, ele não pegou um vídeo de banco de imagens, ele criou um vídeo,
+
+98
+00:06:43.520 --> 00:06:48.909
+entendeu? Essa é a diferença, preste atenção. Vídeo bonito, sozinho não vem de nada.
+
+99
+00:06:48.909 --> 00:06:54.649
+Vídeo bonito, sozinho não vem de nada. Família 1, Voice, é o que o público mais
+
+100
+00:06:54.649 --> 00:07:03.498
+percebe. Família 2, Imagem, esta cena foi gerada por IA a partir de texto. Tá vendo?
+
+101
+00:07:03.498 --> 00:07:07.833
+Essa foi gerada por IA, essa aqui foi banco de imagem. Não teve muita diferença nenhuma.
+
+102
+00:07:07.833 --> 00:07:14.525
+Fábrica 3, Vídeo, a imagem virou um clipe de 5 segundos, no modelo barato. Isso aqui
+
+103
+00:07:14.525 --> 00:07:20.706
+eu peguei a imagem e fez o vídeo. Antes de gastar, peça a estimativa. A fábrica mostra
+
+104
+00:07:20.706 --> 00:07:28.386
+o custo e espera o seu ok. Mesmo roteiro, mesma ideia. O avançado é turbo, liga uma
+
+105
+00:07:28.386 --> 00:07:34.311
+ferramenta por vez. Honestamente, tem muita diferença? A grande maioria não, o vídeo
+
+106
+00:07:34.311 --> 00:07:38.951
+ficou praticamente igual, beleza? Então você acabou de ver isso aqui na tela. Veja o custo
+
+107
+00:07:38.951 --> 00:07:43.687
+antes de gastar, tá? Antes de você fazer alguma coisa, você pode pedir a ele. Pega
+
+108
+00:07:43.687 --> 00:07:50.279
+isso aqui, copia, fala qual é o custo previsto para isso aqui. Ele vai calcular e você vê.
+
+109
+00:07:50.279 --> 00:07:54.919
+Gastar sem a amostra é um erro. Gerar um vídeo completo no modelo caro. Comece pelo
+
+110
+00:07:54.919 --> 00:08:00.039
+modelo que eu te ensinei aqui que eu faço e tá certo. A amostra curta primeiro, depois
+
+111
+00:08:00.039 --> 00:08:05.703
+você vai aumentando, ok? Resumindo, agora o catálogo. Eu mostrei pra você as famílias
+
+112
+00:08:05.703 --> 00:08:10.791
+de ferramentas, a ordem e a regra e mostrei na prática, tá? No próximo módulo você
+
+113
+00:08:10.791 --> 00:08:15.303
+vai ver os estilos de edição que eu estou colocando aqui como referência e vou ensinar
+
+114
+00:08:15.303 --> 00:08:19.495
+você como criar novos estilos, tá? Vai ser bem legal e eu te espero lá.

@@ -1,0 +1,242 @@
+FÁBRICA DE CRIATIVOS                    Nº M01-A2
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 1 · AULA 2
+
+APRESENTAÇÃO E QUEM SOU
+
+OS 4 PILARES
+DA ESCALA
+
+  3 CAPÍTULOS 2 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Onde este curso entra
+   01 Os pilares
+   03 Os outros três                     1.2
+                                                                              FCA · M01-A2
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 1 · AULA 2  OS 4 PILARES DA ESCALA
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Nesta aula o Lúcio explica os quatro pilares do que ele chama de tráfego de escala: Criativo,
+Público, Tracking e Controle. O criativo atrai; o público (a segmentação) potencializa o ROAS,
+mas só funciona com o trackeamento bem feito, que é a base de tudo. A campanha de controle
+é o processo sistematizado de subir a campanha, saber o que olhar e o que fazer, e depende
+dos outros três pilares trabalhando juntos. Este curso é o pilar do criativo. Os outros três têm
+treinamentos próprios (Missão Claude Tracking, Workshop Super Públicos e Campanha de
+Controle), com 77% de desconto para aluno da Fábrica e links na descrição. Sem os quatro
+pilares arrumados e funcionando em conjunto, colocar mais dinheiro não traz mais lucro.
+
+IDEIA CENTRAL
+
+Criativo atrai, público potencializa, tracking sustenta, controle
+decide.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Criativo (atrai)
+
+    É o primeiro pilar e o assunto deste curso. É o que atrai. Com a Fábrica você tem
+    criativo novo toda semana, todo dia, toda hora. Você tem de trabalhar no criativo
+    primeiro.
+
+02  Público / segmentação (potencializa)
+
+    Potencializa o seu ROAS. Não é verdade que segmentar não adianta: o poder do Meta e
+    das plataformas está numa arquitetura muito bem montada. Para o criativo funcionar
+    bem, a segmentação faz muita diferença, mas só funciona se o trackeamento estiver
+    bem feito. Treinamento: Workshop Super Públicos (segmentação em camadas, usando
+    conjuntos numéricos).
+
+FCA · MÓDULO 1 · AULA 2                                                                PÁGINA 2
+WORKBOOK · MÓDULO 1 · AULA 2  OS 4 PILARES DA ESCALA
+
+03  Trackeamento (sustenta)
+
+    É a base de tudo. Rastreamento (UTM, nome da campanha) só mostra o passado: o que
+    aconteceu. Trackeamento tem o rastreamento embutido e vai além: entrega à
+    plataforma as ações dos usuários que chegam onde você quer, para o algoritmo
+    aprender com o passado e prever o futuro. Assim o Meta descobre o público ideal,
+    quem são as pessoas e por que aquele criativo está funcionando. Treinamento: Missão
+    Claude Tracking (trackeamento com IA).
+
+04  Campanha de controle (decide)
+
+    É o processo sistematizado e objetivo de subir a campanha: o que observar no início, o
+    que olhar, o que fazer. Exemplo da aula: se o CTR (taxa de clique) está em X, o custo por
+    mil impressões está em Y e não há venda, o que você faz? Faz você decidir o que parar
+    e o que vai ser escalado. Depende do criativo, da segmentação e do trackeamento
+    trabalhando juntos. Treinamento: Campanha de Controle.
+
+05  Por que os quatro juntos
+
+    O Meta e as outras plataformas foram feitas para você colocar pouco dinheiro e ter
+    lucro alto. Na teoria, se você sai de R$ 100 para R$ 1.000, a plataforma tem mais dados,
+    aprende mais e entrega o mesmo lucro ou mais. Na prática isso não acontece quando
+    os quatro pilares não estão arrumados e funcionando em conjunto.
+
+FCA · MÓDULO 1 · AULA 2       PÁGINA 3
+WORKBOOK · MÓDULO 1 · AULA 2                                       OS 4 PILARES DA ESCALA
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/2
+
+Quando usar: Para diagnosticar qual pilar está falhando na sua operação, a partir dos números de uma
+campanha.
+
+Você é um gestor de tráfego de escala. Vou te passar os números da minha
+campanha e quero que você diga qual dos 4 pilares (criativo,
+público/segmentação, trackeamento, campanha de controle) é o mais provável
+gargalo.
+
+Produto: [descreva o produto]
+Investimento: [valor gasto]
+CTR (taxa de clique): [valor]
+Custo por mil impressões: [valor]
+Vendas: [número]
+ROAS: [valor]
+Eventos que passo para a plataforma hoje: [liste as ações mapeadas, ou
+escreva nenhuma]
+
+Para cada pilar, diga se há sinal de problema, qual é o sinal e qual o
+próximo passo objetivo. No fim, diga o que eu devo fazer primeiro.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/2
+
+Quando usar: Para criar o próximo criativo a partir de um resultado, como o Lúcio faz hoje: a IA lê o
+criativo e o resultado e constrói o próximo.
+
+Aqui está um criativo meu e o resultado dele.
+
+Criativo (roteiro ou descrição): [cole o roteiro ou descreva o criativo]
+Resultado: CTR [valor], vendas [número], ROAS [valor]
+
+Analise o que funcionou (por exemplo, CTR bom) e o que não funcionou (por
+exemplo, sem venda). Pegue o que foi bom e construa o próximo criativo a
+partir disso, mantendo o que atraiu e corrigindo o que travou a venda.
+Entregue o roteiro do próximo criativo e diga o que você mudou e por quê.
+
+FCA · MÓDULO 1 · AULA 2                                            PÁGINA 4
+WORKBOOK · MÓDULO 1 · AULA 2                                      OS 4 PILARES DA ESCALA
+
+04
+
+SUA VEZ
+
+Olhe a sua operação hoje e responda para cada pilar:
+
+    01 Criativo: com que frequência eu lanço criativo novo hoje?
+
+02 Público: minha segmentação está montada com arquitetura ou é aleatória?
+
+03 Tracking: quais ações dos usuários eu já passo para o Meta, além do rastreamento
+    (UTM)?
+
+04 Controle: que regra objetiva eu uso para decidir parar ou escalar (CTR, custo por mil,
+    vendas)?
+
+05 Qual pilar está mais fraco hoje e qual vou atacar depois do criativo?
+
+FCA · MÓDULO 1 · AULA 2                                                     PÁGINA 5
+WORKBOOK · MÓDULO 1 · AULA 2                   OS 4 PILARES DA ESCALA
+
+05
+
+ANTES DA PRÓXIMA AULA
+
+     Sei dizer os 4 pilares e o que cada um faz: criativo atrai, público potencializa, tracking sustenta,
+     controle decide
+
+     Sei que este curso é o pilar do criativo
+
+     Sei a diferença entre rastreamento (ver o passado) e trackeamento (ensinar a plataforma a prever o
+     futuro)
+
+     Sei que a campanha de controle depende dos outros três pilares trabalhando juntos
+
+     Sei onde estão os outros três treinamentos e que os links estão na descrição
+
+     Entendi que colocar mais dinheiro sem os quatro pilares arrumados não traz mais lucro
+
+06
+
+GLOSSÁRIO
+
+Tráfego de escala  Como o Lúcio chama o tráfego que atende aos quatro pilares: criativo, público,
+                   tracking e controle.
+
+ROAS               Retorno sobre o investimento em anúncio: quanto voltou para cada real gasto.
+
+Rastreamento       Ver o passado: saber o que aconteceu, por exemplo com UTM content e UTM
+                   campaign (nome da campanha). Não otimiza nada.
+
+Trackeamento       Rastreamento mais o envio das ações dos usuários à plataforma, para o
+                   algoritmo aprender com o passado e prever o futuro.
+
+CTR                Taxa de clique: porcentagem de quem viu o anúncio e clicou.
+
+Campanha de        Processo sistematizado e objetivo para subir a campanha: o que observar no
+controle           início, o que olhar e o que fazer para decidir o que parar e o que escalar.
+
+Super Público      Segmentação em camadas usando o conceito matemático de conjuntos
+                   numéricos.
+
+FCA · MÓDULO 1 · AULA 2                                                                     PÁGINA 6
+WORKBOOK · MÓDULO 1 · AULA 2                                  OS 4 PILARES DA ESCALA
+
+07
+
+LINKS DA AULA
+
+↗ Campanhas de           seguro.lucioartes.com/O11E6C3B5?utm_source=fca-curso&utm_medium=
+                                           aluno&utm_campaign=4-pilares&utm_content=aula-M01-A2
+Controle (aluno da
+
+Fábrica)
+
+↗ Super Públicos    seguro.lucioartes.com/OA65829EA?utm_source=fca-curso&utm_medium=alun
+                                                  o&utm_campaign=4-pilares&utm_content=aula-M01-A2
+(aluno da Fábrica)
+
+↗ Missão Claude          checkout.safe.lucioartes.com/42750161?utm_source=fca-curso&utm_me
+                                     dium=aluno&utm_campaign=4-pilares&utm_content=aula-M01-A2
+Tracking (aluno da
+
+Fábrica)
+
+08
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 1 · AULA 2
+
+FCA · MÓDULO 1 · AULA 2                                       PÁGINA 7
+

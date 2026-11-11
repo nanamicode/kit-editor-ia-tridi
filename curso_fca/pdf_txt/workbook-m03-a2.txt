@@ -1,0 +1,242 @@
+FÁBRICA DE CRIATIVOS                        Nº M03-A2
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 3 · AULA 2
+
+FRAMEWORKS DE COPY E ROTEIRO PARA ANÚNCIOS
+
+BAB E OS 4PS
+
+  3 CAPÍTULOS 2 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 4Ps
+   01 BAB
+   03 Ao vivo e prática                 3.2
+                                                                              FCA · M03-A2
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 3 · AULA 2  BAB E OS 4PS
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Nesta aula o Lúcio apresenta dois frameworks que ele usa, o BAB e os 4Ps, e mostra criativos
+reais rodando. BAB é Before, After, Bridge (Antes, Depois, Ponte): primeiro você mostra a
+mudança, depois o que causa a mudança. Os 4Ps em inglês são Promise, Picture, Proof, Push.
+Em português viram Promessa, Imagem, Prova e Proposta. Ele mostrou um BAB sobre o antes
+e o depois de quem depende de editor e um 4Ps de um evento presencial. Também mostrou o
+que não fazer, que é prometer "fature 10 vezes amanhã sem esforço": em vez de escrever,
+ponha o print. O método dele é criar um criativo de cada framework (AIDA, PAS, BAB e 4Ps)
+para o topo de funil e deixar a IA analisar qual performou melhor para criar novas variações.
+
+IDEIA CENTRAL
+
+Mostre a mudança, apresente o produto só na ponte e, no
+lugar de prometer, ponha o print.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  BAB: Antes, Depois, Ponte
+
+    BAB é Before, After, Bridge. A lógica é mostrar primeiro a mudança e depois o que
+    causa a mudança. O Antes é a vida de hoje, com o problema ("se você está assim,
+    assim, assim"). O Depois pinta o cenário ("imagine, daqui a 90 dias, sua vida desse
+    jeito"). A Ponte é o caminho para chegar lá, com o "saiba mais" no fim. Chama muita
+    atenção e também serve para oferta direta. Cuidado: em alguns mercados, como
+    emagrecimento, as políticas do Meta tornam o BAB chato de usar. Quando dá para usar,
+    funciona muito bem.
+
+02  O exemplo do BAB: o produto dele
+
+    Antes: 3 dias esperando o editor por um vídeo, e ele ainda volta errado. Depois: vários
+    criativos prontos no mesmo dia, em vez de um vídeo a cada 3 dias. Ponte: a Fábrica de
+    Criativos Automáticos, em que você pede e ela escreve, narra e edita; clique em saiba
+    mais. O Lúcio chamou a atenção para o fato de que não fez uma oferta. Ele falou do
+    problema de agora, do problema resolvido e da ponte para sair de um para o outro. O
+    resto o cliente descobre na página.
+
+FCA · MÓDULO 3 · AULA 2                                  PÁGINA 2
+WORKBOOK · MÓDULO 3 · AULA 2  BAB E OS 4PS
+
+03  Os 4Ps: Promessa, Imagem, Prova, Proposta
+
+    Em inglês são Promise, Picture, Proof, Push. Em português a primeira letra muda e
+    ficam Promessa, Imagem, Prova e Proposta. Promessa é o ganho em uma frase, o que
+    o cliente ganha. Imagem é pintar a cena do resultado na cabeça dele ("imagine você
+    depois assim"). Prova é mostrar que aquilo funciona. Proposta é o convite para o
+    próximo passo. O Lúcio avisa que sempre esquece a ordem e que muita gente usa os
+    4Ps sem saber.
+
+04  O exemplo dos 4Ps: evento presencial
+
+    Um anúncio dele que está rodando, de um evento presencial. Promessa: "eu monto na
+    sua frente com IA, você sai com a sua campanha no ar". Imagem: você do lado dele,
+    com a sua conta aberta e a campanha mudando para ativa. Prova: o relato de um
+    participante que viu insights de escala e métricas de acompanhamento de campanhas
+    que nunca tinha visto em lugar nenhum. Proposta: é presencial, lado a lado, você leva a
+    campanha publicada e o plano dos próximos 30 dias; clique em saiba mais. Ele trouxe
+    criativos de tipos diferentes de negócio para mostrar que o framework funciona em
+    qualquer cenário. Esse anúncio específico ficou abaixo do que ele gosta, mas está
+    funcionando bem.
+
+05  Prova: ponha o print
+
+    A prova real pode ser um depoimento. Se você ainda não tem, ele sugere colocar as
+    suas projeções de números. O que ele recomenda não fazer é a promessa sem prova,
+    como "fature 10 vezes amanhã sem esforço". Em vez de escrever isso, ponha o print e
+    pronto, sem precisar falar nada. Isso vale também para aprovar criativos mais
+    agressivos.
+
+06  Como ele usa na prática: público, funil e variações
+
+    Primeiro ele identifica o público (frio, morno ou quente) e a etapa do funil (topo, meio ou
+    fundo). Para o topo, faz um criativo de cada framework: AIDA, PAS, BAB e 4Ps. Roda a
+    campanha de topo com esses quatro, porque performam bem para o algoritmo do
+    Meta. Depois faz a mesma coisa para o meio de funil. Em seguida, coloca a IA dele para
+    analisar qual criativo trouxe o melhor resultado e criar novas variações. Para ele, esse é
+    o trabalho.
+
+FCA · MÓDULO 3 · AULA 2       PÁGINA 3
+WORKBOOK · MÓDULO 3 · AULA 2                                       BAB E OS 4PS
+
+07 Mostre a mudança, o produto só na ponte
+
+               O resumo que ele deu para os dois frameworks: mostre a mudança e deixe o produto
+
+               aparecer só na ponte. O resto quem faz é a página.
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/2
+
+Quando usar: Para transformar o seu anúncio em BAB e em 4Ps.
+
+Use a skill de copy da Fábrica. Pegue o MEU anúncio abaixo e reescreva em
+duas versões: BAB (Antes, Depois, Ponte) e 4Ps (Promessa, Imagem, Prova,
+Proposta). Entregue roteiros de 15 a 30 segundos em tabela (tempo × fala ×
+tela), com gancho de 3 segundos. No BAB, o produto só aparece na Ponte e
+termina com "saiba mais". Nos 4Ps, a Imagem pinta uma cena que dá para
+filmar. Use apenas provas que eu informar; se faltar prova, me pergunte em
+vez de inventar. Meu negócio: [o que você vende]. Meu público e etapa do
+funil: [frio, morno ou quente; topo, meio ou fundo]. Prova que tenho:
+[depoimento, número, print ou projeção]. Anúncio atual: [cole seu anúncio
+atual ou descreva sua oferta em 2 linhas]. ANTES de executar, me mostre o
+PLANO. No fim, diga como eu verifico se o Depois tem prova.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/2
+
+Quando usar: Para trocar uma promessa exagerada por prova.
+
+Pegue a frase do meu anúncio: [frase com promessa, ex.: "fature 10 vezes
+amanhã sem esforço"]. Reescreva sem exagero e me diga qual print, número ou
+depoimento eu devo mostrar no lugar. A prova que eu tenho é: [print,
+depoimento ou projeção]. Se eu não tiver prova suficiente, me pergunte em
+vez de inventar.
+
+FCA · MÓDULO 3 · AULA 2                                            PÁGINA 4
+WORKBOOK · MÓDULO 3 · AULA 2                                                            BAB E OS 4PS
+
+04                                     → ✓ CERTO
+                                                'Olha o print: o criativo saiu pronto.'
+O QUE NÃO FAZER
+
+O Depois sem prova
+
+   ✕ ERRADO
+
+    'Fature 10x amanhã, sem esforço!'
+
+05
+
+SUA VEZ
+
+Escreva o BAB do seu negócio e depois os 4Ps. Em cada um, aponte onde entra o print ou a
+prova.
+
+    01 Antes (a vida de hoje do meu cliente, com o problema)
+
+02 Depois (a vida resolvida, a cena que o cliente imagina)
+
+03 Ponte (como o meu produto leva do Antes ao Depois) e o que vem depois do "saiba
+    mais"
+
+04 Promessa: o ganho em uma frase
+
+FCA · MÓDULO 3 · AULA 2                                     PÁGINA 5
+WORKBOOK · MÓDULO 3 · AULA 2                                                    BAB E OS 4PS
+    05 Imagem: a cena do resultado
+
+06 Prova: o print, depoimento ou projeção que eu vou mostrar
+
+07 Proposta: o próximo passo que eu peço
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       O Antes mostra a vida de hoje do cliente, com o problema.
+       O Depois pinta um cenário que o cliente consegue imaginar.
+       O produto só aparece na Ponte, sem fazer uma oferta no anúncio.
+       A Promessa cabe em uma frase e diz o que o cliente ganha.
+       A Imagem pinta a cena do resultado.
+       Pus o print, depoimento ou projeção no lugar de uma promessa sem prova.
+       A Proposta diz qual é o próximo passo.
+       Conferi se o meu mercado permite o BAB nas políticas do Meta.
+
+FCA · MÓDULO 3 · AULA 2                                                         PÁGINA 6
+WORKBOOK · MÓDULO 3 · AULA 2                                  BAB E OS 4PS
+
+07
+
+GLOSSÁRIO
+
+BAB                 Before, After, Bridge: Antes, Depois, Ponte. Primeiro mostra a mudança, depois
+                    o que causa a mudança.
+
+4Ps                 Em inglês, Promise, Picture, Proof, Push. Em português, Promessa, Imagem,
+                    Prova, Proposta.
+
+Ponte               A parte do BAB em que aparece o caminho para sair do Antes e chegar ao
+                    Depois, com o "saiba mais" no fim.
+
+Prova               Depoimento, print ou projeção de números que mostra que a promessa
+                    funciona. Em vez de escrever o exagero, ponha o print.
+
+Proposta            O convite para o próximo passo, o P de Push (o empurrão), como o "clique em
+                    saiba mais".
+
+Topo, meio e fundo  Etapas do caminho do cliente, ligadas ao público frio, morno e quente. O Lúcio
+de funil            faz um criativo de cada framework para cada etapa.
+
+08
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 3 · AULA 2
+
+FCA · MÓDULO 3 · AULA 2                                       PÁGINA 7
+

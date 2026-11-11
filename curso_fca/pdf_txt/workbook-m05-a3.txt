@@ -1,0 +1,255 @@
+FÁBRICA DE CRIATIVOS                    Nº M05-A3
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 5 · AULA 3
+
+COMO PASSAR INSTRUÇÕES PARA A IA
+
+SKILLS, AGENTES E COMANDOS:
+AS RECEITAS PRONTAS
+
+  4 CAPÍTULOS 4 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 O que vem no pacote
+   01 Abertura
+   03 Onde ficam e como chamar          04 Na prática
+
+LEIA NA TELA · ESCREVA NO PAINEL CLARO  5.3
+                                                                              FCA · M05-A3
+WORKBOOK · MÓDULO 5 · AULA 3  SKILLS, AGENTES E COMANDOS: AS RECEITAS PRONTAS
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Skill é uma receita que o Claude segue: um arquivo markdown, ou seja, um texto simples com
+umas regrinhas. Um exemplo é a receita do anúncio, com o gancho de 3 segundos, o catálogo
+de efeitos e o criativo estático em par. O pacote traz mais de 100 skills prontas, 30 DNAs de
+especialistas e 30 agentes, além de 380 efeitos, 513 prompts, 1.748 sons e 771 b-rolls, e os
+números crescem todo dia. Agente é um assistente com uma função só, como revisor ou
+escritor, e comando é o atalho que você digita com barra. Você não precisa decorar nada:
+descreve a tarefa, a skill segue e chama agentes e DNAs sozinha, ou você cita o nome com /.
+Na demonstração, o Lúcio colou a página de vendas de um produto e saíram ganchos prontos.
+A receita ajuda, mas no final você tem de aprovar e não deixar subir sem olhar.
+
+IDEIA CENTRAL
+
+A receita ajuda, mas no final quem aprova é você: não deixe
+subir sem olhar.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  O que é uma skill
+
+    É uma receita que o Claude segue, simplesmente um arquivo markdown (texto simples
+    com regrinhas). Exemplo: a receita do anúncio tem o gancho de 3 segundos, o catálogo
+    com os efeitos e o criativo estático em par. O "par" existe porque, a cada vídeo que você
+    criar, pode pedir que ele já crie também a versão orgânica.
+
+02  O que vem no pacote
+
+    Mais de 100 skills prontas, 30 DNAs de especialistas e 30 agentes. No acervo: 380
+    efeitos, 513 prompts, 1.748 sons e 771 b-rolls (vídeos de banco de vídeos). Os números
+    mudam constantemente, porque o Lúcio evolui o pacote todo dia, e quem adquiriu o
+    pacote de atualização e oferta vitalícia continua recebendo as atualizações. Você ainda
+    vai aprender a conectar fontes para fazer mais.
+
+FCA · MÓDULO 5 · AULA 3       PÁGINA 2
+WORKBOOK · MÓDULO 5 · AULA 3  SKILLS, AGENTES E COMANDOS: AS RECEITAS PRONTAS
+
+03  Skill, agente e comando
+
+    Skill é a receita que o Claude segue. Agente é um assistente com uma função só, como
+    o agente revisor e o escritor. Comando é o atalho que você digita com barra. Quando
+    você digita normalmente, está conversando com o Claude; quando dá barra e alguma
+    coisa, são comandos específicos. A ideia do curso é que você não precise entender
+    tudo isso: o que importa é o resultado.
+
+04  Onde ficam e como chamar
+
+    As skills ficam na pasta .claude/skills, cada uma com um SKILL.md, e a descrição está
+    no topo. Nem o Lúcio lê as skills dele: ele faz e testa, porque quer o resultado. Você
+    descreve a tarefa e a skill segue; ela chama o agente e o DNA sozinha, de forma
+    automática. Se preferir, cite o nome da skill com barra. Digitar / abre a lista de
+    comandos e também das skills instaladas no projeto, e como são mais de 100, não faz
+    sentido gravar.
+
+05  Comandos do instalador
+
+    /fca-instalar instala o pacote. /fca-doutor faz o diagnóstico quando algum problema
+    aparece na tela (FCA vem de Fábrica de Criativos Automáticos). /fca-biblioteca mostra
+    a biblioteca e /fca-conectar conecta alguma coisa. Não se preocupe com isso agora: a
+    aula de instalação vem depois e vai mostrar tudo.
+
+06  Na prática: o gancho dos três segundos
+
+    No Claude Code, o Lúcio chamou a skill do gancho dos três segundos de duas formas.
+    Passo a passo, com o prompt pronto (minha oferta, para quem é, página de vendas),
+    que ajuda quem está começando a entender. Ou do jeito automático: falando o contexto
+    e colando a página de vendas, sem moldes. No dia a dia você nem precisa chamar a
+    skill, o sistema chama. Ele leu a página e o vídeo dela, transcreveu, escreveu 3 ganchos
+    com a imagem sugerida para o editor e depois montou os três primeiros segundos de
+    cada gancho em cerca de um minuto e meio.
+
+07  Cuidado com a skill
+
+    Não mexa na skill sem fazer backup e não invente de melhorar sem copiar. Se quiser
+    acrescentar algo, peça ao próprio Claude para modificar, mas salve antes: o Lúcio já viu
+    muito problema com isso. Faça uma parte de teste. A receita ajuda, mas no final você
+    tem de aprovar; não deixe subir sem olhar.
+
+FCA · MÓDULO 5 · AULA 3       PÁGINA 3
+WORKBOOK · MÓDULO 5 · AULA 3  SKILLS, AGENTES E COMANDOS: AS RECEITAS PRONTAS
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ DIGITE NO CLAUDE CODE                                           PROMPT 1/4
+
+Quando usar: Para chamar a skill de gancho passo a passo, com a sua oferta e a sua página de vendas.
+
+/gancho-dos-tres-segundos Minha oferta: [descreva o seu produto ou serviço
+em poucas linhas]. Para quem é: [descreva o seu público]. Quero que você
+escreva 3 ganchos de alto impacto para chamar e reter a atenção das pessoas.
+A página de vendas é [cole o link]. Leia a página e o vídeo dela e entenda
+tudo antes de escrever os ganchos.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/4
+
+Quando usar: Para trabalhar do jeito automático, sem citar o nome da skill: conte o contexto e peça
+direto.
+
+[Explique em um parágrafo o que é o seu produto, como ele funciona e quem
+são os seus clientes]. Segue a página do produto: [link]. Quero que você
+construa o primeiro roteiro de anúncio para eu aprovar. Escreva 3 ganchos
+diferentes e, para cada um, diga o visual que você sugere para o editor.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/4
+
+Quando usar: Depois dos ganchos prontos, para comparar as opções.
+
+Monte os três primeiros segundos de cada gancho para eu comparar. Use as
+imagens e o material que já existem e, se faltar algo, crie.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 4/4
+
+Quando usar: Para descobrir qual skill usar na sua tarefa, sem decorar nome.
+
+Liste as skills que existem na pasta .claude/skills deste projeto, agrupadas
+por tipo de tarefa. Depois me diga qual usar para: [descreva a sua tarefa].
+Antes de executar, me mostre o plano.
+
+FCA · MÓDULO 5 · AULA 3                                            PÁGINA 4
+WORKBOOK · MÓDULO 5 · AULA 3         SKILLS, AGENTES E COMANDOS: AS RECEITAS PRONTAS
+
+04                                   → ✓ CERTO
+                                              Copiar a pasta e testar a mudança
+O QUE NÃO FAZER
+
+Skill mexida sem backup
+
+   ✕ ERRADO
+
+    Editar a skill sem copiar antes
+
+05
+
+SUA VEZ
+
+Chame uma skill do pacote com uma tarefa sua, do jeito passo a passo ou do jeito automático,
+e aprove o resultado só depois de olhar.
+
+    01 A minha tarefa e o contexto que passei (oferta, público, página)
+
+02 Como chamei: pelo nome com / ou descrevendo a tarefa
+
+03 O que o Claude entregou
+
+04 O que conferi antes de aprovar
+
+FCA · MÓDULO 5 · AULA 3                                  PÁGINA 5
+WORKBOOK · MÓDULO 5 · AULA 3                            SKILLS, AGENTES E COMANDOS: AS RECEITAS PRONTAS
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       Sei a diferença entre skill (receita), agente (assistente com uma função) e comando (atalho com
+       barra).
+
+       Sei que as skills ficam na pasta .claude/skills, cada uma com um SKILL.md.
+
+       Digitei / e vi a lista de comandos e de skills.
+
+       Sei que posso descrever a tarefa e o Claude escolhe a skill, ou citar o nome.
+
+       Chamei uma skill com a minha oferta e o meu público.
+
+       Conferi o resultado antes de aprovar.
+
+       Fiz backup da skill antes de qualquer alteração.
+
+       Sei que a aula de instalação vem depois e que não preciso gravar nenhum comando.
+
+07
+
+GLOSSÁRIO
+
+Skill              Receita que o Claude segue; é um arquivo markdown (texto simples) com
+                   regrinhas.
+
+Agente             Assistente com uma função só, como o revisor e o escritor.
+
+Comando com barra  Atalho que você digita com / para executar algo específico, diferente de
+                   conversar.
+
+DNA                Modelo de especialista que a skill chama junto com os agentes; o pacote traz
+                   30.
+
+Gancho dos três    Skill que ensina a prender a atenção nos primeiros 3 segundos do anúncio.
+segundos           Vídeos de banco de vídeos usados como cobertura no anúncio.
+
+B-roll
+
+/fca-doutor        Comando que faz o diagnóstico quando aparece algum problema na tela.
+
+FCA · MÓDULO 5 · AULA 3                                                                  PÁGINA 6
+WORKBOOK · MÓDULO 5 · AULA 3                      SKILLS, AGENTES E COMANDOS: AS RECEITAS PRONTAS
+                                                                                          claude.com/download
+08
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 5 · AULA 3
+
+FCA · MÓDULO 5 · AULA 3                                       PÁGINA 7
+

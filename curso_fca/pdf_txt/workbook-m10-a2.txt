@@ -1,0 +1,235 @@
+                 FÁBRICA DE CRIATIVOS    Nº M10-A2
+                 A U T O M ÁT I C O S
+
+                 COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 10 · AULA 2
+
+BÔNUS: ENSINAR UM ESTILO NOVO À FÁBRICA
+
+APROVAR E GUARDAR:
+O ESTILO ENTRA NO
+CATÁLOGO COM NÚMERO
+
+  4 CAPÍTULOS 4 PROMPTS PRONTOS
+
+ROTEIRO DA AULA
+
+   01 Aprovar                             02 Guardar com número
+   03 Pedir e misturar
+                                        10.2 04 Quandonãomodelar
+LEIA NA TELA · ESCREVA NO PAINEL CLARO                                           FCA · M10-A2
+WORKBOOK · MÓDULO 10 · AULA 2  APROVAR E GUARDAR: O ESTILO ENTRA NO CATÁLOGO COM NÚMERO
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Aprovou o estilo da aula anterior, agora você fecha o ciclo: dá uma olhada no checklist do
+diretor (12 itens) e compara lado a lado com a referência, sem copiar a obra de ninguém, só
+aprendendo o estilo. Com a amostra aprovada, a Fábrica cria a ficha do estilo (a próxima vez ela
+já sabe tudo sobre ele, fonte inclusive) e a receita, que é uma skill, com o agente criado
+automaticamente. O estilo entra com o próximo número em "Meus estilos", e você pode fazer
+isso com site, TikTok ou qualquer lugar. Depois é só pedir um novo pelo número, misturar
+estilos ou deixar o Claude escolher o melhor estilo para o roteiro, sempre com amostras curtas.
+Não modele quando não combina com o seu público, quando só funciona com a marca ou o
+rosto do outro, quando já existe um parecido no catálogo, nem sem aprovar antes.
+
+IDEIA CENTRAL
+
+Aprovou, guardou, ganhou número: cada estilo novo fica para
+sempre na fábrica, e a fábrica aprende.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Aprovar
+
+    Olhe o checklist do diretor (12 itens) e salve lado a lado com a referência. Você aprende
+    o estilo, não copia a obra do outro. Só com a amostra aprovada o estilo segue para ser
+    guardado.
+
+02  Guardar com número
+
+    Aprovada a amostra, a Fábrica cria a ficha do estilo (assim, na próxima vez, ela já sabe
+    tudo sobre ele, até a fonte) e a receita: uma skill, com o agente criado
+    automaticamente. Entra o próximo número, e o seguinte já fica disponível para o
+    próximo estilo. Vale para estilo de site, de TikTok ou de qualquer lugar. O atalho é "novo
+    estilo, guardar".
+
+FCA · MÓDULO 10 · AULA 2       PÁGINA 2
+WORKBOOK · MÓDULO 10 · AULA 2  APROVAR E GUARDAR: O ESTILO ENTRA NO CATÁLOGO COM NÚMERO
+
+03  Pedir pelo número
+
+    Com o estilo guardado, você pede um criativo novo pelo número. Se fizer outro estilo,
+    ele entra na sequência (ou no número que você quiser) e já pode ser usado nos
+    próximos criativos.
+
+04  Misturar estilos
+
+    Você pode pedir para misturar, por exemplo, o estilo 12 com o estilo 30 e criar um
+    criativo novo. Outra opção, que o Lúcio gosta de usar: pedir ao Claude, a Fábrica, que
+    escolha o melhor estilo para aquele roteiro. Sempre com amostras curtas para você ver.
+
+05  Quando não modelar
+
+    Não modele: (1) se o estilo não combina com o seu público (para advogado, meme e
+    desenho animado não cabem); (2) se só funciona com a marca ou o rosto do outro,
+    porque sem a pessoa não faz sentido; (3) se já existe um parecido no catálogo; (4) sem
+    aprovar antes. Guardar sem aprovar pode trazer algo que não combina com o que você
+    vende e gerar um problema depois, no criativo.
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/4
+
+Quando usar: Antes de guardar, para não duplicar o catálogo.
+
+Procure no meu catálogo de estilos se já existe um parecido com este estilo
+da amostra. Se existir, diga o número e o que muda. Não guarde nada ainda.
+
+FCA · MÓDULO 10 · AULA 2                                           PÁGINA 3
+WORKBOOK · MÓDULO 10 · AULA 2  APROVAR E GUARDAR: O ESTILO ENTRA NO CATÁLOGO COM NÚMERO
+
+>_ COLE NO CLAUDE CODE                           PROMPT 2/4
+
+Quando usar: Para guardar o estilo aprovado, com ficha e receita.
+
+Aprovei esta amostra. Novo estilo, guardar: crie a ficha do estilo (nome
+curto, para quem serve, quando usar, quando NÃO usar, fonte e a amostra como
+exemplo) e a receita (uma skill) que refaz o estilo, sem copiar texto, marca
+ou imagem da referência. Dê a ele o próximo número em "Meus estilos" e me
+diga qual é. ANTES, me mostre o plano. No fim, diga como eu confiro que ele
+entrou no catálogo.
+
+>_ COLE NO CLAUDE CODE                           PROMPT 3/4
+
+Quando usar: Para pedir um criativo novo pelo número.
+
+Faça um criativo no estilo [número] para esta oferta: [2 linhas]. Público:
+[quem é]. Primeiro uma amostra curta de 5 a 15 segundos em 9:16. ANTES de
+executar, me mostre o PLANO. No fim, diga como eu confiro se respeita o
+estilo.
+
+>_ COLE NO CLAUDE CODE                           PROMPT 4/4
+
+Quando usar: Para misturar dois estilos ou deixar a Fábrica escolher.
+
+Misture o estilo [número] com o estilo [número] e crie um criativo novo para
+esta oferta: [2 linhas]. Diga em 3 linhas o que vem de cada um. Se eu não
+tiver escolhido, escolha o melhor estilo para este roteiro: [roteiro] e me
+explique o porquê. Antes, uma amostra curta de 5 a 15 segundos em 9:16, não
+o vídeo inteiro.
+
+04                                               → ✓ CERTO
+                                                          Checklist, lado a lado, aí guardar
+O QUE NÃO FAZER
+
+Guardar sem aprovar
+
+   ✕ ERRADO
+
+    Guardar o estilo direto da primeira amostra
+
+FCA · MÓDULO 10 · AULA 2                                                                      PÁGINA 4
+WORKBOOK · MÓDULO 10 · AULA 2    APROVAR E GUARDAR: O ESTILO ENTRA NO CATÁLOGO COM NÚMERO
+
+05
+
+SUA VEZ
+
+Pegue a amostra da aula anterior, aprove pelo checklist do diretor, guarde o estilo com número
+e peça um criativo novo por ele.
+
+01 Itens do checklist que passaram e os que voltaram
+
+02 Nome e número que o estilo ganhou
+
+03 Para quem ele serve e quando NÃO usar
+
+04 O pedido que fiz pelo número
+
+05 Se testei um Mix ou deixei a Fábrica escolher o estilo
+
+FCA · MÓDULO 10 · AULA 2                                   PÁGINA 5
+WORKBOOK · MÓDULO 10 · AULA 2  APROVAR E GUARDAR: O ESTILO ENTRA NO CATÁLOGO COM NÚMERO
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+     Passei o checklist do diretor (12 itens) e comparei lado a lado com a referência.
+
+     Não copiei texto, marca nem imagem do outro: aprendi só o estilo.
+
+     Só guardei o estilo depois de aprovar a amostra.
+
+     Procurei se já existia um estilo parecido no catálogo.
+
+     Guardei ficha e receita, e anotei o número do estilo.
+
+     Pedi um criativo novo pelo número, com amostra curta.
+
+     Testei misturar dois estilos ou deixei a Fábrica escolher.
+
+     Sei quando não modelar.
+
+07
+
+GLOSSÁRIO
+
+Ficha do estilo       Guarda tudo sobre o estilo (fonte, para quem serve, quando usar) para a
+                      Fábrica saber na próxima vez.
+
+Receita (skill)       As regras que refazem o estilo, criadas junto com o agente de forma
+                      automática.
+
+Número do estilo      O número que o estilo ganha em "Meus estilos" e que você usa para pedir de
+                      novo.
+
+Mix                   Pedir para misturar dois estilos, por exemplo o 12 com o 30, e criar um criativo
+
+                      novo.
+
+Checklist do diretor  Os 12 itens que você confere para aprovar a amostra, lado a lado com a
+                      referência.
+
+FCA · MÓDULO 10 · AULA 2                                                                   PÁGINA 6
+WORKBOOK · MÓDULO 10 · AULA 2        APROVAR E GUARDAR: O ESTILO ENTRA NO CATÁLOGO COM NÚMERO
+                                                                                          claude.com/download
+08
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+FIM DO WORKBOOK · MÓDULO 10 · AULA 2
+
+FCA · MÓDULO 10 · AULA 2                          PÁGINA 7
+

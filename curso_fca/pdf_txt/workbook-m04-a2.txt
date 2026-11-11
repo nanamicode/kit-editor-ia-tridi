@@ -1,0 +1,246 @@
+FÁBRICA DE CRIATIVOS                    Nº M04-A2
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 4 · AULA 2
+
+ANÚNCIO DE TOPO, MEIO E FUNDO DE FUNIL
+
+MEIO: MOSTRAR COMO
+FUNCIONA E PROVAR
+
+  4 CAPÍTULOS 3 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 O meio
+   01 Abertura
+   03 Como funciona e prova             4.2 04 Naprática
+                                                                              FCA · M04-A2
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 4 · AULA 2  MEIO: MOSTRAR COMO FUNCIONA E PROVAR
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+O meio do funil é onde estão as pessoas que já sentem o problema e já estão procurando, mas
+ainda não compram. Alguns compram, depende de como você estrutura o funil, mas a grande
+maioria precisa de mais informação e de acreditar que aquilo resolve o problema que tem.
+Enquanto o topo fala de um assunto mais amplo, com gancho forte, o meio mostra como
+funciona e traz uma prova (depoimento é top). O Lúcio lembra que isso é etapa do funil, não
+temperatura de tráfego (frio, morno, quente vem em outra aula). A estrutura são três
+movimentos: o problema dele, o sistema agindo (comando e resultado) e a prova, com blur nos
+dados das pessoas. No exemplo que ele mostrou, usou PAS (problema, agitação e solução) em
+vez de AIDA, e não repetiu o anúncio de topo para o mesmo público.
+
+IDEIA CENTRAL
+
+Quem procura quer ver funcionando: mostre como funciona e
+prove com algo real.
+
+02
+
+O QUE VOCÊ APRENDE
+
+ 01 Meio do funil: já sente o problema e procura
+
+                    São pessoas que já sentem o problema, muitas já procuram e algumas até podem
+                    comprar, mas a grande maioria ainda não. Ela precisa de mais informação e precisa
+                    acreditar que aquilo resolve o problema que tem.
+
+02  Topo versus meio
+
+    No topo você fala de um assunto mais amplo, que atrai a atenção, com um gancho
+    mais forte. No meio você mostra como aquilo funciona e traz uma prova. Se tiver
+    depoimento, é top. Atenção: isso é etapa do funil, não temperatura de tráfego (frio,
+    morno, quente é assunto de outra aula).
+
+FCA · MÓDULO 4 · AULA 2       PÁGINA 2
+WORKBOOK · MÓDULO 4 · AULA 2  MEIO: MOSTRAR COMO FUNCIONA E PROVAR
+
+03  Três movimentos: problema, sistema agindo e prova
+
+    Primeiro, fale do problema dele. Segundo, mostre o sistema agindo, com comando e
+    resultado: como o que você faz resolve aquele problema. Terceiro, a prova (depoimento,
+    número, dado real). No exemplo da aula: o gancho chama a atenção para o problema (o
+    aviso da Meta no gerenciador de eventos), depois vem o comando no Claude Code
+    instalando cada evento, e só então a prova.
+
+04  PAS no meio, em vez de AIDA
+
+    Quem está no meio já viu seu primeiro anúncio e já te conhece, só não comprou ainda.
+    Por isso, no exemplo, o Lúcio não usou o AIDA dos frameworks e sim o PAS: problema,
+    agitação e solução.
+
+05 Sem depoimento? Use um número real
+
+               A prova pode ser depoimento, mas se você não tem, dê um número que o público
+               reconheça. No exemplo, a qualidade dos eventos chegou a 9,3 na conta dele. É melhor
+
+               não inventar prova social: um dado real também funciona.
+
+06 Blur nos dados das pessoas
+
+               Em prova com print de WhatsApp, borre sempre os dados da pessoa, principalmente
+
+               por cima do telefone. Ele já viu problema com print de WhatsApp colocado em página
+               de vendas sem borrar.
+
+07  Não repetir o anúncio de topo
+
+    Botar o mesmo anúncio de topo para o mesmo público, sem ter mais anúncios, não se
+    deve fazer. O meio pede gancho novo, como funciona e prova real. Por isso um dos
+    segredos é ter uma máquina construindo criativos novos o tempo todo e alimentá-la
+    com os resultados (via API ou print) para ela entender o que mudar.
+
+FCA · MÓDULO 4 · AULA 2       PÁGINA 3
+WORKBOOK · MÓDULO 4 · AULA 2                                       MEIO: MOSTRAR COMO FUNCIONA E PROVAR
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/3
+
+Quando usar: Para criar o anúncio de meio a partir do seu anúncio de topo, no PAS (problema, agitação
+e solução).
+
+Este é o texto do meu anúncio de topo: [cole o texto]. Meu produto:
+[descreva em 1 linha]. Escreva um anúncio de MEIO para quem já viu o topo e
+já procura como resolver o problema, usando PAS (problema, agitação e
+solução). Gancho novo, diferente do topo, falando do problema dele. Depois
+mostre o sistema agindo em 3 passos (um comando e o resultado) e feche com
+uma prova real. Um CTA só. Antes de executar, me mostre o plano em passos
+curtos e espere meu OK. No final, diga como eu confiro que ficou certo.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/3
+
+Quando usar: Para achar a prova do meio quando você ainda não tem depoimento.
+
+Quero provar que meu produto funciona. O que tenho de material:
+[depoimentos, prints, números da minha conta]. Diga qual é a melhor prova
+para um anúncio de meio (depoimento ou um número real que meu público
+reconhece), o que preciso borrar (dados e telefone de pessoas) e se falta
+algo. Não invente nenhuma prova. Antes de executar, me mostre o plano em
+passos curtos e espere meu OK. No final, diga como eu confiro que ficou
+certo.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/3
+
+Quando usar: Para melhorar o próximo criativo com o resultado do anterior.
+
+Este é o criativo que rodei: [cole o texto ou descreva]. Este é o resultado
+dele na conta de anúncios: [cole os números ou anexe o print]. Diga o que
+devo mudar no próximo criativo de meio: gancho, o como funciona ou a prova.
+Não invente dados que eu não passei. Antes de executar, me mostre o plano em
+passos curtos e espere meu OK. No final, diga como eu confiro que ficou
+certo.
+
+FCA · MÓDULO 4 · AULA 2                                            PÁGINA 4
+WORKBOOK · MÓDULO 4 · AULA 2                                MEIO: MOSTRAR COMO FUNCIONA E PROVAR
+
+04                                          → ✓ CERTO
+                                                     Novo gancho, como funciona e prova real
+O QUE NÃO FAZER
+
+Repetir o anúncio de topo
+
+   ✕ ERRADO
+
+    Repetir o anúncio de topo para o mesmo
+    público
+
+05
+
+SUA VEZ
+
+Releia seu anúncio de topo (se ainda não tem, comece a pensar nele agora) e escreva o "como",
+ou seja, o mecanismo funcionando, em três passos. Depois anote a tela que prova. Se não tiver,
+peça ao Claude para fazer.
+
+    01 Passo 1, 2 e 3 do como (o mecanismo funcionando)
+
+02 A tela que prova (depoimento, número real ou dado, com blur nos dados das
+    pessoas)
+
+03 O gancho novo do meio, falando do problema dele (diferente do topo)
+
+FCA · MÓDULO 4 · AULA 2                                                       PÁGINA 5
+WORKBOOK · MÓDULO 4 · AULA 2                                  MEIO: MOSTRAR COMO FUNCIONA E PROVAR
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+      Escrevi o como em 3 passos (o mecanismo funcionando)
+
+      Falo do problema dele no gancho do meio
+
+      Mostro o sistema agindo, com comando e resultado
+
+      A prova é real (depoimento ou número real, nada inventado)
+
+      Borrei os dados das pessoas, principalmente o telefone
+
+      O gancho do meio é novo, diferente do topo
+
+      Não repito o mesmo anúncio de topo para o mesmo público
+
+07
+
+GLOSSÁRIO
+
+Meio do funil          Etapa em que a pessoa já sente o problema e procura, mas ainda precisa de
+                       informação e de acreditar que aquilo resolve.
+
+PAS                    Framework de copy: problema, agitação e solução. Usado no exemplo de meio
+                       em vez do AIDA.
+
+Sistema agindo         Mostrar o que você faz funcionando, com comando e resultado, para provar
+                       como resolve o problema.
+
+Blur                   Borrar os dados das pessoas (como o telefone) em prints de prova, como os
+                       de WhatsApp.
+
+Prova                  Depoimento ou, se não tiver, um número real que o público reconhece.
+
+Etapa do funil versus  Etapa (topo, meio, fundo) é onde a pessoa está na decisão; temperatura (frio,
+temperatura de         morno, quente) é outro assunto, de outra aula.
+tráfego
+
+FCA · MÓDULO 4 · AULA 2                                           PÁGINA 6
+WORKBOOK · MÓDULO 4 · AULA 2                      MEIO: MOSTRAR COMO FUNCIONA E PROVAR
+
+08                                                                  adsmanager.facebook.com
+                                                                  facebook.com/ads/library
+LINKS DA AULA
+
+↗ Gerenciador de Anúncios (só leitura)
+↗ Biblioteca de Anúncios da Meta
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 4 · AULA 2
+
+FCA · MÓDULO 4 · AULA 2                                       PÁGINA 7
+

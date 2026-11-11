@@ -1,0 +1,258 @@
+FÁBRICA DE CRIATIVOS                    Nº M08-A2
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 8 · AULA 2
+
+COMO INSTALAR E CONFIGURAR
+
+MODELO, PASTA
+E PRIMEIRO USO
+
+  4 CAPÍTULOS 4 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Modelo e economia
+   01 Abertura
+   03 Primeiro uso                      8.2 04 Conferir
+                                                                              FCA · M08-A2
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 8 · AULA 2  MODELO, PASTA E PRIMEIRO USO
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Nesta aula o Lúcio mostra como a interface do Claude funciona, qual modelo usar e como
+economizar a cota. Para roteiros e críticas, o Opus 5.5 (ou maior) resolve 99% dos casos, com
+esforço médio; o Fable só se for extremamente necessário e tarefas simples vão no Sonnet.
+Para economizar: uma conversa para cada criativo ou campanha e, ao chegar perto de 80% de
+contexto, abrir uma nova janela ou usar /compact. Depois ele explica a aba Code, a pasta de
+projeto, os modos de permissão (e por que não liberar tudo sem perguntar) e faz o primeiro
+teste no modo Manual. Fecha conferindo a instalação com /status e /doctor.
+
+IDEIA CENTRAL
+
+Trabalhe no Opus com esforço médio, uma conversa por
+criativo, abra o Code numa pasta de projeto e comece com
+permissão controlada.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Qual modelo usar
+
+    Para roteiros e críticas, fique no Opus 5.5 (ou maior, se já existir quando você assistir):
+    ele supre 99% dos casos. Para quem tem o plano Pro, Opus 5.5 com esforço médio.
+    Não trabalhe com Fable a não ser que seja extremamente necessário. Tarefas simples
+    vão no Sonnet. A Fábrica já tem gerenciamento de modelos: no modo plano, ela define
+    para cada tarefa o modelo mais adequado, que entrega qualidade e economiza.
+
+02 Uma conversa por criativo
+
+               Para economizar mais, use uma conversa para cada criativo ou campanha. Se a
+               campanha tem vários criativos, é uma conversa para ela toda. Faça tarefas menores,
+               em blocos menores.
+
+FCA · MÓDULO 8 · AULA 2                                   PÁGINA 2
+WORKBOOK · MÓDULO 8 · AULA 2  MODELO, PASTA E PRIMEIRO USO
+
+03  Contexto e /compact
+
+    Contexto é o tamanho da conversa em que você está, e toda IA é limitada a ele. A cada
+    tarefa o Claude precisa lembrar o que já fez, então o contexto só cresce. Passando de
+    80%, cada comando faz ele reler tudo de novo, e isso consome mais da sua conta. Ao
+    chegar perto de 80% (há um contador de contexto), abra uma nova janela ou use
+    /compact, que guarda só o essencial da conversa, reduz o tamanho e segue.
+
+04  Chat, Cowork e Code
+
+    Na interface do Claude há o Chat (conversa, como na versão web), o Cowork (para
+    automações) e o Code, que é o que usamos no curso. Nele você já vê seu plano e o uso.
+
+05  Projeto = pasta no computador
+
+    O Claude trabalha com projetos, e cada projeto é uma pasta do seu computador. Crie
+    uma pasta em Documentos e, dentro dela, uma pasta por projeto, produto ou cliente
+    (por exemplo, clientes e produtos). Sempre que for trabalhar naquele produto, abra
+    aquele projeto. Todos os arquivos do projeto ficam ali dentro.
+
+06  Modos de permissão
+
+    É a liberdade que você dá ao Claude no seu computador. Automático: ele gerencia as
+    decisões e só pergunta nas críticas. Manual: pergunta qualquer coisa. Aceitar edições:
+    aceita todas as edições sozinho, mas não faz coisas críticas. Plano: ele pensa mais,
+    propõe um plano de ação, você lê e aprova, e só então ele sai do modo plano para
+    executar. Planejar antes economiza, porque ele pensa melhor.
+
+07  Modo bypass ('vida louca')
+
+    Ignorar permissões vem desabilitado. Ativado, o Claude pode fazer qualquer coisa no
+    computador, como apagar os arquivos que quiser, e ele pode errar. Quem quiser ativar
+    vai em Configurações > Claude Code > Sessões > permitir o modo bypass. O Lúcio deixa
+    no Automático ou em Aceitar edições.
+
+FCA · MÓDULO 8 · AULA 2       PÁGINA 3
+WORKBOOK · MÓDULO 8 · AULA 2  MODELO, PASTA E PRIMEIRO USO
+
+08  Esforço e remote control
+
+    Além do modelo, o esforço define o quanto ele pode pensar. Para as tarefas do curso, o
+    médio é mais do que suficiente e não precisa alterar. O Remote Control deixa o Claude
+    trabalhando e você continua a conversa pelo celular, mas o computador precisa
+    continuar ligado e trabalhando.
+
+03                                                                         PROMPT 1/4
+                                                                           PROMPT 2/4
+PROMPTS PRONTOS                                                            PROMPT 3/4
+                                                                           PROMPT 4/4
+   >_ COLE NO CLAUDE CODE
+
+    Quando usar: Primeiro teste, no modo Manual, com a pasta aberta
+
+   O que tem nesta pasta?
+
+   >_ DIGITE NO CLAUDE CODE
+
+    Quando usar: Conferir a instalação: conta, modelo e status geral
+
+   /status
+
+   >_ DIGITE NO CLAUDE CODE
+
+    Quando usar: Diagnosticar problemas e receber sugestões de correção
+
+   /doctor
+
+   >_ DIGITE NO CLAUDE CODE
+
+    Quando usar: Enxugar uma conversa que chegou perto de 80% de contexto
+
+   /compact
+
+FCA · MÓDULO 8 · AULA 2                                                    PÁGINA 4
+WORKBOOK · MÓDULO 8 · AULA 2                             MODELO, PASTA E PRIMEIRO USO
+
+04
+
+SUA VEZ
+
+Crie uma pasta de projeto em Documentos, abra-a na aba Code, deixe o modo de permissão em
+Manual e rode o primeiro teste. Depois confira a instalação com /status e /doctor e olhe o
+contador de contexto.
+
+01 Qual pasta de projeto você criou e abriu no Code?
+
+02 Qual modelo e qual esforço estão selecionados?
+
+03 O que o Claude respondeu ao 'O que tem nesta pasta?'
+
+04 Quantos % de contexto o primeiro comando consumiu?
+
+05 O que o /status e o /doctor mostraram?
+
+FCA · MÓDULO 8 · AULA 2                                  PÁGINA 5
+WORKBOOK · MÓDULO 8 · AULA 2                                MODELO, PASTA E PRIMEIRO USO
+
+05
+
+ANTES DA PRÓXIMA AULA
+
+Pasta de projeto criada em Documentos e aberta na aba Code
+
+Modelo Opus 5.5 com esforço médio selecionado
+
+Modo de permissão conferido (Manual no primeiro teste)
+
+Teste 'O que tem nesta pasta?' respondido
+
+Contador de contexto localizado
+
+Regra anotada: uma conversa por criativo; perto de 80%, nova janela ou /compact
+
+/status rodado
+
+/doctor rodado e sem problemas pendentes
+
+06
+
+GLOSSÁRIO
+
+Contexto        Tamanho da conversa em que você está; toda IA tem limite, e quanto maior,
+                mais ela relê e mais consome da sua conta.
+
+/compact        Comando que reduz a conversa ao essencial para você continuar sem abrir
+                outra janela.
+
+Esforço         Quanto o modelo pode pensar e se esforçar além da escolha do modelo; o
+                médio basta no curso.
+
+Modo plano      Modo em que o Claude propõe um plano de ação para você aprovar antes de
+                executar.
+
+Modo bypass     Ignora as permissões e deixa o Claude fazer qualquer coisa no computador; o
+                'vida louca', desabilitado por padrão.
+
+Remote Control  Recurso que permite continuar a conversa pelo celular enquanto o computador
+                segue trabalhando.
+
+/status         Comando que mostra as informações gerais da sua instalação.
+
+FCA · MÓDULO 8 · AULA 2                                                          PÁGINA 6
+WORKBOOK · MÓDULO 8 · AULA 2                      MODELO, PASTA E PRIMEIRO USO
+
+/doctor  Comando que analisa a instalação, aponta problemas e sugere correções.
+
+07
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude (Mac e Windows)                                                    claude.com/download
+
+↗ Sistema da Fábrica: fca-sistema.zip +           drive.google.com/drive/folders/1xE1OACdDqMbNN43
+                                                                                               BCKPqp9B6YFqRrhHL
+manual de instalação
+
+↗ Pacotes que o /fca-instalar baixa (se           drive.google.com/drive/folders/1Q6yUiQMR5BZBfF
+                                                                                            zf5_5KLdi4jFaquHfh
+precisar baixar à mão)
+
+↗ Guias em PDF (instalação, erros         drive.google.com/drive/folders/1KiRF1BB9v4fYJriCSf
+                                                                                                NV5IaZU9q_cWEw
+comuns, add-ons)
+
+↗ Claude no Chrome                                                     claude.com/chrome
+↗ Instalação (docs)                                  code.claude.com/docs/en/setup
+↗ Extensão do VS Code (docs)                      code.claude.com/docs/en/vs-code
+↗ Skills (docs)                                    code.claude.com/docs/en/skills
+↗ Git for Windows
+                                                            git-scm.com/download/win
+
+08
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+FCA · MÓDULO 8 · AULA 2                           PÁGINA 7
+WORKBOOK · MÓDULO 8 · AULA 2                                MODELO, PASTA E PRIMEIRO USO
+                                              checkout.safe.lucioartes.com/42750161
+↗ 3 · Missão Claude Tracking: o trackeamento
+
+                         FIM DO WORKBOOK · MÓDULO 8 · AULA 2
+
+FCA · MÓDULO 8 · AULA 2                                       PÁGINA 8
+

@@ -1,0 +1,361 @@
+FÁBRICA DE CRIATIVOS                            Nº M06-A1
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 6 · AULA 1
+
+FERRAMENTAS, APIS E CUSTOS (BÁSICO × AVANÇADO)
+
+MODO BÁSICO: SÓ A
+ASSINATURA E O MOTOR
+
+  4 CAPÍTULOS 3 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 O modo básico e o motor
+   01 Abertura
+   03 Básico × avançado                 6.1 04 Naprática
+                                                                              FCA · M06-A1
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 6 · AULA 1  MODO BÁSICO: SÓ A ASSINATURA E O MOTOR
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Neste módulo o Lúcio explica o setup: o que você precisa ter para começar a produzir. Existem
+dois setups, o básico (free) e o avançado. No básico você usa ferramentas sem custo, e o único
+custo obrigatório é a assinatura do Claude, no mínimo o Pro, porque o plano gratuito não tem
+Claude Code. Nesta aula ele mostra a assinatura e o motor, ou seja, quem monta o quê por
+baixo: as skills Remotion e HyperFrames, o FFmpeg e a transcrição local. Ele mostra também a
+voz do básico (VoiceStudio), o acervo de presente e a diferença entre básico e avançado. A aula
+fecha com um vídeo feito 100% no plano Pro, sem nenhuma chave de API ligada. Voz, imagem
+e vídeo com mais detalhe ficam para a próxima aula.
+
+IDEIA CENTRAL
+
+Comece no básico, só com a assinatura do Claude, faça seus
+primeiros vídeos e suba uma ferramenta por vez, só quando
+sentir necessidade.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Um custo obrigatório: a assinatura do Claude
+
+    Você não foge de pelo menos um custo: a assinatura do Claude. O Claude Code não
+    funciona no plano gratuito, então o mínimo é o Pro (valor de referência citado na aula:
+    cerca de R$ 110; confira em claude.com/pricing). O Max serve para quem produz muito.
+    O que muda entre os planos é a quantidade de trabalho que você executa num período
+    de tempo. Todo o resto é opcional.
+
+02  Janela de 5 horas e limites
+
+    A janela de 5 horas começa a contar no seu primeiro comando. Digamos que você ligou
+    o computador ao meio-dia e deu o primeiro comando: dali começa a janela. Uma
+    barrinha vai enchendo conforme o uso. Se ela encher antes de a janela acabar, você
+    espera, e quando a janela termina o limite recarrega. Também existem limites semanais
+    e mensais. É a janela de 5 horas que muda de um plano para outro.
+
+FCA · MÓDULO 6 · AULA 1       PÁGINA 2
+WORKBOOK · MÓDULO 6 · AULA 1  MODO BÁSICO: SÓ A ASSINATURA E O MOTOR
+
+03  Quem monta o quê: Remotion e HyperFrames
+
+    São duas skills que você instala no Claude e que montam o vídeo. As duas editam vídeo
+    e fazem motion design, com coisas parecidas, mas cada uma é melhor em um aspecto,
+    por isso você precisa das duas. O Lúcio criou uma skill que pega o seu projeto e usa as
+    duas para entregar o melhor vídeo possível. O instalador já traz tudo. Se der problema e
+    você precisar instalar uma ferramenta à mão, copie o link do workbook, cole no Claude
+    e mande ele instalar.
+
+04  FFmpeg e transcrição local: como a IA entende um vídeo
+
+    O FFmpeg corta e edita vídeos e gera frames, porque a IA não assiste ao vídeo
+    passando: ela vê uma sequência de fotos. A transcrição roda no seu computador e, na
+    skill, além de transcrever ela legenda, com o tempo de cada fala. Com isso a IA pega
+    uma palavra dita no segundo tal e tira uma foto da tela naquele instante. Juntando as
+    duas coisas, ela entende o que a pessoa fala e o que está mostrando na tela.
+
+05  A fábrica escolhe o motor e você roda um render por vez
+
+    Seja Remotion ou HyperFrames, a fábrica já sabe qual é o melhor para o vídeo que você
+    vai fazer. A dica do Lúcio é não tentar fazer vários vídeos de uma vez. O render
+    consome a GPU (a placa de vídeo): quanto mais potente, mais rápido o vídeo sai, e
+    vários ao mesmo tempo deixam o computador lento. Ele colocou um limitador que
+    avisa que é melhor esperar.
+
+06  A voz do básico: VoiceStudio
+
+    No setup gratuito a voz é o VoiceStudio, que funciona como o ElevenLabs, mas você
+    baixa e instala no seu computador. Ele clona a sua voz ou usa outras vozes. A
+    diferença: o ElevenLabs é pago e, na versão v4, o Lúcio acha os áudios muito
+    superiores; a voz do VoiceStudio sai mais abafada, mas funciona bem. A
+    recomendação de máquina é Mac com chip Apple e 16 GB, ou placa NVIDIA de 8 GB
+    (Windows também funciona). O instalador identifica o seu computador. Se a sua voz
+    não ficar boa, use o ElevenLabs, que é só conectar e pagar a partir de 10 dólares.
+
+FCA · MÓDULO 6 · AULA 1       PÁGINA 3
+WORKBOOK · MÓDULO 6 · AULA 1                          MODO BÁSICO: SÓ A ASSINATURA E O MOTOR
+
+07          Tudo do motor básico e o acervo de presente
+
+            No básico você tem o Claude, as skills, Node.js, Python e Git, e o instalador cuida de
+            tudo. Você também recebe de presente um acervo com músicas, áudios, transições,
+            sons e imagens já liberados. Ele vem por um link do Drive, que o Claude acessa para
+            pegar o material, sem precisar de nenhuma API externa.
+
+08          Básico × avançado
+
+            No básico tudo roda no seu computador e você só precisa da assinatura: dá para fazer
+            roteiro, copy e o vídeo. Para B-rolls (os vídeos de apoio) dá para usar um banco de
+            imagens gratuito, como o Pexels. O avançado é opcional, um modo turbo: voz clonada
+            mais perfeita, imagem e vídeo por IA mais aperfeiçoados, animações mais complexas e
+            avatar de IA. Para esses casos você conecta uma ferramenta externa ao Claude. O
+            Lúcio usa só o Claude conectado a várias ferramentas e, a cada tipo de vídeo, uma
+            configuração. O erro comum é achar que precisa de tudo.
+
+03
+
+COMANDOS DE INSTALAÇÃO · MAC
+
+O instalador já faz tudo isto por você. Se quiser fazer à mão, abra o Terminal e rode um comando por
+vez, na ordem.
+
+Ferramenta                    Instalar (Terminal)                          Conferir se está pronta
+
+Git e Python (ferramentas da  xcode-select --install                       git --version · python3
+Apple)                                                                     --version
+
+Homebrew (instala o ffmpeg)   /bin/bash -c "$(curl -fsSL https://raw.git   brew --version
+                              hubusercontent.com/Homebrew/install/HEAD/in
+                              stall.sh)"
+
+Node.js LTS (motor do         brew install node                            node -v · npm -v
+Remotion e do HyperFrames)
+
+ffmpeg (corta, junta, ajusta  brew install ffmpeg                          ffmpeg -version
+volume)
+
+Ambiente Python da Fábrica    python3 -m venv ~/.fabrica-de-criativos/ve a pasta ~/.fabrica-de-cri
+
+                              nv                                           ativos/venv existe
+
+faster-whisper (transcrição)  ~/.fabrica-de-criativos/venv/bin/python -m   ~/.fabrica-de-criativos/
+e yt-dlp (baixa referência)   pip install faster-whisper "av<19" yt-dlp    venv/bin/yt-dlp --versio
+                                                                           n
+
+Remotion (monta o vídeo)      cd ~/Fabrica-de-Criativos/kit && npm insta   npm run studio (abre o
+                              ll
+                                                                           Remotion Studio no
+                                                                           navegador)
+
+HyperFrames (motion curto) npx --yes hyperframes --version                 aparece o número da versão
+
+FCA · MÓDULO 6 · AULA 1                                                                      PÁGINA 4
+WORKBOOK · MÓDULO 6 · AULA 1                                   MODO BÁSICO: SÓ A ASSINATURA E O MOTOR
+
+Ferramenta               Instalar (Terminal)                           Conferir se está pronta
+
+VoiceStudio (voz local,  bash ferramentas/voz-local.sh --instalar      bash ferramentas/voz-loc
+opcional)                                                              al.sh --verificar
+                         (dentro da pasta Fabrica-de-Criativos)
+
+O /fca-instalar já faz tudo isto sozinho. Estes comandos são só para você conhecer o que ele faz, conferir uma
+ferramenta ou consertar uma que falhou. Na dúvida, digite /fca-doutor no app do Claude e deixe ele dizer o que falta.
+
+DEPOIS DE INSTALAR, CONFERIR TUDO DE UMA VEZ
+
+ 1. No app do Claude, aberto na pasta Fabrica-de-Criativos, digite /fca-doutor.
+ 2. Ou, no Terminal, dentro da pasta: python3 ferramentas/fca.py doutor
+ 3. Tudo marcado como OK = pronto para criar. O que faltar, ele diz como resolver.
+
+04
+
+COMANDOS DE INSTALAÇÃO · WINDOWS
+
+O instalador já faz tudo isto por você. Se quiser fazer à mão, abra o PowerShell e rode um comando por
+vez, na ordem.
+
+Ferramenta       Instalar (PowerShell)                                  Conferir se está
+                                                                        pronta
+
+Git for Windows          winget install -e --id Git.Git                 git --version
+
+Node.js LTS              winget install -e --id OpenJS.NodeJS.LTS       node -v · npm -v
+
+ffmpeg                   winget install -e --id Gyan.FFmpeg             ffmpeg -version
+
+yt-dlp                   winget install -e --id yt-dlp.yt-dlp           yt-dlp --version
+
+Python 3.12              winget install -e --id Python.Python.3.12      py -3.12 --version
+
+Ambiente Python          py -3.12 -m venv "$env:USERPROFILE\.fabrica-de-criati a pasta .fabrica-de-cr
+da Fábrica
+                 vos\venv"                                              iativos\venv existe
+
+faster-whisper   & "$env:USERPROFILE\.fabrica-de-criativos\venv\Script o comando termina sem
+(transcrição)    s\python.exe" -m pip install faster-whisper "av<19" erro
+
+Remotion         cd "$env:USERPROFILE\Fabrica-de-Criativos\kit"; npm i  npm run studio
+                 nstall
+
+HyperFrames              npx --yes hyperframes --version                aparece o número da
+                                                                        versão
+
+VoiceStudio      ferramentas\voz-local.ps1 -Instalar (dentro da pasta   ferramentas\voz-loca
+(opcional)                                                              l.ps1 -Verificar
+                 Fabrica-de-Criativos)
+
+Feche e abra o PowerShell depois de cada winget, para ele enxergar o programa novo. O /fca-instalar já faz tudo isto
+sozinho. Estes comandos são só para você conhecer o que ele faz, conferir uma ferramenta ou consertar uma que
+falhou. Na dúvida, digite /fca-doutor no app do Claude e deixe ele dizer o que falta.
+
+FCA · MÓDULO 6 · AULA 1                                                                PÁGINA 5
+WORKBOOK · MÓDULO 6 · AULA 1              MODO BÁSICO: SÓ A ASSINATURA E O MOTOR
+
+05
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/3
+
+Quando usar: Para instalar à mão uma ferramenta que o instalador não conseguiu instalar.
+
+Instale esta ferramenta para mim a partir deste link: [cole o link do
+workbook]. Quando terminar, me diga como eu verifico que ela está
+funcionando.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/3
+
+Quando usar: Para confirmar que o seu criativo não usou nada pago além da assinatura.
+
+Liste todas as ferramentas, vozes e arquivos que foram usados para fazer
+este criativo e confirme que nenhuma chave de API paga foi necessária. Diga
+como eu verifico.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/3
+
+Quando usar: Para ver qual motor a fábrica escolheria antes de gerar o vídeo.
+
+Para um criativo de [duração] segundos, [só animação de texto e gráfico /
+com pessoa falando], diga qual motor você usaria, Remotion ou HyperFrames, e
+por quê, em 2 linhas. Não gere o vídeo ainda. Diga como eu verifico a
+escolha.
+
+06                                        → ✓ CERTO
+                                                   Começar no básico, subir 1 por vez
+O QUE NÃO FAZER
+
+Achar que precisa de tudo
+
+   ✕ ERRADO
+
+    Ligar todas as APIs antes de começar
+
+FCA · MÓDULO 6 · AULA 1                                                                   PÁGINA 6
+WORKBOOK · MÓDULO 6 · AULA 1  MODO BÁSICO: SÓ A ASSINATURA E O MOTOR
+
+07
+
+SUA VEZ
+
+Faça o inventário do seu ponto de partida: o que você já consegue fazer só com a assinatura do
+Claude e o que, se um dia sentir falta, você ligaria primeiro, uma ferramenta por vez.
+
+01 Meu plano do Claude hoje (e se o Pro basta para o meu ritmo)
+
+02 Se o meu computador aguenta o VoiceStudio (ou se eu usaria o ElevenLabs)
+
+03 Um criativo que eu já consigo fazer no modo básico
+
+04 A primeira ferramenta do avançado que eu consideraria (e por quê)
+
+08
+
+ANTES DA PRÓXIMA AULA
+
+       Sei que a assinatura do Claude é o único custo obrigatório e que o plano gratuito não tem Claude
+       Code.
+
+       Entendi a janela de 5 horas e que existem limites semanais e mensais.
+
+FCA · MÓDULO 6 · AULA 1                                                      PÁGINA 7
+WORKBOOK · MÓDULO 6 · AULA 1  MODO BÁSICO: SÓ A ASSINATURA E O MOTOR
+
+Sei que o Remotion e o HyperFrames montam o vídeo e que a fábrica escolhe qual usar.
+
+Entendi como a IA entende um vídeo: transcrição com tempo de cada fala mais frames da tela.
+
+Vou rodar um render por vez para não travar o computador.
+
+Sei que o VoiceStudio é a voz do básico e que o ElevenLabs é o plano B se a minha voz não ficar
+boa.
+
+Sei que o acervo de sons, músicas e transições vem de presente por um link do Drive.
+
+Decidi começar no básico e subir uma ferramenta por vez.
+
+09
+
+GLOSSÁRIO
+
+Setup              O que você precisa ter instalado e assinado para começar a produzir.
+
+Modo básico        Produzir só com a assinatura do Claude e ferramentas que rodam no seu
+                   computador, sem chave de API.
+
+Modo avançado      Modo turbo opcional: ferramentas externas conectadas ao Claude, ligadas
+                   uma por vez.
+
+Janela de 5 horas  Período, contado a partir do seu primeiro comando, em que o uso da
+                   assinatura tem um limite; depois ele recarrega.
+
+Remotion e         As duas skills que montam o vídeo e fazem motion design; cada uma é melhor
+HyperFrames        em um aspecto.
+
+Render             A geração do arquivo final do vídeo; consome a GPU, por isso rode um por vez.
+
+VoiceStudio        Voz que roda no seu computador, clona a sua voz e é a voz do modo básico.
+
+B-roll             Vídeos de apoio que cobrem a fala; dá para pegar em bancos de imagens
+                   gratuitos, como o Pexels.
+
+FCA · MÓDULO 6 · AULA 1                                                                  PÁGINA 8
+WORKBOOK · MÓDULO 6 · AULA 1                      MODO BÁSICO: SÓ A ASSINATURA E O MOTOR
+
+10                                                                            claude.com/pricing
+                                                                            claude.com/download
+LINKS DA AULA
+                                                                                          pexels.com
+↗ Planos do Claude
+↗ Baixar o app do Claude
+↗ Pexels (banco de imagens e vídeos gratuito)
+
+11
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 6 · AULA 1
+
+FCA · MÓDULO 6 · AULA 1                                       PÁGINA 9
+

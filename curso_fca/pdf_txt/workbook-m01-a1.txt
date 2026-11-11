@@ -1,0 +1,223 @@
+FÁBRICA DE CRIATIVOS                                          Nº M01-A1
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 1 · AULA 1
+
+APRESENTAÇÃO E QUEM SOU
+
+BOAS-VINDAS
+À FÁBRICA
+
+  3 CAPÍTULOS 2 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 O que é a Fábrica
+   01 Abertura
+   03 Como assistir                                           1.1
+                                                                 FCA · M01-A1
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 1 · AULA 1  BOAS-VINDAS À FÁBRICA
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+A Fábrica de Criativos Automáticos não é um software nem um pacote de skills. É um
+ecossistema de criação de anúncios que vendem, com 15 anos de experiência do Lúcio e o
+DNA de vários especialistas empacotados dentro. Ele grava um treinamento para acompanhar
+o pacote, porque só entregar skills ou software não gera criativos tão bons quanto os dele.
+Você aprende a ser o orquestrador e o diretor da IA, e a IA executa: escreve a copy, faz o roteiro,
+narra e edita. Você leva três coisas: a Fábrica (o sistema já treinado, instalado no seu Claude
+Code), o curso e o Acervo. O único custo obrigatório é a assinatura do Claude. Assista na
+ordem, aula por aula.
+
+IDEIA CENTRAL
+
+Todo anúncio morre; a Fábrica, junto com o treinamento que
+te faz orquestrador da IA, serve para você ter sempre o
+próximo criativo pronto para subir.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Todo anúncio morre
+
+    Não fique tentando entender por que o anúncio parou de vender. Quando o Meta
+    (algoritmo Andromeda) entende a semântica do criativo, ele o distribui no sistema
+    interno e o resultado se repete. Trocar cor de camisa ou de cenário não adianta mais.
+    Um criativo novo tem de trazer um sentido novo, e é por isso que o próximo precisa
+    estar sempre pronto.
+
+02  O que a Fábrica é e o que não é
+
+    Não é um software nem um pacote de skills. É um ecossistema de criação de anúncios
+    que vendem. Nele estão empacotados os 15 anos de experiência do Lúcio e o DNA de
+    especialistas do Brasil e de fora, de várias áreas, não só de criativo.
+
+FCA · MÓDULO 1 · AULA 1       PÁGINA 2
+WORKBOOK · MÓDULO 1 · AULA 1  BOAS-VINDAS À FÁBRICA
+
+03  Você é o orquestrador, a IA é a executora
+
+    A Fábrica escreve a copy, faz o roteiro, narra e edita. Você não precisa saber copy, narrar
+    nem editar. Você traz o link da página, textos, perfil do Instagram, imagens e vídeos, e
+    dá os comandos do jeito que o treinamento ensina. Sem seguir o que ele ensina, o
+    resultado não fica tão bom.
+
+04  Contexto é o que separa os resultados
+
+    A IA depende de contexto. Com a mesma skill e o mesmo pedido, duas pessoas têm
+    resultados diferentes, porque o contexto é diferente. O treinamento entrega esse
+    contexto junto com a ferramenta: os frameworks de criativo, como as skills funcionam
+    e o que pedir.
+
+05  Pago e orgânico
+
+    As skills foram feitas para conteúdo pago, mas nada impede de sair o orgânico. A
+    Fábrica sempre pergunta se você quer só o anúncio ou também o orgânico. O mesmo
+    comando pode virar um conteúdo para ganhar seguidores e curtidas no seu perfil. Às
+    vezes o que muda é só o CTA.
+
+06  As três coisas que você leva
+
+    1) A Fábrica: o sistema já treinado, instalado no seu Claude Code, com o passo a passo
+    para operar. 2) O curso, que o Lúcio diz ser o mais importante, mais até que a
+    ferramenta. 3) O Acervo: vídeos, imagens, músicas e sound effects (assets e bureaus)
+    que ele já criou. Você também aprende a conectar bancos de imagem e de áudio para
+    ter mais.
+
+07  Custo e como assistir
+
+    O único custo obrigatório é a assinatura do Claude Code. Comece pelo plano Pro.
+    Quanto maior o plano, mais você produz dentro da janela de 5 horas, e isso é explicado
+    mais adiante. Foque em extrair o máximo de uma ferramenta antes de assinar outras.
+    Assista na ordem, os módulos de preparação primeiro, e pergunte na plataforma se
+    travar.
+
+FCA · MÓDULO 1 · AULA 1       PÁGINA 3
+WORKBOOK · MÓDULO 1 · AULA 1                                       BOAS-VINDAS À FÁBRICA
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/2
+
+Quando usar: Logo depois desta aula, para o Claude entender o que você vende antes de qualquer
+criativo (o contexto de que o Lúcio fala).
+
+Quero me preparar para criar anúncios que vendem usando a Fábrica. Meu
+produto ou serviço: [descreva em 2 linhas]. Meu público: [quem compra]. Link
+da minha página: [cole o link]. Meu perfil no Instagram: [@perfil]. Hoje eu
+faço anúncio assim: [como faz hoje, ou "ainda não faço"]. Liste o que você
+precisa saber de mim para criar meu primeiro criativo, e me pergunte se eu
+quero só o anúncio pago ou também a versão orgânica. Antes de executar, me
+mostre o plano em passos curtos e espere meu OK. No final, diga como eu
+confiro que ficou certo.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/2
+
+Quando usar: Para medir o seu gargalo de criativo hoje.
+
+Vou te contar como produzo anúncios hoje: [quantos por semana, quem edita,
+quanto custa, onde trava]. Diga qual é o meu maior gargalo para ter sempre o
+próximo criativo pronto e o que eu deveria aprender primeiro para virar o
+orquestrador do processo. Antes de executar, me mostre o plano em passos
+curtos e espere meu OK. No final, diga como eu confiro que ficou certo.
+
+04
+
+SUA VEZ
+
+Escreva em poucas linhas o seu ponto de partida. Mais adiante no curso, compare com o que a
+Fábrica entregar para você.
+
+    01 Meu produto ou serviço em 1 frase
+
+FCA · MÓDULO 1 · AULA 1                                            PÁGINA 4
+WORKBOOK · MÓDULO 1 · AULA 1                   BOAS-VINDAS À FÁBRICA
+
+02 Como faço meus anúncios hoje (quem escreve, quem edita, onde trava)
+
+03 O que eu espero que a Fábrica faça por mim
+
+04 Que material já tenho para dar de contexto (link da página, textos, perfil do
+    Instagram, imagens, vídeos)
+
+05
+
+ANTES DA PRÓXIMA AULA
+
+       Entendi que todo anúncio morre e que preciso ter o próximo criativo pronto
+       Sei que a Fábrica é um ecossistema de criação, não um software nem um pacote de skills
+       Sei que meu papel é orquestrar e dirigir a IA, e que a IA executa
+       Sei as 3 coisas que levo: a Fábrica, o curso e o Acervo
+       Sei que a Fábrica entrega pago e orgânico, e que ela pergunta qual eu quero
+       Sei que o único custo obrigatório é a assinatura do Claude Code, começando pelo plano Pro
+       Vou assistir na ordem, aula por aula, antes de meter a mão na massa
+       Sei que, se travar, posso perguntar na plataforma
+
+FCA · MÓDULO 1 · AULA 1                                                           PÁGINA 5
+WORKBOOK · MÓDULO 1 · AULA 1                      BOAS-VINDAS À FÁBRICA
+
+06
+
+GLOSSÁRIO
+
+Fábrica       O sistema já treinado, instalado no seu Claude Code, que escreve a copy, faz o
+              roteiro, narra e edita os criativos.
+
+Orquestrador  Quem dirige a IA: traz o contexto e dá os comandos certos, enquanto a IA
+              executa.
+
+DNA           O conhecimento prático e teórico de especialistas, extraído e empacotado
+              dentro da Fábrica.
+
+Acervo        Biblioteca de vídeos, imagens, músicas e sound effects (assets e bureaus) que
+              o Lúcio já criou, para você usar nas suas peças.
+
+Contexto      Tudo o que a IA precisa saber sobre você e sua oferta (link, textos, perfil,
+              imagens, vídeos). É ele que faz o mesmo pedido gerar resultados diferentes.
+
+CTA           A chamada para ação no fim do criativo. Entre o pago e o orgânico, às vezes é
+              só ele que muda.
+
+Criativo      A peça do anúncio: vídeo ou imagem, com texto e chamada.
+
+07                                                claude.com/download
+                                                   claude.com/pricing
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+↗ Planos do Claude
+
+08
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+FCA · MÓDULO 1 · AULA 1                                                 PÁGINA 6
+WORKBOOK · MÓDULO 1 · AULA 1                                         BOAS-VINDAS À FÁBRICA
+                                                       seguro.lucioartes.com/OA65829EA
+↗ 2 · Super Públicos: a segmentação           checkout.safe.lucioartes.com/42750161
+↗ 3 · Missão Claude Tracking: o trackeamento
+
+                         FIM DO WORKBOOK · MÓDULO 1 · AULA 1
+
+FCA · MÓDULO 1 · AULA 1                                       PÁGINA 7
+

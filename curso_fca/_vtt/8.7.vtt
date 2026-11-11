@@ -1,0 +1,341 @@
+WEBVTT
+
+1
+00:00:00.096 --> 00:00:02.912
+Vamos nessa, vamos continuar aqui. Vou mostrar aqui rapidinho pra vocês
+
+2
+00:00:02.912 --> 00:00:07.200
+a extensão do Google Chrome, tá? E como usar também no VS Code se você quiser
+
+3
+00:00:07.200 --> 00:00:13.488
+usar o Claude no VS Code, tá? Então é o seguinte, o Chrome, pra que serve a extensão do Chrome?
+
+4
+00:00:13.488 --> 00:00:16.320
+Quando ele tá conectado na mesma conta que a sua conta do Claude,
+
+5
+00:00:16.320 --> 00:00:21.472
+o que ele não consegue fazer via API ali, etc., ele abre o navegador e faz, tipo, pra você ter uma ideia,
+
+6
+00:00:21.472 --> 00:00:25.888
+hoje eu crio meus produtos digitais, como isso que você tá assistindo, tudo dentro do Claude,
+
+7
+00:00:28.736 --> 00:00:34.272
+aqui gravado com OBS, mas quem criou tudo isso aqui foi o Claude, só que quando eu quero criar o meu
+
+8
+00:00:34.272 --> 00:00:39.008
+produto lá dentro da área de membros para você ter noção, quando eu acabo de gravar essa aula aqui
+
+9
+00:00:39.008 --> 00:00:46.688
+que eu estou dando para você, o Claude pega, edita, faz os cortes, abre a minha área de membros, se
+
+10
+00:00:46.688 --> 00:00:53.568
+conecta a minha conta, cria as capas dos módulos e sobe as aulas. Como é que ele faz isso? Se a
+
+11
+00:00:53.568 --> 00:00:59.072
+plataforma tiver conexão por API, ele faz via API, mas essas plataformas de vendas de produtos digitais
+
+12
+00:00:59.072 --> 00:01:05.024
+não tem API, como é que se faz então? Ou eu vou fazer manualmente, fazendo login sem aí lá cadastrando
+
+13
+00:01:05.024 --> 00:01:11.328
+manualmente todos os produtos, sabe aquela descrição que você vê nesta aula? Inclusive, abaixo está
+
+14
+00:01:11.328 --> 00:01:18.016
+o workbook dessa aula? Eu não fiz ainda esse workbook. Quando eu acabar essa aula aqui, o Claude
+
+15
+00:01:18.016 --> 00:01:24.224
+vai assistir a aula, transcrever a aula, fazer os cortes, edições, pegar o conteúdo, gerar o
+
+16
+00:01:24.224 --> 00:01:28.928
+workbook, porque eu já dei instrução a ele, quando ele pegar tudo isso, ele vai gerar as imagens que
+
+17
+00:01:28.928 --> 00:01:34.464
+representam a aula que eu dei, vai se conectar lá na minha conta, lá no meu processador de pagamento,
+
+18
+00:01:34.464 --> 00:01:40.928
+vai se conectar lá na área de membros, vai criar o módulo, vai escrever o nome da aula, vai subir a
+
+19
+00:01:40.928 --> 00:01:46.368
+capa, vai pegar o vídeo, fazer o upload, salvar e deixar disponível para você. Como é que ele faz
+
+20
+00:01:46.368 --> 00:01:52.096
+isso? Ou por API ou pelo navegador, se você tiver com a intenção do Claude, porque ele vai logar na
+
+21
+00:01:52.096 --> 00:01:58.624
+sua conta por login e senha, vai entrar e vai fazer tudo. Isso abre um mundo de possibilidades. Tudo
+
+22
+00:01:58.624 --> 00:02:03.264
+que você pensar em fazer, o Claude hoje te ajuda, seja por API, seja por linha de comando ou abrir
+
+23
+00:02:03.264 --> 00:02:09.120
+do navegador. Então, meu amigo e minha amiga, abra a sua mente para o que está acontecendo hoje, tá?
+
+24
+00:02:09.120 --> 00:02:14.528
+Então, a extensão do Claude é simples, eu já te mostrei lá como é que você encontra ela, mas se
+
+25
+00:02:14.528 --> 00:02:19.680
+você instalou ainda, primeiro instala o Google Chrome, tá? E depois instala a extensão. Então,
+
+26
+00:02:19.680 --> 00:02:27.776
+não tem mistério, é só colocar Claude Extensão, ele vai cair aqui, pode ser na Chrome Web Store ou lá
+
+27
+00:02:27.776 --> 00:02:34.240
+no site do Claude mesmo, tá aqui. Você vai clicar em adicionar o seu, o meu já está adicionado, tá?
+
+28
+00:02:34.240 --> 00:02:39.552
+Já está adicionado, beleza? E aí agora o Cell Limit, porque você tem uma ideia, ele tá aqui,
+
+29
+00:02:39.552 --> 00:02:45.472
+aí você vai conectar na sua conta, tá? O meu já está conectado à minha conta, porque a extensão
+
+30
+00:02:45.472 --> 00:02:50.848
+do Claude automatiza qualquer coisa no Google Chrome. Só que quando você tem o Claude Code
+
+31
+00:02:50.848 --> 00:02:56.736
+instalado no computador, onde esse navegador está, eles se comunicam diretamente e aí você vê,
+
+32
+00:02:56.736 --> 00:03:02.144
+você pode fazer qualquer coisa. Já já eu volto a ele, tá? É muito simples para instalar, você viu
+
+33
+00:03:02.144 --> 00:03:05.696
+aí, eu já fiz todos os espaços, você não precisa se preocupar, não tem nenhum mistério para fazer
+
+34
+00:03:05.696 --> 00:03:12.480
+isso, tá? Lê uma página de vendas. Olha só, eu vou pegar uma página de vendas minha aqui, vou pegar
+
+35
+00:03:12.480 --> 00:03:23.360
+aqui essa FCA, vou pegar a fábrica, não vou botar aqui o link certo. Ó, vou pegar aqui o link certo,
+
+36
+00:03:23.360 --> 00:03:29.608
+o VSL. Tem essa página aqui de VSL, beleza? Que é um vídeo, mas eu também tenho outra página de outro
+
+37
+00:03:29.608 --> 00:03:39.528
+que é, vou botar aqui, de texto, ok? Se eu quiser agora que o Claude leia essa página, ele pode
+
+38
+00:03:39.528 --> 00:03:45.216
+fazer isso de diversas formas. Ele pode fazer isso, deixa eu abrir ele aqui, ele pode fazer isso lendo
+
+39
+00:03:45.216 --> 00:03:52.280
+ele, ele pode fazer de um monte de coisa. Olha o que eu vou falar para ele, entenda a oferta nessas duas
+
+40
+00:03:52.280 --> 00:03:58.424
+páginas. Vou botar lá. O que que ele vai fazer? Ele pode acessar, se eu quiser, vou de aqui, navegue,
+
+41
+00:03:58.576 --> 00:04:04.848
+ele pode acessar. Você vai ver aqui que o Chrome vai ficar com a abazinha. E isso você não precisa
+
+42
+00:04:04.848 --> 00:04:09.136
+estar com o Chrome em primeiro plano, tá? Existe um homem que paga um desconhecido para escolher os
+
+43
+00:04:09.136 --> 00:04:16.208
+clientes dele todo dia, adiantado. E o desconhecido escolhe sempre gente que nunca vai comprar. Só que
+
+44
+00:04:16.208 --> 00:04:21.200
+o mais estranho não é isso, o mais estranho é que toda noite o homem confere a lista e agradece.
+
+45
+00:04:21.200 --> 00:04:26.480
+Esse homem se chama Marcos. Ele tem uma loja de móveis planejados e a lista tem sempre o mesmo
+
+46
+00:04:26.480 --> 00:04:31.824
+cliente. Moda o nome, muda a foto. A pergunta é sempre igual. Quanto fica? O Marcos até deu um
+
+47
+00:04:31.824 --> 00:04:37.712
+apelido para ele. O quanto fica? Ele quer saber tudo. O projeto, a medida, a condição, recebe,
+
+48
+00:04:37.712 --> 00:04:43.824
+e desaparece. E na noite seguinte o desconhecido manda mais três iguais. Deixa eu fechar aqui. Pronto.
+
+49
+00:04:44.336 --> 00:04:49.328
+Eu pedi para ele pausar porque ele ia assistir o VSL. Então gente, ele acessa qualquer coisa, tá?
+
+50
+00:04:49.328 --> 00:04:55.472
+Então isso aqui é uma potência que você não tem noção do que é possível fazer e a partir
+
+51
+00:04:55.472 --> 00:05:02.704
+daqui você sabe. Então faça, tá? Ele lê, ele faz o que você precisar que ele faça, para que você
+
+52
+00:05:02.704 --> 00:05:09.600
+faça o seu conteúdo, faça de qualquer forma que você precisar. Fechou? Um detalhe, ó, quando o
+
+53
+00:05:09.600 --> 00:05:13.984
+Claude estiver acessando, pode perceber aqui, ó, que tem a aba do navegador aqui em cima e aqui tem
+
+54
+00:05:13.984 --> 00:05:18.144
+o nome Claude. É o Claude, a extensão do Claude que está acessando. Você vê que fica laranja aqui
+
+55
+00:05:18.144 --> 00:05:24.544
+em cima? É porque ele está acessando essa aba do Chrome. Beleza? Aí se você fechar aqui, ele encerra
+
+56
+00:05:24.544 --> 00:05:31.744
+a leitura. Então isso aqui é libertador. Você não tem noção do poder disso aqui. Então o Chrome na
+
+57
+00:05:31.744 --> 00:05:38.880
+física, o que ele faz? Ele complementa a navegação na web quando ele não consegue achar de outra forma,
+
+58
+00:05:38.880 --> 00:05:45.312
+beleza? Página, oferta, promessa e público, perfil do Instagram, ele consegue acessar se você
+
+59
+00:05:45.312 --> 00:05:50.112
+estiver logado no navegador, tá? Ou por API, se você tiver API file, outras ferramentas, tá?
+
+60
+00:05:50.112 --> 00:05:55.200
+Biblioteca de anúncio do Meta, se você pedir para ele investigar, você tem que estar logado no
+
+61
+00:05:55.200 --> 00:05:59.936
+navegador e você pedir, ó, pesquise anúncios de um produto XPTO. Ele vai lá e vai fazer tudo isso,
+
+62
+00:05:59.936 --> 00:06:07.720
+tá? E o VS Code, o que é o VS Code? VS Code é um software, tá? É esse software que você baixa, tá?
+
+63
+00:06:07.720 --> 00:06:16.136
+E assim, eu vou mostrar aqui, esse é o VS Code, tá? Mas, sinceramente, tá? Para mim, perdeu a
+
+64
+00:06:16.136 --> 00:06:20.264
+possibilidade de usar VS Code se você não é programador, se é só para usar o Claude. Se você
+
+65
+00:06:20.264 --> 00:06:25.640
+for olhar aqui, ele tem, parece a mesma estrutura, tá? No sentido de seguinte, ele tem outras
+
+66
+00:06:25.640 --> 00:06:29.800
+funcionalidades para quem é desenvolvedor, mas você pode acessar o Claude de diversas formas.
+
+67
+00:06:29.800 --> 00:06:35.624
+Primeiro você entra numa pasta, tá? Você entra numa pasta aqui, vou pegar aqui uma pasta qualquer,
+
+68
+00:06:35.624 --> 00:06:41.136
+vou entrar nessa aqui, essa aqui, vai entrar no Megabrain aqui, nessa pasta aqui. E aí, eu posso entrar
+
+69
+00:06:41.136 --> 00:06:46.608
+pelo terminal ou eu posso entrar pelos plugins, tá? Eu posso digitar aqui um plugin do Claude,
+
+70
+00:06:46.608 --> 00:06:53.632
+aqui ó, Claude, eu posso instalar esse plugin e a partir daqui, eu clico aqui e o chat do Claude
+
+71
+00:06:53.632 --> 00:07:00.736
+já tá aqui ó. Se você for perceber, vou fechar essa parte aqui, se você for olhar aqui, ele
+
+72
+00:07:00.736 --> 00:07:06.272
+parece a interface do Claude, tem aqui o modo bypass, tá vendo os modos, etc, assim. Se você
+
+73
+00:07:06.272 --> 00:07:10.752
+quiser usar por aqui, você usa, você pode usar também via linha de comando aqui no terminal,
+
+74
+00:07:10.752 --> 00:07:18.560
+ele é em terminal, novo terminal, você pode digitar aqui ó, Claude e ele inicia o Claude, ok? Mas é
+
+75
+00:07:18.560 --> 00:07:27.968
+porque eu já criei vários outros comandos, como esse aqui mesmo, ó. Ele abre o Claude, tá? Mas assim,
+
+76
+00:07:27.968 --> 00:07:32.888
+obviamente, eu acho que você não deveria se preocupar com isso. Usar o Claude hoje,
+
+77
+00:07:32.888 --> 00:07:36.851
+pra mim, é a melhor opção, tá? Pra você que tá trabalhando com a fábrica, beleza?
+
+78
+00:07:39.965 --> 00:07:45.576
+Então é isso, tá? Detalhe, VS Code é pra quem já é desenvolvedor, que desenvolve outras coisas e
+
+79
+00:07:45.576 --> 00:07:49.736
+usa o Claude lá dentro. Você que tá aqui pra desenvolver os criativos, usa o aplicativo do Claude,
+
+80
+00:07:49.736 --> 00:07:56.440
+beleza? Abriu só um arquivo, lê páginas, cara, instala a extensão do Chrome, tá? Porque você
+
+81
+00:07:56.440 --> 00:08:01.080
+abre a parte da fábrica, deixa o Chrome em segundo plano, começa a trabalhar e tudo que ele
+
+82
+00:08:01.080 --> 00:08:06.488
+faz lá, ele abre e navega como se fosse você fazendo pesquisas lá no Google, beleza? Então,
+
+83
+00:08:06.488 --> 00:08:11.064
+tentando isso pronto, você já tá apto a fazer seus criativos, página de vendas, o que você
+
+84
+00:08:11.064 --> 00:08:16.440
+quiser com a fábrica de criativos. E na próxima aula, vou falar sobre alguns plugins, conectores,
+
+85
+00:08:16.440 --> 00:08:20.792
+terminais só pra você ter noção de como é que tudo isso funciona. Então, te vejo lá.

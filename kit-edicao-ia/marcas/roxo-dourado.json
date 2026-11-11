@@ -1,0 +1,26 @@
+{
+  "name": "roxo-dourado",
+  "origem": "Criativo de carimbos V02 (aprovado). Roxo tirado da parede do video; dourado dos selos.",
+  "colors": {
+    "ink": "#120A24",
+    "graphite": "#1B1230",
+    "primary": "#7B2FF0",
+    "primaryLight": "#B794FF",
+    "accent": "#F5C542",
+    "accentLight": "#FFD86B",
+    "text": "#FFF8E7"
+  },
+  "fonts": {
+    "display": "Anton",
+    "text": "Montserrat"
+  },
+  "uso": {
+    "ink": "fundo principal, caixa dos rotulos, contorno da legenda",
+    "graphite": "fundos secundarios, HUD",
+    "primary": "cenario da apresentadora (cartao editorial), aneis",
+    "primaryLight": "numero total do contador (02/06), detalhes",
+    "accent": "faixa de apoio dos rotulos, botao CTA, reguas",
+    "accentLight": "palavra falada na legenda, brilho do selo",
+    "text": "titulos e texto de legenda nao ativo"
+  }
+}

@@ -1,0 +1,318 @@
+FÁBRICA DE CRIATIVOS                            Nº M06-A2
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 6 · AULA 2
+
+FERRAMENTAS, APIS E CUSTOS (BÁSICO × AVANÇADO)
+
+MODO AVANÇADO:
+VOZ, IMAGEM E VÍDEO
+
+  4 CAPÍTULOS 4 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 As famílias
+   01 Abertura
+   03 Ordem e regra                     6.2 04 Naprática
+                                                                              FCA · M06-A2
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 6 · AULA 2  MODO AVANÇADO: VOZ, IMAGEM E VÍDEO
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+O modo avançado é um conjunto de ferramentas que deixa os vídeos com mais qualidade, mas
+você já tem bons resultados só com o que veio nas aulas anteriores. Cada ferramenta é
+opcional e tem chave própria, que entra pelo comando /fca conectar. Nunca se cola chave,
+senha ou dado pessoal no chat. O Lúcio apresentou as famílias que ele usa: voz (ElevenLabs ou
+Voice Studio), imagem (OpenAI), vídeo (fal), avatar e dados (HeyGen, Apify e API da Meta). A
+ordem é começar grátis e ligar uma ferramenta por vez. Antes de gastar, peça a estimativa de
+custo e uma amostra curta. Na comparação mostrada na aula, a diferença entre o setup grátis e
+o avançado foi pequena.
+
+IDEIA CENTRAL
+
+Comece grátis, ligue uma ferramenta por vez e peça a
+estimativa e uma amostra curta antes de gastar.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Avançado é opcional, e a chave nunca vai no chat
+
+    Você já tem bons resultados com o que foi passado até aqui. O avançado só melhora a
+    qualidade. Cada ferramenta é opcional e tem chave própria. Toda vez que quiser
+    conectar uma ferramenta nova, digite /fca conectar. Algumas pedem chave de API,
+    outras webhook, e você fornece no lugar certo. Nunca cole chave, senha ou dado
+    pessoal no chat onde você dá os comandos. Existe um local adequado para isso, e o
+    Lúcio mostra na tela do Claude como se faz.
+
+02  Família 1, voz: Voice Studio ou ElevenLabs
+
+    O Voice Studio é o plano básico: roda local e não custa nada. A ElevenLabs, para o
+    Lúcio, ainda é a melhor, mas é paga, de 5 a 22 dólares por mês. O plano de 5 dólares já
+    dá bastante coisa. Ele usa o de 22, que cobre vídeos longos e curtos o mês inteiro. Para
+    vídeos mais simples e produtos como e-books e aplicativos, ele usa o Voice Studio, e dá
+    certo. Quando vende produto de sua autoria, em que ele é o expert e aparece, prefere a
+    ElevenLabs. Ligue a ElevenLabs quando a voz pesar na venda e você precisar de uma
+    voz mais parecida com a sua.
+
+FCA · MÓDULO 6 · AULA 2                               PÁGINA 2
+WORKBOOK · MÓDULO 6 · AULA 2  MODO AVANÇADO: VOZ, IMAGEM E VÍDEO
+
+03  Família 2, imagem: OpenAI e bancos de imagem
+
+    O Lúcio usa a OpenAI para imagem e conselha focar em um mínimo de ferramentas
+    possíveis, senão vira uma loucura. A OpenAI usa uma única chave de API para acessar
+    todas as ferramentas dela. A imagem custa de 2 a 7 centavos, muito barato, e o modelo
+    novo mantém a consistência dos personagens. Teste a qualidade média antes da alta:
+    ele usa a média mesmo (cerca de 720, se não se engana). Muitas vezes nem é preciso
+    gerar imagem: pegue vídeos e imagens de bancos como o Pexels.
+
+04  Família 3, vídeo: fal
+
+    A fal é uma plataforma pré-paga: você coloca 5 ou 10 dólares. O Higgsfield, por
+    exemplo, exige assinatura. No mês em que mais produziu, o Lúcio gastou 30 dólares. O
+    vídeo serve para cenas que você ainda não tem. Por exemplo, a partir de uma foto dele,
+    um modelo de IA como o Kling cria o vídeo. O Kling é o que ele mais usa, e a Seedance
+    é outra opção. Cada clipe sai de cerca de 20 a 50 centavos, e ele diz que muitas vezes
+    custa menos. Peça sempre o modelo mais barato primeiro. As skills do curso
+    reconhecem o que você pede (um vídeo a partir de uma imagem, um personagem) e já
+    escolhem o melhor modelo.
+
+05  Família 4, avatar e dados: HeyGen, Apify e API da Meta
+
+    Avatar: o Lúcio usa a HeyGen, que criou o avatar dele, mas está testando outras.
+    Quando achar uma melhor, divulga e atualiza o curso. Apify: ao conectar, você tem
+    acesso a várias APIs. Uma delas copia anúncios de concorrentes, a espionagem de
+    anúncios no Facebook, que também dá para fazer de graça pela biblioteca. Pela Apify
+    dá para pegar um perfil, baixar todos os posts e analisar, e não é caro. API da Meta
+    (métricas): é mais complexa. Você cria um aplicativo, conecta no seu gerenciador, gera
+    uma chave desse usuário e coloca no Claude. Se não souber, é só digitar que ele
+    explica. Segundo o Lúcio, esse pacote cobre basicamente todo o trabalho dele.
+
+06  Ordem para ligar
+
+    Comece grátis: Pexels, Pixabay e Freesound. O Pexels e o Pixabay são bancos de
+    imagens e vídeos, e o Freesound tem sons e áudios. Todos têm chave de API e dão
+    centenas de milhares de materiais para o Claude cortar e editar. Use o Voice Studio
+    junto. Você pede ao próprio Claude, ele abre a página e conecta: você cria a conta e ele
+    faz a conexão. Tenha a extensão do Claude no navegador. Depois vêm a ElevenLabs, a
+    OpenAI e a fal, e por último o resto. A Epidemic Sound também é muito boa, mas é paga
+    e não é necessária, porque o Freesound já tem muita coisa.
+
+FCA · MÓDULO 6 · AULA 2       PÁGINA 3
+WORKBOOK · MÓDULO 6 · AULA 2                       MODO AVANÇADO: VOZ, IMAGEM E VÍDEO
+
+07          Custo e amostra antes de gastar
+
+            Antes de fazer qualquer coisa, peça a estimativa: a Fábrica mostra o custo previsto e
+            espera o seu ok. Você também pode copiar o pedido e perguntar qual é o custo
+            previsto. Gastar sem amostra é um erro, como gerar um vídeo completo no modelo
+            caro. Comece pelo modelo barato e por uma amostra curta, e vá aumentando depois.
+
+08          A diferença na prática
+
+            Na aula, o mesmo anúncio foi feito em dois setups. No grátis, o vídeo usou imagem de
+            banco colocada no meio e a voz do Voice Studio local. No avançado, usou a voz
+            clonada pela ElevenLabs v4 e um vídeo criado por IA, em vez de vídeo de banco. A voz é
+            o que o público mais percebe. Na imagem, a cena gerada por IA e a de banco quase não
+            tiveram diferença. O clipe de 5 segundos no modelo barato veio de uma imagem. Para a
+            grande maioria das pessoas, o vídeo ficou praticamente igual. O avançado é turbo,
+            então ligue uma ferramenta por vez.
+
+03
+
+COMANDOS PARA LIGAR O MODO AVANÇADO
+
+Cada ferramenta paga é ligada com um comando no app do Claude. A chave vai só no arquivo .env ,
+nunca no chat.
+
+Ferramenta               Ligar (no app do Claude)  Testar a chave (Terminal, dentro da
+                                                   pasta Fabrica-de-Criativos)
+
+Pexels · Freesound       /fca-conectar pexels · /fca-c python3 ferramentas/fca.py conectar pexel
+(grátis)
+                         onectar freesound         s --testar
+
+ElevenLabs (voz)         /fca-conectar elevenlabs  python3 ferramentas/fca.py conectar eleve
+                                                   nlabs --testar
+
+OpenAI gpt-image         /fca-conectar openai      python3 ferramentas/fca.py conectar opena
+(imagem)                                           i --testar
+
+fal (imagem vira vídeo) /fca-conectar fal          python3 ferramentas/fca.py conectar fal -
+                                                   -testar
+
+HeyGen (avatar)          /fca-conectar heygen      python3 ferramentas/fca.py conectar heyge
+                                                   n --testar
+
+Apify (anúncios da       /fca-conectar apify       python3 ferramentas/fca.py conectar apify
+concorrência)                                      --testar
+
+API da Meta (métricas e  /fca-conectar meta        python3 ferramentas/fca.py conectar meta
+públicos)                                          --testar
+
+O /fca-conectar já faz tudo isto sozinho: abre o .env , espera você colar a chave e faz o teste grátis. No Windows, troque
+python3 por py . Uma ferramenta por vez, sempre com amostra antes de gastar.
+
+FCA · MÓDULO 6 · AULA 2                                        PÁGINA 4
+WORKBOOK · MÓDULO 6 · AULA 2                                       MODO AVANÇADO: VOZ, IMAGEM E VÍDEO
+
+04
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/4
+
+Quando usar: Antes de gerar qualquer coisa, para saber o custo previsto.
+
+Qual é o custo previsto para este criativo: [descreva o vídeo: duração, voz,
+imagens e clipes que você quer]? Não gere nada ainda, só calcule a
+estimativa e espere o meu ok.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/4
+
+Quando usar: Para pedir uma amostra curta antes do vídeo completo.
+
+Gere só uma amostra de [5 a 15] segundos em 9:16 de [descreva a cena],
+usando o modelo mais barato e a qualidade média. Mostre o custo antes de
+gerar e espere o meu ok.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/4
+
+Quando usar: Para transformar uma imagem em um clipe de vídeo.
+
+Pegue esta imagem [anexe ou descreva a imagem] e crie um clipe de 5 segundos
+em [movimento desejado], usando o modelo mais barato. Antes de gerar, me
+diga qual modelo você escolheu e o custo previsto.
+
+>_ DIGITE NO CLAUDE CODE                                           PROMPT 4/4
+
+Quando usar: Para conectar uma ferramenta nova, sem colar a chave no chat.
+
+/fca conectar [nome da ferramenta: pexels, pixabay, freesound, elevenlabs,
+openai, fal, heygen, apify ou meta]
+
+FCA · MÓDULO 6 · AULA 2                                            PÁGINA 5
+WORKBOOK · MÓDULO 6 · AULA 2                                 MODO AVANÇADO: VOZ, IMAGEM E VÍDEO
+
+05                                         → ✓ CERTO
+                                                    Amostra curta no modelo barato antes
+O QUE NÃO FAZER
+
+Gastar sem amostra
+
+   ✕ ERRADO
+
+    Gerar o vídeo completo no modelo caro
+
+06
+
+SUA VEZ
+
+Monte a sua escada de ferramentas: em que ordem você ligaria o avançado, quanto custaria
+um criativo seu e qual amostra pediria antes de gastar.
+
+    01 A primeira ferramenta grátis que eu ligo e por quê
+
+02 Qual família eu ligo depois (voz, imagem ou vídeo) e por quê
+
+03 O custo previsto que o Claude me deu para um criativo meu
+
+04 A amostra curta (duração e modelo) que vou pedir antes de gastar
+
+FCA · MÓDULO 6 · AULA 2                                              PÁGINA 6
+WORKBOOK · MÓDULO 6 · AULA 2                                MODO AVANÇADO: VOZ, IMAGEM E VÍDEO
+
+07
+
+ANTES DA PRÓXIMA AULA
+
+Entendi que o modo avançado é opcional e que já tenho bons resultados sem ele.
+
+Sei que a chave entra por /fca conectar e nunca colo chave, senha ou dado pessoal no chat.
+
+Conheço as famílias: voz, imagem, vídeo, avatar e dados.
+
+Vou começar grátis: Voice Studio, Pexels, Pixabay e Freesound.
+
+Vou ligar uma ferramenta por vez, na ordem: ElevenLabs, OpenAI, fal e depois o resto.
+
+Vou pedir a estimativa de custo antes de gastar.
+
+Vou testar a qualidade média e o modelo mais barato antes.
+
+Vou pedir uma amostra curta antes de gerar o vídeo completo.
+
+08
+
+GLOSSÁRIO
+
+Chave de API        Código pessoal que libera o uso de uma ferramenta. Entra por /fca conectar e
+                    nunca se cola no chat.
+
+Webhook             Outra forma de conexão que algumas ferramentas pedem no lugar da chave
+                    de API.
+
+Voice Studio        Voz do plano básico: roda local e não custa nada.
+
+Voz clonada         Voz parecida com a sua, gerada pela ElevenLabs. É paga, de 5 a 22 dólares por
+                    mês.
+
+Banco de imagens e  Sites como o Pexels e o Pixabay, que dão imagens e vídeos para o Claude
+vídeos              cortar e editar.
+
+Pré-pago            Modelo da fal: você coloca um valor (5, 10 ou 20 dólares) e vai usando, sem
+                    assinatura.
+
+Clipe               Trecho curto de vídeo (cerca de 5 segundos) gerado a partir de uma imagem.
+
+FCA · MÓDULO 6 · AULA 2                                                                PÁGINA 7
+WORKBOOK · MÓDULO 6 · AULA 2                      MODO AVANÇADO: VOZ, IMAGEM E VÍDEO
+
+Amostra  Trecho curto gerado antes do material completo, para testar a qualidade e o
+         custo.
+
+09                                                             elevenlabs.io/pricing
+                                                              openai.com/api/pricing
+LINKS DA AULA
+                                                                          fal.ai/pricing
+↗ ElevenLabs (voz)                                                  heygen.com/pricing
+↗ OpenAI (imagem)                                                    apify.com/pricing
+↗ fal (vídeo)
+↗ HeyGen (avatar)                                                               pexels.com
+↗ Apify (dados)                                                               pixabay.com
+↗ Pexels                                                                   freesound.org
+↗ Pixabay
+↗ Freesound
+
+10
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 6 · AULA 2
+
+FCA · MÓDULO 6 · AULA 2                                       PÁGINA 8
+

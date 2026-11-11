@@ -1,0 +1,254 @@
+FÁBRICA DE CRIATIVOS                                             Nº M05-A1
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 5 · AULA 1
+
+COMO PASSAR INSTRUÇÕES PARA A IA
+
+O BRIEFING QUE
+FAZ A IA ACERTAR
+
+  4 CAPÍTULOS 4 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Os eixos do briefing
+   01 Abertura
+   03 Referência > adjetivo             04 Na prática  5.1
+                                                                    FCA · M05-A1
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 5 · AULA 1  O BRIEFING QUE FAZ A IA ACERTAR
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+O Lúcio abre dizendo que as IAs de hoje precisam, acima de tudo, de contexto, e que o briefing
+aqui não é o documento gigante de designer: é escrever (ou falar no microfone) como se
+conversasse com um amigo. Pedido vago gera anúncio vago, porque a IA não adivinha o seu
+mercado: ela inventa e liga pontos que muitas vezes não são os que você quer. Ele mostra o
+contraste entre 'faz um anúncio bom para mim' e um briefing com produto, público, dor, prova,
+oferta, estilo e formato. Depois explica que referência vale mais que adjetivo e que todo prompt
+segue o mesmo método: pedir o plano antes (modo de planejamento, Shift+Tab), ler o que a IA
+faz e terminar com 'como eu verifico?'.
+
+IDEIA CENTRAL
+
+Dê contexto em linguagem natural, mande referência em vez
+de adjetivo e leia o plano e o resultado antes de aprovar.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Contexto é o que mais importa
+
+    A IA trabalha em linguagem natural: você não precisa de prompt todo estruturado nem
+    de documento cheio de regra. Converse com ela, escreva ou fale no microfone, passe o
+    contexto e a referência se tiver. Esse contexto você não passa a cada vídeo: passa uma
+    vez e pede para ela salvar.
+
+02  Pedido vago gera anúncio vago
+
+    Se você pede 'faz um anúncio bom para mim', a IA não sabe quem compra, inventa e
+    entrega um anúncio de média. Briefing bom economiza rodadas: quando o Lúcio
+    precisa editar algo que a IA fez, é porque ele não disse o que queria.
+
+03  Os eixos do briefing
+
+    Produto (o que é), público (para quem é), dor (o grande problema que resolve), prova
+    (números, depoimentos), oferta e CTA, e estilo e proporção. Pode ser bem estruturado
+    ou falado em áudio. Público, dor, prova e referência são os que você sempre lembra.
+
+FCA · MÓDULO 5 · AULA 1       PÁGINA 2
+WORKBOOK · MÓDULO 5 · AULA 1  O BRIEFING QUE FAZ A IA ACERTAR
+
+04  Exemplo: briefing ruim x briefing bom
+
+    Ruim: 'faz um anúncio bom para mim'. Bom, como na aula: produto (método para
+    atender lead certo), público (quem atende lead no WhatsApp), dor (curioso o dia inteiro),
+    prova (13 vendas com um anúncio só), oferta (o formulário, tela por tela) e um pedido
+    só: 'saiba mais'. Essa própria aula virou um criativo com cada linha do briefing virando
+    uma cena.
+
+05  Estilo e proporção
+
+    Diga o estilo (animado, vox etc.) e a proporção: 9x16 (Stories, Reels e Shorts), 4x5
+    (retrato) ou 1x1 (quadrado). Na fábrica o 9x16 já vem pré-selecionado, com a zona
+    segura em evidência: o conteúdo principal fica no centro e o que cai fora dela é
+    dispensável. Se não souber o estilo, escolha na lista numerada, copie um exemplo (uma
+    URL, por exemplo) ou conte o contexto e peça: 'escolha para mim' ou 'me diga quais os
+    melhores estilos para esse vídeo, público e produto'.
+
+06  Referência vale mais que adjetivo
+
+    Em vez de adjetivos, mande o link da página de vendas, o perfil, o anúncio de referência,
+    imagens, vídeos ou PDFs. Se a referência for um VSL, a fábrica baixa o vídeo, transcreve
+    com timestamp (legenda com tempo), transforma o vídeo em imagens a 1 FPS (a IA
+    não assiste ao vídeo, ela mapeia as imagens) e entende ponto a ponto como aquele
+    estilo de edição funciona para fazer o seu.
+
+07 Plano antes, leitura durante, 'como eu verifico?' no fim
+
+               O primeiro pedido vai sempre no modo de planejamento (Shift+Tab), que faz a IA pensar
+               melhor; depois você passa para o modo normal. Leia cada passo enquanto ela trabalha
+               e, se desviou, corrija na hora. Ao terminar, leia o resumo e não aprove no automático:
+               antes de subir o anúncio, revise sempre.
+
+FCA · MÓDULO 5 · AULA 1       PÁGINA 3
+WORKBOOK · MÓDULO 5 · AULA 1                                       O BRIEFING QUE FAZ A IA ACERTAR
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/4
+
+Quando usar: Primeiro pedido de um anúncio, com o briefing completo, no modo de planejamento
+(Shift+Tab).
+
+Quero um anúncio em vídeo [9x16 / 4x5 / 1x1]. Produto: [o que é]. Público:
+[quem compra]. Dor: [o grande problema que ele resolve]. Prova: [números ou
+depoimentos que eu tenho]. Oferta e CTA: [o que ele ganha e o passo que ele
+dá]. Estilo: [número da lista, ou 'escolha para mim']. Referência: [link da
+página, perfil ou anúncio]. ANTES de executar, me mostre o plano. No fim, me
+diga como eu verifico.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/4
+
+Quando usar: Quando você não sabe qual estilo escolher.
+
+Meu produto é [produto], o público é [quem compra] e a dor é [dor]. Me diga
+quais são os melhores estilos para esse vídeo, esse público e esse produto,
+e escolha um para mim. Mostre o plano antes de executar e termine dizendo
+como eu verifico.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/4
+
+Quando usar: Para criar um anúncio no estilo de um vídeo ou VSL que você viu.
+
+Esta é a minha referência: [link do vídeo ou VSL]. Faça o pipeline de
+aprendizado: baixe o vídeo, transcreva com timestamp, transforme em imagens
+a 1 FPS e me explique como esse estilo de edição funciona. Depois faça um
+anúncio meu nesse estilo, com este briefing: produto [produto], público
+[público], dor [dor], prova [prova], oferta [oferta]. Mostre o plano antes e
+termine dizendo como eu verifico.
+
+FCA · MÓDULO 5 · AULA 1                                            PÁGINA 4
+WORKBOOK · MÓDULO 5 · AULA 1      O BRIEFING QUE FAZ A IA ACERTAR
+
+>_ COLE NO CLAUDE CODE            PROMPT 4/4
+
+Quando usar: Para não repetir o contexto a cada vídeo.
+
+Salve este briefing como o contexto do meu negócio para os próximos
+criativos: produto [produto], público [público], dor [dor], prova [prova],
+oferta [oferta]. Da próxima vez que eu pedir um anúncio, use esse contexto e
+me pergunte só o que faltar.
+
+04                                → ✓ CERTO
+                                           Briefing com público, dor, prova e referência
+O QUE NÃO FAZER
+
+O pedido que não funciona
+
+   ✕ ERRADO
+
+    'Faz um anúncio bom pra mim'
+
+05
+
+SUA VEZ
+
+Escreva (ou fale no microfone) o briefing do seu produto como se estivesse explicando para um
+amigo. Depois cole no Claude Code em modo de planejamento (Shift+Tab), leia o plano com
+calma, corrija se algo desviou e só então mande executar.
+
+    01 Produto (o que é) e público (para quem é)
+
+02 Dor (o grande problema que ele resolve) e prova (números ou depoimentos)
+
+FCA · MÓDULO 5 · AULA 1                                                      PÁGINA 5
+WORKBOOK · MÓDULO 5 · AULA 1                            O BRIEFING QUE FAZ A IA ACERTAR
+    03 Oferta e CTA (o pedido único que o cliente faz)
+
+04 Estilo (número da lista ou 'escolha para mim') e proporção (9x16, 4x5 ou 1x1)
+
+05 Referência que vou mandar (link, perfil, anúncio, imagem ou PDF)
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       Escrevi ou falei o briefing com produto, público, dor, prova, oferta, estilo e formato, sem frase
+       genérica como 'faz um anúncio bom'.
+       Mandei uma referência (link, perfil, anúncio, imagem ou PDF) em vez de só adjetivos.
+       Fiz o primeiro pedido no modo de planejamento (Shift+Tab) e li o plano antes de executar.
+       Meu prompt termina com 'como eu verifico?'.
+       Li cada passo enquanto a IA trabalhava e corrigi na hora o que desviou.
+       Li o resumo final e revisei o criativo antes de subir, sem aprovar no automático.
+       Pedi para a IA salvar o contexto, para não repetir o briefing a cada vídeo.
+
+FCA · MÓDULO 5 · AULA 1                                                           PÁGINA 6
+WORKBOOK · MÓDULO 5 · AULA 1  O BRIEFING QUE FAZ A IA ACERTAR
+
+07
+
+GLOSSÁRIO
+
+Briefing           O contexto do pedido: produto, público, dor, prova, oferta, estilo e formato.
+                   Aqui, escrito ou falado em linguagem natural, sem documento gigante.
+
+Linguagem natural  A forma como as pessoas falam. A IA a interpreta, então você conversa com
+                   ela sem precisar de prompt todo estruturado.
+
+Modo de            Modo do Claude Code em que a IA mostra o plano antes de agir. Liga e desliga
+planejamento       com Shift+Tab.
+
+Referência         Página de vendas, perfil, anúncio, imagem, vídeo ou PDF que mostra a forma
+                   desejada, no lugar de adjetivos.
+
+Zona segura        Área central do 9x16 onde fica o conteúdo principal. O que fica fora dela é
+                   dispensável, e não faz diferença se alguém não vê.
+
+Proporção          Formato da tela: 9x16 (Stories, Reels e Shorts), 4x5 (retrato) ou 1x1
+                   (quadrado).
+
+Timestamp          Marcação de tempo na transcrição: a legenda com o minuto e o segundo de
+                   cada fala.
+
+FPS                Frames por segundo. A IA não assiste ao vídeo: ela transforma o vídeo em
+                   imagens, a 1 FPS, e entende o estilo ponto a ponto.
+
+08                            claude.com/download
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+refeitas em formato de curso, sem pagar de novo.
+
+FCA · MÓDULO 5 · AULA 1                                                                   PÁGINA 7
+WORKBOOK · MÓDULO 5 · AULA 1                            O BRIEFING QUE FAZ A IA ACERTAR
+                                                       seguro.lucioartes.com/O11E6C3B5
+↗ 1 · Campanhas de Controle: o processo                seguro.lucioartes.com/OA65829EA
+↗ 2 · Super Públicos: a segmentação           checkout.safe.lucioartes.com/42750161
+↗ 3 · Missão Claude Tracking: o trackeamento
+
+                         FIM DO WORKBOOK · MÓDULO 5 · AULA 1
+
+FCA · MÓDULO 5 · AULA 1                                       PÁGINA 8
+

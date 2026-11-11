@@ -1,0 +1,235 @@
+FÁBRICA DE CRIATIVOS                                              Nº M07-A1
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 7 · AULA 1
+
+O QUE VOCÊ RECEBE
+
+CATÁLOGO DE
+ESTILOS E EFEITOS
+
+  4 CAPÍTULOS 4 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 O catálogo de estilos
+   01 Abertura
+   03 Catálogo de efeitos               04 Na prática  7.1
+                                                             FCA · M07-A1
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 7 · AULA 1  CATÁLOGO DE ESTILOS E EFEITOS
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Neste módulo curto o Lúcio apresenta o que o aluno vai receber: um catálogo de estilos, um
+catálogo de efeitos, a biblioteca de referência e os anúncios dele que melhor performaram, para
+você modelar. Ele reuniu tudo isso porque muita gente não tem referência. Os estilos são os
+que ele usa e os que treinou na IA, muitos adaptados de outras situações para o mercado. O
+catálogo é numerado, então você pode pedir o estilo pelo número, pelo nome, ou misturar
+vários. Ele abre o catálogo na tela, mostra alguns estilos e pede ao Claude Code que descreva o
+estilo 3, só como demonstração. A regra central é escolher o estilo pelo público e pela tela que
+ele conhece, não pela estética. Os catálogos estão na pasta 04 do Drive e você baixa na aula
+8.2. O vídeo de verdade fica para o próximo módulo, de instalação e construção.
+
+IDEIA CENTRAL
+
+O estilo certo é o da pessoa certa: foque no público e na dor, e
+a Fábrica escolhe o que cabe.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  O que você recebe
+
+    Catálogo de estilos, catálogo de efeitos, biblioteca de referência (áudios, imagens,
+    vídeos) e os anúncios que melhor performaram para você modelar. São os estilos que o
+    Lúcio usa e os que ele treinou na IA. Você coloca o seu contexto por cima. Mais adiante
+    no curso ele ensina a criar novos estilos e a pegar estilos que você vê na internet, para a
+    Fábrica ficar 100% individualizada.
+
+02  Catálogo numerado
+
+    Nem todo item tem nome, por isso tudo é numerado. Na hora de pedir, você fala o
+    número ('quero o estilo número 7 do catálogo'), fala o nome ou pede para misturar
+    vários. Também dá para tirar um print do estilo e colar: o Claude já sabe a referência.
+    Entre os que ele mostrou: o retrô com dossiê (criado por ele, misturado com outros) e o
+    Blueprint.
+
+FCA · MÓDULO 7 · AULA 1       PÁGINA 2
+WORKBOOK · MÓDULO 7 · AULA 1  CATÁLOGO DE ESTILOS E EFEITOS
+
+03  Escolha pelo público, não pela estética
+
+    Exemplo dele: para falar com advogado, você não vai pegar aquarela. Primeiro defina
+    quem é o comprador e que tela ou cena ele conhece. Quem trabalha com Facebook Ads
+    conhece a tela do gerenciador de anúncios, então começar o anúncio por ela faz
+    sentido. Só depois vem o estilo. As instruções que o Lúcio criou ao longo do ano fazem
+    o Claude saber o que cabe e o que não cabe naquele contexto. Se você tiver print ou
+    gravação de tela, anexe.
+
+04  Catálogo de efeitos: descreva, não decore
+
+    São mais de 380 efeitos, cada um com nome e descrição, e cada estilo e efeito pode
+    ser combinado com os outros, então as combinações são infinitas. Ninguém decora
+    (nem o Lúcio). O efeito dos celulares que circulam o personagem se chama Orbit, mas
+    basta dizer 'quero que os celulares circulem o personagem'. Se souber o nome, use
+    Ctrl+F no catálogo. Exemplos de efeitos: texto gigante atrás da pessoa, muro de texto,
+    cortina antes e depois.
+
+05  Moldes dos campeões
+
+    Roteiro e estrutura prontos de anúncios que já funcionaram. Use só a forma: cite o
+    molde, troque a oferta pela sua e adicione o seu contexto. Alguns estilos que vêm
+    funcionando bem no nicho dele: painel que o comprador usa, prova na tela, dossiê,
+    plantão, retrô gamer. Cada um serve a um público.
+
+06  Pedido vago é erro
+
+    Pedir estilo com palavras genéricas, como 'algo moderno e bonito', é erro. Melhor: 'um
+    efeito de telas de celular circulando a cabeça do personagem'. Dê o número do estilo e
+    o efeito descrito. Se não souber qual escolher, fale o público e a dor, como na aula
+    anterior, e peça ao Claude 3 estilos: ele faz os primeiros segundos e você escolhe.
+
+FCA · MÓDULO 7 · AULA 1       PÁGINA 3
+WORKBOOK · MÓDULO 7 · AULA 1                                       CATÁLOGO DE ESTILOS E EFEITOS
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/4
+
+Quando usar: Para entender um estilo do catálogo antes de usar (como o Lúcio fez com o estilo 3). Use
+depois da aula 8.2.
+
+Descreva o estilo [número] do catálogo de estilos da Fábrica: como ele
+funciona e o que está escrito sobre ele. Ainda não gere vídeo.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/4
+
+Quando usar: Para pedir um anúncio pelo número do estilo, depois de instalar.
+
+Quero o estilo número [número] do catálogo para esta oferta: [2 linhas].
+Público: [quem é e qual a dor]. Efeito que eu quero: [descreva com as suas
+palavras o que acontece na tela]. Use só a forma do estilo. ANTES de
+executar, me mostre o PLANO.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/4
+
+Quando usar: Quando você não sabe qual estilo escolher.
+
+Meu comprador é [quem é], a dor dele é [dor] e a tela que ele conhece é
+[tela ou cena]. Escolha 3 estilos do catálogo que combinam com ele e faça os
+primeiros segundos de cada um, para eu escolher.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 4/4
+
+Quando usar: Para misturar estilos, ou pedir um efeito sem saber o nome.
+
+Misture o estilo [número] com o estilo [número] nesta peça: [2 linhas].
+Quero também este efeito: [descreva em 1 ou 2 linhas]. Me dê 3 variações do
+efeito e eu escolho a que gostei.
+
+FCA · MÓDULO 7 · AULA 1                                            PÁGINA 4
+WORKBOOK · MÓDULO 7 · AULA 1                                  CATÁLOGO DE ESTILOS E EFEITOS
+
+04                                   → ✓ CERTO
+                                              "Estilo 7 (ou pelo nome); efeito descrito, 3
+O QUE NÃO FAZER                               variações"
+
+Pedir estilo com palavras vagas
+
+   ✕ ERRADO
+
+    "Faz um vídeo moderno e bonito"
+
+05
+
+SUA VEZ
+
+Sem abrir nada: descreva o seu comprador, a dor dele e a tela ou cena que ele conhece. Depois,
+quando abrir o catálogo, anote 2 números de estilo que conversam com ele e justifique pelo
+público, não pela estética. Descreva com as suas palavras um efeito que você quer.
+
+    01 Meu comprador e a dor dele
+
+02 A tela ou cena que ele conhece
+
+03 Números dos estilos que anotei e por que combinam com ele
+
+FCA · MÓDULO 7 · AULA 1                                       PÁGINA 5
+WORKBOOK · MÓDULO 7 · AULA 1                              CATÁLOGO DE ESTILOS E EFEITOS
+    04 Efeito que quero, descrito com as minhas palavras
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       Sei que vou receber catálogo de estilos, catálogo de efeitos, biblioteca de referência e os anúncios
+       que mais performaram.
+       Sei que os catálogos estão na pasta 04 do Drive e que baixo na aula 8.2.
+       Sei pedir um estilo pelo número, pelo nome ou misturando vários.
+       Escolho o estilo pelo público e pela tela que ele conhece, não pela estética.
+       Sei que não preciso decorar efeitos: descrevo o que quero na tela.
+       Sei que posso anexar print ou gravação de tela como referência.
+       Sei que dos moldes uso só a forma e troco a oferta pela minha.
+       Se não sei qual estilo escolher, passo público e dor e peço 3 estilos.
+
+07
+
+GLOSSÁRIO
+
+Catálogo de estilos  Página numerada com os estilos que o Lúcio usa e treinou na IA, com
+                     exemplos.
+
+Catálogo de efeitos  Lista com mais de 380 efeitos, cada um com nome e descrição, que podem
+                     ser combinados.
+
+Estilo               Forma visual de anúncio do catálogo, que você pede pelo número ou pelo
+                     nome.
+
+Efeito               Recurso visual nomeado, como o Orbit (celulares circulando o personagem).
+
+FCA · MÓDULO 7 · AULA 1                                                                   PÁGINA 6
+WORKBOOK · MÓDULO 7 · AULA 1                      CATÁLOGO DE ESTILOS E EFEITOS
+
+Molde  Roteiro e estrutura prontos de um anúncio campeão; você usa só a forma e
+       troca a oferta.
+
+Mix    Pedido que combina vários estilos numa mesma peça.
+
+08                                                             claude.com/download
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                          FIM DO WORKBOOK · MÓDULO 7 · AULA 1
+
+FCA · MÓDULO 7 · AULA 1                                        PÁGINA 7
+

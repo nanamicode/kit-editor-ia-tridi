@@ -1,0 +1,22 @@
+{
+  "firstFileTime": 7.6,
+  "fps": 23.976,
+  "fpsExact": "24000/1001",
+  "count": 107,
+  "w": 1080,
+  "h": 1080,
+  "matteFiles": "public/matte/m0001.png..m0107.png (RGBA, straight alpha, despilled)",
+  "plateFiles": "public/plate/p0001.jpg..p0107.jpg (RGB, caption removed from frame 25 onward)",
+  "frameTime": "t_file = 7.6 + (i-1)*1001/24000",
+  "notes": {
+    "brollFrames": "frames 1-16 (t<8.23s) are still B-roll: matte fully transparent, plate untouched",
+    "dissolveFrames": "frames 17-20 (8.27-8.39s): B-roll/presenter cross-dissolve, matte alpha scaled by dissolve weight",
+    "blurInFrames": "frames 17-25 (to 8.59s): presenter is optically blurred in the source; alpha is the sharp frame-26 alpha blurred to match",
+    "sharpFromFrame": 26,
+    "captionFrames": "caption burned in frames 25-105; removed from plate by edge-tracking morph (arm/hand/wall, analise/plate_morph.py) + clone inpainting (shirt/hair); frames 106-107 have no caption",
+    "fadeOut": "last frames (~96-107, from ~11.5s) fade to dark in the source; the RGB is left at source exposure (compensation is the Presenter's exposure.ts); the alpha was computed on a brightness-normalised copy so hair edges stay detailed",
+    "edges": "alpha tightened (LO 0.28 / HI 0.88); edge pixels take the chroma of the nearby opaque interior and a capped luminance (no wall-purple fringe, no light halo)"
+  },
+  "revision": 2,
+  "round2": "Quadros 26-107 refinados por analise/plate_step4_refine.py: alfa da borda do cabelo recuperado por unmixing de cor (parede x cabelo), sem dilatacao, bolsoes roxos do cabelo transparentes e despill do roxo no cabelo. Alfa v1 em analise/matte_v1/."
+}

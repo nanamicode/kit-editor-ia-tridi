@@ -1,0 +1,241 @@
+FÁBRICA DE CRIATIVOS                                  Nº M09-A4
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 9 · AULA 4
+
+G E R A N D O S E U S C R I AT I VO S N A PR ÁT I CA
+
+ARTE, AMOSTRA
+E VÍDEO INTEIRO
+
+  4 CAPÍTULOS 4 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Arte
+   01 Abertura
+   03 Amostra                           9.4 04 Vídeointeiro
+                                                                              FCA · M09-A4
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 9 · AULA 4  ARTE, AMOSTRA E VÍDEO INTEIRO
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Nesta aula o Lúcio mostra como enriquecer a fábrica de graça, conectando bancos de imagem,
+vídeo e som por API. O Remotion faz a montagem e o Hyperframes faz os cortes. Você já tem a
+biblioteca de b-rolls (quase 40 GB) para baixar, mas ligar o Pexels, o Pixabay e o Freesound
+deixa o acervo muito maior e já categorizado. Para imagem por IA, você conecta a OpenAI ou o
+Google (NanoBanana) com o comando FCA conectar. Depois você pede a arte do roteiro e,
+antes do vídeo inteiro, roda uma amostra de 5 a 15 segundos. Só com a amostra aprovada você
+pede o render, sempre um de cada vez, para não travar a máquina.
+
+IDEIA CENTRAL
+
+Conecte bancos gratuitos para enriquecer a fábrica e confira
+uma amostra de 15 segundos antes do render, porque o erro
+aparece cedo, e não no fim do vídeo inteiro.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Bancos gratuitos conectados por API
+
+    Além dos quase 40 GB de b-roll da biblioteca, o Lúcio recomenda conectar três bancos
+    gratuitos: Pexels (imagens e vídeos, de onde vem a maioria dos b-rolls dele), Pixabay (a
+    mesma ideia) e Freesound (milhares de efeitos sonoros). Como o acervo é
+    categorizado, quando você pede um anúncio com atenção maior, alegre ou de
+    determinado assunto, a fábrica entende o contexto e busca vídeos, imagens e sons
+    desse tipo.
+
+02  Como conectar: comando e arquivo .env
+
+    Você cria a conta gratuita, pega a chave de API e digita no Claude /FCA conectar,
+    seguido do nome do banco (por exemplo, pexels). Se a chave ainda não estiver
+    configurada, a fábrica abre o arquivo .env e diz qual campo preencher. Você cola a
+    chave no campo e salva. Depois disso, o material já fica acessível.
+
+FCA · MÓDULO 9 · AULA 4                                                                 PÁGINA 2
+WORKBOOK · MÓDULO 9 · AULA 4  ARTE, AMOSTRA E VÍDEO INTEIRO
+
+03  Onde pegar cada chave
+
+    Pexels: crie a conta, entre em API de imagens e vídeos e copie a chave. Pixabay: a
+    chave não aparece de imediato. Em Explore > API, abra a documentação, role até
+    Parameters e copie a sua chave. Freesound: crie a conta, vá em Developers e clique em
+    Get API Key. Nunca deixe a chave aparecer em tela ou gravação.
+
+04  Imagem por IA
+
+    Você gera imagem por IA com a OpenAI (GPT Imagem) ou com o Google Gemini
+    (NanoBanana). Para escolher, use o comando FCA conectar e diga qual quer. A fábrica
+    já faz o resto, como o Lúcio ensinou antes.
+
+05  Amostra antes do vídeo inteiro
+
+    Uma amostra de 5 a 15 segundos mostra se o vídeo está do jeito que você quer. Sem
+    ela, você só descobre o erro no fim, depois de esperar o vídeo todo e gastar tempo e
+    recursos. Na fábrica, a amostra já é gerada por padrão, para economizar o que se
+    gastaria com erro. Se ela ficar boa, você aprova e pede o vídeo inteiro.
+
+06  Render
+
+    O render é a etapa em que a fábrica pega tudo o que já está separado (roteiro, narração,
+    imagens, vídeos e animações) e monta, como numa timeline de editor de vídeo, o MP4
+    final. É a etapa mais demorada do processo e depende da sua máquina. Por isso vale
+    ver a amostra antes de renderizar tudo.
+
+07  Um render por vez
+
+    Mandar gerar muitos vídeos em paralelo faz a máquina travar, porque muita coisa roda
+    em segundo plano e você não consegue mais trabalhar. Peça um de cada vez (ou dois,
+    no máximo), ou peça que a fábrica limite o consumo de recursos. O custo de errar aqui
+    é de tempo.
+
+FCA · MÓDULO 9 · AULA 4       PÁGINA 3
+WORKBOOK · MÓDULO 9 · AULA 4                                       ARTE, AMOSTRA E VÍDEO INTEIRO
+                                                                                      PROMPT 1/4
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+   >_ DIGITE NO CLAUDE CODE
+
+    Quando usar: Conectar um banco de imagens, vídeos ou sons
+
+   /FCA conectar [pexels, pixabay ou freesound]
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/4
+
+Quando usar: Testar a arte (se montar, a conexão está funcionando)
+
+Monte a arte do roteiro com b-roll do acervo e efeitos do catálogo. Cada
+cena precisa combinar com o que a voz fala. Se aparecer celular ou
+computador, a tela deve ter conteúdo, nunca em branco. Liste as cenas para
+eu conferir.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/4
+
+Quando usar: Amostra (a fábrica já faz por padrão; peça para ver)
+
+Antes do vídeo inteiro, monte uma amostra de 5 a 15 segundos do anúncio
+[tema do anúncio], com o gancho, a voz e a legenda. Me diga onde ficou o
+mp4.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 4/4
+
+Quando usar: Vídeo inteiro (amostra aprovada)
+
+Aprovei a amostra. Monte o vídeo inteiro no mesmo estilo e na mesma
+qualidade. Gere um de cada vez para não travar a minha máquina. Me diga onde
+ficou o mp4.
+
+FCA · MÓDULO 9 · AULA 4                                            PÁGINA 4
+WORKBOOK · MÓDULO 9 · AULA 4                                          ARTE, AMOSTRA E VÍDEO INTEIRO
+
+04                                           → ✓ CERTO
+                                                      Amostra de 15 s; cena combina com a fala
+O QUE NÃO FAZER
+
+Vídeo sem amostra
+
+   ✕ ERRADO
+
+    Render do vídeo inteiro; b-roll fora de
+    contexto
+
+05
+
+SUA VEZ
+
+Conecte pelo menos um banco gratuito (Pexels, Pixabay ou Freesound), peça a arte do roteiro
+para testar e confira a amostra. Anote:
+
+    01 Qual banco você conectou e a arte foi montada ou deu erro? O que a fábrica pediu
+         para corrigir?
+
+02 A amostra de 15 segundos ficou do jeito que você queria? O que você ajustou antes
+    de aprovar o vídeo inteiro?
+
+06                                                                                    PÁGINA 5
+
+ANTES DA PRÓXIMA AULA
+
+       Conta gratuita criada e chave de API copiada (Pexels, Pixabay e/ou Freesound)
+       Chave colada no campo certo do arquivo .env e arquivo salvo
+       Chave de API fora de qualquer tela ou gravação
+
+FCA · MÓDULO 9 · AULA 4
+WORKBOOK · MÓDULO 9 · AULA 4                                       ARTE, AMOSTRA E VÍDEO INTEIRO
+
+     Arte do roteiro montada: se montou, a conexão funciona; se deu erro, corrigi o que a fábrica pediu
+
+     Amostra de 5 a 15 segundos assistida antes do vídeo inteiro
+
+     Vídeo inteiro pedido só depois de aprovar a amostra
+
+     Um render por vez (no máximo dois) para a máquina não travar
+
+07
+
+GLOSSÁRIO
+
+B-roll        Vídeo de apoio que ilustra o que a voz fala.
+
+API           A ligação que permite à fábrica buscar imagens, vídeos e sons direto nos
+
+              bancos, usando a sua chave.
+
+Chave de API  O código pessoal que o banco te dá ao criar a conta gratuita. É colado no
+              arquivo .env e não deve ser mostrado a ninguém.
+
+Arquivo .env  O arquivo onde ficam guardadas as chaves das conexões da fábrica.
+
+Amostra       Trecho curto de 5 a 15 segundos para aprovar antes do vídeo inteiro.
+
+Render        A etapa em que a fábrica junta tudo o que está separado e gera o MP4 final. É
+              a mais demorada e depende da máquina.
+
+NanoBanana    O gerador de imagens por IA do Google, que você conecta com o comando
+              FCA conectar.
+
+08                                                                  claude.com/download
+                                                                            pexels.com/api
+LINKS DA AULA
+                                                                   pixabay.com/api/docs
+↗ Baixar o app do Claude                                                     freesound.org
+↗ Pexels (API de imagens e vídeos)
+↗ Pixabay (documentação da API)
+↗ Freesound (sons e efeitos)
+
+FCA · MÓDULO 9 · AULA 4                                                             PÁGINA 6
+WORKBOOK · MÓDULO 9 · AULA 4                      ARTE, AMOSTRA E VÍDEO INTEIRO
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 9 · AULA 4
+
+FCA · MÓDULO 9 · AULA 4                                       PÁGINA 7
+

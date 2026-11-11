@@ -1,0 +1,201 @@
+FÁBRICA DE CRIATIVOS                    Nº M01-A4
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 1 · AULA 4
+
+APRESENTAÇÃO E QUEM SOU
+
+O QUE É (E O QUE
+NÃO É) A FÁBRICA
+
+  3 CAPÍTULOS 2 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Seu papel
+   01 Por que existe
+   03 O foco                             1.4
+                                                                              FCA · M01-A4
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 1 · AULA 4  O QUE É (E O QUE NÃO É) A FÁBRICA
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+A Fábrica não é um botão que cospe criativo nem um pacote solto de skills. É um ecossistema
+de contexto: o método e a IA treinada no seu Claude, que o Lúcio treinou e que funciona para
+ele e para os mentorados dele. O segredo da IA não é a ferramenta, é o contexto. Seu papel é o
+de diretor, não o de ator: você atua no estratégico e no tático, e a IA faz o trabalho duro do
+operacional. O curso não ensina copy, direção ou edição como profissão. Ensina a fazer criativo
+usando essas habilidades, como se você já tivesse os profissionais e fosse o chefe. O foco é
+anúncio para venda, lead e mensagem no WhatsApp. Conteúdo é bônus.
+
+IDEIA CENTRAL
+
+O segredo da IA é o contexto, não a ferramenta: você
+orquestra e a IA executa.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  O segredo da IA é o contexto
+
+    Não é a ferramenta que faz o criativo bom, é o contexto que a IA recebe. O vídeo rápido
+    do funil, feito a partir de um link, é inferior aos vídeos dos anúncios do Lúcio porque foi
+    rápido e ficou sem contexto suficiente. Grave isso: o contexto vem sempre antes da
+    ferramenta.
+
+02  O que a Fábrica não é
+
+    Não é um software de botão, em que você coloca o link e sai um criativo. Também não
+    é um pacote solto de skills de geração de criativos, algo que se vende desde a época
+    dos prompts e que não funciona. Se funcionasse, todo mundo estaria rico. Na Fábrica
+    você aprende a fazer a IA entregar o criativo que você quer, até o que você não
+    imaginava ser possível.
+
+FCA · MÓDULO 1 · AULA 4                               PÁGINA 2
+WORKBOOK · MÓDULO 1 · AULA 4  O QUE É (E O QUE NÃO É) A FÁBRICA
+
+03 O que a Fábrica é: um ecossistema de contexto
+
+               É o método somado à IA treinada no seu Claude. O Lúcio treinou essa IA, e ela funciona
+               para ele e para os mentorados dele, que pagam high ticket. O curso é o manual para
+
+               você usar esse ecossistema.
+
+04  Diretor, não ator
+
+    Você atua no estratégico e no tático. O operacional é da IA: você orquestra, ela executa.
+    O Lúcio faz assim nos funis dele: páginas, vídeos, anúncios, automações, e-mail e
+    disparo por API oficial, tudo no Claude. Ele nem entra mais no gerenciador de anúncios.
+    Pede a campanha, vai dormir, e de manhã dá uma olhada para ver se está vendendo.
+
+05  O que fica de fora: copy, direção e edição como profissão
+
+    O curso não ensina a ser copywriter, diretor ou editor. Ensina a fazer criativo usando
+    essas habilidades, como se os profissionais já estivessem na sua equipe e você fosse o
+    chefe. Você não precisa saber o que um copy faz para a sua empresa usar copy, e não
+    precisa saber como o carro funciona para dirigir. Por trás está o acervo de um ano de
+    trabalho do Lúcio, com mais de 142 produtos criados.
+
+06  O foco é anúncio
+
+    Anúncio para venda, anúncio para lead e anúncio para mensagem no WhatsApp. A
+    diferença entre os três é praticamente o call to action, e os três estão no curso. O
+    conteúdo é bônus, e você vai entender como fazê-lo quando terminar. As aulas são
+    curtas, um passo de cada vez.
+
+FCA · MÓDULO 1 · AULA 4       PÁGINA 3
+WORKBOOK · MÓDULO 1 · AULA 4                                       O QUE É (E O QUE NÃO É) A FÁBRICA
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                                           PROMPT 1/2
+
+Quando usar: Depois da aula, para definir o que fica com você (estratégico e tático) e o que a IA executa
+(operacional).
+
+Quero usar a Fábrica de Criativos como diretor: eu decido a estratégia e a
+tática, e você executa o operacional. Meu produto: [descreva em 2 linhas].
+Meu público: [quem compra]. Tipo de anúncio: [venda, lead ou mensagem no
+WhatsApp]. Liste o que é decisão estratégica e tática minha e o que você
+pode executar sozinho. Antes de executar, me mostre o plano em passos curtos
+e espere meu OK. No final, diga como eu confiro que ficou certo.
+
+>_ COLE NO CLAUDE CODE                                                           PROMPT 2/2
+
+Quando usar: Quando um resultado da IA vier genérico e você suspeitar que faltou contexto.
+
+O resultado ficou genérico. Antes de refazer, me diga que contexto está
+faltando para você entregar o que eu quero: sobre minha oferta, meu público
+e o método de venda. Minha oferta: [o que vendo e para quem]. Meu objetivo:
+[venda, lead ou mensagem]. Pergunte o que precisar, uma pergunta por vez, e
+só depois refaça.
+
+04
+
+SUA VEZ
+
+Separe o que é seu do que é da IA: você é o diretor, ela executa o operacional.
+
+    01 Meu produto em 1 frase
+
+FCA · MÓDULO 1 · AULA 4                                                          PÁGINA 4
+WORKBOOK · MÓDULO 1 · AULA 4                           O QUE É (E O QUE NÃO É) A FÁBRICA
+
+02 Meu tipo de anúncio: venda, lead ou mensagem no WhatsApp
+
+03 3 decisões estratégicas e táticas que ficam comigo
+
+04 3 tarefas operacionais que vou delegar à IA
+
+05
+
+ANTES DA PRÓXIMA AULA
+
+       Entendi que o segredo da IA é o contexto, não a ferramenta
+       Sei que a Fábrica não é um software de botão nem um pacote solto de skills
+       Sei que a Fábrica é um ecossistema de contexto: o método e a IA treinada no meu Claude
+       Sei que meu papel é de diretor: atuo no estratégico e no tático, e a IA executa
+       Sei que não vou aprender copy, direção ou edição como profissão
+       Sei que o foco é anúncio para venda, lead e mensagem, e que conteúdo é bônus
+
+06
+
+GLOSSÁRIO
+
+Contexto   Tudo que a IA sabe sobre venda, anúncio e a sua oferta antes de produzir. É o
+           segredo da IA.
+
+FCA · MÓDULO 1 · AULA 4                                                                        PÁGINA 5
+WORKBOOK · MÓDULO 1 · AULA 4                      O QUE É (E O QUE NÃO É) A FÁBRICA
+
+Software de botão  Ferramenta em que você coloca um link e sai um criativo rápido, sem contexto
+                   suficiente.
+
+Ecossistema de     O método somado à IA treinada no seu Claude, trabalhando juntos.
+contexto
+                   Quem atua no estratégico e no tático e orquestra a IA, sem executar o trabalho
+Diretor            operacional.
+
+Operacional        A execução do trabalho duro, que a IA faz: criar, montar, subir e ligar.
+
+Call to action     A chamada para a ação no fim do anúncio. É praticamente o que diferencia o
+                   anúncio de venda, o de lead e o de mensagem.
+
+07                                                            fca.lucioartes.com
+
+LINKS DA AULA
+
+↗ Página da Fábrica
+
+08
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 1 · AULA 4
+
+FCA · MÓDULO 1 · AULA 4                                                                      PÁGINA 6
+

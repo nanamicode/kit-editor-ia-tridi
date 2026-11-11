@@ -1,0 +1,252 @@
+FÁBRICA DE CRIATIVOS                    Nº M02-A3
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 2 · AULA 3
+
+ELEMENTOS DE UM ANÚNCIO VENCEDOR
+
+MOSTRAR A TELA QUE
+O COMPRADOR JÁ USA
+
+  4 CAPÍTULOS 3 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 O padrão que vendeu
+   01 Abertura
+   03 Como mostrar a prova              2.3 04 Naprática
+                                                                              FCA · M02-A3
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 2 · AULA 3  MOSTRAR A TELA QUE O COMPRADOR JÁ USA
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Depois do gancho, o que vem é mostrar algo que o comprador já conhece. O Lúcio vem usando
+o mesmo padrão há seis meses, em 11 campanhas: o gancho quebra o padrão e logo em
+seguida aparece a tela que o comprador abre toda semana, com números que ele compara com
+os dele (retorno sobre investimento, custo por lead, CTR). Painel que ele conhece prende a
+atenção. Terminal, a tela de quem vende, ele não reconhece. Para provar, são três cuidados:
+escolha a tela que ele já usa, borre só o dado sensível mantendo a tela legível, e mostre um
+número por vez na mesma janela. Se o seu produto não tem tela, use desenho, diagrama, foto
+ou vídeo do objeto, com o número que você tem e a origem. Nunca invente número nem
+depoimento.
+
+IDEIA CENTRAL
+
+Logo depois do gancho, mostre a tela que o comprador já
+conhece: a tela dele vende mais que a de quem vende.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Depois do gancho, o que ele já conhece
+
+    O gancho quebra o padrão. Logo em seguida você mostra algo que o comprador
+    reconhece. Se não fizer isso, fica estranho e ele sai. Lúcio usa esse padrão há seis
+    meses, em 11 campanhas. As que mais funcionaram para o produto dele foram
+    exatamente isso: um gancho e, depois, algo que a pessoa conhece.
+
+02  A tela que ele abre toda semana
+
+    Como o Lúcio fala de tráfego pago, a tela é a do Facebook que todo gestor de tráfego
+    abre todo dia. Os números são os que o comprador compara com os dele: retorno sobre
+    investimento, custo por lead, CTR dos anúncios. A familiaridade prende a atenção, e ele
+    passa a esperar que ali tem coisa para ele.
+
+FCA · MÓDULO 2 · AULA 3                                  PÁGINA 2
+WORKBOOK · MÓDULO 2 · AULA 3  MOSTRAR A TELA QUE O COMPRADOR JÁ USA
+
+03  Painel versus terminal
+
+    Painel é a tela que o comprador conhece, com números comparáveis. Terminal é a tela
+    de quem vende, e o comprador não se reconhece nela. É um exemplo do Lúcio: ele
+    mostra o painel, não o terminal. Um criativo teve 20 vendas na tela e zero do outro lado.
+    Outro teve 27 vendas e chamou muita atenção, porque a pessoa se compara: se o Lúcio
+    faz 20 vendas e ela não faz nenhuma, ela quer entender como.
+
+04  Três cuidados na hora de dar a prova
+
+    1) Escolha a tela que ele já usa: dê um jeito de mostrar algo que a pessoa a quem você
+    quer vender já usa. 2) Blur só no dado, com a tela legível: borre apenas se houver dado
+    sensível, como nome ou CPF. Riscar tudo atrapalha. 3) Um número por vez, na mesma
+    janela: tela poluída confunde. O Lúcio não põe CTR, CPC e CPA juntos, só o retorno
+    sobre investimento.
+
+05  E se eu não tenho tela?
+
+    Faça um desenho, um diagrama, tire uma foto ou grave um vídeo do objeto. O Lúcio
+    vende em tela, mas você mostra a sua: um resultado, um diagrama, algo do tipo. Use o
+    número que você tem e a origem dele. E nunca invente o número. Ele também não
+    inventa depoimento: é melhor não ter depoimento do que inventar.
+
+06  Entenda quem é o seu comprador
+
+    Descubra quem é o seu comprador, qual tela ele abre todo dia e qual número ele
+    compara. O Lúcio sabe que o comprador dele anuncia online, está todo dia no
+    gerenciador de anúncios e compara o custo por venda. É isso que ele mostra. Para
+    pesquisar, use a Biblioteca de Anúncios da Meta com o Claude e veja quais anúncios
+    estão performando há mais tempo.
+
+07  O que não fazer
+
+    Não use tela toda borrada nem uma ferramenta que o comprador não conhece. A tela
+    tem de ser legível. Para alguns nichos pode ser difícil, mas faça o que você consegue:
+    mostre o que a pessoa conhece e não invente moda.
+
+FCA · MÓDULO 2 · AULA 3       PÁGINA 3
+WORKBOOK · MÓDULO 2 · AULA 3                                       MOSTRAR A TELA QUE O COMPRADOR JÁ USA
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/3
+
+Quando usar: Para descobrir a tela e o número do seu comprador.
+
+Meu produto: [descreva em 1 linha]. Meu comprador: [quem é]. Qual tela ele
+abre todo dia e qual número ele compara com o dele? Me dê 3 opções de cena
+para mostrar logo depois do gancho, cada uma com: a tela, o número em
+destaque (um só) e como mostrar sem expor dado sensível. Se não houver tela
+real, proponha um desenho, diagrama, foto ou vídeo do objeto, sem inventar
+números. Antes de executar, me mostre o plano em passos curtos e espere meu
+OK. No final, diga como eu confiro que ficou certo.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/3
+
+Quando usar: Para pesquisar anúncios que já funcionam, em vez de pagar ferramenta de espionagem.
+
+Meu produto é [descreva em 1 linha], para [quem é o comprador]. Investigue
+na Biblioteca de Anúncios da Meta e descubra outros anúncios do meu nicho
+que estão performando há mais tempo. Para cada um, me diga: qual é o gancho,
+o que aparece logo depois do gancho, que tela ou prova ele mostra e o que eu
+posso aproveitar no meu. Antes de executar, me mostre o plano em passos
+curtos e espere meu OK. No final, diga como eu confiro que ficou certo.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/3
+
+Quando usar: Para criar variações do criativo com a tela do comprador.
+
+Tenho este criativo: gancho [escreva o gancho] e, logo depois, a tela [qual
+tela] com o número [qual número], na janela de datas [período]. Crie
+[quantas] variações mantendo o padrão gancho e depois algo que o comprador
+já conhece. Mude só o gancho e o número em destaque, sempre um número por
+vez e na mesma janela de datas. Não invente número nem depoimento: use
+apenas os dados que eu passei. Antes de executar, me mostre o plano em
+passos curtos e espere meu OK. No final, diga como eu confiro que ficou
+certo.
+
+FCA · MÓDULO 2 · AULA 3                                            PÁGINA 4
+WORKBOOK · MÓDULO 2 · AULA 3                        MOSTRAR A TELA QUE O COMPRADOR JÁ USA
+
+04
+
+O QUE NÃO FAZER
+
+Prova que não prova
+
+→ ✕ ERRADO                                   ✓ CERTO
+
+Tela toda borrada ou ferramenta que ele não  Tela legível, blur só no dado
+
+conhece
+
+05
+
+SUA VEZ
+
+Pegue o iPad ou uma folha de papel e desenhe a tela que o seu comprador abre todo dia.
+Circule o número que ele compara com o dele. Se o seu produto não tem tela, desenhe o
+diagrama que você vai mostrar no lugar.
+
+    01 Quem é o meu comprador
+
+02 A tela que ele abre todo dia
+
+03 O número que ele compara com o dele (um só)
+
+04 O que na tela é dado sensível e precisa de blur
+
+FCA · MÓDULO 2 · AULA 3                                                     PÁGINA 5
+WORKBOOK · MÓDULO 2 · AULA 3  MOSTRAR A TELA QUE O COMPRADOR JÁ USA
+
+05 Se eu não tenho tela: o que vou mostrar no lugar (desenho, diagrama, foto ou vídeo
+    do objeto) e de onde vem o número
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       Mostro algo que o comprador conhece logo depois do gancho
+       Escolhi a tela que ele já usa
+       Defini um único número em destaque
+       O blur cobre só o dado sensível (nome, CPF), e a tela continua legível
+       Mostro os números na mesma janela de datas
+       Se não tenho tela, uso desenho, diagrama, foto ou vídeo do objeto, com o número que eu tenho e a
+       origem
+       Não inventei número nem depoimento
+       Pesquisei na Biblioteca de Anúncios da Meta o que já performa há mais tempo
+
+07
+
+GLOSSÁRIO
+
+Gancho     O início do criativo, que quebra o padrão e chama a atenção. Logo depois dele
+           vem algo que o comprador conhece.
+
+Painel     A tela que o comprador conhece, com números que ele consegue comparar
+           com os dele.
+
+Terminal   A tela de quem vende. O comprador não se reconhece nela.
+
+FCA · MÓDULO 2 · AULA 3                                              PÁGINA 6
+WORKBOOK · MÓDULO 2 · AULA 3                      MOSTRAR A TELA QUE O COMPRADOR JÁ USA
+
+Blur              Desfoque aplicado só no dado sensível, como nome ou CPF. Não se borra a
+                  tela inteira.
+
+Retorno sobre     Número que o comprador de tráfego compara com o dele. É o exemplo de
+investimento      número único que o Lúcio mostra, em vez de misturar CTR, CPC e CPA.
+
+Janela de datas   O período que os números mostrados cobrem. Deve ser a mesma para todos
+                  os números.
+
+Biblioteca de     Ferramenta da Meta para ver anúncios de outros anunciantes. Serve para
+Anúncios da Meta  descobrir quais estão performando há mais tempo.
+
+08                                                            facebook.com/ads/library
+                                                               adsmanager.facebook.com
+LINKS DA AULA
+
+↗ Biblioteca de Anúncios da Meta
+↗ Gerenciador de Anúncios (só leitura)
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 2 · AULA 3
+
+FCA · MÓDULO 2 · AULA 3                                       PÁGINA 7
+

@@ -1,0 +1,250 @@
+FÁBRICA DE CRIATIVOS                    Nº M08-A8
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 8 · AULA 8
+
+COMO INSTALAR E CONFIGURAR
+
+TERMINAL,
+CONECTORES E PLUGINS
+
+  3 CAPÍTULOS 4 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Terminal opcional
+   01 Abertura
+   03 Conectores, regras e modelos      8.8
+                                                                              FCA · M08-A8
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 8 · AULA 8  TERMINAL, CONECTORES E PLUGINS
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Esta aula fecha o bloco de instalação e configuração. O terminal, no Mac ou no Windows, é
+opcional: serve para quem quer usar o Claude por linha de comando, e para o trabalho de
+marketing da Fábrica o Lúcio não vê vantagem nele. Os conectores ligam o Claude a
+ferramentas externas, como Gmail, Google Drive e Chrome. Na aula, ele criou um conector
+personalizado para o MCP do Meta Ads e deu ao Claude permissão de leitura nas contas de
+anúncio. Os plugins hoje quase não se diferenciam dos conectores, e o Lúcio não usa
+praticamente nenhum. Toda regra que você quer em todas as sessões e projetos vai para o
+CLAUDE.md (/init cria, /memory edita). A Fábrica funciona como uma equipe de IA: um agente
+planeja, outro pesquisa, outro faz o roteiro, outro revisa e outro edita, e você nem percebe.
+
+IDEIA CENTRAL
+
+Terminal é opcional; o que vale é ligar seus conectores (como
+o Meta Ads), guardar as regras no CLAUDE.md e deixar a IA
+trabalhar em equipe.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Terminal (opcional)
+
+    Terminal é aquela telinha preta. No Windows, abra o cmd (digitando cmd ou pelos
+    acessórios). No Mac, abra o Terminal. Se você ainda não tem o Claude e quer usá-lo por
+    linha de comando, cole o comando de instalação, dê Enter e ele instala. Depois é só
+    digitar claude para entrar nele. Ali ele faz tudo que o aplicativo faz, só que digitado. O
+    Lúcio não vê vantagem nisso para o trabalho de marketing, mas, se quiser, fique à
+    vontade.
+
+02  Conectores
+
+    Conector facilita sua vida com ferramentas externas. Fica em Configurações >
+    Conectores, onde já há alguns, como Gmail (escrever e ler e-mails), Google Drive e
+    Claude do Chrome. Há dezenas de conectores pré-construídos, e você também pode
+    criar o seu, como o do Meta Ads. Para ligar, basta estar logado na conta.
+
+FCA · MÓDULO 8 · AULA 8       PÁGINA 2
+WORKBOOK · MÓDULO 8 · AULA 8                                       TERMINAL, CONECTORES E PLUGINS
+
+03  Conector do Meta Ads (MCP)
+
+    Em Conectores, clique em adicionar conector personalizado e informe o endereço do
+    servidor MCP oficial da Meta (o Lúcio deixa esse endereço na descrição do vídeo). Não
+    mexa nas opções avançadas, só clique em Adicionar. Ele abre a conta do Meta em
+    outra aba, onde você precisa estar logado no Facebook. Confirme e aceite os BMs. Se
+    alguma conta não tiver o servidor MCP habilitado, o Claude lista só as contas que já
+    estão habilitadas. Com isso o Claude passa a ter permissão de leitura nas suas contas
+    de anúncio, e os criativos da Fábrica poderão ser subidos direto na conta, por dentro do
+    Claude.
+
+04  Plugins e CLAUDE.md
+
+    Plugins adicionam funcionalidades, e hoje quase não há diferença para os conectores.
+    O Lúcio não usa praticamente nenhum. Já o CLAUDE.md é a memória do Claude, que
+    vale para tudo. Toda regra que você quer salva para todas as sessões e todos os
+    projetos, peça ao Claude para gravar nele. O /init cria o arquivo e o /memory edita, e
+    você nem precisa saber muito mais que isso.
+
+05  Faça a IA trabalhar em equipe
+
+    O chefe planeja, um agente pesquisa e varre, outro faz o roteiro e critica, e o chefe
+    revisa. Na Fábrica é assim: um planeja, outro pesquisa, outro faz o roteiro, outro revisa
+    tudo, outro edita. Já existem subagentes e agentes trabalhando, e você não precisa se
+    preocupar com isso. O Lúcio avisa que ensinou mais do que você precisa para executar
+    a Fábrica, para você extrair do Claude muito mais do que só criativos.
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO TERMINAL                                                PROMPT 1/4
+
+Quando usar: Instalar o Claude pelo terminal do Mac (opcional, só se ainda não tiver o Claude)
+
+curl -fsSL https://claude.ai/install.sh | bash
+
+FCA · MÓDULO 8 · AULA 8                                                                         PÁGINA 3
+WORKBOOK · MÓDULO 8 · AULA 8                  TERMINAL, CONECTORES E PLUGINS
+
+>_ COLE NO TERMINAL                           PROMPT 2/4
+
+Quando usar: Instalar o Claude Code pelo terminal do Windows (opcional). É um comando do
+PowerShell; se o cmd não aceitar, abra o PowerShell
+
+irm https://claude.ai/install.ps1 | iex
+
+>_ COLE NO CLAUDE CODE                        PROMPT 3/4
+
+Quando usar: Descobrir como ligar um serviço como conector (exemplo da aula: Meta Ads)
+
+Como conectar o MCP oficial do [serviço, ex.: Meta Ads] a você via conector?
+Procure o endereço do servidor MCP oficial e me diga o passo a passo para
+adicionar como conector personalizado.
+
+>_ COLE NO CLAUDE CODE                        PROMPT 4/4
+
+Quando usar: Salvar uma regra para todas as sessões e projetos
+
+Grave no CLAUDE.md, para valer em todas as sessões e todos os projetos:
+[regra que você quer, ex.: sempre responda em português do Brasil].
+
+04
+
+O QUE NÃO FAZER
+
+Terminal sem reabrir
+
+→ ✕ ERRADO                                    ✓ CERTO
+
+Não reabrir o terminal; plugins todos de uma  Reabrir o terminal; um plugin por vez
+
+vez
+
+FCA · MÓDULO 8 · AULA 8                                                                   PÁGINA 4
+WORKBOOK · MÓDULO 8 · AULA 8                         TERMINAL, CONECTORES E PLUGINS
+
+05
+
+SUA VEZ
+
+Abra Configurações > Conectores no seu app e anote:
+
+01 Quais conectores já aparecem ligados no seu app (Gmail, Google Drive, Chrome...)?
+
+02 Você ligou o conector do Meta Ads? Quais contas de anúncio apareceram como
+    habilitadas?
+
+03 Qual regra sua você gravaria no CLAUDE.md para valer em todos os projetos?
+
+04 Você usou o terminal? Se sim, o comando claude abriu o Claude?
+
+06                                                                              PÁGINA 5
+
+ANTES DA PRÓXIMA AULA
+
+       Sei que o terminal é opcional e que a Fábrica funciona sem ele
+       Sei onde ficam os Conectores no app (Configurações > Conectores)
+       Conectei o Meta Ads (ou sei o passo a passo) e estou logado no Facebook
+
+FCA · MÓDULO 8 · AULA 8
+WORKBOOK · MÓDULO 8 · AULA 8                                   TERMINAL, CONECTORES E PLUGINS
+
+     Conferi quais contas de anúncio estão habilitadas no MCP
+
+     Sei que o /init cria o CLAUDE.md e o /memory edita
+
+     Entendi que a Fábrica é uma equipe de agentes e que não preciso configurar isso
+
+07
+
+GLOSSÁRIO
+
+Terminal   A telinha preta onde você digita comandos. No Windows abre pelo cmd; no
+           Mac, pelo Terminal.
+
+Conector   Ponte entre o Claude e uma ferramenta externa, como Gmail, Google Drive ou
+           Meta Ads.
+
+MCP        Servidor que permite ao Claude se conectar a um serviço. O do Meta Ads dá
+           acesso às suas contas de anúncio.
+
+Plugin     Adiciona alguma funcionalidade ao Claude. Hoje quase não se diferencia do
+           conector.
+
+CLAUDE.md  A memória do Claude, que vale para todas as sessões e projetos. O /init cria e
+           o /memory edita.
+
+Subagente  Agente que trabalha sob o comando do chefe em uma etapa, como pesquisar
+           ou fazer o roteiro.
+
+08
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude (Mac e Windows)                                            claude.com/download
+
+↗ Sistema da Fábrica: fca-sistema.zip +   drive.google.com/drive/folders/1xE1OACdDqMbNN43
+                                                                                       BCKPqp9B6YFqRrhHL
+manual de instalação
+
+↗ Pacotes que o /fca-instalar baixa (se   drive.google.com/drive/folders/1Q6yUiQMR5BZBfF
+                                                                                    zf5_5KLdi4jFaquHfh
+precisar baixar à mão)
+
+↗ Guias em PDF (instalação, erros         drive.google.com/drive/folders/1KiRF1BB9v4fYJriCSf
+                                                                                                NV5IaZU9q_cWEw
+comuns, add-ons)
+
+FCA · MÓDULO 8 · AULA 8                                                               PÁGINA 6
+WORKBOOK · MÓDULO 8 · AULA 8                                       TERMINAL, CONECTORES E PLUGINS
+
+↗ Instalação (docs)                                                code.claude.com/docs/en/setup
+
+↗ Skills (docs)                                   code.claude.com/docs/en/skills
+
+↗ Git for Windows                                                  git-scm.com/download/win
+
+↗ Endereço do conector da Meta (Adicionar conector personalizado)  mcp.facebook.com/ads
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 8 · AULA 8
+
+FCA · MÓDULO 8 · AULA 8                                            PÁGINA 7
+

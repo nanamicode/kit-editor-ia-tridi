@@ -1,0 +1,238 @@
+FÁBRICA DE CRIATIVOS                    Nº M01-A7
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 1 · AULA 7
+
+APRESENTAÇÃO E QUEM SOU
+
+AS PALAVRAS
+DA FÁBRICA
+
+  3 CAPÍTULOS 3 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Materiais e formato
+   01 Peças e partes
+   03 IA e ferramenta                    1.7
+                                                                              FCA · M01-A7
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 1 · AULA 7  AS PALAVRAS DA FÁBRICA
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Esta aula existe porque o Claude vai exibir na tela termos de editor e designer, vai fazer
+perguntas com eles, e você precisa entender o que ele quer dizer. O Lúcio explica o vocabulário
+em cinco grupos: as peças e as partes do anúncio (criativo, anúncio,
+campanha/conjunto/anúncio, par, gancho, corpo, prova, CTA), os materiais (asset, b-roll, trilha e
+SFX, capa), o formato e a entrega (9:16, 4:5, área segura, render, legenda e copy), as palavras da
+IA (prompt, briefing, contexto, plano) e as palavras da Fábrica e da máquina (skill, DNA, molde,
+app do Claude e Claude Code, pasta, chave de API, motor). A aula é curta e é para quem é leigo:
+o objetivo é entender o vocabulário, não decorar. Tudo isso aparece na prática nas próximas
+aulas.
+
+IDEIA CENTRAL
+
+Você não precisa ser editor: precisa entender os termos que o
+Claude vai usar para trabalhar com ele sem travar.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Peças: criativo, anúncio e par
+
+    Criativo é o anúncio pronto, em vídeo ou imagem (o carrossel pode ter vídeo, imagem
+    ou os dois). Anúncio é o criativo mais o texto, o título e o botão. A Fábrica já entrega o
+    criativo (o visual e o audiovisual) e os textos e títulos para você colocar na sua
+    campanha. Campanha, conjunto e anúncio são os três níveis das campanhas da Meta.
+    Par é a versão paga e a orgânica do mesmo material: a Skill também faz conteúdo
+    orgânico para o seu Instagram, e para o Lúcio é o mesmo esforço.
+
+02  As partes do anúncio
+
+    Gancho: os 3 primeiros segundos, o anzol que chama a atenção e faz a pessoa parar de
+    rolar o feed. Corpo: o problema e o mecanismo, o que acontece depois do gancho para
+    você não perder a atenção que acabou de ganhar. Prova: a tela, o número, o depoimento
+    (prova social). CTA, de Call to Action: o que você quer que a pessoa faça; o mais
+    comum na Meta é o "Saiba mais", mas há também comprar agora, cadastrar-se e vários
+    outros.
+
+FCA · MÓDULO 1 · AULA 7       PÁGINA 2
+WORKBOOK · MÓDULO 1 · AULA 7  AS PALAVRAS DA FÁBRICA
+
+03  Materiais: asset, b-roll, trilha, SFX e capa
+
+    Asset é qualquer arquivo que entra no criativo e participa da composição da cena:
+    ícone, áudio, vídeo, imagem. É um termo genérico. B-roll é vídeo de apoio, sem fala,
+    aqueles que aparecem por trás da narração num VSL ou anúncio. Trilha e SFX (Sound
+    Effects) são a música e os efeitos sonoros, e fazem total diferença. Capa é a imagem
+    parada que aparece antes do play: a Meta pega o primeiro quadro do vídeo, e se ele não
+    for bom você pode perder cliques. Se você não escolher uma, a Meta escolhe um frame
+    por você. Alguns chamam de thumbnail.
+
+04  Proporção, dimensão e 9:16 × 4:5
+
+    Proporção é uma razão matemática: 9:16 significa 9 de largura para cada 16 de altura,
+    em qualquer unidade (pixels, centímetros). Dimensão é o tamanho em pixels; a mais
+    conhecida do 9:16 é 1080 × 1920. O 9:16 é o formato bem vertical dos Stories e Reels.
+    O 4:5 é o formato retrato, um pouco alongado (não é quadrado), que você vê na maioria
+    das capas do feed.
+
+05  Área segura: um criativo só para todos os posicionamentos
+
+    Cada posicionamento tem uma dimensão (retangular, quadrado etc.) e a Meta permite
+    um criativo para cada uma. O Lúcio faz um formato só, o 9:16, e coloca o essencial
+    dentro da área segura: o 4:5 centralizado. Nos Stories o criativo aparece inteiro; no feed
+    do Instagram aparece só o retrato. Tudo o que está na área segura não é cortado em
+    nenhum posicionamento. As skills do curso já trazem esse treinamento e fazem isso
+    sozinhas.
+
+06  Render, legenda e copy
+
+    Render é quando a IA gera o vídeo final, o arquivo final. Legenda do post é o texto que
+    você sobe junto com a publicação no Instagram. Legenda no vídeo é a fala escrita na
+    tela. Copy é todo texto feito para vender: roteiro, título, legenda, tudo isso.
+
+FCA · MÓDULO 1 · AULA 7       PÁGINA 3
+WORKBOOK · MÓDULO 1 · AULA 7                                       AS PALAVRAS DA FÁBRICA
+
+07  IA, Fábrica e máquina
+
+    Prompt é o pedido que você escreve; briefing é o pedido completo sobre a sua oferta;
+    contexto é tudo que a IA sabe antes de responder; plano é o que ela vai fazer antes de
+    fazer (o Lúcio sempre executa no modo planejamento primeiro). Skill é uma receita
+    pronta, chamada com barra, mas você não precisa usar a barra: o Lúcio fala em
+    linguagem natural e a IA entende qual skill usar. DNA é a IA pensando como
+    especialista: além das skills, o curso entrega DNAs de especialistas (entre eles o
+    próprio Lúcio) com conhecimento e contexto para a skill trabalhar certo. Molde é um
+    template, um estilo pronto: o DNA põe o contexto, a skill pesquisa o estilo e faz para
+    você. Na máquina: o app do Claude e o Claude Code são onde você pede (o Lúcio usa o
+    terminal do Mac, mas no treinamento usa o aplicativo do Claude, mais democrático);
+    pasta é o projeto; chave de API é a senha para acessar uma ferramenta via API; motor é
+    o que monta o vídeo por baixo.
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/3
+
+Quando usar: Quando o Claude usar um termo que você não conhece no meio de uma tarefa
+
+Você usou o termo [termo] e eu não sei o que é. Explique em uma frase
+simples, dê um exemplo ligado ao meu anúncio de [produto/oferta] e depois
+continue de onde parou.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/3
+
+Quando usar: Para começar uma tarefa mostrando o plano antes de executar, como o Lúcio faz
+
+Antes de executar, me mostre o plano do que você vai fazer para [tarefa]. Só
+avance depois que eu aprovar.
+
+FCA · MÓDULO 1 · AULA 7                                            PÁGINA 4
+WORKBOOK · MÓDULO 1 · AULA 7             AS PALAVRAS DA FÁBRICA
+
+>_ COLE NO CLAUDE CODE                                                      PROMPT 3/3
+
+Quando usar: Para analisar um anúncio pelas partes
+
+Analise este anúncio e me diga qual é o gancho (3 primeiros segundos), o
+corpo (problema e mecanismo), a prova e o CTA: [cole o roteiro ou descreva o
+anúncio].
+
+04
+
+SUA VEZ
+
+Pegue um anúncio seu (ou um da Fábrica) e nomeie as partes e os materiais:
+
+    01 O gancho (os 3 primeiros segundos)
+
+02 O corpo (problema e mecanismo)
+
+03 A prova (tela, número ou depoimento)
+
+04 O CTA (o pedido final)
+
+FCA · MÓDULO 1 · AULA 7                                                     PÁGINA 5
+WORKBOOK · MÓDULO 1 · AULA 7                                                  AS PALAVRAS DA FÁBRICA
+
+05 Dois assets que aparecem (por exemplo, um b-roll e uma trilha ou SFX)
+
+06 O primeiro quadro: ele funciona como capa?
+
+05
+
+ANTES DA PRÓXIMA AULA
+
+       Sei a diferença entre criativo e anúncio
+       Sei as 4 partes do anúncio: gancho, corpo, prova e CTA
+       Sei o que é asset e b-roll
+       Sei que o primeiro quadro vira a capa se eu não escolher uma
+       Sei a diferença entre proporção (9:16) e dimensão (1080 × 1920)
+       Sei por que o essencial fica dentro da área segura (4:5 centralizado)
+       Sei o que é prompt, briefing, skill e DNA
+
+06
+
+GLOSSÁRIO
+
+Criativo   O anúncio pronto, em vídeo ou imagem (o carrossel pode ter os dois).
+
+Anúncio    O criativo mais o texto, o título e o botão.
+
+Par        A versão paga e a orgânica do mesmo material.
+
+FCA · MÓDULO 1 · AULA 7                                                          PÁGINA 6
+WORKBOOK · MÓDULO 1 · AULA 7                                   AS PALAVRAS DA FÁBRICA
+
+Gancho       Os 3 primeiros segundos, o anzol que faz a pessoa parar de rolar o feed.
+
+Prova        Tela, número ou depoimento; é a prova social.
+
+CTA          Call to Action: o que você quer que a pessoa faça; o mais comum na Meta é o
+             "Saiba mais".
+
+Asset        Qualquer arquivo que entra no criativo: ícone, áudio, vídeo, imagem.
+
+B-roll       Vídeo de apoio, sem fala, que aparece por trás da narração.
+
+Área segura  O 4:5 centralizado dentro do 9:16, onde fica o essencial para não ser cortado.
+
+Render       Quando a IA gera o vídeo final, o arquivo final.
+
+DNA          A IA pensando como especialista, com conhecimento e contexto para a skill
+             trabalhar certo.
+
+Motor        O que monta o vídeo por baixo.
+
+07
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 1 · AULA 7
+
+FCA · MÓDULO 1 · AULA 7                                                            PÁGINA 7
+

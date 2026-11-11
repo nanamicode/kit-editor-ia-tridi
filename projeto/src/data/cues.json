@@ -1,0 +1,152 @@
+[
+ {
+  "tipo": "info",
+  "bpm": 108,
+  "grid_offset_s": 0.043,
+  "semicolcheia_s": 0.138889,
+  "downbeats_s": [
+   1.154,
+   3.376,
+   5.599,
+   7.821,
+   10.043
+  ],
+  "nota": "t em segundos da composicao (= tempo do arquivo). Cortes caem em n=9,20,30,40,49 da grade de 16avos (erro <=15 ms). Impactos: o audio ORIGINAL do B-roll tem cliques mecanicos reais (medidos): 'pressao' = clack de maior forca e 'relevo' = ~245 ms depois, quando o relevo aparece; sincronizar punch-in/tremor ao 'relevo' (ou a 'pressao' para antecipar). Fala audivel comeca ~8.5 s (Whisper marca 8.28).",
+  "mix_recomendado": "voz = audio original do criativo.mp4 com volume 0.668 (-3.5 dB, o original passa de 0 dBTP) + bed.wav volume 1.0; medido -14.1 LUFS, -1.5 dBTP",
+  "voz_gain_db": -3.5,
+  "loudness_mix_lufs": -14.1,
+  "true_peak_mix_dbtp": -1.5
+ },
+ {
+  "t": 0.355,
+  "tipo": "impacto",
+  "nome": "pressao carimbo 1 (envelope azul): pico de forca / clack grave",
+  "clipe": 1
+ },
+ {
+  "t": 0.6,
+  "tipo": "impacto",
+  "nome": "relevo carimbo 1 (envelope azul): relevo aparece / chk metalico",
+  "clipe": 1
+ },
+ {
+  "t": 1.293,
+  "tipo": "corte",
+  "nome": "corte 1 -> clipe 2: whoosh (pico no corte)"
+ },
+ {
+  "t": 1.525,
+  "tipo": "impacto",
+  "nome": "pressao carimbo 2 (adesivo): pico de forca / clack grave",
+  "clipe": 2
+ },
+ {
+  "t": 1.77,
+  "tipo": "impacto",
+  "nome": "relevo carimbo 2 (adesivo): relevo aparece / chk metalico",
+  "clipe": 2
+ },
+ {
+  "t": 2.836,
+  "tipo": "corte",
+  "nome": "corte 2 -> clipe 3: whoosh+glitch (pico no corte)"
+ },
+ {
+  "t": 3.235,
+  "tipo": "impacto",
+  "nome": "pressao carimbo 3 (guardanapo): pico de forca / clack grave",
+  "clipe": 3
+ },
+ {
+  "t": 3.48,
+  "tipo": "impacto",
+  "nome": "relevo carimbo 3 (guardanapo): relevo aparece / chk metalico",
+  "clipe": 3
+ },
+ {
+  "t": 4.213,
+  "tipo": "corte",
+  "nome": "corte 3 -> clipe 4: whoosh (pico no corte)"
+ },
+ {
+  "t": 4.485,
+  "tipo": "impacto",
+  "nome": "pressao carimbo 4 (selo dourado): pico de forca / clack grave",
+  "clipe": 4
+ },
+ {
+  "t": 4.73,
+  "tipo": "impacto",
+  "nome": "relevo carimbo 4 (selo dourado): relevo aparece / chk metalico",
+  "clipe": 4
+ },
+ {
+  "t": 5.589,
+  "tipo": "corte",
+  "nome": "corte 4 -> clipe 5: whoosh+glitch (pico no corte)"
+ },
+ {
+  "t": 5.599,
+  "tipo": "riser",
+  "nome": "riser comeca (ruido ascendente + tom 220->1760 Hz)"
+ },
+ {
+  "t": 5.945,
+  "tipo": "impacto",
+  "nome": "pressao carimbo 5 (envelope verde-agua): pico de forca / clack grave",
+  "clipe": 5
+ },
+ {
+  "t": 6.19,
+  "tipo": "impacto",
+  "nome": "relevo carimbo 5 (envelope verde-agua): relevo aparece / chk metalico",
+  "clipe": 5
+ },
+ {
+  "t": 6.84,
+  "tipo": "corte",
+  "nome": "corte 5 -> clipe 6: whoosh (pico no corte)"
+ },
+ {
+  "t": 6.987,
+  "tipo": "riser",
+  "nome": "rolo de caixa acelera (8as -> 16as -> 32as)"
+ },
+ {
+  "t": 7.24,
+  "tipo": "impacto",
+  "nome": "pressao carimbo 6 (cartao): pico de forca / clack grave",
+  "clipe": 6
+ },
+ {
+  "t": 7.48,
+  "tipo": "impacto",
+  "nome": "relevo carimbo 6 (cartao): relevo aparece / chk metalico",
+  "clipe": 6
+ },
+ {
+  "t": 7.716,
+  "tipo": "riser",
+  "nome": "pico do riser + silencio seco de ~100 ms antes do impacto"
+ },
+ {
+  "t": 7.821,
+  "tipo": "revelacao",
+  "nome": "impacto grave do selo / inicio do dissolve para a apresentadora"
+ },
+ {
+  "t": 9.98,
+  "tipo": "cta",
+  "nome": "pop de UI do botao SAIBA MAIS (palavra 'Saiba')"
+ },
+ {
+  "t": 10.22,
+  "tipo": "ding",
+  "nome": "ding brilhante (palavra 'Mais')"
+ },
+ {
+  "t": 11.571,
+  "tipo": "impacto",
+  "nome": "stinger final apos 'seu!' (musica volta do duck)"
+ }
+]

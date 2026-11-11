@@ -1,0 +1,292 @@
+FÁBRICA DE CRIATIVOS                                  Nº M09-A3
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 9 · AULA 3
+
+G E R A N D O S E U S C R I AT I VO S N A PR ÁT I CA
+
+A NARRAÇÃO
+
+  3 CAPÍTULOS 4 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Básica ou avançada
+   01 Abertura
+   03 Gerar a narração                  9.3
+                                                                              FCA · M09-A3
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 9 · AULA 3  A NARRAÇÃO
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Nesta aula o Lúcio fala da narração, a voz do anúncio, que depois se junta ao b-roll, aos efeitos
+e às imagens no formato de stories. O material sai primeiro como uma amostra de 5 a 15
+segundos e, depois que você aprova, vira o vídeo inteiro. A narração básica é grátis (sua voz
+gravada ou a voz do Mac), não pede chave e usa o VoiceStudio, que já vem no instalador. A
+avançada usa o ElevenLabs, serviço pago, conectado por chave de API. Ele mostra o caminho
+das duas, faz o mesmo teste nas duas vozes e compara tempo, memória e qualidade. Por fim
+explica quando usar a versão 3 e quando usar a versão 4 do ElevenLabs.
+
+IDEIA CENTRAL
+
+Se a qualidade serve, o tempo vale a pena: o VoiceStudio é
+grátis e substitui muito bem, e o ElevenLabs v4 entrega a voz
+mais natural e expressiva.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Narração básica × avançada
+
+    A básica é grátis: usa sua voz gravada ou a do Mac, sem chave nenhuma, com o
+    VoiceStudio que já está instalado. A avançada usa o ElevenLabs, serviço pago com
+    vozes muito naturais em português e clonagem da sua voz. O Lúcio usa o VoiceStudio
+    em boa parte dos criativos e fica no ElevenLabs pago quando quer a voz mais natural.
+
+02  Clonar a voz no VoiceStudio
+
+    Abra o Claude e pergunte: "O VoiceStudio está funcionando? Como eu consigo clonar
+    minha voz?". Ele vai pedir um áudio. Anexe ou arraste um arquivo de áudio para dentro
+    do Claude (o áudio ditado no chat não serve, porque vira texto). Grave de 10 a 20
+    segundos no celular ou no computador, peça o clone da voz e dê um nome a ele.
+
+FCA · MÓDULO 9 · AULA 3       PÁGINA 2
+WORKBOOK · MÓDULO 9 · AULA 3  A NARRAÇÃO
+
+03  /fca-voz-local: o modelo atualizado
+
+    O modelo de IA da voz local não vem junto com o instalador porque se atualiza o tempo
+    todo. Ao digitar /fca-voz-local, o Claude baixa o modelo mais atualizado em um
+    ambiente separado. Depois de instalado, você não precisa mais se preocupar com isso.
+
+04  Conectar o ElevenLabs
+
+    Crie a conta, faça login, troque para o Eleven API e crie uma chave de API (dê um nome
+    e, se quiser, uma validade). Copie a chave em local seguro, porque depois de fechada
+    ela não abre mais. Digite /fca-conectar e escolha ElevenLabs: ele abre o arquivo .env,
+    onde ficam os segredos, e você cola a chave em API key. Depois peça para verificar se a
+    conexão funcionou.
+
+05  Voice ID
+
+    Toda voz no ElevenLabs tem um ID, inclusive o clone da sua voz. O Voice ID serve para o
+    Claude usar só aquela voz. Não precisa se preocupar: na primeira vez, o Claude gera
+    vozes para você escutar e, se você disser que gostou de uma, salva o ID e o nome
+    automaticamente.
+
+06  VoiceStudio × ElevenLabs no mesmo teste
+
+    O ElevenLabs roda em um computador potente na nuvem. O VoiceStudio usa o
+    processador e a memória do seu computador, então demora de 3 a 6 vezes mais, ainda
+    mais se você estiver fazendo outras coisas. Nos 30 segundos de áudio: ElevenLabs
+    levou cerca de 6,6 segundos; VoiceStudio levou 1 minuto e 10 e precisou de 6 GB de
+    RAM. Com 4 GB de RAM ele fica mais lento, porque usa o HD como memória (swap). A
+    qualidade do clone local depende da gravação: com um áudio bom, ele fica muito bom.
+
+07  Versão 3 × versão 4 do ElevenLabs
+
+    A versão 3 é mais parecida com o VoiceStudio, com qualidade um pouco melhor. A
+    versão 4 é muito aprimorada: gera vozes com entonação, até cochichos, sem você
+    pedir, porque entende o texto. A assinatura dá créditos por mês; a 3 consome menos
+    créditos e a 4 consome mais. O Lúcio usa a 3 ou o VoiceStudio em produtos low ticket,
+    em que não fala com a própria voz, e a 4 nos produtos de autoridade, em que o público
+    já conhece a voz dele. Para usar a 4, basta pedir a versão 4.
+
+FCA · MÓDULO 9 · AULA 3       PÁGINA 3
+WORKBOOK · MÓDULO 9 · AULA 3                                                    A NARRAÇÃO
+
+03
+
+ELEVENLABS × VOZ LOCAL: CUSTO-BENEFÍCIO
+
+Teste real do professor: o mesmo texto de 30 s e a mesma voz de referência, em um Mac M1 Pro com
+16 GB de RAM.
+
+                    ElevenLabs v4                  VoiceStudio (voz local)
+
+Tempo para 30 s de  6,6 s                          Cerca de 70 s
+fala
+
+Computador exigido Qualquer um (roda na nuvem)     Mac com chip Apple ou PC com placa NVIDIA; pico de 6 GB
+                                                   de RAM
+
+Download            Nenhum                         Cerca de 3 GB
+
+Custo               Pago (assinatura)              Grátis
+
+Privacidade         O texto vai para a nuvem       Tudo fica no seu computador
+
+Pronúncia de        Errou; resolve escrevendo      Acertou
+"Claude Code"       "Cláudi Kôudi"
+
+Licença             Comercial: serve para anúncio  Pesos padrão NÃO comerciais: para anúncio que vende,
+                                                   ElevenLabs ou modelo com licença comercial
+
+Quando escolher     Computador fraco, ou quer o    Computador aguenta e você quer grátis e privado
+                    melhor acabamento
+
+Recomendação: se o computador aguenta, VoiceStudio; se não aguenta ou você quer o melhor acabamento, ElevenLabs.
+Mac Intel não gera voz local; Windows sem placa NVIDIA fica muito lento.
+
+CAMINHO COMPLETO DA VOZ LOCAL
+
+ 1. Escolher no instalador: no começo do /fca-instalar ele pergunta "VoiceStudio ou ElevenLabs?".
+     Responda e ele instala o escolhido.
+
+ 2. Instalar depois: digite /fca-voz-local (ou peça "instale a voz local"). Ele avisa se o computador
+     aguenta e mostra a licença antes de baixar.
+
+ 3. Onde fica: ~/.fabrica-de-criativos/voz-local (pasta oculta; no Windows, .fabrica-de-criativos dentro da
+     sua pasta de usuário).
+
+ 4. Como abrir: peça ao Claude "abra a voz local".
+ 5. Clonar a voz, passo 1: grave de 10 a 20 segundos limpos, sem eco e sem música.
+ 6. Passo 2: carregue a gravação.
+ 7. Passo 3: escreva o texto com as marcas como se fala (Cláudi Kôudi).
+ 8. Passo 4: gere a narração.
+ 9. Passo 5: ouça e confira a pronúncia, principalmente das marcas.
+
+FCA · MÓDULO 9 · AULA 3                                                                             PÁGINA 4
+WORKBOOK · MÓDULO 9 · AULA 3                                       A NARRAÇÃO
+
+04
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/4
+
+Quando usar: Conferir e clonar a voz com o VoiceStudio
+
+O VoiceStudio está funcionando? Como eu consigo clonar minha voz? Vou anexar
+um áudio de [10 a 20 segundos, gravado no celular ou no computador]. Gere o
+clone e salve com o nome [nome da voz].
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/4
+
+Quando usar: Verificar a conexão com o ElevenLabs
+
+Verifique se a conexão com o ElevenLabs funcionou. Se faltar a API key ou o
+Voice ID, me diga onde colocar no arquivo .env.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/4
+
+Quando usar: Testar a mesma frase nas duas vozes
+
+Use a versão 4 do ElevenLabs e teste minha voz dizendo: "[frase de teste]".
+Gere a mesma frase também com o VoiceStudio. Abra a pasta com as narrações e
+me diga quanto tempo cada um levou.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 4/4
+
+Quando usar: Gerar a narração do roteiro aprovado
+
+Gere a narração do roteiro aprovado com [VoiceStudio ou ElevenLabs versão [3
+ou 4]], na voz [nome da voz]. Escreva siglas e marcas como se fala em
+português. Abra a pasta com o áudio e me diga a duração.
+
+FCA · MÓDULO 9 · AULA 3                                            PÁGINA 5
+WORKBOOK · MÓDULO 9 · AULA 3                                          A NARRAÇÃO
+
+05
+
+SUA VEZ
+
+Faça o teste das duas vozes com uma frase sua e depois gere a narração do roteiro aprovado.
+Anote:
+
+01 Qual frase você usou no teste e qual voz soou melhor (VoiceStudio ou ElevenLabs)?
+
+02 Quanto tempo cada uma levou para gerar?
+
+03 Qual voz você escolheu para a narração do roteiro e por quê (grátis, naturalidade,
+    produto low ticket ou de autoridade)?
+
+04 Qual trecho você pediu para refazer, se houve algum?
+
+06                                                                    PÁGINA 6
+
+ANTES DA PRÓXIMA AULA
+
+       VoiceStudio testado: perguntei ao Claude se está funcionando
+       Áudio de 10 a 20 segundos gravado e anexado para clonar a voz
+
+FCA · MÓDULO 9 · AULA 3
+WORKBOOK · MÓDULO 9 · AULA 3                                                           A NARRAÇÃO
+
+      Chave de API do ElevenLabs criada, guardada em local seguro e conectada pelo /fca-conectar
+
+      Conexão com o ElevenLabs verificada
+
+      Mesma frase gerada no ElevenLabs e no VoiceStudio, comparando tempo e qualidade
+
+      Versão escolhida: VoiceStudio ou versão 3 para low ticket, versão 4 para produto de autoridade
+
+      Narração do roteiro gerada, ouvida e conferida
+
+07
+
+GLOSSÁRIO
+
+VoiceStudio        Programa de voz local e grátis que roda no seu computador. Usa seu
+                   processador e sua memória, por isso demora mais que o ElevenLabs.
+
+ElevenLabs         Serviço pago de voz, com vozes muito naturais em português e clonagem da
+                   sua voz. Roda na nuvem, então funciona em qualquer computador.
+
+Chave de API (API  Chave que dá acesso à sua conta do ElevenLabs. Copie em local seguro na
+key)               hora que criar, porque depois ela não abre mais.
+
+Voice ID           Código de identificação de uma voz no ElevenLabs, inclusive do seu clone.
+                   Serve para o Claude usar só aquela voz.
+
+.env               Arquivo de texto onde ficam guardados os segredos, como a chave de API, que
+                   não devem ser expostos.
+
+B-roll             Vídeos que ficam passando durante o anúncio, quando você não grava um
+                   vídeo seu. Podem ser gerados por IA ou armazenados por você.
+
+Swap               Quando falta memória RAM, o computador usa o HD como se fosse memória.
+                   Funciona, mas deixa tudo mais lento.
+
+Low ticket         Produto de valor baixo. O Lúcio usa a versão 3 do ElevenLabs ou o VoiceStudio
+                   nesses produtos, em que não fala com a própria voz.
+
+FCA · MÓDULO 9 · AULA 3                                                                PÁGINA 7
+WORKBOOK · MÓDULO 9 · AULA 3                                               A NARRAÇÃO
+                                                              claude.com/download
+08
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 9 · AULA 3
+
+FCA · MÓDULO 9 · AULA 3                                       PÁGINA 8
+

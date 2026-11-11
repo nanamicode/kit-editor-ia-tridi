@@ -1,0 +1,245 @@
+FÁBRICA DE CRIATIVOS                    Nº M02-A2
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 2 · AULA 2
+
+ELEMENTOS DE UM ANÚNCIO VENCEDOR
+
+O GANCHO DOS
+3 SEGUNDOS
+
+  4 CAPÍTULOS 2 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Tipos de gancho
+   01 Abertura
+   03 As 3 camadas                      2.2 04 Naprática
+                                                                              FCA · M02-A2
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 2 · AULA 2  O GANCHO DOS 3 SEGUNDOS
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Quem decide se fica ou passa o dedo são os 3 primeiros segundos, ou seja, a primeira imagem
+que aparece no anúncio, no tempo de rolar o feed. Essa primeira imagem tem de ter algo que se
+mexe, porque o movimento segura o olho, e uma frase curta que a pessoa bata o olho e leia,
+falada e escrita na tela. O gancho tem três camadas: falada (até 8 palavras), visual (algo que se
+mexe logo no início) e escrita (a frase no centro da tela). Há tipos de gancho para encaixar a
+oferta: afirmação contraintuitiva, pergunta que dói, número que surpreende, cena inesperada,
+profissão gigante na primeira palavra e painel com número. Gancho provoca, mas não explica:
+quem explica é o corpo do anúncio, e vinheta e logo no início só fazem o dedo passar.
+
+IDEIA CENTRAL
+
+O gancho é uma imagem que se mexe com uma frase que a
+pessoa lê na hora: ele provoca e quebra o padrão de rolagem,
+quem explica é o corpo do anúncio.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Os 3 primeiros segundos
+
+    É a primeira imagem que aparece logo de cara no anúncio, no tempo de rolar o feed. O
+    Meta pega o primeiro frame do vídeo e transforma em capa: quem passa o feed vê a
+    imagem e só depois ela se movimenta. Isso é intencional, para o olho prestar atenção.
+    Se tudo no feed é igual e o seu anúncio não tem nada diferente, a pessoa passa direto.
+
+02  Algo que se mexe + uma frase que se lê
+
+    O gancho é uma imagem (mesmo que seja vídeo, são os primeiros frames), algo que
+    começa a se mexer, e uma frase curta e direta que prenda a atenção sem precisar de
+    interpretação. Bateu o olho, leu. Por isso vale colocar uma frase em todo vídeo e
+    também em imagem. Não despreze anúncio em imagem: com frase curta e direta,
+    quem rola o feed não consegue não ler.
+
+FCA · MÓDULO 2 · AULA 2       PÁGINA 2
+WORKBOOK · MÓDULO 2 · AULA 2  O GANCHO DOS 3 SEGUNDOS
+
+03  Gancho e corpo
+
+    O gancho chama a atenção; depois a pessoa decide se fica ou se passa o dedo. É no
+    corpo, com argumentação e mecanismo, que você segura essa atenção. O gancho só
+    quebra o padrão de rolagem: nada de gancho que faz a pessoa parar e ficar pensando.
+
+04  Tipos de gancho
+
+    Afirmação contraintuitiva, pergunta que dói, número que surpreende, cena inesperada,
+    profissão gigante na primeira palavra (por exemplo, "Médicos") e painel com número.
+    Você encaixa a sua oferta nessas categorias. Dois que funcionam sempre no nicho do
+    Lúcio: painel com número (o gerenciador de anúncios, imagem que o público
+    reconhece, com retorno sobre o investimento ou custo por lead) e pergunta que dói
+    ("Seu anúncio vende no primeiro dia e no segundo ele para").
+
+05  As 3 camadas
+
+    Falada: uma frase curta, no máximo 8 palavras (e já é muito). Visual: algo que se mexe
+    logo no início; a imagem começa parada e se mexe logo. Escrita: a frase na tela, no
+    centro, onde o olho bate e é impossível desver.
+
+06 Cena e texto trabalham juntos, zero quadro parado
+
+               No anúncio que o Lúcio mostrou, ele usou uma afirmação contraintuitiva, com uma
+               cena e o texto trabalhando juntos atrás dele, e zero quadro parado: movimento. Quando
+
+               fica monótono, a pessoa pula.
+
+07  Sem vinheta, sem explicar
+
+    Vinheta é coisa do passado: ninguém tem mais tempo. Vá direto ao assunto e
+    provoque, por exemplo: "Médicos que não aguentam mais clientes de plano de saúde".
+    Gancho provoca, não explica; a explicação vem depois. Quem prende é o gancho, quem
+    vende é o que vem depois.
+
+FCA · MÓDULO 2 · AULA 2       PÁGINA 3
+WORKBOOK · MÓDULO 2 · AULA 2                                       O GANCHO DOS 3 SEGUNDOS
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                                               PROMPT 1/2
+
+Quando usar: Para gerar ganchos da sua oferta, no estilo que o Lúcio fazia antes de ter as skills
+
+prontas.
+
+Minha oferta: [descreva em 2 linhas]. Meu público: [quem é]. Escreva 5
+ganchos de 3 segundos, cada um de um tipo diferente: afirmação
+contraintuitiva, pergunta que dói, número que surpreende, cena inesperada,
+profissão gigante na primeira palavra ou painel com número. Para cada um,
+dê: (1) a frase falada, com no máximo 8 palavras; (2) a imagem que aparece
+no primeiro quadro e o que se mexe logo no início; (3) a frase escrita no
+centro da tela. Nada de vinheta, de logo no início nem de explicar: o gancho
+só provoca. Antes de executar, me mostre o plano em passos curtos e espere
+meu OK. No final, diga como eu confiro que ficou certo.
+
+>_ COLE NO CLAUDE CODE                                                               PROMPT 2/2
+
+Quando usar: Para testar e melhorar um gancho que você já tem.
+
+Meu gancho atual é: [cole a frase falada, a imagem do início e o texto na
+tela]. Avalie nas 3 camadas (falada com no máximo 8 palavras, visual com
+algo que se mexe logo no início, escrita no centro da tela). Diga se ele
+provoca ou se explica, se tem algum quadro parado e se alguém bate o olho e
+lê sem precisar interpretar. Reescreva em 3 versões de tipos diferentes.
+Antes de executar, me mostre o plano em passos curtos e espere meu OK. No
+final, diga como eu confiro que ficou certo.
+
+04                                          → ✓ CERTO
+                                                     Provoca, vai direto ao assunto
+O QUE NÃO FAZER
+
+O gancho que não prende
+
+   ✕ ERRADO
+
+    Explica tudo, abre com logo ou vinheta
+
+FCA · MÓDULO 2 · AULA 2                                                              PÁGINA 4
+WORKBOOK · MÓDULO 2 · AULA 2                                      O GANCHO DOS 3 SEGUNDOS
+
+05
+
+SUA VEZ
+
+Escreva 5 ganchos de tipos diferentes para a sua oferta (por exemplo: afirmação contraintuitiva,
+pergunta que dói, número que surpreende, cena inesperada, profissão na primeira palavra ou
+painel com número). Cada gancho tem frase falada (até 8 palavras), a imagem que se mexe no
+início e a frase escrita no centro da tela. Escolha 1 e guarde os outros de reserva.
+
+01 Tipo do gancho escolhido
+
+02 Frase falada (no máximo 8 palavras)
+
+03 O que aparece e se mexe logo no início
+
+04 Frase escrita no centro da tela
+
+06                                                                PÁGINA 5
+
+ANTES DA PRÓXIMA AULA
+
+       Escrevi 5 ganchos de tipos diferentes para a minha oferta
+       A frase falada tem no máximo 8 palavras
+
+FCA · MÓDULO 2 · AULA 2
+WORKBOOK · MÓDULO 2 · AULA 2                                         O GANCHO DOS 3 SEGUNDOS
+
+A primeira imagem tem algo que se mexe logo no início, sem quadro parado
+
+A frase escrita está no centro da tela e dá para ler batendo o olho
+
+A frase não precisa de interpretação
+
+O gancho provoca e não explica
+
+Não abri com vinheta nem com logo
+
+Guardei os outros ganchos de reserva
+
+07
+
+GLOSSÁRIO
+
+Gancho              Os 3 primeiros segundos do anúncio: a primeira imagem, algo que se mexe e
+                    uma frase que a pessoa lê. Serve para quebrar o padrão de rolagem.
+
+Corpo               A parte do anúncio depois do gancho, em que a argumentação e o mecanismo
+                    seguram a atenção e vendem.
+
+Afirmação           Frase que contraria o que o público espera, usada como tipo de gancho.
+contraintuitiva
+
+Pergunta que dói    Tipo de gancho que toca numa dor real do público, como "Seu anúncio vende
+                    no primeiro dia e no segundo ele para".
+
+Painel com número   Tipo de gancho com a tela que o público reconhece, como o gerenciador de
+                    anúncios, mostrando um número como retorno sobre o investimento ou custo
+                    por lead.
+
+Zero quadro parado  Regra de manter movimento desde o início, porque quando o vídeo fica
+                    monótono a pessoa pula.
+
+Vinheta             Abertura animada com logo ou marca no começo; faz o dedo passar e deve
+                    ser evitada.
+
+FCA · MÓDULO 2 · AULA 2                                                   PÁGINA 6
+WORKBOOK · MÓDULO 2 · AULA 2                                    O GANCHO DOS 3 SEGUNDOS
+                                                              facebook.com/ads/library
+08
+
+LINKS DA AULA
+
+↗ Biblioteca de Anúncios da Meta
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 2 · AULA 2
+
+FCA · MÓDULO 2 · AULA 2                                       PÁGINA 7
+

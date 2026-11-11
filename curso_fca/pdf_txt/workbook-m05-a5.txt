@@ -1,0 +1,222 @@
+FÁBRICA DE CRIATIVOS                    Nº M05-A5
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 5 · AULA 5
+
+COMO PASSAR INSTRUÇÕES PARA A IA
+
+O CHECKLIST
+DO DIRETOR
+
+  4 CAPÍTULOS 3 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Roteiro
+   01 Aprovar é ler
+   03 Vídeo                             5.5 04 Naprática
+                                                                              FCA · M05-A5
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 5 · AULA 5  O CHECKLIST DO DIRETOR
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Aprovar é ler o roteiro e ver o vídeo, não só assistir. Quem dirige é você: a IA executa, você
+confere. O diretor não diz "ficou bom"; ele passa o checklist, que são 12 itens (6 de roteiro e 6 de
+vídeo), e o checklist completo está no workbook. Com o tempo isso fica automático, mas nos
+dois minutos antes de subir você ainda olha item por item, porque às vezes o item está no
+roteiro e não sai no vídeo. O que reprova volta para a IA com o defeito nomeado, você corrige só
+aquilo e mantém o resto.
+
+IDEIA CENTRAL
+
+O diretor não acha, o diretor confere: aprovar é passar o
+checklist, não sentir que ficou bom.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Aprovar é ler, não só assistir
+
+    Todo criativo passa pelo checklist antes de subir, tanto o roteiro quanto o vídeo. Não
+    vale aprovar por sensação nem porque ficou bonito. Você tem 12 itens e uns dois
+    minutos antes de subir para conferir; sem isso, pode dar ruim.
+
+02  Roteiro: a mensagem
+
+    Uma ideia, um gancho, um CTA. O gancho vem até 3 segundos, com a dor, a profissão
+    ou algo que chama atenção. Depois do gancho, o corpo mostra como funciona. Tem
+    prova concreta (tela e depoimento) e fala do comprador. Nada que a Meta reprove:
+    cuide de como você diz e lembre das políticas; a skill e o agente também verificam, mas
+    você precisa ficar atento.
+
+03  Duração do anúncio
+
+    Até 30 segundos é curto e só funciona bem para público quente, fundo de funil. De 45 a
+    58 segundos é a faixa que o Lúcio usa: 58 segundos no máximo, para não passar de um
+    minuto. Se tem história e é para público de topo de funil, 58 segundos é razoável, e já
+    funcionou bem até 1 minuto e 20 ou 25. Ele prefere criativos com menos de um minuto.
+
+FCA · MÓDULO 5 · AULA 5                                    PÁGINA 2
+WORKBOOK · MÓDULO 5 · AULA 5  O CHECKLIST DO DIRETOR
+
+04  Vídeo: tudo dentro do 4:5
+
+    Dependendo do posicionamento, o anúncio aparece como imagem, na galeria ou no
+    feed estático, então o que importa tem de ficar dentro do 4:5. É por isso que a fábrica
+    sempre faz a capa em 4:5: é o que aparece no feed quando você posta. Ela entrega o
+    quadradinho para subir junto.
+
+05  Vídeo: tela, texto, som e imagem
+
+    Tela de aparelho nunca vazia: quando aparece um aparelho filmado, a tela sempre vem
+    preenchida. Texto grande e com respiro. Voz limpa, sem estourar, com trilha baixa.
+    Legenda certa, sem erro. B-roll no checklist. Nenhum dado de cliente pode passar,
+    porque ao gravar um vídeo pode aparecer dado de cliente. Boa parte dessas regras já
+    está embutida na fábrica.
+
+06 Devolver com o defeito nomeado
+
+               O que não passou volta para a IA dizendo qual item falhou. Corrija só esses itens e
+
+               mantenha o resto. Depois de corrigir, o criativo fecha 12 de 12.
+
+07  Exemplo: o anúncio do próprio checklist
+
+    O Lúcio gravou a tela do celular falando, subiu o vídeo na fábrica e pediu um anúncio.
+    Esse criativo virou o campeão de vendas dele. No roteiro: uma ideia, um pedido só,
+    gancho no painel, mostra o teste, prova real, 40 segundos, fala do comprador (6 de 6).
+    Na primeira versão a tela reprovou em três itens: título fora do 4:5, janela do pedido
+    vazia e rótulo miúdo no celular. Voltou com o defeito nomeado, corrigiu só esses três e
+    fechou 12 de 12.
+
+FCA · MÓDULO 5 · AULA 5       PÁGINA 3
+WORKBOOK · MÓDULO 5 · AULA 5                                       O CHECKLIST DO DIRETOR
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/3
+
+Quando usar: Pedir ao Claude que passe o checklist em roteiro e vídeo
+
+Passe este roteiro e este vídeo pelo checklist do diretor (12 itens: 6 de
+roteiro e 6 de vídeo). Para cada item, diga se passou ou não e, se não
+passou, qual é o defeito em uma frase. Não reescreva nada ainda. Criativo:
+[cole o roteiro ou indique o vídeo].
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/3
+
+Quando usar: Devolver só o que reprovou
+
+Estes itens do checklist não passaram: [item 1: defeito], [item 2: defeito],
+[item 3: defeito]. Corrija só esses itens e mantenha todo o resto como está.
+Depois passe o checklist de novo e me diga quantos itens fecham de 12.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/3
+
+Quando usar: Conferir a tela e o 4:5 do vídeo
+
+Confira neste vídeo: o título e tudo o que é essencial estão dentro do 4:5?
+Alguma tela de aparelho está vazia? Algum rótulo está miúdo para ler no
+celular? Aparece algum dado de cliente? Liste cada problema com o momento do
+vídeo. Vídeo: [indique o vídeo].
+
+04
+
+O QUE NÃO FAZER
+
+Aprovar por sensação
+
+→ ✕ ERRADO                                     ✓ CERTO
+
+'Ficou bonito, sobe' e descobrir o CTA errado  12 itens, 2 minutos, antes de subir
+
+com dinheiro rodando
+
+FCA · MÓDULO 5 · AULA 5                                                             PÁGINA 4
+WORKBOOK · MÓDULO 5 · AULA 5                                             O CHECKLIST DO DIRETOR
+
+05
+
+SUA VEZ
+
+Passe um criativo seu pelo checklist do workbook, item por item, e marque:
+
+01 Itens do roteiro que não passaram (de 6)
+
+02 Itens do vídeo que não passaram (de 6)
+
+03 O defeito de UM item, nomeado em uma frase, para devolver à IA
+
+04 Quantos itens fecharam depois da correção (de 12)
+
+06                                                                          PÁGINA 5
+
+ANTES DA PRÓXIMA AULA
+
+       Uma ideia, um gancho, um CTA
+       Gancho até 3 segundos (dor, profissão ou algo que chama atenção)
+       Corpo mostra como funciona
+       Prova concreta (tela e depoimento)
+
+FCA · MÓDULO 5 · AULA 5
+WORKBOOK · MÓDULO 5 · AULA 5                                             O CHECKLIST DO DIRETOR
+
+       Duração: até 58 segundos (30 segundos só para público quente)
+       Fala do comprador, nada que a Meta reprove
+       Tudo o que importa dentro do 4:5, capa em 4:5
+       Tela de aparelho preenchida, nunca vazia
+       Texto grande, com respiro
+       Voz limpa sem estourar, trilha baixa, legenda certa sem erro
+       Nenhum dado de cliente aparecendo
+       Defeitos devolvidos nomeados, corrigindo só o que reprovou
+
+07
+
+GLOSSÁRIO
+
+Parâmetro           Critério objetivo de aprovação: passa ou não passa.
+
+Diretor             Quem aprova e dirige o criativo conferindo o checklist; a IA executa.
+
+4:5                 Formato que aparece no feed; o que importa precisa ficar dentro dele.
+
+Público quente /    Quem já conhece você; para esse público, criativos curtos de uns 30 segundos
+fundo de funil      funcionam bem.
+
+Público de topo de  Quem ainda não conhece você; aceita criativos até 58 segundos, ou um pouco
+funil               mais quando há história.
+
+Defeito nomeado     Dizer à IA exatamente qual item falhou, em vez de pedir para refazer tudo.
+
+08
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+refeitas em formato de curso, sem pagar de novo.
+
+FCA · MÓDULO 5 · AULA 5                                                                    PÁGINA 6
+WORKBOOK · MÓDULO 5 · AULA 5                                        O CHECKLIST DO DIRETOR
+                                                       seguro.lucioartes.com/O11E6C3B5
+↗ 1 · Campanhas de Controle: o processo                seguro.lucioartes.com/OA65829EA
+↗ 2 · Super Públicos: a segmentação           checkout.safe.lucioartes.com/42750161
+↗ 3 · Missão Claude Tracking: o trackeamento
+
+                         FIM DO WORKBOOK · MÓDULO 5 · AULA 5
+
+FCA · MÓDULO 5 · AULA 5                                       PÁGINA 7
+

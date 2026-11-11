@@ -1,0 +1,274 @@
+FÁBRICA DE CRIATIVOS                    Nº M04-A5
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 4 · AULA 5
+
+ANÚNCIO DE TOPO, MEIO E FUNDO DE FUNIL
+
+OS 4 NÚMEROS
+DO CRIATIVO
+
+  4 CAPÍTULOS 3 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Os 4
+   01 O número aponta
+                                        4.5 04 Naprática
+  03 Número → correção                                                        FCA · M04-A5
+
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 4 · AULA 5  OS 4 NÚMEROS DO CRIATIVO
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Os números de referência desta aula vêm da experiência do Lúcio com campanhas lucrativas,
+em produtos físicos e digitais de vários nichos. Não são verdade absoluta. São o padrão que ele
+usa e que vem dando certo, e ele convida você a testar e adotar se funcionar. Cada número
+aponta uma parte do anúncio, e o custo por resultado é o que manda. Os quatro números são a
+taxa de 3 segundos (o gancho), a retenção (ThruPlay ÷ impressões), o CTR do link e o custo por
+resultado. Se o criativo falha, você corrige só a parte que o número aponta, uma de cada vez. Se
+clicou e não comprou e o resto do anúncio está bom, olhe a página, não o criativo.
+
+IDEIA CENTRAL
+
+O número aponta a direção da correção: mexa só na parte que
+ele indica, uma alteração por vez, e deixe o custo por
+resultado ser quem manda.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  O número diz onde mexer (ou se não mexe)
+
+    Cada número é uma métrica, e cada métrica aponta uma parte do anúncio. Gente
+    ignorando o anúncio: o gancho está ruim. Gancho bom e a pessoa sai antes: o corpo (a
+    argumentação) está ruim. Todo mundo vai até 90% do criativo e o CTR é baixo: o Call to
+    Action está ruim. Corrija só a parte que está ruim. As métricas têm posição no funil
+    (topo, meio e fundo) e cada uma dá uma informação isolada e uma conjunta, então não
+    dá para analisar uma sem olhar as demais. Nesta aula o foco é o topo do funil, a
+    exibição do anúncio.
+
+FCA · MÓDULO 4 · AULA 5       PÁGINA 2
+WORKBOOK · MÓDULO 4 · AULA 5  OS 4 NÚMEROS DO CRIATIVO
+
+02  Os 4 números e as referências do Lúcio
+
+    1) Taxa de 3 segundos (hook rate): quem parou o dedo de rolar. Abaixo de 30%
+    melhorar, entre 30% e 40% bom, acima de 40% ótimo. No gerenciador aparece como
+    taxa de reprodução do vídeo por 3 segundos. Ele aceita até 20%, mas prefere 30%. 2)
+    Retenção (ThruPlay ÷ impressões): abaixo de 10% melhorar, entre 10% e 15% bom,
+    acima de 15% ótimo. 3) CTR do link: abaixo de 1% melhorar, entre 1% e 2% bom, acima
+    de 2% ótimo. Em alguns mercados abaixo de 1% já é bom, mas este é o padrão dele. 4)
+    Custo por resultado (CPA): acima do teto melhorar, no teto bom, abaixo do teto ótimo.
+
+03  Taxa de 3 segundos e retenção: duas métricas que você cria
+
+    Se o anúncio foi exibido 100 vezes e 30 pessoas assistiram 3 segundos, o hook rate é
+    30%. Essa taxa você cria no Meta. A retenção também: o Meta só entrega a quantidade
+    de ThruPlay, e quantidade não é taxa. Para ter o percentual, divida o ThruPlay (15
+    segundos, ou o anúncio inteiro se ele for mais curto) pelas impressões. Gancho bom e
+    a pessoa sai antes dos 15 segundos: o que vem depois do gancho precisa de ajuste.
+
+04  Custo por resultado: o teto é decisão do seu negócio
+
+    O custo por resultado manda em tudo. Não importa o resto se ele não bate. O teto
+    depende da sua margem e do lucro que você quer. Exemplo do Lúcio: produto de 100
+    reais (sem considerar impostos) e meta de 100% de lucro. O CPA máximo é 50, então o
+    teto é 50. Acima de 50, melhorar. Em 50, bom. Em 20, ótimo. Até ter vendas, os outros
+    números servem para prever se o criativo está bom, sem ter de gastar muito para
+    descobrir. Muita gente perde dinheiro e demora a desligar a campanha porque não
+    entende isso.
+
+05  Exemplo real: o CPA bateu, então o criativo funciona
+
+    No anúncio mostrado na aula, o gancho estava em 34% (bom), a retenção em 16%
+    (ótimo), o CTR em 2,66% (ótimo) e o custo por resultado em 42, com teto de 50. Ele
+    calculou o teto só pelo primeiro produto do funil. Em outro criativo, a taxa de 3
+    segundos estava em 25% (o gancho falhou) e o ThruPlay em 7,8% (o corpo não
+    segurou). O CTR de 2,66% mostrou que prova e CTA funcionaram, e o custo por compra
+    de 42,69 bateu o teto. Por isso o que manda é o custo por compra. Os outros índices
+    são para perseguir até você ter compras suficientes para dizer qual criativo é o melhor.
+
+FCA · MÓDULO 4 · AULA 5       PÁGINA 3
+WORKBOOK · MÓDULO 4 · AULA 5                                       OS 4 NÚMEROS DO CRIATIVO
+
+06  O que perseguir e o que ignorar
+
+    Perseguir: custo por resultado abaixo do teto e taxa de 3 segundos subindo a cada
+    versão, porque é ela que faz as pessoas verem o seu criativo. Ignorar: curtida, alcance,
+    CPM e comentário de quem não compra. Segundo o Lúcio, o CPM só importa quando o
+    objetivo é distribuir conteúdo para o máximo de pessoas assistirem o vídeo.
+
+07  Do número à correção
+
+    Taxa de 3 segundos baixa: faça um novo gancho. Retenção baixa: mude o corpo,
+    mostrando como funciona ou contando uma história. CTR baixo: o CTA está ruim.
+    Clicou e não comprou, com o resto do anúncio bom: o criativo fez a parte dele, olhe a
+    página e não mexa no criativo. Trocar tudo de uma vez é erro comum: você não sabe o
+    que funcionou e fica trocando na sorte. Isso não é metodologia. É um número, uma
+    alteração, uma parte de cada vez.
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/3
+
+Quando usar: Descobrir qual parte do criativo corrigir
+
+Tenho [número] criativos de [produto] com estes números: taxa de 3 segundos
+[__%], ThruPlay ÷ impressões [__%], CTR do link [__%], custo por resultado
+[R$ __] e meu teto de custo por resultado é [R$ __]. Use as referências:
+taxa de 3 s abaixo de 30% melhorar, 30–40% bom, acima de 40% ótimo; retenção
+abaixo de 10% melhorar, 10–15% bom, acima de 15% ótimo; CTR abaixo de 1%
+melhorar, 1–2% bom, acima de 2% ótimo. Para cada criativo, diga se ele está
+bom ou ruim em cada número e qual é a única parte a corrigir (gancho, corpo,
+CTA ou página). Se o custo por resultado está abaixo do teto, diga que não é
+para mexer.
+
+FCA · MÓDULO 4 · AULA 5                                            PÁGINA 4
+WORKBOOK · MÓDULO 4 · AULA 5                  OS 4 NÚMEROS DO CRIATIVO
+
+>_ COLE NO CLAUDE CODE                        PROMPT 2/3
+
+Quando usar: Pedir a correção só da parte apontada
+
+Este é o roteiro do meu criativo: [cole o roteiro]. O número apontou que o
+problema está em [gancho / corpo / CTA]. Reescreva SOMENTE essa parte, em
+[número] versões diferentes: se for o gancho, novos ganchos para parar o
+dedo nos primeiros 3 segundos; se for o corpo, uma versão mostrando como
+funciona e outra contando uma história; se for o CTA, uma transição mais
+clara para o clique. Mantenha todo o resto igual, para eu comparar com a
+versão anterior.
+
+>_ COLE NO CLAUDE CODE                        PROMPT 3/3
+
+Quando usar: Calcular o seu teto de custo por resultado
+
+Vendo [produto] por [R$ valor de venda]. Desconsiderando impostos, quero ter
+[__%] de lucro sobre esse valor. Calcule o CPA máximo que posso pagar (o meu
+teto) e diga: acima de qual valor eu preciso melhorar, qual valor é 'no
+teto' e a partir de qual valor é ótimo.
+
+04                                            → ✓ CERTO
+                                                       Um número, uma parte, uma versão
+O QUE NÃO FAZER
+
+Trocar tudo de uma vez
+
+   ✕ ERRADO
+
+    Gancho, voz, trilha e CTA novos na mesma
+    versão
+
+FCA · MÓDULO 4 · AULA 5                                                                  PÁGINA 5
+WORKBOOK · MÓDULO 4 · AULA 5                                    OS 4 NÚMEROS DO CRIATIVO
+
+05
+
+SUA VEZ
+
+Pegue um anúncio seu que já esteja rodando e preencha os números abaixo. Compare cada um
+com a referência e escolha uma única parte para corrigir.
+
+01 Seu teto de custo por resultado (valor de venda, lucro que você quer e o CPA máximo
+    que sai dessa conta)
+
+02 Taxa de 3 segundos (reproduções de 3 s ÷ impressões): ____% → ruim (<30%), bom
+
+    (30–40%) ou ótimo (>40%)?
+
+03 Retenção (ThruPlay ÷ impressões): ____% → ruim (<10%), bom (10–15%) ou ótimo
+
+    (>15%)?
+
+04 CTR do link: ____% → ruim (<1%), bom (1–2%) ou ótimo (>2%)?
+
+05 Custo por resultado: R$ ____ → acima, no teto ou abaixo do teto?
+
+FCA · MÓDULO 4 · AULA 5                                              PÁGINA 6
+WORKBOOK · MÓDULO 4 · AULA 5  OS 4 NÚMEROS DO CRIATIVO
+
+06 A única parte que você vai corrigir na próxima versão (gancho, corpo, CTA ou página)
+    e o porquê
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       Defini o meu teto de custo por resultado a partir da minha margem e do lucro que quero
+       Criei no Meta a taxa de 3 segundos e a retenção (ThruPlay ÷ impressões), porque o Meta só
+       entrega a quantidade
+       Olho os 4 números juntos, nunca uma métrica sozinha
+       Sei qual parte cada número aponta: gancho, corpo, CTA ou página
+       Se o custo por resultado está dentro do teto, não mexo no criativo
+       Corrijo uma parte por versão e comparo com a versão anterior
+       Ignoro curtida, alcance, CPM e comentário de quem não compra
+       Se clicou e não comprou e o resto está bom, vou olhar a página
+
+07
+
+GLOSSÁRIO
+
+Taxa de 3 segundos  Percentual de impressões em que a pessoa assistiu pelo menos 3 segundos;
+(hook rate)         mede se o gancho parou o dedo de rolar. Referência: bom entre 30% e 40%,
+                    ótimo acima de 40%.
+
+ThruPlay            Métrica do Meta: quem assistiu pelo menos 15 segundos do anúncio, ou o
+                    anúncio inteiro se ele for mais curto. Vem em quantidade; dividido pelas
+                    impressões vira a taxa de retenção.
+
+FCA · MÓDULO 4 · AULA 5       PÁGINA 7
+WORKBOOK · MÓDULO 4 · AULA 5                                  OS 4 NÚMEROS DO CRIATIVO
+
+Retenção          ThruPlay ÷ impressões, em percentual. Mostra quanto do público fica depois
+                  do gancho. Referência: bom entre 10% e 15%, ótimo acima de 15%.
+
+CTR do link       Taxa de clique no link que leva para a página, o WhatsApp ou outro destino. Já
+                  existe no gerenciador de anúncios. Referência: bom entre 1% e 2%, ótimo
+                  acima de 2%.
+
+CPA / custo por   Custo por ação: quanto custa cada resultado (compra, lead, mensagem). É o
+resultado         número que manda e deve ficar dentro do teto que a sua margem permite.
+
+Teto              O maior custo por resultado que você aceita pagar para atingir o seu objetivo
+                  de lucro. É uma decisão de negócio, particular de cada um.
+
+CPM               Custo por mil impressões. Para o Lúcio só importa quando o objetivo é
+                  distribuir conteúdo para o máximo de pessoas; nesta análise de criativo, ele
+                  ignora.
+
+Métrica de topo,  Topo: exibição do anúncio. Meio: o que a pessoa faz na página (visitar, assistir,
+meio e fundo de   clicar no botão). Fundo: vendas e chegadas ao checkout.
+funil
+
+08
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 4 · AULA 5
+
+FCA · MÓDULO 4 · AULA 5                                       PÁGINA 8
+

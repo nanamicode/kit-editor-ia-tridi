@@ -1,0 +1,214 @@
+FÁBRICA DE CRIATIVOS                                  Nº M09-A2
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 9 · AULA 2
+
+G E R A N D O S E U S C R I AT I VO S N A PR ÁT I CA
+
+ÂNGULOS E
+ROTEIRO APROVADO
+
+  3 CAPÍTULOS 4 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Ângulos e estilo
+   01 Abertura
+   03 Roteiro aprovado                  9.2
+                                                                              FCA · M09-A2
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 9 · AULA 2  ÂNGULOS E ROTEIRO APROVADO
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Nesta aula você continua na mesma conversa do Claude, com a análise da aula 9.1 já feita.
+Você abre o catálogo de estilos (do 1 ao 33), escolhe o estilo pelo número ou descrevendo o
+visual, ou deixa a Fábrica sugerir. Depois pede ângulos (nunca só um) e recebe o roteiro. A regra
+do Lúcio: não aprove sem ler. Leia o roteiro em voz alta antes de aprovar. O Lúcio também
+mostra que dá para fazer tudo em um passo só, com um prompt bem estruturado, em vez de
+várias instruções pequenas.
+
+IDEIA CENTRAL
+
+Peça pelo menos 3 ângulos, escolha o estilo (ou deixe a
+Fábrica sugerir) e só aprove o roteiro depois de ler em voz
+alta.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Catálogo de estilos
+
+    É a folha com os estilos numerados (do 1 ao 33) que o Lúcio já tinha mostrado. Peça ao
+    Claude, na mesma conversa, para abrir o catálogo. Alguns estilos o Lúcio criou
+    gravando a tela; outros ele pegou de terceiros para você ter de base. Você pode usar o
+    que tiver vontade.
+
+02  Você escolhe versus a Fábrica escolhe
+
+    Se você já sabe o que quer, peça pelo número do estilo ou descreva o visual: não
+    precisa decorar o número, o Claude lembra. Se não sabe, peça para ele sugerir. Com o
+    contexto bem passado, ele faz muito bem esse trabalho, e vem funcionando assim para
+    o Lúcio.
+
+03  Estilo Hardcopy
+
+    É o estilo que o Lúcio mais usa. O nome vem da empresa que popularizou e adaptou
+    muito bem esse formato no Brasil, mas a origem é a roteirização asiática dos doramas,
+    o kishotenketsu. Você pode pedir pelo nome (estilo Hardcopy) ou pelo número.
+
+FCA · MÓDULO 9 · AULA 2                                      PÁGINA 2
+WORKBOOK · MÓDULO 9 · AULA 2                                       ÂNGULOS E ROTEIRO APROVADO
+
+04 Ângulos: nunca peça só um
+
+               Saiba qual é a oferta e peça ângulos, pelo menos três, para poder escolher. Depois diga
+
+               o estilo que quer ou peça sugestão, e o Claude entrega o roteiro.
+
+05  Um passo só, não passo a passo
+
+    O processo é um funil de decisão, do muito ao um. Dá para fazer em vários passos ou
+    em um só; o Lúcio faz todos os vídeos em um passo só. Com a janela de contexto de
+    hoje, picar em instruções pequenas só perde tempo. Basta o comando estar bem
+    estruturado. Prompt grande não é problema: no modo planejamento, o Claude entende
+    e executa.
+
+06  Roteiro aprovado
+
+    O Claude costuma entregar o roteiro em texto, aberto ao lado da conversa. Dá para
+    pedir um HTML para ler, mas isso gasta token à toa. Depois que você aprova, o Claude
+    pede a aprovação final com o prompt final. A regra: não aprove sem ler, e leia em voz
+    alta para entender de verdade.
+
+03                                                                 PROMPT 1/4
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+   >_ COLE NO CLAUDE CODE
+
+    Quando usar: Abrir o catálogo de estilos
+
+   Abra no meu navegador o catálogo de estilos da Fábrica.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/4
+
+Quando usar: Ângulos e estilo que eu escolhi
+
+Proponha 3 ângulos de anúncio para essa oferta, no estilo [número do
+catálogo ou nome, ex.: estilo 1 ou estilo Hardcopy]. Diga qual ângulo você
+escolheria e por quê.
+
+FCA · MÓDULO 9 · AULA 2                                            PÁGINA 3
+WORKBOOK · MÓDULO 9 · AULA 2                     ÂNGULOS E ROTEIRO APROVADO
+
+>_ COLE NO CLAUDE CODE                           PROMPT 3/4
+
+Quando usar: Ângulos e a Fábrica sugere o estilo
+
+Proponha 3 ângulos de anúncio para essa oferta. Como eu ainda não escolhi o
+estilo, sugira 2 estilos do catálogo que combinam e diga qual você
+escolheria e por quê.
+
+>_ COLE NO CLAUDE CODE                           PROMPT 4/4
+
+Quando usar: Roteiro do ângulo escolhido
+
+Escreva o roteiro do ângulo [número ou nome do ângulo que escolhi], no
+estilo [estilo escolhido]: 30 segundos, em 9:16, com gancho de 3 segundos,
+corpo, prova e chamada. Não produza nada ainda; espere eu aprovar.
+
+04                                               → ✓ CERTO
+                                                          Ler em voz alta e pedir só 3 ângulos
+O QUE NÃO FAZER
+
+Aprovar sem ler
+
+   ✕ ERRADO
+
+    Aprovar o roteiro sem ler; pedir 10 ângulos
+
+05
+
+SUA VEZ
+
+Na mesma conversa da aula 9.1, peça os ângulos e o roteiro e anote:
+
+    01 Você escolheu o estilo (qual número ou nome?) ou pediu sugestão à Fábrica?
+
+FCA · MÓDULO 9 · AULA 2                                                                         PÁGINA 4
+WORKBOOK · MÓDULO 9 · AULA 2                                          ÂNGULOS E ROTEIRO APROVADO
+    02 Quais foram os 3 ângulos e qual você escolheu?
+
+03 Qual é o gancho de 3 segundos do roteiro?
+
+04 Você leu o roteiro em voz alta antes de aprovar? O que você ajustou?
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       Abri o catálogo de estilos na mesma conversa
+       Escolhi o estilo pelo número ou pelo visual, ou pedi sugestão
+       Pedi pelo menos 3 ângulos, nunca só um
+       Passei o contexto e o pedido bem estruturados, em um passo só
+       Li o roteiro em voz alta antes de aprovar
+       Só aprovei o roteiro depois de ler
+
+07
+
+GLOSSÁRIO
+
+Ângulo     O jeito de entrar na cabeça do público com a mesma oferta.
+
+FCA · MÓDULO 9 · AULA 2                                                  PÁGINA 5
+WORKBOOK · MÓDULO 9 · AULA 2                                  ÂNGULOS E ROTEIRO APROVADO
+
+Estilo            A cara do vídeo, escolhida no catálogo pelo número ou pelo visual.
+
+Hardcopy          Estilo de roteirização popularizado no Brasil pela empresa de mesmo nome,
+                  adaptado do kishotenketsu asiático.
+
+Kishotenketsu     Estrutura de roteirização asiática, de origem dos doramas, que está na base do
+                  estilo Hardcopy.
+
+Funil de decisão  Ir do muito ao um: várias opções no começo e uma escolha no final, em vários
+                  passos ou em um só.
+
+9:16              Formato vertical de tela cheia no celular.
+
+08                                                             claude.com/download
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo                       seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação                           seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                          FIM DO WORKBOOK · MÓDULO 9 · AULA 2
+
+FCA · MÓDULO 9 · AULA 2                                                               PÁGINA 6
+

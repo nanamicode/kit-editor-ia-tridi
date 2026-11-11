@@ -1,0 +1,137 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.568
+Módulo 8 aula 4 take 1. Então vamos lá só para a gente conferir se fez tudo certo, tá?
+
+2
+00:00:03.568 --> 00:00:09.200
+Para você ver se tudo tá funcionando. Você vai ver as etapas que eu te mostrei da instalação.
+
+3
+00:00:09.200 --> 00:00:14.704
+Dá uma olhadinha se deu erro em alguma coisa. Se der erro, você vai digitar o comando que eu
+
+4
+00:00:14.704 --> 00:00:20.400
+mostrei aqui que é o doctor, mas essas etapas eu aconselho que você leia, tá? Valendo tudo e o
+
+5
+00:00:20.400 --> 00:00:25.712
+que é que essa instalação rápida fez para você. O motor básico que é o Node.js, FFmpeg,
+
+6
+00:00:25.712 --> 00:00:32.944
+transcrição local e tudo o que precisa para você já começar, tá? Sistemas, skills, agentes,
+
+7
+00:00:32.944 --> 00:00:38.992
+programandos, tá? O kit inicial de sons, trilhas, b-rolls, b-rolls são os vídeos que você pode
+
+8
+00:00:38.992 --> 00:00:44.848
+usar para montar seus vídeos e o catálogo dos estilos, tá? Então não demora muito. Você viu
+
+9
+00:00:44.848 --> 00:00:50.832
+que é óbvio que depende da sua internet, mas é rápido, você já tem programas, as opções de
+
+10
+00:00:50.832 --> 00:00:57.616
+instalação, o acervo, tá? E tudo isso aí fica à sua disposição, tá? E para resumir, no final,
+
+11
+00:00:57.616 --> 00:01:04.240
+ele mostra para você se você percebeu algum erro, tá? Você vai digitar no próprio Claude e você
+
+12
+00:01:04.240 --> 00:01:10.168
+vai perguntar, tá? Qual foi o erro? Beleza? Você vai falar "olha, deu erro, por favor refaça". Pronto.
+
+13
+00:01:10.168 --> 00:01:14.872
+Depois que você instalar, onde é que tudo isso fica, tá? O que você baixou para download foi
+
+14
+00:01:14.872 --> 00:01:19.544
+apenas o instalador, você pode até apagar, tá? E você que usa o Windows vai ficar lá em usuários,
+
+15
+00:01:19.544 --> 00:01:24.344
+seu nome, fábrica de criativos, né? Quem usa Mac vai lá em Finder, início, fábrica de criativo.
+
+16
+00:01:24.344 --> 00:01:30.448
+Beleza? Então é só você ir lá, você que é do Windows vai estar lá provavelmente aqui, tá? Você
+
+17
+00:01:30.448 --> 00:01:36.624
+que usa o Mac, você olha lá no caminho do Mac que é em usuários, tá? E para trabalhar na fábrica,
+
+18
+00:01:36.624 --> 00:01:45.872
+basta você abrir, tá? Depois selecionar a pasta e executar, tá? Uma coisa, não seguir tudo pronto,
+
+19
+00:01:45.872 --> 00:01:50.064
+tá? Com o disco quase cheio. O que é que eu quero dizer com isso? Antes de você instalar a fábrica,
+
+20
+00:01:50.064 --> 00:01:55.888
+você tem que olhar se você tem pelo menos 40 GB, tá? De memória física, de memória no HD, tá?
+
+21
+00:01:55.888 --> 00:02:03.664
+De espaço no HD. E o modo rápido precisa de 5 GB livre no seu HD, beleza? E o pacote instalado,
+
+22
+00:02:03.664 --> 00:02:10.128
+você viu tudo passo a passo, tá? Do início até o fim. Nessa aula eu deixei o workbook para você
+
+23
+00:02:10.128 --> 00:02:16.720
+verificar, tá? E você pode chegar na sua instalação e pedir ao Doctor, né? Você pode chegar aqui, ó.
+
+24
+00:02:16.720 --> 00:02:23.824
+/fca-doctor. O que é que ele faz? Aqui tem, ó. Liga uma, ó. Você vai ver que todas os comandos aqui
+
+25
+00:02:23.824 --> 00:02:28.440
+tem o descritivo. Confere a instalação, tá vendo? Eu vou pedir aqui o Doctor. O que é que ele vai fazer?
+
+26
+00:02:28.440 --> 00:02:34.136
+Ele vai conferir a instalação. Se ele encontrar algum problema, tá? Ele vai apontar e vai dizer
+
+27
+00:02:34.136 --> 00:02:41.432
+como resolver, beleza? E você pode digitar aqui mesmo um chat dele se der algum problema, tá? E
+
+28
+00:02:41.432 --> 00:02:46.744
+ele te resolve. Você tem que aprender a resolver todos os problemas com o próprio Claude. Então,
+
+29
+00:02:46.744 --> 00:02:53.496
+tudo deu ok. Programas deu ok. Ele fez um checkup total sem falhas, beleza? Sem falhas, tá? Ainda
+
+30
+00:02:53.496 --> 00:02:57.976
+não deu uma vez falhas. Se você tiver falha e não conseguir resolver, pode me chamar. Então,
+
+31
+00:02:57.976 --> 00:03:02.264
+na próxima aula eu vou ensinar você a fazer o quê? Se você tiver optado em instalar o pacote
+
+32
+00:03:02.264 --> 00:03:12.440
+basicão, tá? Eu vou te mostrar na próxima aula como você faz o complemento desse pacote. Mas nesse
+
+33
+00:03:12.440 --> 00:03:18.488
+que está aqui, você já consegue gerar seus primeiros vídeos, ok? Você só não vai ter o acervo
+
+34
+00:03:18.488 --> 00:03:22.008
+que eu estou difundindo para você. Então, veja você na próxima aula.

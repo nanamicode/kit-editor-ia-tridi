@@ -1,0 +1,32 @@
+# dependências e builds
+node_modules/
+out/
+.remotion/
+__pycache__/
+*.log
+
+# mídia pesada (compartilhar por Drive, não pelo Git)
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.zip
+*.onnx
+*.pdf
+originais/
+conversas/
+
+# segredos
+.env
+.env.*
+
+# quadros de revisão (regeneráveis com remotion still)
+analise/**/*.png
+analise/**/*.jpg
+curso_fca/**/*.png
+curso_fca/**/*.jpg
+projeto/.git-scaffold-remotion/

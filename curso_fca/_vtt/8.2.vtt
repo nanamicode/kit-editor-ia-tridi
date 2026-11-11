@@ -1,0 +1,605 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.592
+Então, outro detalhe importante que você tem que observar na hora de você utilizar
+
+2
+00:00:04.592 --> 00:00:12.424
+é como a sua interface funciona e como você economizar e qual modelo usar.
+
+3
+00:00:12.424 --> 00:00:17.224
+Então é o seguinte, pra roteiros e críticas, cara, deixa no Opus, funciona muito bem,
+
+4
+00:00:17.224 --> 00:00:20.024
+não trabalhe com Fable a não ser que seja extremamente necessário.
+
+5
+00:00:20.024 --> 00:00:24.824
+Pra 99% dos casos aqui, o Opus 5.5 ou maior quando você estiver assistindo essa aula,
+
+6
+00:00:24.824 --> 00:00:26.424
+ele supre, tá?
+
+7
+00:00:26.424 --> 00:00:31.624
+Pra quem tem o plano Pro, o Opus 5.5 com esforço médio, você vai entender o que é esforço já já.
+
+8
+00:00:31.624 --> 00:00:33.224
+E tarefas simples, o Sony.
+
+9
+00:00:33.224 --> 00:00:36.264
+Bom, eu já desenvolvi a fábrica com gerenciamento de modelos.
+
+10
+00:00:36.264 --> 00:00:37.768
+O que eu quero dizer com isso?
+
+11
+00:00:37.768 --> 00:00:41.448
+Trabalhe no Opus, quando você for pedir pra ele fazer alguma coisa, ele vai pesquisar,
+
+12
+00:00:41.448 --> 00:00:44.648
+se você fizer isso no modo planejamento, ele vai pesquisar as tarefas que você pediu
+
+13
+00:00:44.648 --> 00:00:49.448
+e vai determinar pra cada tarefa qual é o modelo mais adequado que executa com qualidade
+
+14
+00:00:49.448 --> 00:00:51.048
+e economiza pra você.
+
+15
+00:00:51.048 --> 00:00:52.648
+Então eu tive todo esse cuidado, tá?
+
+16
+00:00:52.648 --> 00:00:58.248
+Detalhe, pra você economizar mais ainda, uma conversa para cada criativo ou para cada campanha.
+
+17
+00:00:58.248 --> 00:01:01.448
+Vai fazer uma campanha que tem vários criativos, uma conversa pra aquilo.
+
+18
+00:01:01.448 --> 00:01:06.248
+Se essa conversa for passar de 80% de contexto, você vai ver que ele tem um contador de contexto,
+
+19
+00:01:06.248 --> 00:01:09.448
+o que é contexto, é o tamanho daquela conversa que você tá.
+
+20
+00:01:09.448 --> 00:01:11.848
+Toda IA é limitada ao contexto.
+
+21
+00:01:11.848 --> 00:01:13.448
+O que eu quero dizer, o que é isso?
+
+22
+00:01:13.448 --> 00:01:17.448
+Se você começa de manhã a fazer muita coisa, ele vai aumentando o contexto,
+
+23
+00:01:17.448 --> 00:01:20.648
+porque a cada tarefa ele tem que se lembrar o que fez.
+
+24
+00:01:20.648 --> 00:01:24.648
+Se você ultrapassa 80%, esse contexto tá muito grande.
+
+25
+00:01:24.648 --> 00:01:28.648
+Então todo o comando que você der, ele vai ler tudo de novo pra fazer.
+
+26
+00:01:28.648 --> 00:01:31.032
+E isso consome mais da sua conta.
+
+27
+00:01:31.032 --> 00:01:36.480
+Então aprenda a você fazer tarefas menores, em blocos menores, tá?
+
+28
+00:01:36.480 --> 00:01:42.880
+E quando isso ultrapassar for chegar a 80%, ou você abre uma nova janela, ou você compacta a conversa.
+
+29
+00:01:42.880 --> 00:01:45.280
+Quando você dá esse comando /compact, que eu vou te mostrar,
+
+30
+00:01:45.280 --> 00:01:47.680
+ele pega só o que é essencial daquela conversa toda,
+
+31
+00:01:47.680 --> 00:01:51.680
+diminui e continua conversando com você, beleza?
+
+32
+00:01:51.680 --> 00:01:55.504
+Então essa aqui é a interface, eu vou explicar melhor no aplicativo.
+
+33
+00:01:55.504 --> 00:01:57.512
+Aqui tá a sua interface do Claude, o que é importante você saber.
+
+34
+00:01:57.512 --> 00:02:00.712
+Quando você acessa a primeira vez, ele vem aqui em cima, tá vendo?
+
+35
+00:02:00.712 --> 00:02:03.112
+Esse modo aqui é o modo conversa chat.
+
+36
+00:02:03.112 --> 00:02:07.112
+Aqui não é o Claude Code, você vê que aqui tem o chat e tem um Cowork.
+
+37
+00:02:07.112 --> 00:02:11.112
+Qual a diferença? O chat é conversa, como você faz lá com o chat EPT.
+
+38
+00:02:11.112 --> 00:02:15.112
+Ou a versão web do Claude. E o Cowork é pra você fazer automações?
+
+39
+00:02:15.112 --> 00:02:18.312
+Mas o que a gente vai usar é esse aqui em formato de código.
+
+40
+00:02:18.312 --> 00:02:23.112
+Claude Code, ou código, depende da linguagem do seu aplicativo.
+
+41
+00:02:23.112 --> 00:02:27.112
+Uma coisa importante, você aqui você já vê seu plano e o uso, como eu te falei.
+
+42
+00:02:27.112 --> 00:02:29.512
+E um detalhe importante é essa parte aqui de baixo.
+
+43
+00:02:29.512 --> 00:02:32.712
+Primeira coisa, o Claude trabalha com projetos.
+
+44
+00:02:32.712 --> 00:02:35.912
+Cada projeto é uma pasta dentro do seu computador.
+
+45
+00:02:35.912 --> 00:02:39.112
+Então a primeira coisa que você tem que fazer é criar uma pasta no seu computador
+
+46
+00:02:39.112 --> 00:02:40.712
+que vai armazenar os seus projetos.
+
+47
+00:02:40.712 --> 00:02:43.912
+O que eu aconselho, crie uma pasta nos seus documentos
+
+48
+00:02:43.912 --> 00:02:49.512
+e lá dentro dos seus documentos você cria pasta por projeto, ou produto, ou cliente.
+
+49
+00:02:49.512 --> 00:02:51.912
+Você pode criar uma pasta clientes, cliente ABCD.
+
+50
+00:02:51.912 --> 00:02:55.112
+Você pode criar uma pasta produtos, produto ABCD.
+
+51
+00:02:55.112 --> 00:02:58.312
+E toda vez que você for fazer algo daquele produto, você abre este projeto, ok?
+
+52
+00:02:58.312 --> 00:03:02.312
+Então pra criar um novo projeto, você clica aqui em criar, como eu já estou em um novo.
+
+53
+00:03:02.312 --> 00:03:06.312
+Você navega aqui embaixo, está vendo o computador, vou navegar aqui nas pastas.
+
+54
+00:03:06.312 --> 00:03:09.512
+Eu já quero abrir uma pasta em aulas que não tem nada, ok?
+
+55
+00:03:09.512 --> 00:03:11.904
+Já estou no projeto aulas.
+
+56
+00:03:11.904 --> 00:03:15.104
+Aqui você pode ver o modo de permissão.
+
+57
+00:03:15.104 --> 00:03:17.256
+Automático, manual, aceitai plan.
+
+58
+00:03:17.256 --> 00:03:22.856
+Já vou lhe dizer o que é isso aqui, a liberdade que você dá pra fazer as coisas no seu computador.
+
+59
+00:03:22.856 --> 00:03:24.456
+O modo automático, ele gerencia decisões.
+
+60
+00:03:24.456 --> 00:03:28.456
+Ele olha decisões críticas de pergunta e outras ele sai.
+
+61
+00:03:28.456 --> 00:03:30.056
+Manual, qualquer coisa ele vai te perguntar.
+
+62
+00:03:30.056 --> 00:03:30.800
+Chato pra cacete.
+
+63
+00:03:30.800 --> 00:03:36.232
+Aceitar edições, ele aceita todas as edições automaticamente, mas ele não cria coisas críticas.
+
+64
+00:03:36.232 --> 00:03:40.920
+O modo planejamento, o modo plano é um modo que ele pensa mais sobre o que ele vai fazer.
+
+65
+00:03:40.920 --> 00:03:46.520
+Então vai começar uma tarefa, escreve tudo que você quer detalhadamente e bota o modo plano.
+
+66
+00:03:46.520 --> 00:03:50.520
+Tem gente que acha que se gasta mais, isso aqui economiza gente, porque ele vai pensar melhor.
+
+67
+00:03:50.520 --> 00:03:56.120
+Vai te propor um plano de ação pra aquilo que você pediu, você ler e ver se você concorda ou não.
+
+68
+00:03:56.120 --> 00:03:59.320
+Quando você concordar, ele vai te perguntar, posso executar?
+
+69
+00:03:59.320 --> 00:04:02.520
+Aí ele sai do modo plano pra um desses modos aqui.
+
+70
+00:04:02.520 --> 00:04:08.920
+E aí aprenda a planejar antes e gerenciar os modelos.
+
+71
+00:04:08.920 --> 00:04:12.120
+Quando você fizer o modo plano, ele vai te apresentar o plano e vai te perguntar, você aprova?
+
+72
+00:04:12.120 --> 00:04:16.920
+Se você aprovar, eu botei na fábrica pra ele te pedir se você estiver num modelo muito alto.
+
+73
+00:04:16.920 --> 00:04:20.120
+Fable, ele vai te pedir, olha, eu aconselho que você mude pro Opus.
+
+74
+00:04:20.120 --> 00:04:22.952
+Então ele vai te dar esse bisouro.
+
+75
+00:04:22.952 --> 00:04:25.352
+Você tá vendo aqui que tem um modo que tá desabilitado.
+
+76
+00:04:25.352 --> 00:04:29.352
+Esse modo ignorar permissões é o famoso modo bypass.
+
+77
+00:04:29.352 --> 00:04:34.952
+O modo bypass é um modo que eu chamo de modo vida louca.
+
+78
+00:04:34.952 --> 00:04:37.352
+É isso mesmo, modo vida louca.
+
+79
+00:04:37.352 --> 00:04:38.952
+Por que modo vida louca?
+
+80
+00:04:38.952 --> 00:04:42.952
+Se você ativar isso aqui, você tá dando permissão ao Claude pra fazer qualquer coisa no seu computador.
+
+81
+00:04:42.952 --> 00:04:44.552
+Ele pode apagar arquivo que ele quiser.
+
+82
+00:04:44.552 --> 00:04:48.552
+Ele pode inclusive mandar o node no grupo da sua família e você não saber.
+
+83
+00:04:48.552 --> 00:04:50.152
+Brincadeiras à parte, é isso mesmo.
+
+84
+00:04:50.152 --> 00:04:54.152
+Se você habilitar esse modo, você tá dando liberdade pra ele fazer o que ele quiser, ok?
+
+85
+00:04:54.152 --> 00:04:55.656
+E ele pode errar.
+
+86
+00:04:55.656 --> 00:04:57.184
+Como é que ativa aqueles que querem saber?
+
+87
+00:04:57.184 --> 00:05:00.040
+Você vem aqui, configurações.
+
+88
+00:05:00.040 --> 00:05:03.808
+Vem aqui em Claude Code, DS, as opções aqui.
+
+89
+00:05:03.808 --> 00:05:07.008
+E você vai ver aqui, sessões, permitir o modo bypass.
+
+90
+00:05:07.008 --> 00:05:08.608
+Ou o modo vida louca.
+
+91
+00:05:08.608 --> 00:05:11.200
+Ativou o modo vida louca, ele dá pergunta de novo.
+
+92
+00:05:11.200 --> 00:05:12.800
+Você quer? Pronto.
+
+93
+00:05:12.800 --> 00:05:15.264
+Ignorou qualquer risco, beleza?
+
+94
+00:05:15.264 --> 00:05:19.664
+Vou deixar no automático, ou aceitar edições pra você não dizer que eu tentei vir a fazer isso.
+
+95
+00:05:19.664 --> 00:05:21.264
+Mais uma coisa na interface.
+
+96
+00:05:21.264 --> 00:05:23.664
+O modelo de IA que você tá usando.
+
+97
+00:05:23.664 --> 00:05:25.264
+Então eu tô aqui no OPPO 5.5.
+
+98
+00:05:25.264 --> 00:05:27.456
+E aqui tem o esforço, o que é o esforço?
+
+99
+00:05:27.456 --> 00:05:32.256
+Além do modelo, você pode dizer o quanto ele pode se esforçar, pensar muito, etc.
+
+100
+00:05:32.256 --> 00:05:37.056
+Uma hora das nossas tarefas aqui, o médio tá, ele é mais do que suficiente, beleza?
+
+101
+00:05:37.056 --> 00:05:38.656
+Não precisa você alterar.
+
+102
+00:05:38.656 --> 00:05:41.056
+Aqui tem outras coisas mais, aqui tem terminal e etc.
+
+103
+00:05:41.056 --> 00:05:45.056
+Na hora que a gente estiver executando, você vai ver cada coisa disso aqui.
+
+104
+00:05:45.056 --> 00:05:47.456
+Mas por enquanto você, é isso que você precisa saber da interface, tá?
+
+105
+00:05:47.456 --> 00:05:49.056
+Valeu tudo isso aqui?
+
+106
+00:05:50.128 --> 00:05:51.509
+Baixar e instalar, claro.
+
+107
+00:05:51.509 --> 00:05:55.509
+Já falei pra você, claude.com/download.
+
+108
+00:05:55.509 --> 00:05:59.509
+Fez isso, baixou, tá tudo certo, isso aí não precisa eu te ensinar.
+
+109
+00:05:59.509 --> 00:06:02.709
+É só frente, frente, frente, frente.
+
+110
+00:06:02.709 --> 00:06:08.309
+Como eu falei pra você, a primeira coisa é abrir uma pasta do projeto que você vai trabalhar.
+
+111
+00:06:08.309 --> 00:06:12.309
+Criou a pasta, abriu ele naquela pasta, ele vai trabalhar.
+
+112
+00:06:12.309 --> 00:06:15.509
+Todos os arquivos desse projeto vão estar ali dentro.
+
+113
+00:06:15.509 --> 00:06:21.581
+Quando você começar a trabalhar, você vai ver que do seu lado esquerdo vai aparecer esse outro menu aqui.
+
+114
+00:06:21.581 --> 00:06:24.781
+Que ele vai te dar o tamanho do contexto dessa conversa, tá?
+
+115
+00:06:24.781 --> 00:06:27.981
+As saídas, os arquivos, o remote control.
+
+116
+00:06:27.981 --> 00:06:30.381
+Se você habilitar o modo remote control, o que é esse modo?
+
+117
+00:06:30.381 --> 00:06:35.181
+Você pode deixar o seu Claude trabalhando e você consegue acessar essa conversa através do seu celular
+
+118
+00:06:35.181 --> 00:06:39.925
+e continuar pelo aplicativo do Claude para dispositivos móveis, é isso que ele faz, tá bom?
+
+119
+00:06:39.925 --> 00:06:43.997
+Então, já que falei tudo isso aqui, modo esforço, modo manual e primeiro teste.
+
+120
+00:06:43.997 --> 00:06:48.797
+Eu vou copiar aqui, só pra fazer um teste, copiei esse comando aqui.
+
+121
+00:06:48.797 --> 00:06:53.597
+E vou botar aqui no modo manual, só pra você ver o que vai acontecer, o que tem nessa pasta.
+
+122
+00:06:53.597 --> 00:06:56.949
+Eu poderia também chegar aqui, Claude, permitir o uso do microfone.
+
+123
+00:06:56.949 --> 00:06:58.549
+O que tem nessa pasta?
+
+124
+00:06:59.621 --> 00:07:01.013
+O que tem nessa pasta?
+
+125
+00:07:01.525 --> 00:07:05.949
+Tá vendo? Ele vai e escreve. Mas deixa eu ver o que tem na pasta.
+
+126
+00:07:05.949 --> 00:07:10.277
+Você vai ver que ele tá me dizendo aqui, ó, o contexto, ele começou a contar.
+
+127
+00:07:10.277 --> 00:07:13.109
+O primeiro comando, ele consome mais 7%, por quê?
+
+128
+00:07:13.109 --> 00:07:17.109
+Porque eu já tenho muitos comandos de inicialização, que não é o seu caso, tá?
+
+129
+00:07:17.109 --> 00:07:21.109
+Aqui os conectores que eu já tenho, está conectado com Google, com Gmail.
+
+130
+00:07:21.109 --> 00:07:27.493
+Sim, ele pode ler e escrever emails pra você, tudo com os conectores que você cria aqui em configurações.
+
+131
+00:07:27.493 --> 00:07:32.061
+E os conectores, vamos passar aqui, extensões e conectores.
+
+132
+00:07:32.061 --> 00:07:38.461
+Clicou aqui, você pode instalar os conectores pra ele se conectar com diversas outras ferramentas, tá?
+
+133
+00:07:38.461 --> 00:07:43.261
+Fora APIs, tem algumas APIs que você faz de um jeito e outras que você vai com conectores, beleza?
+
+134
+00:07:43.261 --> 00:07:45.661
+Aqui você ativa o modo controle remoto.
+
+135
+00:07:45.661 --> 00:07:51.261
+Quando você ativa o modo controle remoto, você pode deixar o seu computador trabalhando e pegar seu celular e fazer os comandos à distância.
+
+136
+00:07:51.261 --> 00:07:55.000
+Mas o computador ainda tem que estar trabalhando ligado, beleza?
+
+137
+00:07:55.267 --> 00:07:57.933
+[silêncio]
+
+138
+00:07:58.200 --> 00:07:58.915
+Conferir a instalação.
+
+139
+00:07:58.915 --> 00:08:06.019
+Se você quiser conferir a instalação, você pode copiar aqui o status e ele vai dizer pra você como ele tá, como é que chama comandos aqui.
+
+140
+00:08:06.019 --> 00:08:12.419
+Toda vez que você digitar barra, ele vai dar uma lista de comandos ou você pode digitar barra e o nome do comando se você já souber.
+
+141
+00:08:12.419 --> 00:08:16.283
+Você pode chegar aqui, barra status, tá vendo que ele já pega aqui?
+
+142
+00:08:16.283 --> 00:08:19.451
+Então você pode dar um comando e ele vai lhe dizer o status, tá tudo ok, tá vendo?
+
+143
+00:08:19.451 --> 00:08:24.251
+Ele vai passar as informações pra você geral da sua instalação.
+
+144
+00:08:24.251 --> 00:08:30.203
+O barra doutor, ele faz uma análise se tem problemas e te sugere resoluções, o doctor.
+
+145
+00:08:30.203 --> 00:08:38.795
+Se eu der esse comando aqui, ele vai fazer uma análise geral e vai sugerir coisas pra que ele corrija os problemas que ele vai encontrar, ok?
+
+146
+00:08:38.795 --> 00:08:40.240
+[silêncio]
+
+147
+00:08:40.240 --> 00:08:44.901
+Então Claude Code está no ar, você já viu o plano e o modelo que você deve usar?
+
+148
+00:08:44.901 --> 00:08:47.301
+Você viu como baixar e entrar na sua conta do Claude?
+
+149
+00:08:47.301 --> 00:08:53.701
+Você viu o primeiro uso e você viu também pra instalar a extensão do Claude para o Chrome.
+
+150
+00:08:53.701 --> 00:08:59.301
+Na próxima aula eu vou te mostrar como você baixar a fábrica e instalar dentro do seu Claude.
+
+151
+00:08:59.301 --> 00:09:01.309
+Então, te vejo na próxima aula.

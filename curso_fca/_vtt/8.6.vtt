@@ -1,0 +1,189 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.920
+Módulo 8 aula 6 take 1 bom nessa aula aqui bem rapidinho tá eu criei um conector já
+
+2
+00:00:03.920 --> 00:00:10.544
+para poder facilitar para você o que a conexão com apis externa tipo eleva labs google é
+
+3
+00:00:10.544 --> 00:00:16.624
+se você quiser conectar com open aí para gerar imagens tá bom você faz tudo isso
+
+4
+00:00:16.624 --> 00:00:25.456
+aqui de forma segura nunca digite suas chaves de api beleza então eu criei o comando para
+
+5
+00:00:25.456 --> 00:00:31.088
+isso tá a chave é a senha da ferramenta tá nunca compartilhe isso no chat beleza quem tem a chave
+
+6
+00:00:31.088 --> 00:00:37.680
+gasta da sua conta tipo se você usa o chat gpt se você usa a open aí para gerar imagens tá não
+
+7
+00:00:37.680 --> 00:00:43.944
+eu coloque no chat coloque da forma que eu vou te mostrar aqui ela mora só no arquivo .mv tem
+
+8
+00:00:43.944 --> 00:00:50.152
+um arquivo chamado .mv esse arquivo ele fica oculto tá então quando o Claude precisa se
+
+9
+00:00:50.152 --> 00:00:55.464
+conectar a ferramenta externa ele vai lá no .env e lê a chave tá bom é assim que tem que ser feito
+
+10
+00:00:55.648 --> 00:01:01.032
+e nenhuma chave é obrigatória agora tá só se você quiser complementos como eu uso muitas
+
+11
+00:01:01.032 --> 00:01:06.296
+ferramentas é errado se você colar isso no chat a chave fica exposta tá se você mandar print para
+
+12
+00:01:06.296 --> 00:01:11.576
+ele mostrar na gravação a op a todas as empresas não recomendam que você compartilhe a chave no
+
+13
+00:01:11.576 --> 00:01:17.144
+chat tá mais uma vez a forma correta é botar no arquivo .mv que esse arquivo fica no seu
+
+14
+00:01:17.144 --> 00:01:22.456
+arquivo tipo se você quiser dar o Claude a senha de alguma coisa é lá no .env logo em senha tá porque
+
+15
+00:01:22.456 --> 00:01:27.384
+eu tô falando isso tipo eu tenho 10 denas de apis conectado no meu Claude se isso vazar eu tomo
+
+16
+00:01:27.384 --> 00:01:35.320
+prejuízo enorme tipo conexão com facebook ads conexão com google no .env nunca bote isso no chat
+
+17
+00:01:35.320 --> 00:01:42.904
+tá bom e onde fica o .env ele fica na fábrica de criativos .env que é o projeto da fábrica de
+
+18
+00:01:42.904 --> 00:01:48.568
+criativos que eu vou abrir para você ver tá fábrica de criativos fica .mv que é a pasta
+
+19
+00:01:48.568 --> 00:01:54.296
+que nós vamos trabalhar a partir de agora tá no windows o caminho é parecido tá o windows fica
+
+20
+00:01:54.296 --> 00:02:00.096
+no usuário /fábrica de criativos / aí dentro tem o .env beleza e você não vai precisar ficar
+
+21
+00:02:00.096 --> 00:02:04.960
+fazendo isso toda hora tá abrir o .env sem expor o que que você faz você vai digitar esse comando
+
+22
+00:02:04.960 --> 00:02:09.536
+que eu vou mostrar para você conectar aí ele abre ele pergunta conectar qual ferramenta você
+
+23
+00:02:09.536 --> 00:02:15.392
+fala lá ElevenLabs ele vai criar no arquivo o local de colocar e vai abrir o arquivo para
+
+24
+00:02:15.392 --> 00:02:20.416
+você aí você vai pegar a chave do ElevenLabs a chave da OpenAI, a chave do que você quiser e vai
+
+25
+00:02:20.416 --> 00:02:26.672
+colocar lá e vai salvar e vai fechar ele não vai ver essa chave beleza ou se você usa VS Code né
+
+26
+00:02:26.672 --> 00:02:33.768
+você abre a pasta e coloca lá tá nunca peça ao Claude para ler mostre o .env você abre e você
+
+27
+00:02:33.768 --> 00:02:40.776
+coloca só a regra de segurança conectar uma api por vez tá conectar você bota fca conectar
+
+28
+00:02:40.776 --> 00:02:48.224
+e o nome tá você vai lá na sua ferramenta cria a chave cola no .mv no arquivo .mv e diz ao Claude
+
+29
+00:02:48.224 --> 00:02:55.480
+pronto e ele testa tá vou lhe dar um exemplo conectar ao ElevenLabs eu vou fazer um um teste
+
+30
+00:02:55.480 --> 00:03:01.112
+aqui na sua frente vou conectar ao ElevenLabs tá vou pedir para ele gerar uma voz ou melhor vou
+
+31
+00:03:01.112 --> 00:03:06.488
+conectar a open aí vou pedir para ele gerar uma imagem você vai ver que ele gera uma imagem tá e
+
+32
+00:03:06.488 --> 00:03:13.624
+onde pega cada chave depende depende da sua conta depende você tem que eu tô dando aula aqui é
+
+33
+00:03:13.624 --> 00:03:20.536
+para qualquer tipo de api tipo se você quer uma api grátis para imagens banco de imagens e banco
+
+34
+00:03:20.536 --> 00:03:29.016
+de de de vídeos cria uma conta no pexels e no freesound tá você vai ter uma gama de imagens
+
+35
+00:03:29.016 --> 00:03:35.416
+vídeos e sons vai dizer lúcio não sei digite no Claude abra o freesound abra o pexels se você
+
+36
+00:03:35.416 --> 00:03:41.400
+ligar a a extensão do Claude no seu chrome ele vai abrir aonde eu pego a chave de api digite
+
+37
+00:03:41.400 --> 00:03:47.672
+encontra a chave de api o Claude vai abrir tá pra você também beleza eleva eleves vai lá no perfil
+
+38
+00:03:47.672 --> 00:03:54.712
+depois api case tá open aí e falo o falo como eu falei para vocês é uma api para geração de
+
+39
+00:03:54.712 --> 00:04:00.376
+vídeo eu vou mostrar aqui tá e a open aí você usa os serviços da open aí seja para gerar imagens
+
+40
+00:04:00.376 --> 00:04:07.040
+e um monte de coisa tá e quanto custa em média eleva eleves custa de 5 a 22 dólares por mês para
+
+41
+00:04:07.040 --> 00:04:12.832
+se gerar voz paga mas lembrando que a gente já instalou aqui o voz estúdio imagem é de 2 a 7
+
+42
+00:04:12.832 --> 00:04:19.264
+centavas cada na open aí e vídeo com ia de 20 a 50 dólares o clipe depende do modelo que você
+
+43
+00:04:19.264 --> 00:04:25.408
+usa lá no falo beleza e se a chave vazar se você perceber que a chave vazou no chat você vai lá na
+
+44
+00:04:25.408 --> 00:04:30.816
+sua ferramenta e manda ele gerar uma nova e faz da forma que eu ensinei aqui como é que você vai
+
+45
+00:04:30.816 --> 00:04:36.384
+gerar essa nova chave de api e olha se gastou já aconteceu comigo vai ser uma vez e gastou tá vazou
+
+46
+00:04:36.384 --> 00:04:44.064
+não sei como vazou e gastou gastou pouco mais gastou chave no chat nunca tá coli no .env beleza
+
+47
+00:04:44.064 --> 00:04:45.141
+então o que que eu quero

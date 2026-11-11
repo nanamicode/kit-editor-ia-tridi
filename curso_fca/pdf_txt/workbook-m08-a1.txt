@@ -1,0 +1,265 @@
+FÁBRICA DE CRIATIVOS                    Nº M08-A1
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 8 · AULA 1
+
+COMO INSTALAR E CONFIGURAR
+
+INSTALAR O CLAUDE
+CODE DO ZERO
+
+  3 CAPÍTULOS 3 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Baixar e entrar
+   01 Abertura
+   03 Plano e cota                       8.1
+                                                                              FCA · M08-A1
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 8 · AULA 1  INSTALAR O CLAUDE CODE DO ZERO
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Este módulo é 100% mão na massa: o objetivo é você sair com a sua fábrica instalada no
+computador, funcionando e pronta para usar. Para chegar lá, o Lúcio explica como o Claude
+Code funciona, os planos de assinatura e a instalação, que é o ambiente. Você baixa o app
+oficial do Claude, cria a conta e instala a extensão do Google Chrome. Depois entende o plano:
+o grátis não tem Claude Code, o Pro é o recomendado para começar, e o uso funciona em
+janelas de 5 horas, com uma janela total semanal que reinicia em dia e hora fixos. Por fim, vê na
+tela de Uso como acompanhar o consumo, inclusive a janela própria do Fable, que é um modelo
+maior e mais caro.
+
+IDEIA CENTRAL
+
+Baixe o app oficial, entre com a assinatura, comece no Pro e
+aprenda a gerenciar a cota das janelas de 5 horas e do teto
+semanal antes de pensar em plano maior.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  A fábrica roda dentro do Claude Code
+
+    A fábrica é um conjunto que roda dentro do Claude Code e se conecta a diversas
+    aplicações para produzir os criativos. Tem várias skills, DNAs e agentes que trabalham
+    juntos para entregar o produto final, como uma equipe de pesquisa, copy, roteirista,
+    editor e designer. O Lúcio criou um instalador que instala tudo de uma vez e adicionou
+    mais de 30 GB de efeitos, músicas e bureaus (vídeos e imagens) da coletânea dele,
+    para quem ainda não paga banco de imagem, vídeo ou música. Quem não quiser o
+    pacote completo pode instalar só o módulo básico e ir adicionando aos poucos, por
+    comando.
+
+FCA · MÓDULO 8 · AULA 1       PÁGINA 2
+WORKBOOK · MÓDULO 8 · AULA 1  INSTALAR O CLAUDE CODE DO ZERO
+
+02  Baixar o app e criar a conta
+
+    Digite "Claude download" no Google e entre só no site oficial da Anthropic, com cuidado
+    para não cair em site de terceiros. Baixe a versão do seu sistema: no caso dele é Mac,
+    mas no Windows é a mesma coisa, e existe versão para celular. Se você não tem conta,
+    cria direto no aplicativo, quando abrir, ou no site. A base do curso é feita no software
+    oficial do Claude, e o Lúcio aconselha usar o aplicativo.
+
+03  Extensão do Claude no Google Chrome
+
+    Instale o Google Chrome na sua máquina e, depois de baixar o Claude e criar a conta,
+    instale a extensão do Claude no Chrome. Ela dá uma liberdade incrível: tarefas de
+    navegador que não têm API, o Claude executa direto no seu navegador.
+
+04  Plano com Claude Code
+
+    O plano grátis não tem Claude Code: dá para usar o chat com limitações, mas o Claude
+    Code é outra coisa. O Lúcio recomenda o plano Pro, que dá acesso a várias coisas do
+    Claude e, principalmente, ao Claude Code. Apesar de ter sido feito para código, a gente
+    usa para qualquer coisa, porque tudo que roda na internet é código, inclusive um vídeo.
+    Existe também pagar avulso, mas ele não aconselha, porque você gasta uma grana.
+    Comece no Pro e aprenda a gerenciá-lo, sem ficar fazendo bobagem para gastar à toa; a
+    fábrica já é otimizada, inclusive no consumo de agentes, para economizar ao máximo o
+    seu plano.
+
+05  Janelas de 5 horas e janela semanal
+
+    O Claude trabalha em janelas. Quando você dá o primeiro comando do dia (por
+    exemplo, ao meio-dia), começa a contar a primeira janela, que dura 5 horas. Dentro dela
+    você tem uma quantidade de tokens da sua assinatura: quanto é, não importa, você tem
+    5 horas para usar. Se acabar antes, espere a próxima janela: quem começou ao meio-
+    dia e consumiu tudo às 15h espera até as 17h, quando reinicia. Além das janelas
+    diárias, existe uma janela total semanal, que reinicia em um dia e hora fixos da semana.
+
+FCA · MÓDULO 8 · AULA 1       PÁGINA 3
+WORKBOOK · MÓDULO 8 · AULA 1                                       INSTALAR O CLAUDE CODE DO ZERO
+
+06  Pro, Max 5x e Max 20x
+
+    O tempo é o mesmo em todos os planos: janelas de 5 horas. O que muda é a
+    quantidade de comandos nesse período: o Max 5x dá 5 vezes mais que o Pro, e o Max
+    20x dá 20 vezes mais. O Lúcio recomenda o Max quando você produz muito ou ganha
+    dinheiro com isso, porque tempo é dinheiro; quem ainda está aprendendo fica no Pro.
+    Quando migrar depende de você. Ele mesmo tem 2 contas Max 20, porque não existe
+    plano 40x e para ele compensa mais: faz VSL, anúncios todo dia (já teve dia de mais de
+    60 anúncios), gerencia um cliente, cria páginas, e-mails e automações, e até a
+    apresentação da aula foi feita pelo Claude.
+
+07  Tela de Uso: sessão, semanal e o modelo Fable
+
+    Nas configurações do app, em Uso, você vê a sessão atual (o percentual da janela de 5
+    horas, que só começa a contar quando você dá o primeiro comando), o consumo
+    semanal e o dia e a hora em que a semana reinicia. No exemplo do Lúcio, a conta Max
+    20 reinicia toda terça-feira às 23 horas e ele já tinha gastado 35% do semanal. Ele usa
+    uma conta de terça a quinta ou sexta, até consumir tudo, e então troca para a outra, que
+    dura mais porque no fim de semana ele produz menos. O Fable, por ser um modelo
+    maior e mais caro, tem uma janela própria e é limitado; ela só aparece na tela depois
+    que você o usa. Os modelos serão explicados mais adiante.
+
+08  VS Code e terminal são alternativas
+
+    O VS Code é um software gratuito da Microsoft para desenvolvimento (uma IDE), e dá
+    para rodar o Claude Code dentro dele. Também dá para rodar direto no terminal do
+    Windows (Command) ou do Mac, sem software nenhum. Mas o Lúcio aconselha usar o
+    aplicativo oficial, que é o ensinado no curso.
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/3
+
+Quando usar: Primeiro teste, com uma pasta aberta no Claude Code
+
+Olá! O que tem nesta pasta [nome da pasta que abri]? Me explique em poucas
+linhas.
+
+FCA · MÓDULO 8 · AULA 1                                            PÁGINA 4
+WORKBOOK · MÓDULO 8 · AULA 1                         INSTALAR O CLAUDE CODE DO ZERO
+
+>_ DIGITE NO CLAUDE CODE                                                        PROMPT 2/3
+
+Quando usar: Quando algo não funcionar: diagnóstico da instalação (o "doutor")
+
+/doctor
+
+>_ COLE NO CLAUDE CODE                                                          PROMPT 3/3
+
+Quando usar: Entender o que você paga antes de decidir mudar de plano
+
+Explique em linguagem simples como funcionam as janelas de 5 horas e a
+janela semanal do meu plano [Pro, Max 5x ou Max 20x]. Me dê 3 hábitos para
+não gastar a cota à toa enquanto estou aprendendo e para fazer o plano
+render.
+
+04
+
+SUA VEZ
+
+Baixe o app oficial do Claude, entre com a sua conta, instale a extensão do Google Chrome e
+abra a tela de Uso para ver como está a sua cota.
+
+    01 Qual plano do Claude você está usando (grátis, Pro, Max 5x ou Max 20x)?
+
+02 Quanto aparece de uso na sessão atual (janela de 5 horas) e no semanal?
+
+03 Em que dia e hora o seu limite semanal reinicia?
+
+FCA · MÓDULO 8 · AULA 1                                                         PÁGINA 5
+WORKBOOK · MÓDULO 8 · AULA 1  INSTALAR O CLAUDE CODE DO ZERO
+
+04 A extensão do Claude no Chrome ficou instalada e conectada?
+
+05
+
+ANTES DA PRÓXIMA AULA
+
+       Baixei o app do Claude pelo site oficial da Anthropic, sem cair em site de terceiros
+       Criei a conta e fiz login no aplicativo
+       Instalei o Google Chrome e a extensão do Claude
+       Tenho um plano com Claude Code (Pro ou acima), porque o grátis não tem
+       Entendi que a janela de 5 horas começa a contar no primeiro comando do dia
+       Sei que existe uma janela total semanal e onde ver o dia e a hora em que ela reinicia
+
+   Sei ver meu consumo em Configurações → Uso
+
+06
+
+GLOSSÁRIO
+
+Claude Code        A parte do Claude que trabalha nos arquivos e programas do seu computador.
+                   Feito para código, mas usado para qualquer coisa, inclusive vídeo.
+
+Fábrica            Conjunto que roda dentro do Claude Code, com skills, DNAs e agentes que se
+                   conectam a várias aplicações para produzir os criativos.
+
+Janela de 5 horas  Período em que você tem uma quantidade de uso da assinatura. Começa no
+                   primeiro comando do dia e, se o uso acabar antes, reinicia ao fim das 5 horas.
+
+Janela semanal     Teto total de uso na semana, que reinicia em um dia e hora fixos, além das
+                   janelas de 5 horas.
+
+Token              A unidade de uso que a sua assinatura permite gastar dentro de cada janela.
+
+FCA · MÓDULO 8 · AULA 1                                                                       PÁGINA 6
+WORKBOOK · MÓDULO 8 · AULA 1                      INSTALAR O CLAUDE CODE DO ZERO
+
+Plano Max 5x / Max  Planos com 5 vezes ou 20 vezes mais comandos que o Pro, na mesma janela
+20x                 de 5 horas.
+
+Bureaus             Vídeos e imagens de apoio que vêm na coletânea do Lúcio, junto com efeitos e
+                    músicas.
+
+IDE (VS Code)       Software gratuito da Microsoft para desenvolvimento, onde também é possível
+                    rodar o Claude Code.
+
+07
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude (Mac e Windows)                                                    claude.com/download
+
+↗ Sistema da Fábrica: fca-sistema.zip +           drive.google.com/drive/folders/1xE1OACdDqMbNN43
+                                                                                               BCKPqp9B6YFqRrhHL
+manual de instalação
+
+↗ Pacotes que o /fca-instalar baixa (se           drive.google.com/drive/folders/1Q6yUiQMR5BZBfF
+                                                                                            zf5_5KLdi4jFaquHfh
+precisar baixar à mão)
+
+↗ Guias em PDF (instalação, erros         drive.google.com/drive/folders/1KiRF1BB9v4fYJriCSf
+                                                                                                NV5IaZU9q_cWEw
+comuns, add-ons)
+
+↗ Claude no Chrome                                                     claude.com/chrome
+↗ Instalação (docs)                                  code.claude.com/docs/en/setup
+↗ Extensão do VS Code (docs)                      code.claude.com/docs/en/vs-code
+↗ Skills (docs)                                    code.claude.com/docs/en/skills
+
+08
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+FCA · MÓDULO 8 · AULA 1                           PÁGINA 7
+WORKBOOK · MÓDULO 8 · AULA 1                             INSTALAR O CLAUDE CODE DO ZERO
+                                                       seguro.lucioartes.com/OA65829EA
+↗ 2 · Super Públicos: a segmentação           checkout.safe.lucioartes.com/42750161
+↗ 3 · Missão Claude Tracking: o trackeamento
+
+                         FIM DO WORKBOOK · MÓDULO 8 · AULA 1
+
+FCA · MÓDULO 8 · AULA 1                                       PÁGINA 8
+

@@ -1,0 +1,195 @@
+FÁBRICA DE CRIATIVOS                        Nº M03-A3
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 3 · AULA 3
+
+FRAMEWORKS DE COPY E ROTEIRO PARA ANÚNCIOS
+
+HOOK-STORY-OFFER
+
+  3 CAPÍTULOS 1 PROMPT PRONTO
+
+   ROTEIRO DA AULA                      02 Exemplo ao vivo
+   01 Gancho, história, oferta
+   03 Prática                           3.3
+                                                                              FCA · M03-A3
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 3 · AULA 3  HOOK-STORY-OFFER
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Aqui "story" é história, não o story do Instagram. Hook-Story-Offer é o framework que o Russell
+Brunson idealizou e defende: um gancho, uma história e uma oferta. Funciona muito bem para
+públicos mais frios, porque a história conscientiza a pessoa pelo desenvolvimento emocional.
+O Lúcio mostrou o anúncio dele em 22 segundos, com o gancho "15 anos de anúncio e eu não
+sei editar", e explicou que o erro é a história longa demais. Abra direto no conflito e deixe a
+oferta por último, num passo só.
+
+IDEIA CENTRAL
+
+Abra no conflito, conte a história curta e deixe a oferta por
+último, num passo só.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Hook: o gancho em 3 segundos
+
+    Três segundos bastam para o gancho. Ele também é o que você mede: no Gerenciador
+    de Anúncios, ative a métrica dos 3 primeiros segundos do vídeo e compare qual
+    anúncio tem o melhor gancho. Por isso o gancho é tão importante. No exemplo do
+    Lúcio, o gancho que mais está funcionando é "15 anos de anúncio e eu não sei editar".
+
+02  Story: personagem, conflito e virada
+
+    É a jornada do herói dentro de um anúncio: um personagem, um conflito e uma virada.
+    No exemplo do Lúcio, o conflito é que cada criativo dependia de diretor, designer e
+    roteirista (caro, demorado, sem tempo). A virada é pegar o que ele sabe de venda e
+    colocar num sistema que escreve, narra e edita. É uma história simples, contada em
+    poucos segundos.
+
+03 Offer: a oferta no fim, num passo só
+
+               A oferta vem por último e pede um passo só, como "toque em saiba mais" ou "clique em
+
+               saiba mais". No exemplo: "esse sistema é a Fábrica de Criativos Automáticos e agora
+               ele faz isso para você". Em seguida vem o pedido final.
+
+FCA · MÓDULO 3 · AULA 3                                        PÁGINA 2
+WORKBOOK · MÓDULO 3 · AULA 3                                       HOOK-STORY-OFFER
+
+04  Quando usar e para quem
+
+    O Lúcio aponta o framework geralmente para coisas mais caras. A página de vendas
+    costuma ter um VSL contando uma história, e isso converte muito. Funciona
+    principalmente com públicos mais frios. Ele aconselha testar todos os frameworks, não
+    só este.
+
+05  O erro: história longa demais
+
+    Hoje o Lúcio evita anúncios longos com história. Quando o anúncio leva para uma
+    página de vendas com vídeo de vendas, uma história muito longa no anúncio não
+    funciona bem. Não conte a vida do personagem: abra no conflito, já no problema. Vídeo
+    de vendas tem enredo, conflito e clímax, mas esse não é o caso do anúncio.
+
+06  Curto, médio e longo
+
+    Um criativo de 22 segundos já usa um dos frameworks mais efetivos. Se você quiser
+    um mais longo, é só pedir. Ao usar a IA, escolha um framework só (Hook-Story-Offer) e
+    peça uma versão curta, uma média e uma longa. Pronto.
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/1
+
+Quando usar: Para transformar o seu anúncio em Hook-Story-Offer, com três tamanhos.
+
+Use o framework Hook-Story-Offer (gancho, história e oferta) para reescrever
+o MEU anúncio. Gancho: uma frase de até 3 segundos. História: personagem,
+conflito e virada, abrindo direto no conflito, sem contar a vida do
+personagem. Oferta: no fim, com um passo só (por exemplo, 'toque em saiba
+mais'). Faça uma versão curta, uma média e uma longa, em tabela (tempo ×
+fala × tela). Personagem: [um cliente real meu ou um tipo de cliente]. Meu
+negócio: [o que você vende]. Anúncio atual: [cole seu anúncio atual ou
+descreva sua oferta em 2 linhas]. Passo único da oferta: [o que a pessoa faz
+no fim]. ANTES de executar, me mostre o PLANO.
+
+FCA · MÓDULO 3 · AULA 3                                            PÁGINA 3
+WORKBOOK · MÓDULO 3 · AULA 3                                                         HOOK-STORY-OFFER
+
+04                                        → ✓ CERTO
+                                                   Abrir no conflito e contar o resto depois.
+O QUE NÃO FAZER
+
+O erro da história longa demais
+
+   ✕ ERRADO
+
+    Contar a vida do personagem antes do
+    conflito.
+
+05
+
+SUA VEZ
+
+Escreva o seu anúncio em Hook-Story-Offer, em poucas frases: o gancho de 3 segundos, o
+personagem com o conflito, a virada e a oferta com um passo só. Abra direto no conflito, sem
+contar a vida do personagem. Depois peça à IA as versões curta, média e longa.
+
+    01 Meu gancho (3 segundos)
+
+02 Personagem e o conflito dele
+
+03 A virada (o que mudou)
+
+FCA · MÓDULO 3 · AULA 3                   PÁGINA 4
+WORKBOOK · MÓDULO 3 · AULA 3                                                  HOOK-STORY-OFFER
+    04 Minha oferta em uma frase e o passo único
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       O gancho cabe em 3 segundos.
+       O anúncio abre direto no conflito, sem contar a vida do personagem.
+       Existe um personagem, um conflito e uma virada.
+       A história é simples e curta.
+       A oferta vem só no fim.
+       O pedido final é de um passo só.
+       Pedi uma versão curta, uma média e uma longa.
+       Ativei a métrica dos 3 primeiros segundos no Gerenciador de Anúncios.
+
+07
+
+GLOSSÁRIO
+
+Hook       O gancho: o que faz a pessoa parar. Três segundos bastam.
+
+Story      A história do anúncio, com personagem, conflito e virada. Não é o story do
+           Instagram.
+
+Conflito   O problema do personagem. É onde o anúncio deve abrir.
+
+Virada     O ponto em que a situação muda.
+
+Offer      A oferta no fim, com um passo só.
+
+FCA · MÓDULO 3 · AULA 3                                                       PÁGINA 5
+WORKBOOK · MÓDULO 3 · AULA 3                                  HOOK-STORY-OFFER
+
+VSL  Vídeo de vendas, geralmente na página de vendas, que conta uma história e
+     converte bem com públicos mais frios.
+
+08
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 3 · AULA 3
+
+FCA · MÓDULO 3 · AULA 3                                       PÁGINA 6
+

@@ -1,0 +1,463 @@
+FÁBRICA DE CRIATIVOS                    Nº M08-A3
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 8 · AULA 3
+
+COMO INSTALAR E CONFIGURAR
+
+/FCA-INSTALAR: O
+CARDÁPIO E A ESCOLHA
+
+  4 CAPÍTULOS 3 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Baixar e abrir
+   01 Abertura
+   03 Escolher                          8.3 04 Permissão
+                                                                              FCA · M08-A3
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 8 · AULA 3  /FCA-INSTALAR: O CARDÁPIO E A ESCOLHA
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Nesta aula o Lúcio instala a Fábrica na prática. Você baixa o zip pelo link abaixo da aula,
+descompacta, abre a pasta no app do Claude (Claude Code), cria um projeto e digita /fca-
+instalar. O Claude mostra o cardápio, com o tamanho de cada item, para que serve cada coisa e
+o que o seu computador já tem. Depois pergunta se você quer a instalação Rápida ou a
+Completa. Ele recomenda a Completa, que precisa de 40 GB livres. Durante a instalação o app
+pede permissão, e você pode autorizar uma vez ou para sempre. No fim ele gera um vídeo de
+teste de 6 segundos avisando que a Fábrica está instalada.
+
+IDEIA CENTRAL
+
+Um comando, um cardápio e uma escolha: aprenda a ler o que
+o Claude mostra e instale a Completa.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Baixar, descompactar e lembrar onde ficou
+
+    O link do zip está abaixo da aula (abre no Drive). Baixe para o computador, pode ser em
+    Downloads ou na sua pasta de projetos, e descompacte. Esse arquivo serve só para a
+    instalação: depois de instalar, você pode apagá-lo. Não esqueça onde baixou. Na
+    mesma pasta do Drive também está o workbook, o manual completo da instalação.
+
+02  Abrir a pasta no app do Claude
+
+    Abra o aplicativo do Claude (Claude Code), crie um projeto novo e abra a pasta que você
+    descompactou. Depois digite o comando /fca-instalar e aperte Enter. Ele começa a
+    iniciar tudo e exibe o cardápio.
+
+FCA · MÓDULO 8 · AULA 3       PÁGINA 2
+WORKBOOK · MÓDULO 8 · AULA 3  /FCA-INSTALAR: O CARDÁPIO E A ESCOLHA
+
+03  Aprenda a ler o que o Claude mostra
+
+    O Lúcio insiste: leia a tela. O Claude lista o que vai fazer: mostrar o cardápio de
+    instalação, perguntar Rápida ou Completa, instalar etapa por etapa e conferir. No
+    cardápio aparecem o tamanho de cada item, para que serve cada coisa, o que o seu
+    computador já tem, o espaço e o tempo de cada instalação, o aviso do Chrome, a
+    licença da voz e as suas respostas.
+
+04  Rápida ou Completa
+
+    Rápida: os programas e o sistema da Fábrica, a transcrição local, o kit inicial do acervo
+    e o vídeo de teste. Você fica limitado e vai precisar baixar conteúdo depois para a IA ter
+    repertório. Completa: tudo da Rápida mais o acervo completo (áudios, efeitos sonoros,
+    visuais para usar nas composições) e a voz, local grátis ou ElevenLabs. Precisa de 40
+    GB livres. O Lúcio recomenda a Completa. Quem fizer a Rápida pode complementar
+    depois com o comando de complementar, sem refazer tudo.
+
+05  Permissão: o freio de segurança
+
+    O Claude pede permissão porque esse é o freio de segurança padrão. Você pode
+    autorizar uma vez ou autorizar para ele não perguntar de novo. Se permitir para sempre,
+    a instalação da Fábrica avança sem parar. Também dá para aceitar as edições. O Lúcio
+    não aconselha o Modo Vida Louca, que tira o freio: sem ele, algo pode dar errado na
+    instalação ou em qualquer outra coisa.
+
+06  Acompanhar a instalação
+
+    O Claude verifica o que você já tem e instala o que falta (Git e Python, Node.js e outras
+    ferramentas), em etapas numeradas (por exemplo, etapa 4 de 8). O que ele pergunta
+    varia de computador para computador. O tempo estimado é sempre superestimado: na
+    aula a Rápida estimou 15 minutos e terminou em menos de 2. No fim, ele abre a pasta e
+    gera um vídeo de teste de 6 segundos dizendo que a Fábrica está instalada. Se o vídeo
+    abrir, está tudo certo. Às vezes ele pode não abrir, então fique de olho nas etapas.
+
+FCA · MÓDULO 8 · AULA 3       PÁGINA 3
+WORKBOOK · MÓDULO 8 · AULA 3                      /FCA-INSTALAR: O CARDÁPIO E A ESCOLHA
+
+03
+
+PASSO A PASSO NO SEU COMPUTADOR
+
+Mac com chip Apple (M1/M2/M3/M4)
+
+→ COMO SABER SE É O SEU                           Sobre este Mac. Se a linha "Chip" disser
+     Clique na maçã no canto de cima, à esquerda
+
+Apple M1, M2, M3 ou M4, este é o seu.
+
+PASSO A PASSO
+
+ 1. Baixe o fca-sistema.zip no Google Drive (link na área de membros e no e-mail de boas-
+     vindas). Ele vai para a pasta Downloads.
+
+ 2. Dê dois cliques no zip. Aparece a pasta fca-sistema, em Downloads.
+
+ 3. Instale o app do Claude pelo site oficial (claude.ai/download), arraste para Aplicativos, abra e
+     entre com a conta da sua assinatura.
+
+4. No app: aba Code → Local → Select folder → Downloads → fca-sistema → Abrir. Se o Mac
+
+     perguntar se o Claude pode acessar Downloads, clique em Permitir.
+
+ 5. Digite /fca-instalar e aperte Enter. Se o app perguntar "Permitir?" para o instalador da Fábrica,
+     clique em "Sim, e não perguntar de novo".
+
+→ 6. Quando aparecer "Tudo pronto", abra a pasta Fabrica-de-Criativos no app (Select folder
+  → aperte Command + Shift + H Fabrica-de-Criativos) e abra uma conversa nova.
+
+O QUE O INSTALADOR VAI FAZER
+
+     Mostra o cardápio (o que você já tem, o que falta, tamanho e para que serve), pergunta
+     Rápida ou Completa (e a voz, se Completa) e instala uma etapa por vez com uma barra de
+     progresso. Rápida: 10 a 15 minutos; Completa: 40 a 60 minutos.
+
+     Se faltarem as ferramentas da Apple, abre uma janela da Apple: clique em Instalar e
+     Concordo, espere terminar e escreva continuar.
+
+     Para o ffmpeg (o programa que edita o vídeo) abre o Terminal sozinho. Clique nele e digite a
+     senha do Mac uma vez. Ela não aparece enquanto você digita; é normal.
+
+     Instala também o Node.js, o programa que transcreve o áudio, o Remotion e o sistema da
+     Fábrica para todos os seus projetos.
+
+SE TRAVAR
+
+     Parou no meio? Digite /fca-instalar de novo: ele pula o que já está pronto.
+     Deu erro? Copie a mensagem e cole no chat: "Deu este erro, conserte para mim."
+     A senha vai só no Terminal. Nunca no chat.
+
+LINKS OFICIAIS
+
+     App do Claude claude.ai/download
+     Homebrew (instala o ffmpeg) brew.sh
+     Node.js nodejs.org
+
+FCA · MÓDULO 8 · AULA 3                                                              PÁGINA 4
+WORKBOOK · MÓDULO 8 · AULA 3                             /FCA-INSTALAR: O CARDÁPIO E A ESCOLHA
+
+            ffmpeg ffmpeg.org
+
+Mac Intel
+
+→ COMO SABER SE É O SEU                           Sobre este Mac. Se a linha "Processador"
+     Clique na maçã no canto de cima, à esquerda
+
+disser Intel (por exemplo Intel Core i5), este é o seu.
+
+PASSO A PASSO
+
+ 1. Baixe o fca-sistema.zip no Google Drive (link na área de membros e no e-mail de boas-
+     vindas). Ele vai para a pasta Downloads.
+
+ 2. Dê dois cliques no zip. Aparece a pasta fca-sistema, em Downloads.
+
+ 3. Instale o app do Claude pelo site oficial (claude.ai/download), arraste para Aplicativos, abra e
+     entre com a conta da sua assinatura.
+
+4. No app: aba Code → Local → Select folder → Downloads → fca-sistema → Abrir. Se o Mac
+
+     perguntar se o Claude pode acessar Downloads, clique em Permitir.
+
+ 5. Digite /fca-instalar e aperte Enter. Se o app perguntar "Permitir?" para o instalador da Fábrica,
+     clique em "Sim, e não perguntar de novo".
+
+→ 6. Quando aparecer "Tudo pronto", abra a pasta Fabrica-de-Criativos no app (Select folder
+  → aperte Command + Shift + H Fabrica-de-Criativos) e abra uma conversa nova.
+
+O QUE O INSTALADOR VAI FAZER
+
+     Mostra o cardápio (o que você já tem, o que falta, tamanho e para que serve), pergunta
+     Rápida ou Completa (e a voz, se Completa) e instala uma etapa por vez com uma barra de
+     progresso. Rápida: 10 a 15 minutos; Completa: 40 a 60 minutos.
+
+     Se faltarem as ferramentas da Apple, abre uma janela da Apple: clique em Instalar e
+     Concordo, espere terminar e escreva continuar.
+
+     O ffmpeg vem do site indicado pelo ffmpeg.org e é instalado sem senha.
+
+     Se esse site não responder, ele abre o Terminal para instalar pelo Homebrew: digite a senha
+     do Mac lá, uma vez.
+
+     Instala também o Node.js, o programa que transcreve o áudio, o Remotion e o sistema da
+     Fábrica para todos os seus projetos.
+
+SE TRAVAR
+
+     Parou no meio? Digite /fca-instalar de novo: ele pula o que já está pronto.
+     Mac Intel é mais lento para transcrever e renderizar: é normal demorar mais.
+     Deu erro? Copie a mensagem e cole no chat: "Deu este erro, conserte para mim."
+
+LINKS OFICIAIS
+
+     App do Claude claude.ai/download
+     ffmpeg ffmpeg.org
+
+FCA · MÓDULO 8 · AULA 3                                                              PÁGINA 5
+WORKBOOK · MÓDULO 8 · AULA 3             /FCA-INSTALAR: O CARDÁPIO E A ESCOLHA
+
+            Node.js nodejs.org
+
+Windows 10 ou 11
+
+→ → → COMO SABER SE É O SEU              Sobre. Em "Especificações do Windows"
+     Clique em Iniciar Configurações
+                                Sistema
+
+aparece Windows 10 ou Windows 11. Em "Tipo de sistema" deve aparecer 64 bits,
+
+processador baseado em x64.
+
+PASSO A PASSO
+
+ 1. Baixe o fca-sistema.zip no Google Drive (link na área de membros e no e-mail de boas-
+     vindas). Ele vai para a pasta Downloads.
+
+2. Clique com o botão direito no zip → Extrair tudo → Extrair. Se ficar fca-sistema dentro de fca-
+
+     sistema, use a de dentro.
+
+ 3. Instale o app do Claude pelo site oficial (claude.ai/download), abra e entre com a conta da
+     sua assinatura.
+
+4. No app: aba Code → Local → Select folder → Downloads → fca-sistema → Selecionar pasta.
+
+ 5. Digite /fca-instalar e aperte Enter. Se o app perguntar "Permitir?" para o instalador da Fábrica,
+
+     clique em "Sim, e não perguntar de novo".
+
+→ 6. Quando aparecer "Tudo pronto", abra a pasta Fabrica-de-Criativos no app (Select folder
+  → → → Disco Local (C:) Usuários o seu nome Fabrica-de-Criativos) e abra uma conversa
+
+     nova.
+
+O QUE O INSTALADOR VAI FAZER
+
+     Mostra o cardápio (o que você já tem, o que falta, tamanho e para que serve), pergunta
+     Rápida ou Completa (e a voz, se Completa) e instala uma etapa por vez com uma barra de
+     progresso. Rápida: 10 a 15 minutos; Completa: 40 a 60 minutos.
+     Usa o instalador do próprio Windows (winget) para o Node.js, o Python, o ffmpeg, o Git e o yt-
+     dlp.
+     Pode aparecer uma janela azul perguntando se o programa pode fazer alterações: clique em
+     Sim (às vezes uma por programa).
+     Instala também o programa que transcreve o áudio, o Remotion e o sistema da Fábrica para
+     todos os seus projetos.
+
+SE TRAVAR
+
+     Ele disse que falta algo depois de instalar? Feche o app do Claude, abra de novo e digite /fca-
+     instalar.
+     Apareceu "winget não encontrado"? Abra a Microsoft Store, procure Instalador de Aplicativo,
+     clique em Instalar/Atualizar e digite /fca-instalar de novo.
+     Se em Tipo de sistema aparecer processador baseado em ARM, avise o suporte antes de
+     instalar.
+     Deu erro? Copie a mensagem e cole no chat: "Deu este erro, conserte para mim."
+
+FCA · MÓDULO 8 · AULA 3                                                        PÁGINA 6
+WORKBOOK · MÓDULO 8 · AULA 3                                 /FCA-INSTALAR: O CARDÁPIO E A ESCOLHA
+
+     LINKS OFICIAIS
+
+            App do Claude claude.ai/download
+            Node.js nodejs.org
+            Python python.org
+            Git for Windows git-scm.com/download/win
+            ffmpeg ffmpeg.org
+
+04
+
+RÁPIDA OU COMPLETA
+
+As duas servem. Escolha pelo espaço e pelo que você quer já pronto. Quem escolhe a Rápida completa
+depois com /fca-completar, sem reinstalar nada.
+
+                                      Rápida                 Completa
+
+Espaço                                ~5 GB                  ~30 GB (bom ter 40 GB livres)
+Tempo                                 10 a 15 minutos        40 a 60 minutos, conforme a internet
+
+Programas (Git, Python, Node,         Sim                    Sim
+
+ffmpeg, Remotion, HyperFrames)
+
+Sistema da Fábrica (skills, agentes,  Sim                    Sim
+
+comandos)
+
+Transcrição local (modelo small) e yt- Sim                   Sim
+
+dlp
+
+Acervo                                Kit inicial (~0,4 GB)  Completo (~11 GB: 1.700+ sons e trilhas,
+                                                             770 b-rolls)
+
+Voz                                   Sua voz gravada        VoiceStudio (no computador, uso não
+
+                                      (legendada no computador) comercial) ou ElevenLabs (na nuvem, pago)
+
+Primeiro vídeo de teste               Sim                    Sim
+
+Depois                                /fca-completar traz o resto /fca-completar atualiza
+
+O que dá para fazer já com a Rápida: roteiro e copy; criativo com a sua voz gravada, legendado no computador; editar
+talking head; motion sem narração; capas; estudar referência.
+
+FCA · MÓDULO 8 · AULA 3                                                                    PÁGINA 7
+WORKBOOK · MÓDULO 8 · AULA 3                                       /FCA-INSTALAR: O CARDÁPIO E A ESCOLHA
+
+05
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ DIGITE NO CLAUDE CODE                                           PROMPT 1/3
+
+Quando usar: Instalar a Fábrica (pasta aberta no app do Claude)
+
+/fca-instalar
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/3
+
+Quando usar: Completar depois de ter feito a Rápida
+
+Quero complementar a minha instalação rápida. Mostre o que falta para a
+instalação completa.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/3
+
+Quando usar: Apareceu um erro durante a instalação
+
+Deu este erro, conserte para mim: [cole aqui a mensagem do erro]
+
+06                                            → ✓ CERTO
+                                                       Freio ligado: libere só os comandos da
+O QUE NÃO FAZER                                        Fábrica
+
+Modo Vida Louca: não use
+
+   ✕ ERRADO
+
+    Modo Vida Louca: a IA faz qualquer coisa
+    sem perguntar
+
+FCA · MÓDULO 8 · AULA 3                                                  PÁGINA 8
+WORKBOOK · MÓDULO 8 · AULA 3  /FCA-INSTALAR: O CARDÁPIO E A ESCOLHA
+
+07
+
+SUA VEZ
+
+Baixe o pacote, abra a pasta no app, digite /fca-instalar, leia o cardápio com calma e anote:
+
+01 Qual opção você escolheu (Rápida ou Completa) e por quê?
+
+02 Quantos GB livres você tem no computador? Cabe a Completa (40 GB)?
+
+03 O que o cardápio disse que você já tinha instalado?
+
+04 Você deu permissão uma vez ou para sempre? O vídeo de teste de 6 segundos abriu?
+
+08                                                                                 PÁGINA 9
+
+ANTES DA PRÓXIMA AULA
+
+       Baixei o zip pelo link abaixo da aula e descompactei
+       Sei onde está a pasta que descompactei
+       Abri a pasta em um projeto novo no app do Claude
+       Digitei /fca-instalar e li o cardápio (tamanho e para que serve cada item)
+
+FCA · MÓDULO 8 · AULA 3
+WORKBOOK · MÓDULO 8 · AULA 3              /FCA-INSTALAR: O CARDÁPIO E A ESCOLHA
+
+Conferi que tenho 40 GB livres e escolhi a Completa (ou a Rápida, sabendo que complemento
+depois)
+
+Respondi às permissões do app, sem ativar o Modo Vida Louca
+
+Vi o vídeo de teste de 6 segundos com a Fábrica instalada
+
+09
+
+GLOSSÁRIO
+
+Cardápio             A lista que o /fca-instalar mostra antes de instalar: cada item, o tamanho, para
+                     que serve e o que você já tem.
+
+Instalação Rápida    Programas, sistema da Fábrica, transcrição local, kit inicial do acervo e vídeo
+                     de teste. Deixa você limitado, até complementar.
+
+Instalação Completa  Tudo da Rápida mais o acervo completo e a voz (local ou ElevenLabs). Precisa
+                     de 40 GB livres e é a recomendada.
+
+Acervo               A biblioteca de áudios, efeitos sonoros e recursos visuais que a IA usa como
+                     repertório nas suas composições.
+
+Modo Vida Louca      Modo em que o Claude faz tudo sem pedir permissão. O Lúcio não recomenda,
+                     para você não ter surpresas.
+
+Vídeo de teste       Vídeo de 6 segundos que a Fábrica gera ao terminar, só para confirmar que
+                     está instalada e funcionando.
+
+10                                                                                  claude.com/download
+
+LINKS DA AULA                             drive.google.com/drive/folders/1xE1OACdDqMbNN43
+                                                                                       BCKPqp9B6YFqRrhHL
+↗ Baixar o app do Claude (Mac e Windows)
+↗ Sistema da Fábrica: fca-sistema.zip +    drive.google.com/drive/folders/1Q6yUiQMR5BZBfF
+                                                                                     zf5_5KLdi4jFaquHfh
+manual de instalação
+
+↗ Pacotes que o /fca-instalar baixa (se
+
+precisar baixar à mão)
+
+FCA · MÓDULO 8 · AULA 3                                      PÁGINA 10
+WORKBOOK · MÓDULO 8 · AULA 3                                 /FCA-INSTALAR: O CARDÁPIO E A ESCOLHA
+
+↗ Guias em PDF (instalação, erros        drive.google.com/drive/folders/1KiRF1BB9v4fYJriCSf
+                                                                                               NV5IaZU9q_cWEw
+comuns, add-ons)
+
+11
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 8 · AULA 3
+
+FCA · MÓDULO 8 · AULA 3                                       PÁGINA 11
+

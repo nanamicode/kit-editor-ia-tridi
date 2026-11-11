@@ -1,0 +1,199 @@
+FÁBRICA DE CRIATIVOS                    Nº M05-A4
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 5 · AULA 4
+
+COMO PASSAR INSTRUÇÕES PARA A IA
+
+PROMPTS DO DIA A DIA
+E COMO CORRIGIR A IA
+
+  4 CAPÍTULOS 3 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Corrigir sem desmontar
+   01 Abertura
+   03 Amostra antes                     5.4 04 Naprática
+                                                                              FCA · M05-A4
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 5 · AULA 4  PROMPTS DO DIA A DIA E COMO CORRIGIR A IA
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Depois que a IA erra, você não precisa refazer tudo. Hoje a primeira versão sai quase boa e, na
+maior parte das vezes, nem precisa de edição. Quando precisar, a regra é o ajuste cirúrgico:
+aponte o defeito exato, diga o que manter e faça uma mudança por vez. Um pedido vago como
+'refaz tudo melhor' faz você perder tempo, gastar token e assinatura, perder o que estava
+aprovado e não saber o que mudou. Para vídeo, o agente edita só o trecho com defeito e
+mostra uma amostra curta em 9:16 antes de renderizar o vídeo inteiro.
+
+IDEIA CENTRAL
+
+Corrigir é mexer só no defeito e manter o resto.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  A regra do ajuste cirúrgico
+
+    Aponte o defeito exato, diga o que manter e peça uma mudança por vez. Uma dica: tire
+    um print do local exato, diga o minuto e o segundo e escreva o que não ficou bom. Não
+    precisa falar bonito nem de forma correta, porque o Claude entende.
+
+02  Pedido vago x pedido cirúrgico
+
+    O pedido vago ('refaz tudo melhor') faz você perder tempo, gastar token e assinatura,
+    perder o gancho aprovado e não saber o que mudou. O pedido cirúrgico é específico,
+    por exemplo 'só a linha 3 explica demais'. Aí o gancho e a prova ficam, e muda só o
+    defeito.
+
+03  Exemplo real: a cabeça cobria o texto
+
+    Em um anúncio, a cabeça da pessoa cobria o meio da palavra, mas o texto atrás dela
+    era o charme. No pedido vago, sem o defeito exato e sem o que manter, o Claude refez
+    a tela e tirou o texto de trás. No pedido cirúrgico, com o defeito exato e o que manter ('o
+    texto fica atrás dela'), o texto voltou para trás da cabeça e o defeito saiu.
+
+FCA · MÓDULO 5 · AULA 4                           PÁGINA 2
+WORKBOOK · MÓDULO 5 · AULA 4  PROMPTS DO DIA A DIA E COMO CORRIGIR A IA
+
+04  Plano e amostra antes do vídeo inteiro
+
+    Peça para o Claude mostrar o plano antes e uma amostra curta antes do vídeo inteiro.
+    As skills do curso já estão programadas para isso: o agente edita só aquele trecho e
+    mostra o resultado antes de encaixar. Assim você não espera o render do vídeo todo
+    para descobrir que deu errado, e evita gastar a assinatura à toa.
+
+05  Amostra curta em 9:16
+
+    A amostra tem poucos segundos (na aula, 8 segundos) e é só em 9:16, o formato
+    vertical de Reels e Stories. Erro na amostra é barato, e a correção também. Se você
+    quiser quadrado, é só pedir, mas o Lúcio não aconselha.
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/3
+
+Quando usar: Para corrigir um defeito sem desmontar o resto (anexe o print do local exato).
+
+Segue o print do ponto exato [minuto:segundo ou descrição do local]. O
+defeito é: [o que não ficou bom]. MANTENHA [o que estava bom e deve ficar
+como está]. Mude só isso, uma coisa por vez. Me mostre o PLANO antes de
+executar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/3
+
+Quando usar: Para corrigir um roteiro mexendo só na linha com problema.
+
+Aqui está o meu roteiro: [cole o roteiro]. Corrija SOMENTE este defeito:
+[ex.: a linha 3 explica demais]. MANTENHA o gancho e a prova exatamente como
+estão. Me mostre o PLANO antes e, depois, só as linhas que mudaram.
+
+FCA · MÓDULO 5 · AULA 4                                            PÁGINA 3
+WORKBOOK · MÓDULO 5 · AULA 4  PROMPTS DO DIA A DIA E COMO CORRIGIR A IA
+
+>_ COLE NO CLAUDE CODE        PROMPT 3/3
+
+Quando usar: Para corrigir um vídeo com amostra antes do render completo.
+
+O defeito está em [minuto:segundo]: [descreva o defeito]. MANTENHA [o que
+deve ficar, ex.: o texto fica atrás dela]. Me mostre o PLANO e gere uma
+amostra de 8 segundos só desse trecho, em 9:16. Só renderize o vídeo inteiro
+depois que eu aprovar a amostra.
+
+04
+
+SUA VEZ
+
+Pegue um material seu (roteiro ou vídeo) com um defeito e peça a correção do jeito cirúrgico:
+print do local exato, o defeito, o que manter e uma mudança só. Peça o plano e a amostra
+antes. Compare antes e depois.
+
+    01 O defeito exato que apontei (com minuto e segundo ou print)
+
+02 O que pedi para manter
+
+03 O que mudou na amostra
+
+04 O que continuou igual
+
+FCA · MÓDULO 5 · AULA 4       PÁGINA 4
+WORKBOOK · MÓDULO 5 · AULA 4                              PROMPTS DO DIA A DIA E COMO CORRIGIR A IA
+
+05
+
+ANTES DA PRÓXIMA AULA
+
+      Apontei o defeito exato, não 'melhora aí'.
+
+      Tirei print do local e disse o minuto e o segundo.
+
+      Disse o que manter.
+
+      Pedi uma mudança por vez.
+
+      Li o plano antes de executar.
+
+      Conferi a amostra curta em 9:16 antes do vídeo inteiro.
+
+      Só o defeito mudou; o gancho e a prova continuam iguais.
+
+06
+
+GLOSSÁRIO
+
+Ajuste cirúrgico           Correção que muda só o defeito apontado e mantém o resto como estava.
+
+Pedido vago                Pedido sem defeito exato nem o que manter, como 'refaz tudo melhor'. Gasta
+                           tempo, token e assinatura.
+
+Amostra                    Trecho curto do vídeo, de poucos segundos, para conferir a correção antes de
+                           gerar o vídeo inteiro.
+
+9:16                       Formato vertical de Reels e Stories, usado nas amostras e nos vídeos do
+                           curso.
+
+Render                     Geração do arquivo final do vídeo, que pode demorar dependendo do seu
+                           computador.
+
+07                                                              claude.com/download
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+FCA · MÓDULO 5 · AULA 4                                         PÁGINA 5
+WORKBOOK · MÓDULO 5 · AULA 4                      PROMPTS DO DIA A DIA E COMO CORRIGIR A IA
+
+08
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 5 · AULA 4
+
+FCA · MÓDULO 5 · AULA 4                                       PÁGINA 6
+

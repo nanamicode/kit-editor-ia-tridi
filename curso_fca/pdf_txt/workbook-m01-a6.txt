@@ -1,0 +1,245 @@
+FÁBRICA DE CRIATIVOS                    Nº M01-A6
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 1 · AULA 6
+
+APRESENTAÇÃO E QUEM SOU
+
+COMO A FÁBRICA
+FUNCIONA
+
+  3 CAPÍTULOS 3 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Básico e avançado
+   01 A esteira
+   03 Mapa e estilos                     1.6
+                                                                              FCA · M01-A6
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 1 · AULA 6  COMO A FÁBRICA FUNCIONA
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Nesta aula o Lúcio mostra como a Fábrica funciona, da entrada até a saída. Entra um link, uma
+página, um vídeo, uma copy ou um perfil do Instagram, e isso já é suficiente. A IA analisa a
+oferta, o público e o produto, escreve o roteiro (gancho, corpo, prova, CTA), faz a narração e a
+edição (motions, legenda, corte). Sai pronto o par pago + orgânico, em sequência e sem
+mistério. Existem dois modos: o básico, só com o Claude (assinatura pelo menos Pro), e o
+avançado, que pluga ferramentas extras para voz clonada, imagem e vídeo. Ele fala também
+dos estilos (mais de 30 e crescendo), de que a qualidade vem do briefing e do estilo, e de onde
+pedir ajuda.
+
+IDEIA CENTRAL
+
+A Fábrica é uma esteira que vai do link ao par pago + orgânico
+em sequência, e a qualidade do resultado vem do briefing e do
+estilo que você escolhe.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  A esteira: da entrada à saída
+
+    Entrada: link da oferta, página, vídeo, copy ou perfil do Instagram, e qualquer um deles já
+    é suficiente. Meio: a IA analisa oferta, público e produto, escreve o roteiro (gancho,
+    corpo, prova, CTA), faz a narração e a edição (motions, legenda, corte). Saída: o anúncio
+    pronto, pago ou orgânico, do link ao par. Acontece em sequência, não tem mistério.
+
+02  Modo básico
+
+    Você só precisa do Claude, com assinatura pelo menos a Pro. Ele faz roteiro, copy e
+    montagem, e o custo é praticamente gratuito. Foi pensado para atender a todos os
+    gostos.
+
+FCA · MÓDULO 1 · AULA 6       PÁGINA 2
+WORKBOOK · MÓDULO 1 · AULA 6  COMO A FÁBRICA FUNCIONA
+
+03  Modo avançado
+
+    Recursos extras como clonagem de voz e imagem e vídeo gerados. O Claude não gera
+    imagem: ele faz motions, com uma skill própria. Para criar uma imagem realista de uma
+    pessoa, você precisa de outras ferramentas plugadas ou então entrega as imagens a
+    ele. O Lúcio pluga ferramentas bem baratas para isso e também usa bancos de
+    imagens gratuitos, como o Pexels. No avançado ele conecta ferramentas gratuitas e
+    pagas para expandir a Fábrica.
+
+04 O caminho do curso
+
+               Módulos 2 a 4: você aprende a fazer o anúncio até na mão. Módulo 5: como falar com a
+
+               IA. Módulos 6 a 8: ferramentas e instalação. E aí está pronto.
+
+05  Estilos e briefing: de onde vem a qualidade
+
+    A Fábrica tem mais de 30 estilos, e o Lúcio adiciona estilos novos todos os dias. Você
+    não precisa se preocupar em escolher: quando ele não escolhe, a IA escolhe o melhor
+    para ele. Mas não é só apertar um botão. A qualidade vem do briefing e do estilo. O
+    briefing não é aquele documento chato de designer: pode ser um áudio ou a página de
+    vendas jogada ali.
+
+06  Onde pedir ajuda
+
+    O próprio sistema, dentro do seu Claude Code, que resolve os problemas junto com
+    você. Os comentários em cada aula, que o Lúcio monitora e responde. E a garantia de 7
+    dias, contada a partir da entrega de todo o conteúdo.
+
+FCA · MÓDULO 1 · AULA 6       PÁGINA 3
+WORKBOOK · MÓDULO 1 · AULA 6                                       COMO A FÁBRICA FUNCIONA
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/3
+
+Quando usar: Para entender a esteira no seu caso, antes de produzir qualquer coisa.
+
+Explique, em passos curtos, como a Fábrica transformaria o que eu tenho em
+um anúncio pronto. Minha entrada: [link da oferta / página de vendas / vídeo
+/ copy / perfil do Instagram: cole aqui]. Mostre o que você analisaria
+(oferta, público, produto), como ficaria o roteiro (gancho, corpo, prova,
+CTA) e o que sairia no final (pago e orgânico). Marque o que roda só com o
+Claude (modo básico) e o que precisaria de ferramenta extra (modo avançado).
+Não produza nada ainda. Antes de executar, me mostre o plano em passos
+curtos e espere meu OK.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/3
+
+Quando usar: Para deixar a IA escolher o estilo do anúncio, como o Lúcio faz.
+
+Veja a lista de estilos da Fábrica. Meu produto: [descreva]. Meu público:
+[quem é]. Escolha o estilo que melhor combina e explique em 2 linhas por
+que. Se houver mais de um bom, liste até 3. Não produza nada ainda. Antes de
+executar, me mostre o plano em passos curtos e espere meu OK. No final, diga
+como eu confiro que ficou certo.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/3
+
+Quando usar: Para montar um briefing sem burocracia, a partir de um áudio ou da página de vendas.
+
+Vou te passar um briefing em formato livre: [cole a transcrição do meu áudio
+ou a página de vendas]. Leia e me devolva, em tópicos curtos, o que você
+entendeu de oferta, público e produto. Liste o que ficou faltando para fazer
+um bom anúncio e me pergunte só o essencial. Não produza nada ainda.
+
+FCA · MÓDULO 1 · AULA 6                                            PÁGINA 4
+WORKBOOK · MÓDULO 1 · AULA 6                                    COMO A FÁBRICA FUNCIONA
+
+04                            → ✓ CERTO
+                                       A qualidade vem do briefing e do estilo
+O QUE NÃO FAZER
+
+Não é só apertar um botão
+
+   ✕ ERRADO
+
+    É só apertar um botão
+
+05
+
+SUA VEZ
+
+Desenhe a sua esteira em uma frase por etapa e escolha o seu modo de começar.
+
+    01 Minha entrada (link, página, vídeo, copy ou perfil do Instagram que vou usar)
+
+02 O que quero que a IA faça por mim (analisar, roteiro, narração, edição)
+
+03 A saída que espero (pago, orgânico ou o par)
+
+04 Vou começar no modo básico (só Claude) ou já tenho algo do avançado em mente?
+    Por quê?
+
+FCA · MÓDULO 1 · AULA 6                                                               PÁGINA 5
+WORKBOOK · MÓDULO 1 · AULA 6                                           COMO A FÁBRICA FUNCIONA
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+Sei dizer o que entra na esteira (link, página, vídeo, copy ou perfil do Instagram)
+
+Sei o que a IA faz no meio: analisa, escreve o roteiro, narra e edita
+
+Sei que a saída é o par pago + orgânico
+
+Entendo a diferença entre o modo básico (só Claude, pelo menos Pro) e o avançado (ferramentas
+plugadas)
+
+Sei que o Claude não gera imagem realista de pessoa e que preciso de ferramenta extra ou das
+minhas imagens
+
+Sei que a qualidade vem do briefing e do estilo, e que o briefing pode ser um áudio ou a página de
+vendas
+
+Conheço o caminho do curso: módulos 2 a 4, 5 e 6 a 8
+
+Sei onde pedir ajuda: o sistema no Claude Code, os comentários das aulas e a garantia de 7 dias
+
+07
+
+GLOSSÁRIO
+
+Esteira        O caminho da entrada até a saída, em sequência: link, análise, roteiro,
+               narração, edição, par pronto.
+
+Par pago + orgânico A saída da Fábrica: o anúncio para tráfego pago e o conteúdo para o orgânico.
+
+Modo básico    Uso da Fábrica só com o Claude (assinatura pelo menos Pro): roteiro, copy e
+               montagem.
+
+Modo avançado  Uso da Fábrica com ferramentas plugadas, como clonagem de voz e imagem e
+               vídeo gerados, gratuitas e pagas.
+
+Motions        Animações de tela que o Claude faz com uma skill própria, sem precisar gerar
+               imagem.
+
+Estilo         O jeito de contar o anúncio. A Fábrica tem mais de 30 e a IA pode escolher o
+               melhor para você.
+
+FCA · MÓDULO 1 · AULA 6                                                                 PÁGINA 6
+WORKBOOK · MÓDULO 1 · AULA 6                                   COMO A FÁBRICA FUNCIONA
+
+Briefing  O pedido que você entrega à IA. Pode ser um áudio ou a página de vendas,
+          sem documento formal.
+
+Skill     Instrução própria que ensina o Claude a fazer uma tarefa específica, como os
+          motions.
+
+08                                                             claude.com/download
+                                                                claude.com/pricing
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+↗ Planos do Claude
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                          FIM DO WORKBOOK · MÓDULO 1 · AULA 6
+
+FCA · MÓDULO 1 · AULA 6                                        PÁGINA 7
+

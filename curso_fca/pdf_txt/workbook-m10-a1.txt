@@ -1,0 +1,246 @@
+FÁBRICA DE CRIATIVOS                     Nº M10-A1
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 10 · AULA 1
+
+BÔNUS: ENSINAR UM ESTILO NOVO À FÁBRICA
+
+MODELAR UM
+ESTILO PELO LINK
+
+  4 CAPÍTULOS 4 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 O que é modelar
+   01 Abertura
+   03 Do link à receita                 10.1 04 Naprática
+                                                                              FCA · M10-A1
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 10 · AULA 1  MODELAR UM ESTILO PELO LINK
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Viu um vídeo com um estilo de edição que você gostou? Nesta aula, o Lúcio mostra como a sua
+Fábrica aprende esse estilo pelo link, você aprova e ele fica guardado no catálogo de estilos
+para você usar sempre. Você cola o link da postagem (Instagram, YouTube, TikTok) ou até o link
+do perfil, o Claude baixa o vídeo, fatia em quadros, transcreve o áudio e devolve a receita do
+estilo. Na prática, o Lúcio pediu o estilo de um perfil de charges, aprovou uma amostra de 15
+segundos feita com um criativo que já existia e salvou como o estilo 34 no catálogo. Regra de
+ouro: leva a forma, deixa a obra.
+
+IDEIA CENTRAL
+
+Modelar é levar a forma (cenas, ritmo, letra, som) e deixar a
+obra (fala, conteúdo, marca e oferta) com o dono.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Modelar: levar a forma, deixar a obra
+
+    A Fábrica pega cena, ritmo, letra, som, personagem, cortes, cores, estilo de mudança e
+    transições. Ela não pega o texto, a fala, a marca nem a oferta: o conteúdo você faz o
+    seu. Copiar a obra do outro é um erro comum; o certo é aprender o estilo, copiar a
+    gramática e melhorar.
+
+02  Do link à receita
+
+    Você coloca no Claude o link da postagem do Instagram, do YouTube, do TikTok etc. Ele
+    baixa o vídeo, monta a folha de contato (fatia o vídeo em imagens, quadro a quadro,
+    para entender as transições), transcreve o áudio e gera a legenda. Com isso cria o seu
+    estilo na folha de estilo.
+
+03 O que vem na receita
+
+               Cenas e enquadramentos, o tempo de cada uma, a tipografia, o ritmo, as transições, o
+
+               som, a trilha, os efeitos e os silêncios.
+
+FCA · MÓDULO 10 · AULA 1       PÁGINA 2
+WORKBOOK · MÓDULO 10 · AULA 1  MODELAR UM ESTILO PELO LINK
+
+04  Quando o vídeo não baixa
+
+    O Instagram às vezes pede login. Fique logado no Instagram no seu Chrome e tenha
+    instalada a extensão do Chrome. Se mesmo assim não baixar, baixe o vídeo você
+    mesmo e arraste para dentro do Claude, pedindo para ele modelar. Se a IA disser que
+    não conseguiu, não aceite de primeira: mande tentar de novo, por exemplo pelo
+    navegador. Isso é comportamento das IAs, não da Fábrica.
+
+05  Link de um post ou do perfil inteiro
+
+    Você pode passar o link de uma postagem ou o link do perfil, quando o perfil inteiro
+    segue um estilo. No perfil, você pode escolher quais vídeos ele estuda, por exemplo os
+    3 com maior engajamento. Use o modo plano para o Claude detalhar o que vai fazer e
+    leia o plano antes de aceitar.
+
+06  Amostra antes de aprovar
+
+    O Claude oferece uma amostra. Peça de 10 a 15 segundos, usando um criativo que
+    você já tem (a copy e o áudio) refeito no estilo novo. Só o visual muda, então sai mais
+    rápido. Se a amostra ficou boa, você aprova.
+
+07  Aprovar e guardar no catálogo
+
+    Ao aprovar, a Fábrica salva o estilo com o próximo número do catálogo (no exemplo da
+    aula, o 34), guarda os quadros e cria a skill do estilo. Por trás de cada estilo há uma
+    série de processos, e ele fica disponível para você usar quando quiser, inclusive depois,
+    em um criativo exclusivo.
+
+FCA · MÓDULO 10 · AULA 1       PÁGINA 3
+WORKBOOK · MÓDULO 10 · AULA 1                                      MODELAR UM ESTILO PELO LINK
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/4
+
+Quando usar: Para modelar um estilo pelo link de um post (ou do perfil).
+
+Quero aprender o ESTILO deste vídeo: [cole o link do Reel, YouTube, TikTok
+ou do perfil]. Se for um perfil, estude os [3] vídeos com maior engajamento.
+Baixe, faça a folha de contato, transcreva e me devolva a receita do estilo:
+cenas, enquadramentos e tempo de cada uma, tipografia, ritmo, transições,
+som, trilha, efeitos e silêncios. Diga o que não conseguiu ver ou ouvir. Não
+copie texto, fala, marca, oferta nem imagem do vídeo: só o estilo. Quero
+guardar como um novo estilo no catálogo oficial, com o próximo número da
+ordem.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/4
+
+Quando usar: Quando o link não baixa (arquivo arrastado).
+
+Anexei o vídeo [arraste o arquivo]. Quero aprender o ESTILO dele: faça a
+folha de contato, transcreva e me devolva a receita do estilo (cenas,
+enquadramentos, tipografia, ritmo, transições, som). Diga o que não
+conseguiu ver ou ouvir. Não copie texto, marca, oferta nem imagem.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 3/4
+
+Quando usar: Para criar um personagem novo no estilo, sem copiar o original.
+
+Aprenda o estilo e crie um NOVO personagem, diferente do original:
+[descreva, ex.: sem a touca, com boné]. Depois vou colocar uma foto minha
+como base. Não use o desenho nem os personagens do perfil de referência.
+
+FCA · MÓDULO 10 · AULA 1                                           PÁGINA 4
+WORKBOOK · MÓDULO 10 · AULA 1                                 MODELAR UM ESTILO PELO LINK
+
+>_ COLE NO CLAUDE CODE                                        PROMPT 4/4
+
+Quando usar: Para pedir a amostra quando o Claude perguntar 'Posso fazer a amostra?'.
+
+Sim, pode fazer a amostra. Gere UMA amostra de 10 a 15 segundos, com a copy
+e o áudio do criativo que já tenho: [nome do criativo]. Refaça só a
+introdução, no estilo novo. Se precisar de uma foto minha ou de uma
+referência, me peça. Mostre a amostra antes de salvar qualquer coisa.
+
+04                                             → ✓ CERTO
+                                                        Levar a gramática; texto, marca e prova
+O QUE NÃO FAZER                                         seus
+
+Copiar a obra do outro
+
+   ✕ ERRADO
+
+    Trocar só o produto e manter o texto e as
+    cenas
+
+05
+
+SUA VEZ
+
+Salve vídeos que você vê no seu direct, escolha um estilo que você gostou e mande a Fábrica
+aprender. Depois peça uma amostra de 10 a 15 segundos com um criativo seu que já existe e
+decida se aprova e guarda no catálogo.
+
+    01 Link do post ou do perfil de referência
+
+02 O que o estilo tem de marcante (cenas, ritmo, letra, som)
+
+FCA · MÓDULO 10 · AULA 1                                      PÁGINA 5
+WORKBOOK · MÓDULO 10 · AULA 1                           MODELAR UM ESTILO PELO LINK
+
+03 O que fica de fora porque é a obra do outro (fala, conteúdo, marca, oferta)
+
+04 Criativo meu que usei na amostra
+
+05 A amostra ficou boa? Aprovei e guardei no catálogo?
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       Escolhi um post ou perfil com um estilo que eu gostei e copiei o link.
+       Estou logado no Instagram no Chrome, com a extensão instalada (ou baixei o vídeo para arrastar).
+       Li o plano no modo plano antes de aceitar.
+       Recebi a receita com cenas, tempo, tipografia, ritmo, transições e som.
+       Mandei tentar de novo quando a IA disse que não conseguia baixar.
+       Pedi uma amostra de 10 a 15 segundos com um criativo que eu já tinha.
+       Nada da obra do outro (fala, conteúdo, marca, oferta, personagem) foi para o meu vídeo.
+       Aprovei e conferi o estilo novo na página de estilos.
+
+FCA · MÓDULO 10 · AULA 1                                                        PÁGINA 6
+WORKBOOK · MÓDULO 10 · AULA 1                     MODELAR UM ESTILO PELO LINK
+
+07
+
+GLOSSÁRIO
+
+Modelar              Aprender a forma de um vídeo (cenas, ritmo, letra, som) sem copiar o
+                     conteúdo.
+
+Folha de contato     O vídeo fatiado em imagens, quadro a quadro, para o Claude entender cenas e
+                     transições.
+
+Receita do estilo    A lista do que o estilo faz: cenas, tempos, tipografia, ritmo, transições, som,
+                     trilha, efeitos e silêncios.
+
+Catálogo de estilos  A página com todos os estilos da Fábrica, cada um com seu número, prontos
+                     para usar.
+
+Modo plano           Modo em que o Claude mostra o plano detalhado para você revisar antes de
+                     executar.
+
+Amostra              Trecho de 10 a 15 segundos no estilo novo, para aprovar antes de guardar.
+
+08                                                claude.com/download
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+FCA · MÓDULO 10 · AULA 1                                                                   PÁGINA 7
+WORKBOOK · MÓDULO 10 · AULA 1                                MODELAR UM ESTILO PELO LINK
+                                              checkout.safe.lucioartes.com/42750161
+↗ 3 · Missão Claude Tracking: o trackeamento
+
+FIM DO WORKBOOK · MÓDULO 10 · AULA 1
+
+FCA · MÓDULO 10 · AULA 1                      PÁGINA 8
+

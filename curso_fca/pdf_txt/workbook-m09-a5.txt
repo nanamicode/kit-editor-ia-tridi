@@ -1,0 +1,201 @@
+FÁBRICA DE CRIATIVOS                                  Nº M09-A5
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 9 · AULA 5
+
+G E R A N D O S E U S C R I AT I VO S N A PR ÁT I CA
+
+O TEXTO DO ANÚNCIO
+E A PASTA DE ENTREGA
+
+  3 CAPÍTULOS 4 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Pasta e texto
+   01 Abertura
+   03 Montar a pasta                    9.5
+                                                                              FCA · M09-A5
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 9 · AULA 5  O TEXTO DO ANÚNCIO E A PASTA DE ENTREGA
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+Apesar de o curso ser de criativos, fazer o texto dos seus anúncios é a coisa mais simples que
+tem: a IA já entendeu todo o roteiro e fez todo o criativo, então ela escreve o resto com base
+nele. O padrão da fábrica é anúncio com o CTA "Saiba mais"; se você quiser outro CTA (como
+"Comprar agora") ou conteúdo orgânico, é só dizer na hora. Depois que o Claude termina, tudo
+fica dentro do projeto em que você está trabalhando: anúncios na pasta ads e, se você pedir,
+orgânico na pasta org. Se não souber onde está, peça "abra a pasta dos anúncios". Na próxima
+aula você vê como gerar as capas.
+
+IDEIA CENTRAL
+
+A IA já entendeu o roteiro todo: peça o texto e o título do
+anúncio, use sempre 1 texto e 1 título, e deixe o Claude montar
+a pasta ads dentro do projeto.
+
+02
+
+O QUE VOCÊ APRENDE
+
+ 01 Padrão da fábrica: anúncio com CTA "Saiba mais"
+
+                    Sem você pedir nada, o criativo sai com o CTA "Saiba mais". Se na hora de fazer o
+                    criativo você quiser outro, como "Comprar agora", diga ao Claude: "o CTA é tal coisa".
+
+02  Orgânico: avise que é orgânico e diga o CTA
+
+    Se o conteúdo é para o seu perfil, você precisa falar que é para conteúdo orgânico e
+    qual é o CTA (por exemplo: curta, comente e compartilhe). O foco da fábrica é criar
+    anúncios, mas você também pode criar roteiros de vídeo para engajamento,
+    crescimento de perfil e outros usos.
+
+03 Pedir título e texto já de acordo com o Meta Andromeda
+
+               Ao criar o vídeo, você pode pedir headlines (títulos) e textos para os anúncios. A dica do
+
+               Lúcio: peça já de acordo com o Meta Andromeda. O Claude entende o roteiro do vídeo
+               inteiro e gera as headlines e os textos a partir dele.
+
+FCA · MÓDULO 9 · AULA 5       PÁGINA 2
+WORKBOOK · MÓDULO 9 · AULA 5  O TEXTO DO ANÚNCIO E A PASTA DE ENTREGA
+
+04 Um texto, um título
+
+               O Lúcio aconselha sempre 1 texto e 1 título por criativo. Ele não está mais usando
+
+               vários textos.
+
+05  Tudo no mesmo lugar: pasta ads (e org)
+
+    Quando os arquivos ficam prontos, eles ficam dentro do projeto em que você está
+    trabalhando: ads, vídeo, capa e texto, tudo junto. Os anúncios vão para uma pasta
+    chamada ads. Se você pedir orgânico, o Claude cria uma pasta chamada org (orgânico).
+
+06  Como achar a pasta
+
+    O Claude já monta a pasta para você. Você pode pedir que ele abra a pasta ou que salve
+    em outra pasta qualquer. Se não souber onde está, digite no Claude: "Abra a pasta dos
+    anúncios".
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/4
+
+Quando usar: Pedir o título e o texto do anúncio, já pensando no Meta Andromeda
+
+Para este criativo, escreva a headline (título) e o texto do anúncio de
+acordo com o Meta Andromeda, com base no roteiro do vídeo. Quero 1 texto e 1
+título, sem variações. O CTA é [Saiba mais / outro CTA].
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 2/4
+
+Quando usar: Quando o conteúdo for orgânico (só se você quiser)
+
+Este criativo é para conteúdo orgânico, para o meu perfil. O CTA é [curta,
+comente e compartilhe / outro CTA]. Crie o material e salve na pasta org.
+
+FCA · MÓDULO 9 · AULA 5                                                                            PÁGINA 3
+WORKBOOK · MÓDULO 9 · AULA 5                 O TEXTO DO ANÚNCIO E A PASTA DE ENTREGA
+                                                                             PROMPT 3/4
+   >_ COLE NO CLAUDE CODE
+
+    Quando usar: Abrir a pasta dos anúncios
+
+   Abra a pasta dos anúncios.
+
+>_ COLE NO CLAUDE CODE                                   PROMPT 4/4
+
+Quando usar: Salvar em outra pasta
+
+Salve o vídeo, o texto e o título deste anúncio na pasta [caminho ou nome da
+pasta].
+
+04
+
+SUA VEZ
+
+Com o seu primeiro criativo pronto, peça o texto e o título do anúncio e confira a pasta ads.
+Anote:
+
+    01 Você usou o CTA padrão (Saiba mais) ou pediu outro? Qual?
+
+02 Qual título e qual texto o Claude gerou (1 de cada)?
+
+03 Você pediu orgânico? Se sim, qual CTA informou?
+
+FCA · MÓDULO 9 · AULA 5                                  PÁGINA 4
+WORKBOOK · MÓDULO 9 · AULA 5          O TEXTO DO ANÚNCIO E A PASTA DE ENTREGA
+
+04 Conseguiu abrir a pasta dos anúncios pelo Claude?
+
+05
+
+ANTES DA PRÓXIMA AULA
+
+       Pedi o texto e o título do anúncio já de acordo com o Meta Andromeda
+       Tenho 1 texto e 1 título por criativo
+       O CTA está certo (Saiba mais ou o que eu pedi)
+       Se é orgânico, avisei isso e informei o CTA
+       Vídeo, texto e título estão na pasta ads do projeto
+       Sei abrir a pasta pedindo ao Claude
+
+06
+
+GLOSSÁRIO
+
+ads             Pasta dentro do projeto onde ficam os anúncios (vídeo, capa, texto e título).
+
+org             Pasta do conteúdo orgânico, criada só se você pedir.
+
+CTA             A chamada para ação do criativo. O padrão da fábrica é "Saiba mais"; você
+                pode pedir outro, como "Comprar agora".
+
+Headline        O título do anúncio.
+
+Meta Andromeda  Referência que o Lúcio recomenda pedir ao Claude ao gerar títulos e textos
+                dos anúncios.
+
+Orgânico        Conteúdo para o seu perfil (engajamento, crescimento), não para anúncio
+                pago; o CTA costuma ser curta, comente e compartilhe.
+
+FCA · MÓDULO 9 · AULA 5                                                      PÁGINA 5
+WORKBOOK · MÓDULO 9 · AULA 5                      O TEXTO DO ANÚNCIO E A PASTA DE ENTREGA
+                                                                              claude.com/download
+07
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude
+
+08
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+↗ 3 · Missão Claude Tracking: o trackeamento      checkout.safe.lucioartes.com/42750161
+
+                         FIM DO WORKBOOK · MÓDULO 9 · AULA 5
+
+FCA · MÓDULO 9 · AULA 5                                       PÁGINA 6
+

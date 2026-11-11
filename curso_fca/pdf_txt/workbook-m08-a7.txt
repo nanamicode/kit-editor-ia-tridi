@@ -1,0 +1,222 @@
+FÁBRICA DE CRIATIVOS                    Nº M08-A7
+A U T O M ÁT I C O S
+
+COM IA · LÚCIO ARTES
+
+   WORKBOOK · MATERIAL DO ALUNO
+
+MÓDULO 8 · AULA 7
+
+COMO INSTALAR E CONFIGURAR
+
+CLAUDE NO CHROME
+E NO VS CODE
+
+  3 CAPÍTULOS 2 PROMPTS PRONTOS
+
+   ROTEIRO DA AULA                      02 Claude no Chrome
+   01 Abertura
+   03 Claude Code no VS Code            8.7
+                                                                              FCA · M08-A7
+LEIA NA TELA · ESCREVA NO PAINEL CLARO
+WORKBOOK · MÓDULO 8 · AULA 7  CLAUDE NO CHROME E NO VS CODE
+
+01
+
+O QUE ESTA AULA RESOLVE
+
+O Lúcio mostra duas portas para usar o Claude além do app. Na extensão do Chrome, ele conta
+que o Claude abre o navegador e faz o que não dá para fazer por API, como entrar na área de
+membros, criar as capas dos módulos e subir as aulas. Na aula, ele pede ao Claude para
+entender a oferta de duas páginas de vendas públicas (uma com VSL e outra de texto), e a aba
+do Chrome fica com o nome Claude e uma borda laranja enquanto ele lê. Depois mostra o VS
+Code com o plugin do Claude, mas avisa que, para quem não é programador e está na Fábrica,
+o app do Claude é a melhor opção. O recado final é instalar a extensão do Chrome, deixar o
+navegador em segundo plano e trabalhar normalmente.
+
+IDEIA CENTRAL
+
+O Claude abre o navegador e faz por você o que não dá para
+fazer por API; o VS Code é opcional e o app do Claude
+continua sendo o caminho principal da Fábrica.
+
+02
+
+O QUE VOCÊ APRENDE
+
+01  Para que serve a extensão do Chrome
+
+    Conectada na mesma conta do Claude, ela abre o navegador e faz o que ele não
+    consegue fazer por API. O Lúcio usa isso para entrar na área de membros, criar as
+    capas dos módulos e subir as aulas, porque as plataformas de venda de produtos
+    digitais não têm API. Ele resume: o Claude ajuda, seja por API, por linha de comando ou
+    abrindo o navegador.
+
+02  Como instalar
+
+    Instale primeiro o Google Chrome. Depois procure por Claude extensão, na Chrome Web
+    Store ou no site do Claude, clique em adicionar e conecte na sua conta. Quando você
+    tem o Claude Code instalado no mesmo computador do navegador, os dois se
+    comunicam diretamente.
+
+FCA · MÓDULO 8 · AULA 7       PÁGINA 2
+WORKBOOK · MÓDULO 8 · AULA 7                                       CLAUDE NO CHROME E NO VS CODE
+
+03  Ler páginas de vendas
+
+    Abra as páginas, peça para o Claude entender a oferta e ele navega por elas, inclusive
+    assistindo ao VSL. O Chrome não precisa estar em primeiro plano. Enquanto o Claude
+    acessa, a aba mostra o nome Claude e fica laranja; se você fechar a aba, a leitura
+    termina.
+
+04  Onde o Chrome ajuda na Fábrica
+
+    Ele complementa a navegação na web quando o Claude não acha a informação de
+    outra forma: página, oferta, promessa e público; perfil do Instagram (com você logado
+    no navegador, ou por API); e a Biblioteca de Anúncios da Meta, quando você pede para
+    pesquisar anúncios de um produto, também com você logado.
+
+05  VS Code: opcional
+
+    É um software que você baixa. Abra uma pasta, instale o plugin do Claude e o chat
+    aparece dentro dele, com a mesma interface e os modos do app. Também dá para usar
+    pelo terminal, digitando claude. O Lúcio avisa: o VS Code é para quem já é
+    desenvolvedor. Para criar criativos na Fábrica, use o app do Claude.
+
+06  Rotina de trabalho
+
+    Abra a pasta da Fábrica, deixe o Chrome em segundo plano e comece a trabalhar. Tudo
+    que o Claude fizer no navegador é como se fosse você pesquisando no Google.
+
+03
+
+PROMPTS PRONTOS
+
+Troque o que está entre [colchetes] pelo seu caso antes de colar.
+
+>_ COLE NO CLAUDE CODE                                             PROMPT 1/2
+
+Quando usar: Extensão do Chrome, com as páginas de vendas públicas abertas
+
+Entenda a oferta nessas duas páginas: [link ou aba da página 1] e [link ou
+aba da página 2]. Me diga a promessa, o público e o que cada uma faz de
+diferente.
+
+FCA · MÓDULO 8 · AULA 7                                            PÁGINA 3
+WORKBOOK · MÓDULO 8 · AULA 7                           CLAUDE NO CHROME E NO VS CODE
+
+>_ COLE NO CLAUDE CODE                                 PROMPT 2/2
+
+Quando usar: Biblioteca de Anúncios da Meta (você logado no Chrome)
+
+Pesquise na Biblioteca de Anúncios da Meta anúncios de [produto ou nicho].
+Me diga quais ganchos e promessas aparecem mais.
+
+04                                              → ✓ CERTO
+                                                         Abrir a pasta da Fábrica; só páginas
+O QUE NÃO FAZER                                          públicas
+
+Instalar e não abrir a pasta
+
+   ✕ ERRADO
+
+    Abrir só um arquivo; ler página de cliente
+
+05
+
+SUA VEZ
+
+Instale a extensão do Claude no Chrome, conecte na sua conta e peça para o Claude entender a
+oferta de uma ou duas páginas de vendas públicas.
+
+    01 Quais páginas você pediu para o Claude ler?
+
+02 Qual foi a promessa e o público que ele encontrou?
+
+FCA · MÓDULO 8 · AULA 7                                                                        PÁGINA 4
+WORKBOOK · MÓDULO 8 · AULA 7                                CLAUDE NO CHROME E NO VS CODE
+
+03 Você viu a aba com o nome Claude e a borda laranja enquanto ele lia?
+
+04 Você vai usar o VS Code ou fica só com o app do Claude?
+
+06
+
+ANTES DA PRÓXIMA AULA
+
+       Google Chrome instalado
+       Extensão do Claude adicionada no Chrome
+       Extensão conectada na minha conta do Claude
+       Teste feito em página de vendas pública
+       Entendi que a aba fica laranja com o nome Claude enquanto ele lê
+       Para perfil do Instagram e Biblioteca de Anúncios, estou logado no Chrome
+       Decidi se uso o VS Code ou só o app do Claude
+
+07
+
+GLOSSÁRIO
+
+Extensão   Pequeno programa que se instala no navegador, como o Chrome, para ele
+           ganhar funções novas.
+
+API        Conexão direta entre programas. Quando a plataforma não tem, o Claude pode
+
+           abrir o navegador e fazer o trabalho como você faria.
+
+FCA · MÓDULO 8 · AULA 7                                                           PÁGINA 5
+WORKBOOK · MÓDULO 8 · AULA 7                      CLAUDE NO CHROME E NO VS CODE
+
+VSL       Vídeo de vendas, que o Claude consegue assistir pela extensão do Chrome.
+
+VS Code   Software para quem desenvolve, onde o Claude pode ser usado por plugin ou
+          pelo terminal. Quem está na Fábrica não precisa dele.
+
+Terminal  Janela em que se digita comandos, como claude, para iniciar o Claude por
+          linha de comando.
+
+08
+
+LINKS DA AULA
+
+↗ Baixar o app do Claude (Mac e Windows)                                                    claude.com/download
+
+↗ Sistema da Fábrica: fca-sistema.zip +           drive.google.com/drive/folders/1xE1OACdDqMbNN43
+                                                                                               BCKPqp9B6YFqRrhHL
+manual de instalação
+
+↗ Pacotes que o /fca-instalar baixa (se           drive.google.com/drive/folders/1Q6yUiQMR5BZBfF
+                                                                                            zf5_5KLdi4jFaquHfh
+precisar baixar à mão)
+
+↗ Guias em PDF (instalação, erros         drive.google.com/drive/folders/1KiRF1BB9v4fYJriCSf
+                                                                                                NV5IaZU9q_cWEw
+comuns, add-ons)
+
+↗ Claude no Chrome                                                     claude.com/chrome
+↗ Extensão do VS Code (docs)                      code.claude.com/docs/en/vs-code
+
+09
+
+CONTINUE A ESCALA: OS 4 PILARES
+
+A Fábrica cuida do pilar CRIATIVO: o criativo atrai. Os outros três dão a base: o PÚBLICO potencializa o
+ROAS, o TRACKEAMENTO é a base para tudo funcionar e as CAMPANHAS DE CONTROLE dão o
+processo claro para criar, mensurar com certeza e decidir certo antes de escalar.
+
+Aluno da Fábrica: 77% OFF, de R$ 297 por R$ 67 em cada um. Quem entrar recebe as novas versões,
+
+refeitas em formato de curso, sem pagar de novo.
+
+↗ 1 · Campanhas de Controle: o processo           seguro.lucioartes.com/O11E6C3B5
+
+↗ 2 · Super Públicos: a segmentação               seguro.lucioartes.com/OA65829EA
+
+FCA · MÓDULO 8 · AULA 7                           PÁGINA 6
+WORKBOOK · MÓDULO 8 · AULA 7                              CLAUDE NO CHROME E NO VS CODE
+                                              checkout.safe.lucioartes.com/42750161
+↗ 3 · Missão Claude Tracking: o trackeamento
+
+                         FIM DO WORKBOOK · MÓDULO 8 · AULA 7
+
+FCA · MÓDULO 8 · AULA 7                                       PÁGINA 7
+

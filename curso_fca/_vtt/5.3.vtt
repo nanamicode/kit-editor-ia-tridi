@@ -1,0 +1,469 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.992
+Vamos lá, vamos falar agora de skills, agentes e comandos, tá?
+
+2
+00:00:03.992 --> 00:00:08.088
+Calma, você não precisa gravar nenhum tipo de comando não, tá bom?
+
+3
+00:00:08.088 --> 00:00:12.696
+Skill é uma receita que o cloud segue ou qualquer IA, codexia, etc., é simplesmente
+
+4
+00:00:12.696 --> 00:00:17.080
+um arquivo markdown, que arquivo markdown é um arquivo de texto simples que tem umas
+
+5
+00:00:17.080 --> 00:00:19.640
+regrinhas lá que ele segue, tá?
+
+6
+00:00:19.640 --> 00:00:22.648
+Então, tipo, a receita para fazer o anúncio tem o gancho, vai falar como é que funciona
+
+7
+00:00:22.648 --> 00:00:27.096
+o gancho, 3 segundos, vai ter lá o catálogo com os efeitos daquele anúncio e o criativo
+
+8
+00:00:27.096 --> 00:00:30.872
+estático em par, tipo, o par é porque eu botei aqui, se você quiser, toda vez que
+
+9
+00:00:30.872 --> 00:00:35.288
+você crie um vídeo, você pode pedir para ele já criar a versão orgânica e apaga,
+
+10
+00:00:35.288 --> 00:00:35.784
+tá?
+
+11
+00:00:35.784 --> 00:00:40.936
+O pacote tem inúmeras skills, eu não vou lembrar, eu não lembro de todas, só eu criei
+
+12
+00:00:40.936 --> 00:00:45.192
+mais de, eu já tô, eu criei mais de 100 skills já, tá?
+
+13
+00:00:45.192 --> 00:00:50.632
+Então, ó, tem mais de 100 skills neste pacote prontas e diversos DNAs, tá?
+
+14
+00:00:50.632 --> 00:00:57.768
+Tem 30 DNAs de especialistas e 30 agentes, você tá levando mais de 100 skills prontas,
+
+15
+00:00:57.768 --> 00:01:01.768
+30 DNAs de especialistas e 30 agentes, para vocês terem uma dúvida, uma ideia, quando
+
+16
+00:01:01.768 --> 00:01:06.664
+eu comecei, antes do nosso experimento, para quem comprou antes da pré-venda, eu ia colocar
+
+17
+00:01:06.664 --> 00:01:10.760
+só 37 skills e 12 DNAs, tá?
+
+18
+00:01:10.760 --> 00:01:14.280
+Só que aí, e tinha 8 agentes, só que eu evoluo isso aqui todo dia.
+
+19
+00:01:14.280 --> 00:01:24.256
+Efeitos, 380 efeitos, 513 prompts, 1748 songs já para você usar, 771 b-rolls, b-rolls
+
+20
+00:01:24.256 --> 00:01:29.744
+são os vídeos, né, de bancos de vídeos, mas olha só, você vai aprender como conectar
+
+21
+00:01:29.744 --> 00:01:32.144
+e fazer mais, tá?
+
+22
+00:01:32.144 --> 00:01:36.464
+Vou dizer para você, esse número aqui, ele está mudando constantemente, quem adquiriu
+
+23
+00:01:36.464 --> 00:01:40.528
+o pacote de atualização e oferta vitalícia vai ficar recebendo essas atualizações,
+
+24
+00:01:40.528 --> 00:01:44.208
+com certeza eu já tenho mais desde que eu estou gravando e você assistindo esse vídeo,
+
+25
+00:01:44.208 --> 00:01:47.120
+porque eu trabalho com isso todos os dias.
+
+26
+00:01:47.120 --> 00:01:52.976
+Skill é um agente e comando, skill é receita que o cloud segue, agente é um assistente
+
+27
+00:01:52.976 --> 00:01:59.248
+com a função só, comandos, atalhos que você digita com barra, você vai ver na execução
+
+28
+00:01:59.248 --> 00:02:03.504
+que quando você está digitando você está conversando com ele, quando você dá barra
+
+29
+00:02:03.504 --> 00:02:09.040
+e alguma coisa são comandos específicos, o agente, gente, a gente tem agente revisor,
+
+30
+00:02:09.040 --> 00:02:13.648
+escritor e etc, mas esse curso aqui não é um curso para você aprender como a gente
+
+31
+00:02:13.648 --> 00:02:19.120
+funciona, não, eu quero que você, para mim, o ideal é que você não entenda nada disso
+
+32
+00:02:19.120 --> 00:02:23.952
+mas que você tenha o resultado que você quer, porque a IA vai chegar onde a gente
+
+33
+00:02:23.952 --> 00:02:27.184
+sonha que ela chegue quando ela entregue o resultado perfeito mesmo que você não seja
+
+34
+00:02:27.184 --> 00:02:28.976
+um especialista, tá bom?
+
+35
+00:02:28.976 --> 00:02:30.000
+Onde as skills ficam?
+
+36
+00:02:30.000 --> 00:02:37.872
+Na pasta cloud/skills, um skill.md e a descrição está no topo da skill, mas nem eu leio minhas
+
+37
+00:02:37.872 --> 00:02:40.400
+skills, eu faço e testo, para que ficar lendo isso?
+
+38
+00:02:40.400 --> 00:02:45.520
+Eu quero o resultado, então você descreve a tarefa e a skill segue, ela vai chamar o
+
+39
+00:02:45.520 --> 00:02:51.696
+agente, ela vai chamar o DNA, tá, é automático, não precisa, ela combina tudo, tá, ou você
+
+40
+00:02:51.696 --> 00:02:55.824
+pode citar o nome dela se você quiser, tá, é só botar barra +, como você viu tem mais
+
+41
+00:02:55.824 --> 00:02:59.728
+de 100 skills, não faz sentido você gravar isso, tá?
+
+42
+00:02:59.728 --> 00:03:04.256
+Os comandos com a barra, olha só, no instalador você vai ter alguns comandos que você pode
+
+43
+00:03:04.256 --> 00:03:10.880
+usar, tipo quando ele for instalar, volta lá, barra FCA traço instalar, aí vai instalar,
+
+44
+00:03:10.880 --> 00:03:14.944
+você vai ver a gente instalando, ou ir FCA traço doutor, que é o que?
+
+45
+00:03:14.944 --> 00:03:18.336
+FCA vem de fábrica de criativos automáticos e o doutor para resolver algum problema, se
+
+46
+00:03:18.336 --> 00:03:21.440
+na tela tem algum problema, você pode rodar o doutor que ele vai fazer o diagnóstico.
+
+47
+00:03:21.440 --> 00:03:26.608
+Tem a biblioteca para você ver a biblioteca e conectar para conectar alguma coisa, não
+
+48
+00:03:26.608 --> 00:03:32.176
+se preocupe com isso, não se preocupe, tá, não se preocupe mesmo, porque a gente vai
+
+49
+00:03:32.176 --> 00:03:35.920
+fazer só para você ter uma noção, a gente vai fazer isso aqui, agora vou abrir o cloud
+
+50
+00:03:35.920 --> 00:03:40.080
+agora, eu não não se preocupe ainda, não chegou a hora de instalação, é só para
+
+51
+00:03:40.080 --> 00:03:45.232
+você ver isso aqui funcionar, de propósito eu vou te mostrar a instalação logo logo,
+
+52
+00:03:45.232 --> 00:03:46.288
+eu só quero que você veja isso aqui.
+
+53
+00:03:46.800 --> 00:03:48.808
+Bom vou demonstrar aqui rápido no Cloud
+
+54
+00:03:48.808 --> 00:03:54.024
+Code esse aqui o aplicativo do Cloud tá aplicativo do Cloud se você já tem ele no computador ok se
+
+55
+00:03:54.024 --> 00:03:57.736
+você não tem tenha calma que vai ter a aula de instalação ainda beleza eu só preciso se você
+
+56
+00:03:57.736 --> 00:04:02.440
+entenda que se você já tem esse aplicativo no seu computador tá ele tem essas opções aqui ó
+
+57
+00:04:02.440 --> 00:04:07.720
+como é o chat e o código né que é o code se você só tem um plano gratuito tá você não vai ter
+
+58
+00:04:07.720 --> 00:04:12.296
+isso aqui beleza o que a gente vai fazer aqui vou demonstrar rápido tá como é que a skill trabalha
+
+59
+00:04:12.296 --> 00:04:19.720
+tá é vou demonstrar aqui é exatamente duas formas como o mercado faz bota aqui a gente parou
+
+60
+00:04:19.720 --> 00:04:25.448
+aqui essa esses prontos bonitinhos eu vou copiar aqui tá vou fazer o seguinte aqui eu tô no Cloud
+
+61
+00:04:25.448 --> 00:04:29.192
+Code tem a paciência lembra que eu falei que os comandos quando você digita a barra ele abre a
+
+62
+00:04:29.192 --> 00:04:34.312
+lista de comandos tá só que também abre a lista de skills que você tem instalado nesse projeto eu
+
+63
+00:04:34.312 --> 00:04:38.152
+ainda vou explicar na aula de instalação como é que funciona pastas e projetos mas só para você
+
+64
+00:04:38.152 --> 00:04:43.072
+ver skill funcionando eu vou dar aqui barra tá o nome da skill e botar aqui botar aqui para ó
+
+65
+00:04:43.072 --> 00:04:49.264
+o gancho dos três segundos tá essa skill automaticamente os agentes já usam na hora de editar só que
+
+66
+00:04:49.264 --> 00:04:54.000
+eu vou mostrar aqui para você caso você queira fazer passo a passo ó olha o que o prompt faz olha
+
+67
+00:04:54.000 --> 00:05:00.648
+o prompt bonitinho ó minha oferta você pode digitar aqui ó é fábrica de criativos automáticos com
+
+68
+00:05:00.648 --> 00:05:07.192
+um curso junto com o ecossistema que cria anúncios de forma automática etc etc e para quem é você
+
+69
+00:05:07.192 --> 00:05:12.856
+pode descrever aqui gente você pode usar assim eu ensino assim porque tem que ensinar mas não
+
+70
+00:05:12.856 --> 00:05:19.544
+precisa você usar essas formas prontas tá aí a entende o passo a passo eu vou fazer agora da forma
+
+71
+00:05:19.544 --> 00:05:28.120
+automática eu faço ó olha só vou pegar o microfone a fábrica de criativos automáticos é um
+
+72
+00:05:28.120 --> 00:05:35.704
+ecossistema criado pelo lucio arts que visa facilitar a criação de anúncios de alta conversão para ser
+
+73
+00:05:35.704 --> 00:05:43.416
+publicados no facebook instagram tiktok e outras mídias onde o usuário só precisa de referências
+
+74
+00:05:43.416 --> 00:05:50.136
+colar sua página de vendas colar o seu instagram fotos textos etc o próprio sistema escreve a
+
+75
+00:05:50.136 --> 00:05:57.144
+copy o texto o roteiro faz a edição a narração e deixa um anúncio pronto com as melhores práticas
+
+76
+00:05:57.144 --> 00:06:05.528
+para vender online os clientes desse produto são empreendedores empresários de todos os setores
+
+77
+00:06:05.528 --> 00:06:11.384
+que usam instagram facebook tiktok para anunciar seus produtos e serviços seja gestores de tráfego
+
+78
+00:06:11.384 --> 00:06:19.032
+agências corretores infoprodutores e-commerce qualquer empreendedor que usa anúncios precisa
+
+79
+00:06:19.032 --> 00:06:26.456
+de esse produto então eu quero a sua ajuda para escrever três ganchos de alto impacto para reter
+
+80
+00:06:26.456 --> 00:06:32.984
+a atenção chamar atenção e reter a atenção das pessoas para esse produto eu vou te informar a
+
+81
+00:06:32.984 --> 00:06:38.136
+página de vendas eu quero que você faça a leitura da página do vídeo e entenda tudo antes de
+
+82
+00:06:38.136 --> 00:06:45.944
+reter os ganchos olha só é um texto não muito estruturado mas você não precisa de ser bonitinho
+
+83
+00:06:45.944 --> 00:06:51.704
+você pode pegar aquele que tá aqui de exemplo usar você tem aí entendeu o que é muito mais
+
+84
+00:06:51.704 --> 00:06:56.760
+sobre contexto você pode pegar esse aqui colar lá mas você não precisa desses moldes você tem que
+
+85
+00:06:56.760 --> 00:07:02.104
+reter dessas amarras tá o que eu vou fazer aqui eu vou pegar a página de vendas no produto
+
+86
+00:07:03.224 --> 00:07:08.160
+segue a página a página do produto a se eu tiver foto se eu tiver vídeo se eu quiser botar aí eu
+
+87
+00:07:08.160 --> 00:07:12.800
+coloco vou chamar que é esqui o que eu esqueci no início da barra aqui barra gancho
+
+88
+00:07:12.976 --> 00:07:16.608
+honestamente no dia a dia você não precisa nem chamar esqui o próprio sistema vai chamar
+
+89
+00:07:16.608 --> 00:07:22.048
+para você eu só quero demonstrar para vocês que você pode fazer assim você pode começar o trabalho
+
+90
+00:07:22.048 --> 00:07:27.808
+dessa forma mas você pode começar o trabalho já com pena porta como eu faço agora só quisesse
+
+91
+00:07:27.808 --> 00:07:33.568
+aqui de uma vez só falar para ele agora eu quero que você construa o primeiro roteiro anúncio para
+
+92
+00:07:33.568 --> 00:07:38.880
+ver se eu aprova depois ele faz só que vocês que estão começando se você fizer assim passo a passo
+
+93
+00:07:38.880 --> 00:07:44.704
+é melhor para o seu entendimento tá repare que ele já achou o vídeo da página de vendas tá
+
+94
+00:07:44.704 --> 00:07:50.720
+transcrevendo isso é os agentes tá quer esqui eu já tenho acertado ela já tá fazendo tudo isso vai
+
+95
+00:07:50.720 --> 00:07:55.904
+escrever os três ganchos e a gente vai correr para o abraço tá aí você vai ver que a própria esqui
+
+96
+00:07:55.904 --> 00:08:02.312
+já vai sugerir as próximas ações quando ele tá fazendo lá não mexa na esqui sem fazer backup
+
+97
+00:08:02.312 --> 00:08:06.504
+e não invente de querer melhorar ela sem você copiar tá se você quer botar alguma coisa na
+
+98
+00:08:06.504 --> 00:08:11.272
+esquil você pode pedir o próprio cloud para modificar mas salve ela antes já vi muito problema
+
+99
+00:08:11.272 --> 00:08:19.848
+tá copo faça uma parte teste beleza a receita ajuda mas no final você tem que aprovar não
+
+100
+00:08:19.848 --> 00:08:25.640
+deixe subir sem você olhar resumindo essa aula né eu falei sobre o dia a dia o dia a dia o que
+
+101
+00:08:25.640 --> 00:08:31.336
+é o pacote onde ficam e como encontrar as esquias DNAs etc e na prática e agora vamos ver como é
+
+102
+00:08:31.336 --> 00:08:38.440
+que ele tá trabalhando aqui ó então ele tá escrevendo aqui os ganchos tá ele já tá me dando
+
+103
+00:08:38.440 --> 00:08:47.144
+recomendações ó já tá me dando recordar vou voltar aqui ó ele entendeu tudo tá ó liga página
+
+104
+00:08:47.144 --> 00:08:54.176
+leia isso aqui pessoal ó gancho 1 colei uma página saíram quatro anúncios prontos tá vendo
+
+105
+00:08:54.176 --> 00:08:59.232
+esse gancho aí já fala aqui do visual que ele sugere ó ele sugere que o editor que vai pegar
+
+106
+00:08:59.232 --> 00:09:05.280
+isso aqui tá ó escrita ele já pega tudo aqui ó gancho 2 né quebrando a crença eu não gravei
+
+107
+00:09:05.280 --> 00:09:11.360
+essa frase aí a gravou segundo gancho terceiro gancho o meta não quer um anúncio que é vários
+
+108
+00:09:11.360 --> 00:09:16.832
+e aí ele já vai sugerir aqui ó vi o vídeo de um minuto na página transcrição etc monta os três
+
+109
+00:09:16.832 --> 00:09:21.888
+primeiros segundos de cada gancho para comparar eu vou colocar aqui só para você ver vamos lá
+
+110
+00:09:21.888 --> 00:09:27.456
+pedir aqui tá ele foi buscar o material ele procurou imagens ele fez tudo aqui ó levou mais ou menos
+
+111
+00:09:27.456 --> 00:09:31.776
+um minuto e um minuto e meio eu pausei aqui mas eu vou um minuto e meio e ele já fez aqui ó ele
+
+112
+00:09:31.776 --> 00:09:38.016
+primeiro cria as imagens e etc se você já tem é ele vai pegando se você quiser ele cria mas
+
+113
+00:09:38.016 --> 00:09:41.056
+aqui só foi para eu ver tá o exemplo do gancho vamos ver aqui como é que ficou
+
+114
+00:09:41.376 --> 00:09:46.840
+e colei uma página saíram quatro anúncios prontos aí eu colei uma página o gancho que
+
+115
+00:09:46.840 --> 00:09:51.387
+me pediu inclusive é um dos ganchos que mais vendeu esse produto então deixa eu voltar aqui
+
+116
+00:09:52.784 --> 00:09:59.077
+e nessa aula você viu o dia a dia que não precisa ser expert em já tá basta você fazer
+
+117
+00:09:59.077 --> 00:10:03.717
+dessa forma converse com ele tá e ele vai te dar o resultado que você precisa então até a próxima aula
