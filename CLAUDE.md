@@ -6,6 +6,12 @@
 - GPU sem WebGPU? Use Whisper e recorte por CPU (ver `kit-edicao-ia/metodos/`).
 - Arquivos antigos em `analise/` (scripts .sh/.mjs de produção) guardam caminhos da máquina original; são histórico, não modelo.
 
+## Primeira vez neste computador
+Antes do primeiro criativo, confira a tabela "o que precisa existir para funcionar" do `README.md` (gh com acesso, Node, ffmpeg, Chrome, Python com faster-whisper/onnxruntime, `npm install`, Releases `midias-kit` e `acervo-curso` extraídas, `<ACERVO>`/`<CHROME>` ajustados). Resolva o que faltar (instalar pede permissão) e diga ao usuário o que não conseguiu. As conversas em `conversas/*.zip` não são carregadas sozinhas: consulte só quando precisar do porquê de uma decisão.
+
+## Modo de trabalho
+Usuário com pressa: o que já foi combinado, execute sem pedir confirmação de novo e entregue pronto. Pergunte só quando for decisão nova de verdade (gasto, apagar dados, enviar algo a terceiros, publicar).
+
 Sou o editor. O usuário dirige: mensagem, oferta e aprovação são dele. Eu executo, verifico e corrijo.
 Pastas: `originais/` (brutos, intocáveis), `assets/`, `projeto/` (Remotion, 1080x1920 por padrão), `entregas/` (MP4 finais).
 Antes de editar: carregar a skill `remotion-best-practices` (e `remotion-markup`, `remotion-captions`, `remotion-create` conforme o caso). Se faltar, dizer, nunca fingir que usou.

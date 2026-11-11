@@ -17,7 +17,29 @@ Kit para editores de vídeo da empresa produzirem criativos com o Claude Code + 
 | `workflows/` | Scripts de orquestração multiagente usados nas produções |
 | `conversas/` | Conversas completas exportadas (zip): como tudo foi feito, decisão por decisão |
 
-## Baixar tudo (repositório privado: peça acesso ao dono)
+## Para o Claude do editor: o que precisa existir para funcionar
+O kit traz o método, as regras e o projeto. **Não traz** o que é da máquina nem o que fica fora do repositório. Antes do primeiro criativo, o Claude deve conferir e resolver esta lista (e dizer o que faltou):
+
+| Precisa | Por quê | Como conferir |
+|---|---|---|
+| Conta GitHub do editor convidada + `gh` logado | o repositório é privado | `gh auth status` e `gh repo view nanamicode/kit-editor-ia-tridi` |
+| Node.js 20+ | Remotion | `node -v` |
+| ffmpeg no PATH | áudio, loudness, cortes | `ffmpeg -version` |
+| Google Chrome instalado | render/still (`--browser-executable`) | caminho em `<CHROME>` no `CLAUDE.md` |
+| Python 3.10+ com `faster-whisper` e `onnxruntime` | legenda e recorte de fundo por CPU | `python -c "import faster_whisper, onnxruntime"` |
+| `npm install` em `projeto/` | dependências não vão no repositório | existe `projeto/node_modules` |
+| Release `midias-kit` extraída na raiz | vídeos, brutos, mídias do projeto, modelo RVM, conversas | existe `modelos/` e `projeto/public/tridi/` com mídia |
+| Release `acervo-curso` extraída + `<ACERVO>` ajustado | b-roll, sons e trilhas do curso | a pasta em `<ACERVO>` existe |
+| ~16 GB livres | baixar e extrair tudo | espaço em disco |
+
+Duas coisas que o Claude **não** recebe sozinho:
+- **As conversas originais** (`conversas/*.zip`) não são lidas automaticamente. O essencial já está no `CLAUDE.md` e nas skills; abra os zips só para consultar uma decisão específica.
+- **O jeito de trabalhar do dono** está escrito no `CLAUDE.md` ("Modo de trabalho"): executar o que já foi combinado sem pedir confirmação de novo.
+
+Prompt para o editor colar no Claude Code na primeira vez:
+> Clone o repositório privado nanamicode/kit-editor-ia-tridi em C:\edicao. Baixe e extraia as Releases `midias-kit` (na raiz do kit) e `acervo-curso` (em C:\edicao\ACERVO), seguindo o README. Confira e instale tudo da tabela "o que precisa existir para funcionar". Ajuste `<ACERVO>` e `<CHROME>` no CLAUDE.md. No fim, renderize um still da composição SacolaLisa para provar que funciona e me diga o que não conseguiu.
+
+## Baixar pelo GitHub (exige conta e convite)
 Link: https://github.com/nanamicode/kit-editor-ia-tridi
 
 ```bash
