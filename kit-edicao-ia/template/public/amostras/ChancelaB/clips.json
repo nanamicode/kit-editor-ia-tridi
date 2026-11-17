@@ -1,0 +1,64 @@
+[
+ {
+  "fromSec": 0.0,
+  "toSec": 1.4,
+  "durSec": 1.3,
+  "mode": "full",
+  "title": "PASSA O DEDO\nAQUI",
+  "support": "SUA MARCA EM RELEVO SECO",
+  "pressSec": 0.41
+ },
+ {
+  "fromSec": 1.4,
+  "toSec": 3.9,
+  "durSec": 1.5333,
+  "mode": "card",
+  "title": "SEM TINTA",
+  "support": "SÓ PRESSÃO",
+  "pressSec": 2.15,
+  "transitionIn": "whip"
+ },
+ {
+  "fromSec": 3.9,
+  "toSec": 5.4333,
+  "durSec": 1.3667,
+  "mode": "strip",
+  "title": "RÓTULOS",
+  "support": "RELEVO NO ADESIVO",
+  "pressSec": 4.35,
+  "transitionIn": "flash"
+ },
+ {
+  "fromSec": 5.4333,
+  "toSec": 6.7667,
+  "durSec": 1.4,
+  "mode": "card",
+  "title": "CARTÃO DE\nVISITA",
+  "support": "TOQUE PREMIUM",
+  "pressSec": 6.0133,
+  "transitionIn": "iris"
+ },
+ {
+  "fromSec": 6.7667,
+  "toSec": 8.5333,
+  "durSec": 1.2333,
+  "mode": "full",
+  "title": "SELOS",
+  "support": "PRESENTE COM ASSINATURA",
+  "pressSec": 7.5467,
+  "transitionIn": "glitch"
+ },
+ {
+  "fromSec": 8.5333,
+  "toSec": 9.7333,
+  "durSec": 0.9667,
+  "mode": "strip",
+  "title": "SELO\nDOURADO",
+  "support": "CARA DE MARCA GRANDE",
+  "pressSec": 9.0533,
+  "transitionIn": "wipe",
+  "label": {
+   "outSec": -0.45
+  }
+ }
+]

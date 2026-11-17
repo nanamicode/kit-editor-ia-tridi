@@ -1,0 +1,64 @@
+[
+ {
+  "fromSec": 0.0,
+  "toSec": 2.0,
+  "durSec": 1.3,
+  "mode": "full",
+  "title": "NÃO PRECISA\nSER CARA",
+  "support": "PRECISA SER SUA",
+  "pressSec": 0.7
+ },
+ {
+  "fromSec": 2.0,
+  "toSec": 4.2,
+  "durSec": 1.5333,
+  "mode": "card",
+  "title": "SACOLA\nBRANCA",
+  "support": "VIRA SACOLA DE MARCA",
+  "pressSec": 2.77,
+  "transitionIn": "whip"
+ },
+ {
+  "fromSec": 4.2,
+  "toSec": 5.9,
+  "durSec": 1.3667,
+  "mode": "strip",
+  "title": "KRAFT LISO",
+  "support": "GANHA SUA IDENTIDADE",
+  "pressSec": 4.8,
+  "transitionIn": "flash"
+ },
+ {
+  "fromSec": 5.9,
+  "toSec": 7.8,
+  "durSec": 1.4,
+  "mode": "card",
+  "title": "COPOS",
+  "support": "EM CADA PEDIDO",
+  "pressSec": 6.57,
+  "transitionIn": "iris"
+ },
+ {
+  "fromSec": 7.8,
+  "toSec": 9.8,
+  "durSec": 1.2333,
+  "mode": "full",
+  "title": "CAIXAS",
+  "support": "CLIENTE LEMBRA DE VOCÊ",
+  "pressSec": 8.5,
+  "transitionIn": "glitch"
+ },
+ {
+  "fromSec": 9.8,
+  "toSec": 12.1,
+  "durSec": 0.9667,
+  "mode": "strip",
+  "title": "DELIVERY",
+  "support": "CHEGA COM O SEU NOME",
+  "pressSec": 10.6,
+  "transitionIn": "wipe",
+  "label": {
+   "outSec": -0.45
+  }
+ }
+]

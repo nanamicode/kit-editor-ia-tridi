@@ -1,0 +1,64 @@
+[
+ {
+  "fromSec": 0.0,
+  "toSec": 2.0,
+  "durSec": 1.3,
+  "mode": "full",
+  "title": "1 CARIMBO,\nTODA EMBALAGEM",
+  "support": "SUA MARCA EM TUDO",
+  "pressSec": 0.7
+ },
+ {
+  "fromSec": 2.0,
+  "toSec": 3.9,
+  "durSec": 1.5333,
+  "mode": "card",
+  "title": "SACOLAS",
+  "support": "LOGO NÍTIDO NO KRAFT",
+  "pressSec": 2.67,
+  "transitionIn": "whip"
+ },
+ {
+  "fromSec": 3.9,
+  "toSec": 5.3,
+  "durSec": 1.3667,
+  "mode": "strip",
+  "title": "COPOS",
+  "support": "ATÉ NA CURVA DO COPO",
+  "pressSec": 4.39,
+  "transitionIn": "flash"
+ },
+ {
+  "fromSec": 5.3,
+  "toSec": 7.3,
+  "durSec": 1.4,
+  "mode": "card",
+  "title": "CAIXAS",
+  "support": "ATÉ A ENTREGA",
+  "pressSec": 6.0,
+  "transitionIn": "iris"
+ },
+ {
+  "fromSec": 7.3,
+  "toSec": 9.3,
+  "durSec": 1.2333,
+  "mode": "full",
+  "title": "MARMITAS",
+  "support": "NA TAMPA DA EMBALAGEM",
+  "pressSec": 8.0,
+  "transitionIn": "glitch"
+ },
+ {
+  "fromSec": 9.3,
+  "toSec": 10.6333,
+  "durSec": 0.9667,
+  "mode": "strip",
+  "title": "COPO\nPLÁSTICO",
+  "support": "ATÉ NO PLÁSTICO",
+  "pressSec": 9.76,
+  "transitionIn": "wipe",
+  "label": {
+   "outSec": -0.45
+  }
+ }
+]

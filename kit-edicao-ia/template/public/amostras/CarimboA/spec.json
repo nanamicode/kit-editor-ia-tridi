@@ -1,0 +1,62 @@
+{
+ "id": "CarimboA",
+ "public_dir": "/home/vinicius/Downloads/Kit Editor IA Tridi/kit-edicao-ia/template/public",
+ "src_dir": "/home/vinicius/Área de trabalho/Criativos para Drive/Carimbos",
+ "impact_sfx": "impacto/madeira.wav",
+ "shots": [
+  {
+   "file": "CR01_08-05-26_9x16.mp4",
+   "start": 2.8,
+   "end": 4.8,
+   "press": 3.5,
+   "crop": "none",
+   "title": "1 CARIMBO,\nTODA EMBALAGEM",
+   "support": "SUA MARCA EM TUDO"
+  },
+  {
+   "file": "CR15_08-05-26_9x16.mp4",
+   "start": 8.4,
+   "end": 10.3,
+   "press": 9.07,
+   "crop": "none",
+   "title": "SACOLAS",
+   "support": "LOGO NÍTIDO NO KRAFT"
+  },
+  {
+   "file": "CR03_08-05-26_9x16.mp4",
+   "start": 9.0,
+   "end": 10.4,
+   "press": 9.49,
+   "crop": "none",
+   "title": "COPOS",
+   "support": "ATÉ NA CURVA DO COPO"
+  },
+  {
+   "file": "CR06_11-05-26_9x16.mp4",
+   "start": 5.6,
+   "end": 7.6,
+   "press": 6.3,
+   "crop": "none",
+   "title": "CAIXAS",
+   "support": "ATÉ A ENTREGA"
+  },
+  {
+   "file": "CR02_08-05-26_9x16.mp4",
+   "start": 3.8,
+   "end": 5.8,
+   "press": 4.5,
+   "crop": "none",
+   "title": "MARMITAS",
+   "support": "NA TAMPA DA EMBALAGEM"
+  },
+  {
+   "file": "AG - 62 2026 FEED( sem copy).mp4",
+   "start": 8.0,
+   "end": 9.3,
+   "press": 8.46,
+   "crop": "none",
+   "title": "COPO\nPLÁSTICO",
+   "support": "ATÉ NO PLÁSTICO"
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+[
+ {
+  "fromSec": 0.0,
+  "toSec": 1.3,
+  "durSec": 1.3,
+  "mode": "full",
+  "title": "6 LUGARES PRA\nCHANCELAR",
+  "support": "SUA MARCA EM RELEVO",
+  "pressSec": 0.58
+ },
+ {
+  "fromSec": 1.3,
+  "toSec": 2.4333,
+  "durSec": 1.5333,
+  "mode": "card",
+  "title": "ENVELOPES",
+  "support": "RELEVO NO ENVELOPE",
+  "pressSec": 1.8,
+  "transitionIn": "whip"
+ },
+ {
+  "fromSec": 2.4333,
+  "toSec": 3.7667,
+  "durSec": 1.3667,
+  "mode": "strip",
+  "title": "CARTÕES",
+  "support": "SEU LOGO NO CARTÃO",
+  "pressSec": 3.0133,
+  "transitionIn": "flash"
+ },
+ {
+  "fromSec": 3.7667,
+  "toSec": 5.1333,
+  "durSec": 1.4,
+  "mode": "card",
+  "title": "SELOS\nDOURADOS",
+  "support": "BRILHO PREMIUM",
+  "pressSec": 4.3767,
+  "transitionIn": "iris"
+ },
+ {
+  "fromSec": 5.1333,
+  "toSec": 6.8333,
+  "durSec": 1.2333,
+  "mode": "full",
+  "title": "DOCUMENTOS",
+  "support": "SELO NO PAPEL OFICIAL",
+  "pressSec": 5.9033,
+  "transitionIn": "glitch"
+ },
+ {
+  "fromSec": 6.8333,
+  "toSec": 8.1333,
+  "durSec": 0.9667,
+  "mode": "strip",
+  "title": "EMBALAGENS",
+  "support": "SUA MARCA NO PACOTE",
+  "pressSec": 7.4233,
+  "transitionIn": "wipe",
+  "label": {
+   "outSec": -0.45
+  }
+ }
+]

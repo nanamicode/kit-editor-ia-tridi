@@ -1,0 +1,62 @@
+{
+ "id": "ChancelaA",
+ "public_dir": "/home/vinicius/Downloads/Kit Editor IA Tridi/kit-edicao-ia/template/public",
+ "src_dir": "/home/vinicius/Área de trabalho/Criativos para Drive/Chancelas",
+ "impact_sfx": "impacto/zoom_impacto.wav",
+ "shots": [
+  {
+   "file": "OUT - 07 - CH -2026 {L} SEM MUSICA.mp4",
+   "start": 2.8,
+   "end": 4.1,
+   "press": 3.38,
+   "crop": "none",
+   "title": "6 LUGARES PRA\nCHANCELAR",
+   "support": "SUA MARCA EM RELEVO"
+  },
+  {
+   "file": "OUT - 07 - CH -2026 {L} SEM MUSICA.mp4",
+   "start": 5.65,
+   "end": 6.75,
+   "press": 6.15,
+   "crop": "none",
+   "title": "ENVELOPES",
+   "support": "RELEVO NO ENVELOPE"
+  },
+  {
+   "file": "OUT - 07 - CH -2026 {L} SEM MUSICA.mp4",
+   "start": 6.85,
+   "end": 8.15,
+   "press": 7.43,
+   "crop": "none",
+   "title": "CARTÕES",
+   "support": "SEU LOGO NO CARTÃO"
+  },
+  {
+   "file": "OUT - 07 - CH -2026 {L} SEM MUSICA.mp4",
+   "start": 4.2,
+   "end": 5.55,
+   "press": 4.81,
+   "crop": "none",
+   "title": "SELOS\nDOURADOS",
+   "support": "BRILHO PREMIUM"
+  },
+  {
+   "file": "OUT - 11 - CH -2026- SEM MUSICA- {B}.mp4",
+   "start": 0.05,
+   "end": 1.75,
+   "press": 0.82,
+   "crop": "none",
+   "title": "DOCUMENTOS",
+   "support": "SELO NO PAPEL OFICIAL"
+  },
+  {
+   "file": "OUT - 11 - CH -2026- SEM MUSICA- {B}.mp4",
+   "start": 5.45,
+   "end": 6.75,
+   "press": 6.04,
+   "crop": "none",
+   "title": "EMBALAGENS",
+   "support": "SUA MARCA NO PACOTE"
+  }
+ ]
+}

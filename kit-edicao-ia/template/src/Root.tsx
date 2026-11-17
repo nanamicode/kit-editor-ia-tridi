@@ -2,8 +2,10 @@ import React from "react";
 import { Composition } from "remotion";
 import { Video } from "./Video";
 import { config } from "./video.config";
+import { Amostras } from "./amostras";
 
 export const RemotionRoot: React.FC = () => (
+  <>
   <Composition
     id={config.id}
     component={Video}
@@ -13,4 +15,6 @@ export const RemotionRoot: React.FC = () => (
     fps={config.fps}
     durationInFrames={Math.round(config.durationSec * config.fps)}
   />
+  <Amostras />
+  </>
 );

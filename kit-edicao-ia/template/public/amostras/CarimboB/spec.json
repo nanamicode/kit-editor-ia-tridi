@@ -1,0 +1,62 @@
+{
+ "id": "CarimboB",
+ "public_dir": "/home/vinicius/Downloads/Kit Editor IA Tridi/kit-edicao-ia/template/public",
+ "src_dir": "/home/vinicius/Área de trabalho/Criativos para Drive/Carimbos",
+ "impact_sfx": "impacto/madeira.wav",
+ "shots": [
+  {
+   "file": "CR08_11-05-26_9x16.mp4",
+   "start": 3.0,
+   "end": 5.0,
+   "press": 3.7,
+   "crop": "none",
+   "title": "NÃO PRECISA\nSER CARA",
+   "support": "PRECISA SER SUA"
+  },
+  {
+   "file": "CR68_29-04-26_9x16.mp4",
+   "start": 12.0,
+   "end": 14.2,
+   "press": 12.77,
+   "crop": "none",
+   "title": "SACOLA\nBRANCA",
+   "support": "VIRA SACOLA DE MARCA"
+  },
+  {
+   "file": "CR01_08-05-26_9x16.mp4",
+   "start": 15.6,
+   "end": 17.3,
+   "press": 16.2,
+   "crop": "none",
+   "title": "KRAFT LISO",
+   "support": "GANHA SUA IDENTIDADE"
+  },
+  {
+   "file": "CR13_08-05-26_9x16.mp4",
+   "start": 4.4,
+   "end": 6.3,
+   "press": 5.07,
+   "crop": "none",
+   "title": "COPOS",
+   "support": "EM CADA PEDIDO"
+  },
+  {
+   "file": "CR09_11-05-26_9x16.mp4",
+   "start": 0.8,
+   "end": 2.8,
+   "press": 1.5,
+   "crop": "none",
+   "title": "CAIXAS",
+   "support": "CLIENTE LEMBRA DE VOCÊ"
+  },
+  {
+   "file": "CR07_08-05-26_9x16.mp4",
+   "start": 2.0,
+   "end": 4.3,
+   "press": 2.8,
+   "crop": "none",
+   "title": "DELIVERY",
+   "support": "CHEGA COM O SEU NOME"
+  }
+ ]
+}

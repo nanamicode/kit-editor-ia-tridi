@@ -1,0 +1,62 @@
+{
+ "id": "ChancelaB",
+ "public_dir": "/home/vinicius/Downloads/Kit Editor IA Tridi/kit-edicao-ia/template/public",
+ "src_dir": "/home/vinicius/Área de trabalho/Criativos para Drive/Chancelas",
+ "impact_sfx": "impacto/zoom_impacto.wav",
+ "shots": [
+  {
+   "file": "SET-14-CH-2026 {B}.mp4",
+   "start": 7.83,
+   "end": 9.2,
+   "press": 8.24,
+   "crop": "bottom",
+   "title": "PASSA O DEDO\nAQUI",
+   "support": "SUA MARCA EM RELEVO SECO"
+  },
+  {
+   "file": "FV09_V1_Referencia_Evoluida_MUSICA-LIVRE_SEM-COPY.mp4",
+   "start": 9.3,
+   "end": 11.8,
+   "press": 10.05,
+   "crop": "none",
+   "title": "SEM TINTA",
+   "support": "SÓ PRESSÃO"
+  },
+  {
+   "file": "SET - 06 - CH -2026 {B}.mp4",
+   "start": 6.66,
+   "end": 8.15,
+   "press": 7.11,
+   "crop": "none",
+   "title": "RÓTULOS",
+   "support": "RELEVO NO ADESIVO"
+  },
+  {
+   "file": "OUT - 07 - CH -2026 {L} SEM MUSICA.mp4",
+   "start": 13.65,
+   "end": 14.95,
+   "press": 14.23,
+   "crop": "none",
+   "title": "CARTÃO DE\nVISITA",
+   "support": "TOQUE PREMIUM"
+  },
+  {
+   "file": "SET - 08 - CH -2026 {B}.mp4",
+   "start": 3.96,
+   "end": 5.7,
+   "press": 4.74,
+   "crop": "none",
+   "title": "SELOS",
+   "support": "PRESENTE COM ASSINATURA"
+  },
+  {
+   "file": "OUT - 07 - CH -2026 {L} SEM MUSICA.mp4",
+   "start": 0.35,
+   "end": 1.5,
+   "press": 0.87,
+   "crop": "none",
+   "title": "SELO\nDOURADO",
+   "support": "CARA DE MARCA GRANDE"
+  }
+ ]
+}
