@@ -5,6 +5,8 @@ import { loadFont as loadAnton } from "@remotion/google-fonts/Anton";
 import { BRoll } from "./scenes/BRoll";
 import { Presenter } from "./scenes/Presenter";
 import { Seal3D } from "./scenes/Seal3D";
+import { HookContext, type HookId } from "./hooks/HookContext";
+import { HookOverlay } from "./hooks/Hooks";
 
 /**
  * CRIATIVO — composicao final 1080x1920, 30 fps, 363 frames (12.1 s).
@@ -178,8 +180,9 @@ const TopKicker: React.FC = () => {
 
 /* ----------------------------------------------------------------- root ----- */
 
-export const Criativo: React.FC = () => {
+export const Criativo: React.FC<{ hook?: HookId | null }> = ({ hook = null }) => {
   return (
+    <HookContext.Provider value={hook}>
     <AbsoluteFill style={{ backgroundColor: INK }}>
       <PresenterCam>
         <Presenter />
@@ -189,7 +192,9 @@ export const Criativo: React.FC = () => {
       <Seal3D />
       <Audio src={staticFile("criativo.mp4")} volume={VOICE_VOLUME} />
       <Audio src={staticFile("audio/bed.wav")} volume={BED_VOLUME} />
+      {hook ? <HookOverlay hook={hook} /> : null}
     </AbsoluteFill>
+    </HookContext.Provider>
   );
 };
 

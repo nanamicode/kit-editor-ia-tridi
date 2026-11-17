@@ -1,6 +1,7 @@
 # Criativos validados em anúncio
 
-## FV 09 V1 — show de efeitos (carimbo / relevo seco)
+## FV 09 V1 — show de efeitos (chancela / relevo seco)
+> Produto = **chancela** (relevo seco, sem tinta). Na copy use "chancela/chancelar", nunca "carimbo/carimbar".
 - Arquivo: `entregas/Criativo_V01_show-de-efeitos.mp4` (12 s, 1080x1920). **É este, não o `criativo_final.mp4` nem o `Criativo_V02.mp4`.**
 - Projeto: `projeto/src/Criativo.tsx` (composição `Criativo`).
 - No Meta: "CLAUDE FV 09 V1", página Chancelas Gedux, no ar desde 09/11/2026.

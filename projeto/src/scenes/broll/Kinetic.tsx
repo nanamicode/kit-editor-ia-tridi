@@ -2,6 +2,7 @@ import React from "react";
 import { spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { C, EASE, FONT_DISPLAY, FONT_TEXT, H, prog } from "./theme";
 import type { ClipDef } from "./timeline";
+import { HookContext } from "../../hooks/HookContext";
 
 /**
  * Linha de texto cinetica: placa que abre (scaleX por mascara), letras que sobem de
@@ -130,6 +131,12 @@ const HEADROOM = 0.26;
  * lado esquerdo/direito, ancorado no topo ou na base, ou o titulo girado na vertical.
  */
 export const LabelBlock: React.FC<{ def: ClipDef }> = ({ def }) => {
+  const hook = React.useContext(HookContext);
+  if (hook && def.n === 1) return null; // nas variantes de gancho o rotulo do clipe 1 da lugar ao gancho
+  return <LabelBlockInner def={def} />;
+};
+
+const LabelBlockInner: React.FC<{ def: ClipDef }> = ({ def }) => {
   const fs = def.label.size;
   const lineH = Math.round(fs * 1.12);
   const headroom = Math.round(fs * HEADROOM);
