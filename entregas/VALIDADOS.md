@@ -1,5 +1,7 @@
 # Criativos validados em anúncio
 
+> **19/11/2026:** a base agora são os 3 de `entregas/validados-top3/` (ver BASE.md). O V1 caiu para ROAS 1,43x.
+
 ## FV 09 V1 — show de efeitos (chancela / relevo seco)
 > Produto = **chancela** (relevo seco, sem tinta). Na copy use "chancela/chancelar", nunca "carimbo/carimbar".
 - Arquivo: `entregas/Criativo_V01_show-de-efeitos.mp4` (12 s, 1080x1920). **É este, não o `criativo_final.mp4` nem o `Criativo_V02.mp4`.**
